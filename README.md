@@ -1,2 +1,2 @@
 # MarketSent
-A financial market sentiment dashboard
+A financial market sentiment dashboard - in progress
