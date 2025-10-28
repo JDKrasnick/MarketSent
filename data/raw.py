@@ -5,26 +5,23 @@ import requests
 from dotenv import load_dotenv
 import os
 
-envpath = Path('.', '.env')
 load_dotenv('/Users/fastcheetah/PycharmProjects/MarketSent/.env')
 
 API_KEY = os.getenv('API_KEY')
 auth = requests.auth.HTTPBasicAuth(os.getenv('CLIENT_ID'), API_KEY)
 
 api_key = os.getenv('REDDIT_PW')
-print(f"getenv result: {api_key}")
 
 credentials = {
     'grant_type' : 'password',
     'username' : os.getenv('USER'),
-    'password' : os.getenv('REDDIT_PW')
+    'password' : os.getenv('REDDIT_PW'),
 }
-print(os.environ)
-print(credentials)
 
-version = {'User-Agent', 'MarketSent_v0.0.1'}
 
-res = requests.post('https://www.reddit.com/api/v1/access_token', data=credentials, auth=auth)
+header = {'User-Agent': 'MarketSent_v0.0.1'}
+
+res = requests.post('https://www.reddit.com/api/v1/access_token', auth=auth, data = credentials, headers = header)
 print(res.json())
 token = res.json()['access_token']
 print(token)
