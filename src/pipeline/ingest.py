@@ -1,5 +1,8 @@
+
 import os
-import requests
+
+import pandas as pd
+import praw
 from dotenv import load_dotenv
 
 
@@ -7,56 +10,74 @@ class RedditAPIClient:
 
     def __init__(self):
         '''
-        Initializes the Reddit API Client and sets its access token
+        Initializes the Reddit API Client using PRAW
         '''
         load_dotenv('/Users/fastcheetah/PycharmProjects/MarketSent/.env')
-        self.api_key = os.getenv('API_KEY')
         self.client_id = os.getenv('CLIENT_ID')
-        self.headers = {'Authorization': f'bearer {self.api_key}'}
-        auth = requests.auth.HTTPBasicAuth(self.client_id, self.api_key)
-        credentials = {'grant_type' : 'client_credentials'}
-        header = {'User-Agent': 'MarketSent_v0.0.1'}
-        res = requests.post('https://www.reddit.com/api/v1/access_token', auth=auth, data = credentials, headers = header)
-        self.access_token = res.json()['access_token']
+        self.client_secret = os.getenv('API_KEY')  # PRAW uses client_secret instead of API_KEY
 
-    def get_headers(self):
-        header = {'User-Agent': 'MarketSent_v0.0.1', 'Authorization': f'bearer {self.access_token}'}
-        if not self.access_token:
-            raise RuntimeError('No access token provided')
-        return header
+        self.reddit = praw.Reddit(
+            client_id=self.client_id,
+            client_secret=self.client_secret,
+            user_agent='MarketSent_v0.0.1'
+        )
 
-    def get_hot_posts(self, subreddit):
+    def get_top_posts(self, subreddit):
         '''
-        Gets hot posts from a subreddit
+        Returns: Top 100 posts from a subreddit
         :param subreddit: The subreddit name posts are taken from
-        :return: A pandas dataframe containg the title, upvote ratio, upvotes, and overall score of each post
+        :return: A pandas dataframe containing the title, upvote ratio, upvotes, and overall score of each post
         '''
-        res = requests.get('https://oauth.reddit.com/r/' + subreddit + '/top', headers = self.get_headers())
-        posts = res.json()['data']['children']
+        subreddit_obj = self.reddit.subreddit(subreddit)
+        posts = subreddit_obj.top(limit=100)
 
-        data = {
-            'titles': [post['data']['title'] for post in posts],
-            'upvote_ratio': [post['data']['upvote_ratio'] for post in posts],
-            'upvotes': [post['data']['ups'] for post in posts],
-            'score': [post['data']['score'] for post in posts]
-        }
+        return pd.DataFrame(posts_to_data(posts))
 
-        return pd.DataFrame(data)
-
-    def get_hot_posts_no_amount(self, subreddit):
+    def get_posts_daily(self, subreddit, amount):
         '''
-        Gets hot posts from a subreddit
+        Returns: Top 100 posts from the last day of a subreddit
+
+        Requires: amount <= 1000
+
         :param subreddit: The subreddit name posts are taken from
-        :return: A pandas dataframe containg the title, upvote ratio, upvotes, and overall score of each post
+        :return: A pandas dataframe containing posts from the last day
         '''
-        res = requests.get('https://oauth.reddit.com/r/' + subreddit + '/hot', headers = self.get_headers())
-        posts = res.json()['data']['children']
+        subreddit_obj = self.reddit.subreddit(subreddit)
+        posts = subreddit_obj.top(time_filter='day', limit=amount)
 
-        data = {
-            'titles': [post['data']['title'] for post in posts],
-            'upvote_ratio': [post['data']['upvote_ratio'] for post in posts],
-            'upvotes': [post['data']['ups'] for post in posts],
-            'score': [post['data']['score'] for post in posts]
-        }
+        return pd.DataFrame(posts_to_data(posts))
 
-        return pd.DataFrame(data)
+    def get_posts_weekly(self, subreddit, amount):
+        '''
+        Returns: Top 100 posts from the last week of a subreddit
+
+        Requires: amount <= 1000
+
+        :param subreddit: The subreddit name posts are taken from
+        :return: A pandas dataframe containing posts from the last day
+        '''
+        subreddit_obj = self.reddit.subreddit(subreddit)
+        posts = subreddit_obj.top(time_filter='week', limit=100)
+
+        return pd.DataFrame(posts_to_data(posts))
+
+
+def posts_to_data(posts):
+    '''
+    Converts PRAW submission objects to a dictionary for DataFrame creation
+    :return: Dictionary with post data
+    '''
+    data = {
+        'titles': [],
+        'upvote_ratio': [],
+        'upvotes': [],
+        'score': []
+    }
+
+    for post in posts:
+        data['titles'].append(post.title)
+        data['upvote_ratio'].append(post.upvote_ratio)
+        data['upvotes'].append(post.ups)
+        data['score'].append(post.score)
+
+    return data
