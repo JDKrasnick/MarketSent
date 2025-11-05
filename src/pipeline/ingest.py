@@ -1,4 +1,4 @@
-
+from datetime import datetime
 import os
 
 import pandas as pd
@@ -59,6 +59,7 @@ class RedditAPIClient:
         subreddit_obj = self.reddit.subreddit(subreddit)
         posts = subreddit_obj.top(time_filter='week', limit=100)
 
+
         return pd.DataFrame(posts_to_data(posts))
 
 
@@ -68,16 +69,20 @@ def posts_to_data(posts):
     :return: Dictionary with post data
     '''
     data = {
-        'titles': [],
+        'text': [],
         'upvote_ratio': [],
-        'upvotes': [],
-        'score': []
+        'score': [],
+        'creation': [],
+        'ticker': [],
+        'sentiment': []
     }
 
     for post in posts:
-        data['titles'].append(post.title)
+        data['text'].append(post.title)
         data['upvote_ratio'].append(post.upvote_ratio)
-        data['upvotes'].append(post.ups)
         data['score'].append(post.score)
+        data['creation'].append(datetime.fromtimestamp(post.created_utc))
+        data['ticker'].append(None)
+        data['sentiment'].append(None)
 
     return data
