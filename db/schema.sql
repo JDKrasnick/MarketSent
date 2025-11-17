@@ -8,18 +8,24 @@ CREATE TABLE IF NOT EXISTS posts(
     postId    SERIAL PRIMARY KEY,
     text      TEXT,
     ticker    varchar(10),
-    sentiment varchar(10),
+    positive DOUBLE PRECISION,
+    negative DOUBLE PRECISION,
+    neutral DOUBLE PRECISION,
     score     FLOAT,
     upvote_ratio FLOAT,
     creation  DATE,
     UNIQUE (text) -- I don't want to add duplicates, may happen if I get the same weeks for example
 );
 
+DROP TABLE IF EXISTS comments;
+
 CREATE TABLE IF NOT EXISTS comments(
     commentId    SERIAL PRIMARY KEY,
     postID       INT,
     text         TEXT,
-    sentiment    varchar(10),
+    positive DOUBLE PRECISION,
+    negative DOUBLE PRECISION,
+    neutral DOUBLE PRECISION,
     score        FLOAT,
     creation     DATE,
     UNIQUE (text, creation) -- Same logic as above

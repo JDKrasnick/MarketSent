@@ -29,11 +29,11 @@ class RedditAPIClient:
         :return: A pandas dataframe containing the title, upvote ratio, upvotes, and overall score of each post
         '''
         subreddit_obj = self.reddit.subreddit(subreddit)
-        posts = subreddit_obj.top(limit=100)
+        posts = subreddit_obj.top(limit=1000)
 
         return pd.DataFrame(posts_to_data(posts))
 
-    def get_posts_daily(self, subreddit, amount):
+    def get_posts_daily(self, subreddit):
         '''
         Returns: Top 100 posts from the last day of a subreddit
 
@@ -43,11 +43,11 @@ class RedditAPIClient:
         :return: A pandas dataframe containing posts from the last day
         '''
         subreddit_obj = self.reddit.subreddit(subreddit)
-        posts = subreddit_obj.top(time_filter='day', limit=amount)
+        posts = subreddit_obj.top(time_filter='day', limit=1000)
 
         return pd.DataFrame(posts_to_data(posts))
 
-    def get_posts_weekly(self, subreddit, amount):
+    def get_posts_weekly(self, subreddit):
         '''
         Returns: Top 100 posts from the last week of a subreddit
 
@@ -57,7 +57,7 @@ class RedditAPIClient:
         :return: A pandas dataframe containing posts from the last day
         '''
         subreddit_obj = self.reddit.subreddit(subreddit)
-        posts = subreddit_obj.top(time_filter='week', limit=100)
+        posts = subreddit_obj.top(time_filter='week', limit=1000)
 
 
         return pd.DataFrame(posts_to_data(posts))
@@ -74,7 +74,9 @@ def posts_to_data(posts):
         'score': [],
         'creation': [],
         'ticker': [],
-        'sentiment': []
+        'positive': [],
+        'negative': [],
+        'neutral': [],
     }
 
     for post in posts:
@@ -83,6 +85,8 @@ def posts_to_data(posts):
         data['score'].append(post.score)
         data['creation'].append(datetime.fromtimestamp(post.created_utc))
         data['ticker'].append(None)
-        data['sentiment'].append(None)
+        data['positive'].append(None)
+        data['negative'].append(None)
+        data['neutral'].append(None)
 
     return data

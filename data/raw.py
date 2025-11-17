@@ -14,29 +14,26 @@ class RawDataIngestor:
     The class that retreives API data and inserts the raw form into the database
     '''
 
-
     def __init__(self):
         self.api = RedditAPIClient()
         self.subreddit = 'wallstreetbets'
 
-    def get_last_day(self, amount, db):
+    def get_last_day(self):
         """
-        Effect: Adds ``amount`` of posts into the database, taken from the last day. Posts are added sorted by "top"
-        :param db: The name of the database to add it to
+        Returns: A dataframe containing up to 1000 posts from the last day, sorted by "top"
         """
-        df = self.api.get_posts_daily(self.subreddit, amount)
+        df = self.api.get_posts_daily(self.subreddit)
         return df
 
 
-    def get_last_week(self, amount, db):
-        '''
-        Returns: A dataframe containing ``amount`` posts from the given subreddit. Posts are given sorted by "top"
-        :param db: The name of the database to add it to
-        '''
-        df = self.api.get_posts_weekly(self.subreddit, amount)
+    def get_last_week(self):
+        """
+        Returns: A dataframe containing up to 1000 posts from the last week, sorted by "top"
+        """
+        df = self.api.get_posts_weekly(self.subreddit)
         return df
 
 
 if __name__ == '__main__':
     ingestor = RawDataIngestor()
-    ingestor.get_last_day(100, 'posts')
+    print(ingestor.get_last_day(100))
