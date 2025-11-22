@@ -5,10 +5,13 @@ import pandas as pd
 from dotenv import load_dotenv
 from sqlalchemy import create_engine
 
-from data.models import SentimentModel
-from data.raw import RawDataIngestor
+
+from src.pipeline.ingest import RawDataIngestor
 
 from yahooquery import search
+
+from src.pipeline.CompanyTickers import COMPANY_TICKERS
+from src.pipeline.sentiment import SentimentPipeline
 
 
 class ProcessDB():
@@ -23,16 +26,11 @@ class ProcessDB():
         engine = create_engine(db_connection_str)
 
         ingest = RawDataIngestor()
-        model = SentimentModel()
+        model = SentimentPipeline()
         raw_df = ingest.get_last_day()
         processed_df = ProcessDB.processR(raw_df, model)
 
-        # Insert rows one by one with conflict handling
-        for _, row in processed_df.iterrows():
-            try:
-                row.to_frame().T.to_sql(db, engine, if_exists='append', index=False)
-            except Exception as e:
-                pass
+        return processed_df
 
     @staticmethod
     def ingestAndProcessWeek(db):
@@ -44,7 +42,7 @@ class ProcessDB():
         engine = create_engine(db_connection_str)
 
         ingest = RawDataIngestor()
-        model = SentimentModel()
+        model = SentimentPipeline()
         raw_df = ingest.get_last_week()
         processed_df = ProcessDB.processR(raw_df, model)
 
@@ -53,7 +51,7 @@ class ProcessDB():
             try:
                 row.to_frame().T.to_sql(db, engine, if_exists='append', index=False)
             except Exception as e:
-                print("exception caught: " + str(e))
+                print(e)
                 pass
 
 
@@ -63,9 +61,9 @@ class ProcessDB():
         Proccesses the raw reddit data by adding the ticker and sentiment score
         '''
 
-        df['ticker'] = df['text'].apply(ProcessDB.getTicker)
-        df[['positive', 'negative', 'neutral']] = df['text'].apply(
-            lambda x: pd.Series(model.analyze(x)[0])
+        df[['positive', 'negative', 'neutral']] = df.apply(
+            lambda row: pd.Series(model.analyze(row['text'] + ' ' + row['post_text'])[0]),
+            axis=1
         )
 
         return df
@@ -79,13 +77,18 @@ class ProcessDB():
         ticker_pattern = r'\b([A-Z]{2,5}(?:\.[A-Z]{1,3})?)\b'
         matches = re.findall(ticker_pattern, title)
 
+        word_list = title.split()
+        word_list = [item.lower() for item in word_list]
+        for word in word_list:
+            if word in COMPANY_TICKERS:
+                return COMPANY_TICKERS[word]
+
         # Return first match that isn't AI
         for ticker in matches:
-            if ticker != 'AI' and ticker != 'US':
+            if ticker != 'AI' and ticker != 'US' and ticker != 'CEO' and ticker != 'LOL' and ticker != 'LOVE' and ticker != 'BULL':
                 return ticker
 
-
-        return ProcessDB.getTickerGivenName(title)
+        return None
 
     @staticmethod
     def getTickerGivenName(title):

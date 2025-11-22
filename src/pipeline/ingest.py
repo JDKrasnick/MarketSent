@@ -6,6 +6,32 @@ import praw
 from dotenv import load_dotenv
 
 
+
+class RawDataIngestor:
+    '''
+    The class that retreives API data and inserts the raw form into the database
+    '''
+
+    def __init__(self):
+        self.api = RedditAPIClient()
+        self.subreddit = 'stocks'
+
+    def get_last_day(self):
+        """
+        Returns: A dataframe containing up to 1000 posts from the last day, sorted by "top"
+        """
+        df = self.api.get_posts_daily(self.subreddit)
+        return df
+
+
+    def get_last_week(self):
+        """
+        Returns: A dataframe containing up to 1000 posts from the last week, sorted by "top"
+        """
+        df = self.api.get_posts_weekly(self.subreddit)
+        return df
+
+
 class RedditAPIClient:
 
     def __init__(self):
@@ -29,7 +55,7 @@ class RedditAPIClient:
         :return: A pandas dataframe containing the title, upvote ratio, upvotes, and overall score of each post
         '''
         subreddit_obj = self.reddit.subreddit(subreddit)
-        posts = subreddit_obj.top(limit=1000)
+        posts = subreddit_obj.hot(limit=None)
 
         return pd.DataFrame(posts_to_data(posts))
 
@@ -43,7 +69,7 @@ class RedditAPIClient:
         :return: A pandas dataframe containing posts from the last day
         '''
         subreddit_obj = self.reddit.subreddit(subreddit)
-        posts = subreddit_obj.top(time_filter='day', limit=1000)
+        posts = subreddit_obj.hot(limit=None)
 
         return pd.DataFrame(posts_to_data(posts))
 
@@ -57,7 +83,7 @@ class RedditAPIClient:
         :return: A pandas dataframe containing posts from the last day
         '''
         subreddit_obj = self.reddit.subreddit(subreddit)
-        posts = subreddit_obj.top(time_filter='week', limit=1000)
+        posts = subreddit_obj.hot(limit=None)
 
 
         return pd.DataFrame(posts_to_data(posts))
@@ -68,6 +94,8 @@ def posts_to_data(posts):
     Converts PRAW submission objects to a dictionary for DataFrame creation
     :return: Dictionary with post data
     '''
+
+    from src.pipeline.preprocess import ProcessDB
     data = {
         'text': [],
         'upvote_ratio': [],
@@ -77,6 +105,7 @@ def posts_to_data(posts):
         'positive': [],
         'negative': [],
         'neutral': [],
+        'post_text': []
     }
 
     for post in posts:
@@ -88,5 +117,6 @@ def posts_to_data(posts):
         data['positive'].append(None)
         data['negative'].append(None)
         data['neutral'].append(None)
+        data['post_text'].append(post.selftext)
 
     return data
