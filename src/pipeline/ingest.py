@@ -1,10 +1,9 @@
-from datetime import datetime
 import os
+from datetime import datetime
 
 import pandas as pd
 import praw
 from dotenv import load_dotenv
-
 
 
 class RawDataIngestor:
@@ -95,13 +94,12 @@ def posts_to_data(posts):
     :return: Dictionary with post data
     '''
 
-    from src.pipeline.preprocess import ProcessDB
     data = {
         'text': [],
         'upvote_ratio': [],
         'score': [],
         'creation': [],
-        'ticker': [],
+        'tickers': [],
         'positive': [],
         'negative': [],
         'neutral': [],
@@ -113,7 +111,7 @@ def posts_to_data(posts):
         data['upvote_ratio'].append(post.upvote_ratio)
         data['score'].append(post.score)
         data['creation'].append(datetime.fromtimestamp(post.created_utc))
-        data['ticker'].append(None)
+        data['tickers'].append(None)
         data['positive'].append(None)
         data['negative'].append(None)
         data['neutral'].append(None)
