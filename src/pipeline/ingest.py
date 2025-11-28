@@ -97,6 +97,7 @@ def posts_to_data(posts):
     data = {
         'text': [],
         'upvote_ratio': [],
+        'confidence': [],
         'score': [],
         'creation': [],
         'tickers': [],
@@ -116,5 +117,6 @@ def posts_to_data(posts):
         data['negative'].append(None)
         data['neutral'].append(None)
         data['post_text'].append(post.selftext)
+        data['confidence'].append(None)
 
     return data

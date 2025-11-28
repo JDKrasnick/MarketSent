@@ -11,6 +11,7 @@ CREATE TABLE IF NOT EXISTS posts(
     positive DOUBLE PRECISION,
     negative DOUBLE PRECISION,
     neutral DOUBLE PRECISION,
+    confidence FLOAT,
     post_text TEXT,
     score     FLOAT,
     upvote_ratio FLOAT,
