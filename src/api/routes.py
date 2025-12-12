@@ -182,7 +182,7 @@ def get_hot_tickers():
 @api_bp.route('/tickers/<symbol>', methods=['GET'])
 def get_ticker_sentiment(symbol: str):
     """
-    Get sentiment data for a specific ticker.
+    Gets sentiment data for a specific ticker.
 
     Path Parameters:
         symbol (str): Stock ticker symbol (e.g., AAPL, TSLA)
@@ -195,14 +195,49 @@ def get_ticker_sentiment(symbol: str):
 
     Example:
         GET /api/tickers/AAPL?days=30
-
-    TODO:
-        - Validate ticker symbol format
-        - Call db.get_sentiment_by_ticker()
-        - Calculate aggregate stats
-        - Return posts and summary
     """
 
+    symbol = request.args.get('symbol')
+    days = request.args.get('days', 7, type=int)
+    posts = db.get_sentiment_by_ticker(symbol=symbol, days=days)
+
+    return jsonify({'posts': posts}), 200
+
+
+# =============================================================================
+# TRENDS ENDPOINTS
+# =============================================================================
+
+@api_bp.route('/trends', methods=['GET'])
+def get_ticker_sentiment_trends():
+    """
+    Get overall sentiment trends over time.
+
+    Query Parameters:
+        symbol (str): Stock ticker symbol (e.g., AAPL, TSLA)
+        days (int): Look-back period in days (default: 30)
+
+    Returns:
+        JSON response with daily sentiment averages
+
+    Example:
+        GET /api/trends?days=60
+
+    Response:
+        {
+            "days": 30,
+            "trends": [
+                {
+                    "date": "2024-01-15",
+                    "positive": 0.45,
+                    "negative": 0.25,
+                    "neutral": 0.30,
+                    "post_count": 42
+                },
+                ...
+            ]
+        }
+    """
     try:
         symbol = request.args.get('symbol')
     except ValueError:
@@ -214,7 +249,8 @@ def get_ticker_sentiment(symbol: str):
     # Group posts by date and calculate daily averages
     daily_sentiments = {}
     for post in posts:
-        date_key = post['creation'].strftime('%Y-%m-%d') if hasattr(post['creation'], 'strftime') else str(post['creation'])[:10]
+        date_key = post['creation'].strftime('%Y-%m-%d') if hasattr(post['creation'], 'strftime') else str(
+            post['creation'])[:10]
         if date_key not in daily_sentiments:
             daily_sentiments[date_key] = {'positive': [], 'negative': [], 'neutral': [], 'count': 0}
         daily_sentiments[date_key]['positive'].append(post.get('positive', 0))
@@ -242,81 +278,6 @@ def get_ticker_sentiment(symbol: str):
     })
 
 
-# =============================================================================
-# TRENDS ENDPOINTS
-# =============================================================================
-
-@api_bp.route('/trends', methods=['GET'])
-def get_sentiment_trends():
-    """
-    Get overall sentiment trends over time.
-
-    Query Parameters:
-        days (int): Look-back period in days (default: 30)
-
-    Returns:
-        JSON response with daily sentiment averages
-
-    Example:
-        GET /api/trends?days=60
-
-    Response:
-        {
-            "days": 30,
-            "trends": [
-                {
-                    "date": "2024-01-15",
-                    "positive": 0.45,
-                    "negative": 0.25,
-                    "neutral": 0.30,
-                    "post_count": 42
-                },
-                ...
-            ]
-        }
-
-    TODO:
-        - Call db.get_sentiment_trends()
-        - Format dates as ISO strings
-        - Return time series data
-    """
-    # TODO: Implement
-    # days = request.args.get('days', 30, type=int)
-    # trends = db.get_sentiment_trends(days=days)
-    # return jsonify({'days': days, 'trends': trends})
-
-    return jsonify({'message': 'Not implemented', 'trends': []})
-
-
-@api_bp.route('/trends/<symbol>', methods=['GET'])
-def get_ticker_trends(symbol: str):
-    """
-    Get sentiment trends for a specific ticker over time.
-
-    Path Parameters:
-        symbol (str): Stock ticker symbol
-
-    Query Parameters:
-        days (int): Look-back period in days (default: 30)
-
-    Returns:
-        JSON response with daily sentiment for the ticker
-
-    Example:
-        GET /api/trends/TSLA?days=14
-
-    TODO:
-        - Validate ticker symbol
-        - Call db.get_ticker_sentiment_over_time()
-        - Return time series data for charts
-    """
-    # TODO: Implement
-    # symbol = symbol.upper()
-    # days = request.args.get('days', 30, type=int)
-    # trends = db.get_ticker_sentiment_over_time(symbol, days=days)
-    # return jsonify({'symbol': symbol, 'days': days, 'trends': trends})
-
-    return jsonify({'message': 'Not implemented', 'symbol': symbol.upper(), 'trends': []})
 
 
 # =============================================================================
