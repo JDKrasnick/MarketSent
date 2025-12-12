@@ -22,11 +22,17 @@ from typing import Optional
 
 import psycopg2
 import psycopg2.extras
+from psycopg2.extras import RealDictCursor
 from dotenv import load_dotenv
+from sqlalchemy import create_engine
 
 # Add project root to path for imports
 sys.path.append(os.path.dirname(os.path.dirname(os.path.dirname(os.path.abspath(__file__)))))
 from db.connection import SQLConnection
+
+load_dotenv('/Users/fastcheetah/PycharmProjects/MarketSent/.env')
+db_connection_str = os.getenv("DB_CONNECTION_STRING")
+engine = create_engine(db_connection_str)
 
 
 def get_db_connection():
@@ -38,18 +44,15 @@ def get_db_connection():
             db.cursor.execute("SELECT * FROM posts")
     """
 
-
-
     return SQLConnection()
 
 
-def get_all_posts(limit: int = 100, offset: int = 0) -> list[dict]:
+def get_all_posts(limit: int = 1000) -> list[dict]:
     """
     Fetch all posts with pagination.
 
     Args:
-        limit: Maximum number of posts to return (default 100)
-        offset: Number of posts to skip (default 0)
+        limit: Maximum number of posts to return (default 1000)
 
     Returns:
         List of post dictionaries with sentiment data
@@ -59,12 +62,31 @@ def get_all_posts(limit: int = 100, offset: int = 0) -> list[dict]:
         - Convert rows to dictionaries
         - Handle connection errors gracefully
     """
-    # TODO: Implement query
-    # SELECT * FROM posts ORDER BY creation DESC LIMIT %s OFFSET %s
-    pass
+
+    try:
+        with get_db_connection() as db:
+            cursor = db.cursor(cursor_factory=RealDictCursor)
+
+            query = """SELECT * 
+                       FROM posts
+                       ORDER BY creation DESC
+                       LIMIT %s """
+
+            cursor.execute(query, (limit))
+
+            posts = cursor.fetchall()
+
+    except psycopg2.Error as e:
+        print(f"Database error: {e}")
+        return []
+    except Exception as e:
+        print(f"Unexpected error: {e}")
+        return []
+
+    return posts
 
 
-def get_sentiment_by_ticker(ticker: str, days: Optional[int] = None) -> list[dict]:
+def get_sentiment_by_ticker(ticker: str, days = 7) -> list[dict]:
     """
     Get all posts mentioning a specific ticker symbol.
 
@@ -80,10 +102,29 @@ def get_sentiment_by_ticker(ticker: str, days: Optional[int] = None) -> list[dic
         - Filter by date range if days is specified
         - Calculate aggregate sentiment scores
     """
-    # TODO: Implement query
-    # Use LIKE or array contains depending on how tickers are stored
-    # SELECT * FROM posts WHERE tickers LIKE %s
-    pass
+
+    try:
+        with get_db_connection() as db:
+            cursor = db.cursor(cursor_factory=RealDictCursor)
+            if days is None:
+                days = 7
+
+            date_limit = (datetime.now() - timedelta(days=days)).strftime("%Y-%m-%d")
+
+            query = """SELECT * 
+                    FROM posts
+                    WHERE %s = ANY(tickers) AND creation BETWEEN %s AND CURRENT_TIMESTAMP
+                    """
+
+            cursor.execute(query, (ticker, date_limit))
+
+            posts = cursor.fetchall()
+
+    except Exception as e:
+        print(f"Database error: {e}")
+        return []
+
+    return posts
 
 
 def get_sentiment_trends(days: int = 30, ticker: Optional[str] = None) -> list[dict]:
