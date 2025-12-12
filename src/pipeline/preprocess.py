@@ -55,6 +55,7 @@ class ProcessDB():
 
         return processed_df
 
+
     @staticmethod
     def processR(df, model):
         '''
