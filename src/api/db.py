@@ -33,13 +33,13 @@ def get_db_connection():
     """
     Create and return a new database connection.
 
-    Returns:
-        SQLConnection: A context-managed database connection
-
     Example:
         with get_db_connection() as db:
             db.cursor.execute("SELECT * FROM posts")
     """
+
+
+
     return SQLConnection()
 
 
