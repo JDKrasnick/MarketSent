@@ -1,5 +1,5 @@
 import os
-from datetime import datetime
+from datetime import datetime, timedelta
 
 import pandas as pd
 import praw
@@ -70,6 +70,8 @@ class RedditAPIClient:
         subreddit_obj = self.reddit.subreddit(subreddit)
         posts = subreddit_obj.hot(limit=None)
 
+        posts = [post for post in posts if datetime.fromtimestamp(post.created_utc) >= datetime.now() - timedelta(days=1)]
+
         return pd.DataFrame(posts_to_data(posts))
 
     def get_posts_weekly(self, subreddit):
@@ -81,9 +83,11 @@ class RedditAPIClient:
         :param subreddit: The subreddit name posts are taken from
         :return: A pandas dataframe containing posts from the last day
         '''
+
         subreddit_obj = self.reddit.subreddit(subreddit)
         posts = subreddit_obj.hot(limit=None)
 
+        posts = [post for post in posts if datetime.fromtimestamp(post.created_utc) >= datetime.now() - timedelta(weeks=1)]
 
         return pd.DataFrame(posts_to_data(posts))
 
@@ -97,7 +101,6 @@ def posts_to_data(posts):
     data = {
         'text': [],
         'upvote_ratio': [],
-        'confidence': [],
         'score': [],
         'creation': [],
         'tickers': [],
@@ -117,6 +120,5 @@ def posts_to_data(posts):
         data['negative'].append(None)
         data['neutral'].append(None)
         data['post_text'].append(post.selftext)
-        data['confidence'].append(None)
 
     return data

@@ -56,11 +56,6 @@ def get_all_posts(limit: int = 1000) -> list[dict]:
 
     Returns:
         List of post dictionaries with sentiment data
-
-    TODO:
-        - Implement the SQL query to fetch posts
-        - Convert rows to dictionaries
-        - Handle connection errors gracefully
     """
 
     try:
@@ -86,7 +81,7 @@ def get_all_posts(limit: int = 1000) -> list[dict]:
     return posts
 
 
-def get_sentiment_by_ticker(ticker: str, days = 7) -> list[dict]:
+def get_sentiment_by_ticker(ticker: str, days: int) -> list[dict]:
     """
     Get all posts mentioning a specific ticker symbol.
 
@@ -97,28 +92,33 @@ def get_sentiment_by_ticker(ticker: str, days = 7) -> list[dict]:
     Returns:
         List of post dictionaries containing the ticker
 
-    TODO:
-        - Query posts where tickers column contains the ticker symbol
-        - Filter by date range if days is specified
-        - Calculate aggregate sentiment scores
     """
 
     try:
         with get_db_connection() as db:
-            cursor = db.cursor(cursor_factory=RealDictCursor)
+            cursor = db.conn.cursor(cursor_factory=RealDictCursor)
+
             if days is None:
                 days = 7
+            if ticker is None:
+                raise NameError
 
             date_limit = (datetime.now() - timedelta(days=days)).strftime("%Y-%m-%d")
 
-            query = """SELECT * 
+
+            query = """SELECT *
                     FROM posts
-                    WHERE %s = ANY(tickers) AND creation BETWEEN %s AND CURRENT_TIMESTAMP
+                    WHERE UPPER(%s) = ANY(SELECT UPPER(t) FROM unnest(tickers::text[]) AS t)
+                      AND creation BETWEEN %s AND CURRENT_TIMESTAMP
                     """
 
             cursor.execute(query, (ticker, date_limit))
-
             posts = cursor.fetchall()
+            print(f"Results found: {len(posts)}")
+
+    except NameError as e:
+        print(f"No ticker given")
+        return []
 
     except Exception as e:
         print(f"Database error: {e}")
@@ -127,7 +127,7 @@ def get_sentiment_by_ticker(ticker: str, days = 7) -> list[dict]:
     return posts
 
 
-def get_sentiment_trends(days: int = 30, ticker: Optional[str] = None) -> list[dict]:
+def get_sentiment_trends(days: int = 7, ticker: Optional[str] = None) -> list[dict]:
     """
     Get daily aggregated sentiment trends.
 
@@ -147,27 +147,55 @@ def get_sentiment_trends(days: int = 30, ticker: Optional[str] = None) -> list[d
             },
             ...
         ]
-
-    TODO:
-        - Group posts by creation date
-        - Calculate AVG(positive), AVG(negative), AVG(neutral)
-        - COUNT posts per day
-        - Filter by ticker if specified
     """
-    # TODO: Implement aggregation query
-    # SELECT DATE(creation), AVG(positive), AVG(negative), AVG(neutral), COUNT(*)
-    # FROM posts WHERE creation > NOW() - INTERVAL '%s days'
-    # GROUP BY DATE(creation) ORDER BY DATE(creation)
-    pass
+
+    try:
+        with get_db_connection() as db:
+            cursor = db.conn.cursor()
+
+            date_limit = (datetime.now() - timedelta(days=days)).strftime("%Y-%m-%d")
+
+            if ticker is None:
+                query = """
+                    SELECT creation AS date,
+                           AVG(positive) AS avg_positive,
+                           AVG(negative) AS avg_negative,
+                           AVG(neutral) AS avg_neutral,
+                           COUNT(*) AS post_count
+                    FROM posts
+                    WHERE creation BETWEEN %s AND CURRENT_TIMESTAMP
+                    GROUP BY creation
+                    ORDER BY creation
+                """
+                cursor.execute(query, (date_limit,))
+            else:
+                query = """
+                    SELECT creation AS date,
+                           AVG(positive) AS avg_positive,
+                           AVG(negative) AS avg_negative,
+                           AVG(neutral) AS avg_neutral,
+                           COUNT(*) AS post_count
+                    FROM posts
+                    WHERE UPPER(%s) = ANY(SELECT UPPER(t) FROM unnest(tickers::text[]) AS t)
+                      AND creation BETWEEN %s AND CURRENT_TIMESTAMP
+                    GROUP BY creation
+                    ORDER BY creation
+                """
+                cursor.execute(query, (ticker, date_limit))
+
+            return cursor.fetchall()
+
+    except Exception as e:
+        print(f"Database error: {e}")
+        return []
 
 
-def get_top_tickers(days: int = 7, limit: int = 10) -> list[dict]:
+def get_top_ticker_list(days: int = 7) -> list[dict]:
     """
     Get the most frequently mentioned tickers.
 
     Args:
         days: Number of days to look back (default 7)
-        limit: Maximum number of tickers to return (default 10)
 
     Returns:
         List of ticker dictionaries with mention counts and avg sentiment:
@@ -188,9 +216,34 @@ def get_top_tickers(days: int = 7, limit: int = 10) -> list[dict]:
         - Calculate average sentiment per ticker
         - This may require processing in Python if tickers aren't normalized
     """
-    # TODO: Implement - this is complex because tickers may be stored as text
-    # May need to unnest/split the tickers column
-    pass
+
+    try:
+        with get_db_connection() as db:
+            cursor = db.conn.cursor()
+            date_limit = (datetime.now() - timedelta(days=days)).strftime("%Y-%m-%d")
+            query = """
+                    SELECT UPPER(TRIM(BOTH '{}' FROM TRIM(ticker))),       
+                           COUNT(*)     AS mention_count,
+                           AVG(positive) AS avg_positive,
+                           AVG(negative) AS avg_negative,
+                           AVG(neutral) AS avg_neutral
+                    FROM posts,
+                         LATERAL unnest(string_to_array(tickers, ',')) AS ticker
+                    WHERE creation >= %s
+                      AND tickers IS NOT NULL
+                      AND tickers != ''
+                    GROUP BY UPPER(TRIM(BOTH '{}' FROM TRIM(ticker)))
+                    ORDER BY mention_count DESC
+                    """
+            cursor.execute(query, (date_limit,))
+
+            return cursor.fetchall()
+    except Exception as e:
+        print(f"Database error: {e}")
+        return []
+
+
+
 
 
 def get_ticker_sentiment_over_time(ticker: str, days: int = 30) -> list[dict]:

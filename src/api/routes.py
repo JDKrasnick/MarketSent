@@ -23,7 +23,7 @@ import string
 
 from flask import Blueprint, jsonify, request
 
-from src.api.db import get_db_connection
+from src.api.db import get_db_connection, get_sentiment_by_ticker, get_all_posts, get_sentiment_trends, get_top_ticker_list
 from src.pipeline.ingest import RawDataIngestor
 
 #from . import db
@@ -31,7 +31,6 @@ from src.pipeline.ingest import RawDataIngestor
 # Blueprint for API routes
 api_bp = Blueprint('api', __name__)
 ingestor = RawDataIngestor()
-db = get_db_connection()
 
 
 # =============================================================================
@@ -137,8 +136,20 @@ def get_top_tickers():
     """
 
     days = request.args.get('days', 7, type=int)
-    limit = request.args.get('limit', 10, type=int)
-    tickers = db.get_top_tickers(days=days, limit=limit)
+    data = get_top_ticker_list(days)
+
+    tickers = [
+        {
+            "symbol": row[0],
+            "mentions": row[1],
+            "sentiment": {
+                "positive": round(row[2], 2) if row[2] else 0,
+                "negative": round(row[3], 2) if row[3] else 0,
+                "neutral": round(row[4], 2) if row[4] else 0
+            }
+        }
+        for row in data
+    ]
 
     return jsonify({'tickers': tickers, 'days': days}), 200
 
@@ -174,13 +185,13 @@ def get_hot_tickers():
 
     days = request.args.get('days', 7, type=int)
     limit = request.args.get('limit', 10, type=int)
-    tickers = db.get_hot_tickers(days=days, limit=limit)
+    tickers = get_hot_tickers(days=days, limit=limit)
 
     return jsonify({'tickers': tickers, 'days': days}), 200
 
 
 @api_bp.route('/tickers/<symbol>', methods=['GET'])
-def get_ticker_sentiment(symbol: str):
+def get_ticker_sentiment(symbol):
     """
     Gets sentiment data for a specific ticker.
 
@@ -194,12 +205,12 @@ def get_ticker_sentiment(symbol: str):
         JSON response with posts mentioning the ticker
 
     Example:
-        GET /api/tickers/AAPL?days=30
+        GET /api/tickers/AAPL
     """
 
-    symbol = request.args.get('symbol')
     days = request.args.get('days', 7, type=int)
-    posts = db.get_sentiment_by_ticker(symbol=symbol, days=days)
+    print(days)
+    posts = get_sentiment_by_ticker(symbol, days)
 
     return jsonify({'posts': posts}), 200
 
@@ -244,38 +255,9 @@ def get_ticker_sentiment_trends():
         return jsonify({'message': 'Invalid ticker symbol'}), 400
 
     days = request.args.get('days', 7, type=int)
-    posts = db.get_sentiment_by_ticker(symbol=symbol, days=days)
+    posts = get_sentiment_trends(days, symbol)
 
-    # Group posts by date and calculate daily averages
-    daily_sentiments = {}
-    for post in posts:
-        date_key = post['creation'].strftime('%Y-%m-%d') if hasattr(post['creation'], 'strftime') else str(
-            post['creation'])[:10]
-        if date_key not in daily_sentiments:
-            daily_sentiments[date_key] = {'positive': [], 'negative': [], 'neutral': [], 'count': 0}
-        daily_sentiments[date_key]['positive'].append(post.get('positive', 0))
-        daily_sentiments[date_key]['negative'].append(post.get('negative', 0))
-        daily_sentiments[date_key]['neutral'].append(post.get('neutral', 0))
-        daily_sentiments[date_key]['count'] += 1
-
-    # Convert to array with averages
-    trends = []
-    for date_key in sorted(daily_sentiments.keys()):
-        day_data = daily_sentiments[date_key]
-        trends.append({
-            'date': date_key,
-            'positive': sum(day_data['positive']) / len(day_data['positive']) if day_data['positive'] else 0,
-            'negative': sum(day_data['negative']) / len(day_data['negative']) if day_data['negative'] else 0,
-            'neutral': sum(day_data['neutral']) / len(day_data['neutral']) if day_data['neutral'] else 0,
-            'post_count': day_data['count']
-        })
-
-    return jsonify({
-        'symbol': symbol.upper(),
-        'days': days,
-        'post_count': len(posts),
-        'trends': trends
-    })
+    return jsonify({'posts': posts}), 200
 
 
 

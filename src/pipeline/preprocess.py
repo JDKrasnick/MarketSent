@@ -98,6 +98,8 @@ class ProcessDB():
 
         if len(ticker_list) > 0:
             return ticker_list
+
+
         return None
 
 
