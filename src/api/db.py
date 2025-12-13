@@ -258,10 +258,6 @@ def get_ticker_sentiment_over_time(ticker: str, days: int = 30) -> list[dict]:
             },
             ...
         ]
-
-    TODO:
-        - Filter posts containing the ticker
-        - Group by date
     """
 
     try:

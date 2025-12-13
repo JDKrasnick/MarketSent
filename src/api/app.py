@@ -102,10 +102,40 @@ def create_app(config: dict = None) -> Flask:
     # ERROR HANDLERS
     # ==========================================================================
 
+    @app.errorhandler(400)
+    def bad_request(error):
+        """Handle 400 Bad Request errors."""
+        return {'error': 'Bad request', 'message': str(error.description) if hasattr(error, 'description') else 'Invalid request'}, 400
+
+    @app.errorhandler(401)
+    def unauthorized(error):
+        """Handle 401 Unauthorized errors."""
+        return {'error': 'Unauthorized', 'message': 'Authentication required'}, 401
+
+    @app.errorhandler(403)
+    def forbidden(error):
+        """Handle 403 Forbidden errors."""
+        return {'error': 'Forbidden', 'message': 'You do not have permission to access this resource'}, 403
+
     @app.errorhandler(404)
     def not_found(error):
         """Handle 404 errors."""
         return {'error': 'Not found', 'message': str(error)}, 404
+
+    @app.errorhandler(405)
+    def method_not_allowed(error):
+        """Handle 405 Method Not Allowed errors."""
+        return {'error': 'Method not allowed', 'message': 'The HTTP method is not allowed for this endpoint'}, 405
+
+    @app.errorhandler(422)
+    def unprocessable_entity(error):
+        """Handle 422 Unprocessable Entity errors."""
+        return {'error': 'Unprocessable entity', 'message': 'The request was well-formed but contains invalid data'}, 422
+
+    @app.errorhandler(429)
+    def rate_limit_exceeded(error):
+        """Handle 429 Too Many Requests errors."""
+        return {'error': 'Too many requests', 'message': 'Rate limit exceeded. Please try again later'}, 429
 
     @app.errorhandler(500)
     def internal_error(error):
@@ -113,7 +143,26 @@ def create_app(config: dict = None) -> Flask:
         # TODO: Log the error
         return {'error': 'Internal server error', 'message': 'Something went wrong'}, 500
 
-    # TODO: Add more error handlers (400, 401, 403, 422, etc.)
+    @app.errorhandler(502)
+    def bad_gateway(error):
+        """Handle 502 Bad Gateway errors."""
+        return {'error': 'Bad gateway', 'message': 'Invalid response from upstream server'}, 502
+
+    @app.errorhandler(503)
+    def service_unavailable(error):
+        """Handle 503 Service Unavailable errors."""
+        return {'error': 'Service unavailable', 'message': 'The server is temporarily unavailable. Please try again later'}, 503
+
+    @app.errorhandler(504)
+    def gateway_timeout(error):
+        """Handle 504 Gateway Timeout errors."""
+        return {'error': 'Gateway timeout', 'message': 'The server took too long to respond'}, 504
+
+    @app.errorhandler(Exception)
+    def handle_exception(error):
+        """Handle uncaught exceptions."""
+        # TODO: Log the error with full traceback
+        return {'error': 'Internal server error', 'message': 'An unexpected error occurred'}, 500
 
     # ==========================================================================
     # ADDITIONAL SETUP

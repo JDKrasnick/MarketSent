@@ -313,16 +313,14 @@ def health_check():
     Response: {"status": "healthy", "database": "connected"}
     """
 
-    # TODO: Add actual database connectivity check
-    # try:
-    #     with db.get_db_connection() as conn:
-    #         conn.cursor.execute("SELECT 1")
-    #     db_status = "connected"
-    # except Exception:
-    #     db_status = "disconnected"
-
+    with get_db_connection() as conn:
+        try:
+            conn.cursor.execute("SELECT 1")
+            db_status = "connected"
+        except Exception:
+            db_status = "disconnected"
 
     return jsonify({
         'status': 'healthy',
-        'database': 'unknown'  # TODO: Implement actual check
+        'database': db_status
     })
