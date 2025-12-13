@@ -209,12 +209,6 @@ def get_top_ticker_list(days: int = 7) -> list[dict]:
             },
             ...
         ]
-
-    TODO:
-        - Parse tickers from each post (stored as comma-separated or JSON)
-        - Count occurrences of each ticker
-        - Calculate average sentiment per ticker
-        - This may require processing in Python if tickers aren't normalized
     """
 
     try:
@@ -243,9 +237,6 @@ def get_top_ticker_list(days: int = 7) -> list[dict]:
         return []
 
 
-
-
-
 def get_ticker_sentiment_over_time(ticker: str, days: int = 30) -> list[dict]:
     """
     Get daily sentiment for a specific ticker over time.
@@ -271,27 +262,32 @@ def get_ticker_sentiment_over_time(ticker: str, days: int = 30) -> list[dict]:
     TODO:
         - Filter posts containing the ticker
         - Group by date
-        - Calculate daily averages
     """
-    # TODO: Implement query
-    pass
+
+    try:
+        with get_db_connection() as db:
+            cursor = db.conn.cursor(cursor_factory=RealDictCursor)
+            date_limit = (datetime.now() - timedelta(days=days)).strftime("%Y-%m-%d")
+
+            query = """
+                SELECT
+                    creation AS date,
+                    AVG(positive) AS avg_positive,
+                    AVG(negative) AS avg_negative,
+                    AVG(neutral) AS avg_neutral,
+                    COUNT(*) AS post_count,
+                    AVG(score) AS avg_score
+                FROM posts
+                WHERE UPPER(%s) = ANY(SELECT UPPER(t) FROM unnest(tickers::text[]) AS t)
+                  AND creation BETWEEN %s AND CURRENT_TIMESTAMP
+                GROUP BY creation
+                ORDER BY creation
+            """
+            cursor.execute(query, (ticker, date_limit))
+            return cursor.fetchall()
+
+    except Exception as e:
+        print(f"Database error: {e}")
+        return []
 
 
-def search_posts(query: str, limit: int = 50) -> list[dict]:
-    """
-    Full-text search across post titles and content.
-
-    Args:
-        query: Search string
-        limit: Maximum results to return
-
-    Returns:
-        List of matching posts
-
-    TODO:
-        - Implement full-text search using PostgreSQL ts_vector
-        - Or simple ILIKE search for MVP
-    """
-    # TODO: Implement search
-    # SELECT * FROM posts WHERE text ILIKE %s OR post_text ILIKE %s
-    pass

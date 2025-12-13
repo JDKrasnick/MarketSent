@@ -259,6 +259,42 @@ def get_ticker_sentiment_trends():
 
     return jsonify({'posts': posts}), 200
 
+@api_bp.route('/trends/<symbol>', methods=['GET'])
+def get_ticker_sentiment_trends_specific(symbol):
+    """
+    Get overall sentiment trends over time.
+
+    Query Parameters:
+        symbol (str): Stock ticker symbol (e.g., AAPL, TSLA)
+        days (int): Look-back period in days (default: 30)
+
+    Returns:
+        JSON response with daily sentiment averages
+
+    Example:
+        GET /api/trends?days=60
+
+    Response:
+        {
+            "days": 30,
+            "trends": [
+                {
+                    "date": "2024-01-15",
+                    "positive": 0.45,
+                    "negative": 0.25,
+                    "neutral": 0.30,
+                    "post_count": 42
+                },
+                ...
+            ]
+        }
+    """
+
+    days = request.args.get('days', 7, type=int)
+    posts = get_sentiment_trends(days, symbol)
+
+    return jsonify({'posts': posts}), 200
+
 
 
 
