@@ -286,4 +286,53 @@ def get_ticker_sentiment_over_time(ticker: str, days: int = 30) -> list[dict]:
         print(f"Database error: {e}")
         return []
 
+def get_posts_time(time: str) -> list[dict]:
+    """
+    Get posts over a specific time.
+
+    Args:
+        time: Either day or week
+
+    Returns:
+        List of daily sentiment data for the ticker:
+        [
+            {
+                'date': '2024-01-15',
+                'positive': 0.55,
+                'negative': 0.15,
+                'neutral': 0.30,
+                'post_count': 12,
+                'avg_score': 156.5  # Reddit score
+            },
+            ...
+        ]
+    """
+
+    try:
+        with get_db_connection() as db:
+            cursor = db.conn.cursor(cursor_factory=RealDictCursor)
+
+
+            if (time == "day"):
+                date_limit = (datetime.now() - timedelta(1)).strftime("%Y-%m-%d")
+            elif (time == "week"):
+                date_limit = (datetime.now() - timedelta(7)).strftime("%Y-%m-%d")
+            else:
+                date_limit = (datetime.now() - timedelta(7)).strftime("%Y-%m-%d")
+
+            query = """
+                    SELECT creation     AS date,
+                           positive AS avg_positive,
+                           negative AS avg_negative,
+                           neutral  AS avg_neutral,
+                           score         AS score
+                    FROM posts
+                    WHERE creation >= %s
+                    ORDER BY date
+                    """
+            cursor.execute(query, (date_limit,))
+            return cursor.fetchall()
+    except Exception as e:
+        print(f"Database error: {e}")
+        return []
 

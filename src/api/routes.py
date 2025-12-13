@@ -23,7 +23,7 @@ import string
 
 from flask import Blueprint, jsonify, request
 
-from src.api.db import get_db_connection, get_sentiment_by_ticker, get_all_posts, get_sentiment_trends, get_top_ticker_list
+from src.api.db import get_db_connection, get_sentiment_by_ticker, get_all_posts, get_sentiment_trends, get_top_ticker_list, get_posts_time
 from src.pipeline.ingest import RawDataIngestor
 
 #from . import db
@@ -40,10 +40,10 @@ ingestor = RawDataIngestor()
 @api_bp.route('/posts', methods=['GET'])
 def get_posts():
     """
-    Get top posts over a period of time.
+    Get hot posts over a period of time.
 
     Query Parameters:
-        time (int): Time period to take posts from (either day or week)
+        time (str): Time period to take posts from (either day or week)
 
     Returns:
         JSON response with posts array and pagination info
@@ -52,20 +52,12 @@ def get_posts():
         GET /api/posts?limit=50&offset=100
     """
 
-    try:
-        time = request.args.get('offset')
-    except ValueError:
-        return jsonify({'message': 'Invalid parameters', 'results': []}), 400
+    time = request.args.get('time', 'week')
 
-    if time == "day":
-        posts = ingestor.get_last_day()
-        return jsonify({'posts': posts, 'message': 'Last posts over 24 hours'}), 200
+    data = get_posts_time(time)
 
-    elif time == "week":
-        posts = ingestor.get_last_week()
-        return jsonify({'posts': posts, 'message': 'Last posts over 7 days'}), 200
+    return jsonify({'tickers': data, 'Time period': time}), 200
 
-    return jsonify({'message': "No posts returned"}), 400
 
 
 @api_bp.route('/posts/search', methods=['GET'])

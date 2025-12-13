@@ -1,8 +1,7 @@
 /**
  * TypeScript type definitions for the MarketSent dashboard.
  *
- * These types mirror the API response structures and ensure
- * type safety throughout the React application.
+ * Made to ensure type safety across project
  */
 
 // =============================================================================
@@ -142,3 +141,4 @@ export interface TickerSelectProps {
   onSelect: (ticker: string) => void;
   tickers: TickerSentiment[];
 }
+
