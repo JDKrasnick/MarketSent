@@ -13,10 +13,10 @@
  * Matches the 'posts' table schema in PostgreSQL.
  */
 export interface Post {
-  postId: number;
+  postid: number;         // Note: lowercase 'id' to match PostgreSQL
   text: string;           // Post title
   post_text: string;      // Post body content
-  tickers: string;        // Comma-separated ticker symbols (e.g., "AAPL,TSLA")
+  tickers: string;        // Array format from PostgreSQL (e.g., "{AAPL,TSLA}")
   positive: number;       // FinBERT positive score (0-1)
   negative: number;       // FinBERT negative score (0-1)
   neutral: number;        // FinBERT neutral score (0-1)
@@ -24,6 +24,14 @@ export interface Post {
   score: number;          // Reddit score (upvotes - downvotes)
   upvote_ratio: number;   // Reddit upvote ratio (0-1)
   creation: string;       // ISO date string
+}
+
+/**
+ * Response from GET /api/posts?time=day|week
+ */
+export interface PostsResponse {
+  tickers: Post[];
+  "Time period": string;
 }
 
 // =============================================================================
@@ -52,17 +60,18 @@ export interface TopTickersResponse {
 }
 
 /**
- * Response from GET /api/tickers/:symbol
+ * Response from GET /api/tickers/:symbol?days=7
  */
 export interface TickerDetailResponse {
-  symbol: string;
-  post_count: number;
-  sentiment: {
-    positive: number;
-    negative: number;
-    neutral: number;
-  };
   posts: Post[];
+}
+
+/**
+ * Response from GET /api/hot_tickers?days=7&limit=10
+ */
+export interface HotTickersResponse {
+  tickers: TickerSentiment[];
+  days: number;
 }
 
 // =============================================================================
@@ -81,20 +90,11 @@ export interface TrendDataPoint {
 }
 
 /**
- * Response from GET /api/trends
+ * Response from GET /api/trends?days=7&symbol=X
+ * Response from GET /api/trends/:symbol?days=7
  */
 export interface TrendsResponse {
-  days: number;
-  trends: TrendDataPoint[];
-}
-
-/**
- * Response from GET /api/trends/:symbol
- */
-export interface TickerTrendsResponse {
-  symbol: string;
-  days: number;
-  trends: TrendDataPoint[];
+  posts: TrendDataPoint[];
 }
 
 // =============================================================================
