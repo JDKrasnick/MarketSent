@@ -1,31 +1,17 @@
-import {useState, useEffect} from "react";
-import axios from "axios";
-
+import { BrowserRouter, Routes, Route } from "react-router-dom";
+import { Dashboard } from "./pages/Dashboard";
+import "./index.css";
 
 function App() {
-
-    const [array, setArray] = useState([]);
-
-
-    const fetchAPI = async () => {
-        const response = await axios.get("http://localhost:5000/api/health");
-        setArray(response.data);
-    }
-
-    useEffect(() => {
-        fetchAPI();
-    }, []);
-
     return (
-      <div>
-        <h1>MarketSent Dashboard</h1>
-          <p>
-              Status: {array.status}
-              <p></p>
-              DB Connection Status: {array.database}
-          </p>
-      </div>
-    )
-  }
+        <BrowserRouter>
+            <div className="container">
+                <Routes>
+                    <Route path="/" element={<Dashboard />} />
+                </Routes>
+            </div>
+        </BrowserRouter>
+    );
+}
 
-  export default App
+export default App;
