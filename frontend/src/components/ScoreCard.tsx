@@ -5,7 +5,7 @@ interface ScoreCardProps {
     mentions: number;
 }
 
-export function ScoreCard({ positive, negative, neutral, mentions }: ScoreCardProps) {
+export function ScoreCard({ positive, negative, neutral, mentions: _mentions }: ScoreCardProps) {
     const netScore = positive - negative;
     const isPositive = netScore >= 0;
     const scorePercent = Math.abs(netScore * 100);
