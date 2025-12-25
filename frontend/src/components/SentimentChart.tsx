@@ -21,9 +21,9 @@ export function SentimentChart({ data, height = 300 }: SentimentChartProps) {
             month: "short",
             day: "numeric",
         }),
-        positive: point.positive * 100,
-        negative: point.negative * 100,
-        neutral: point.neutral * 100,
+        positive: (point.avg_positive || 0) * 100,
+        negative: (point.avg_negative || 0) * 100,
+        neutral: (point.avg_neutral || 0) * 100,
         posts: point.post_count,
     }));
 

@@ -19,21 +19,21 @@ export function Dashboard() {
         selectedTicker?.symbol
     );
 
-    // Calculate overall sentiment from trends or selected ticker
-    const currentSentiment = selectedTicker?.sentiment || {
-        positive: trends.length > 0
-            ? trends.reduce((sum, t) => sum + t.positive, 0) / trends.length
-            : 0,
-        negative: trends.length > 0
-            ? trends.reduce((sum, t) => sum + t.negative, 0) / trends.length
-            : 0,
-        neutral: trends.length > 0
-            ? trends.reduce((sum, t) => sum + t.neutral, 0) / trends.length
-            : 0,
-    };
+    // Calculate overall sentiment from selected ticker or aggregate from all tickers
+    const currentSentiment = selectedTicker?.sentiment || (() => {
+        if (tickers.length === 0) {
+            return { positive: 0, negative: 0, neutral: 0 };
+        }
+        const totalMentions = tickers.reduce((sum, t) => sum + t.mentions, 0);
+        return {
+            positive: tickers.reduce((sum, t) => sum + t.sentiment.positive * t.mentions, 0) / totalMentions,
+            negative: tickers.reduce((sum, t) => sum + t.sentiment.negative * t.mentions, 0) / totalMentions,
+            neutral: tickers.reduce((sum, t) => sum + t.sentiment.neutral * t.mentions, 0) / totalMentions,
+        };
+    })();
 
     const totalMentions = selectedTicker?.mentions ||
-        trends.reduce((sum, t) => sum + t.post_count, 0);
+        tickers.reduce((sum, t) => sum + t.mentions, 0);
 
     return (
         <>
@@ -52,7 +52,10 @@ export function Dashboard() {
                             <div className="stock-grid">
                                 <div
                                     className={`stock-chip ${!selectedTicker ? "active" : ""}`}
-                                    onClick={() => setSelectedTicker(null)}
+                                    onClick={() => {
+                                        setSelectedTicker(null);
+                                        window.scrollTo({ top: 0, behavior: "smooth" });
+                                    }}
                                 >
                                     <span className="chip-ticker">ALL</span>
                                     <span className="chip-score neu">Overview</span>
@@ -62,7 +65,10 @@ export function Dashboard() {
                                         key={ticker.symbol}
                                         ticker={ticker}
                                         isActive={selectedTicker?.symbol === ticker.symbol}
-                                        onClick={() => setSelectedTicker(ticker)}
+                                        onClick={() => {
+                                            setSelectedTicker(ticker);
+                                            window.scrollTo({ top: 0, behavior: "smooth" });
+                                        }}
                                     />
                                 ))}
                             </div>

@@ -1,0 +1,13 @@
+services:
+  - type: web
+    name: marketsent-api
+    runtime: python
+    buildCommand: pip install -r requirements.txt
+    startCommand: gunicorn -w 2 -b 0.0.0.0:$PORT 'src.api.app:create_app()'
+    envVars:
+      - key: DB_CONNECTION_STRING
+        sync: false
+      - key: SECRET_KEY
+        generateValue: true
+      - key: PYTHON_VERSION
+        value: "3.11"

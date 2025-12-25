@@ -30,7 +30,7 @@ from sqlalchemy import create_engine
 sys.path.append(os.path.dirname(os.path.dirname(os.path.dirname(os.path.abspath(__file__)))))
 from db.connection import SQLConnection
 
-load_dotenv('/Users/fastcheetah/PycharmProjects/MarketSent/.env')
+load_dotenv()  # Loads from .env file or environment variables
 db_connection_str = os.getenv("DB_CONNECTION_STRING")
 engine = create_engine(db_connection_str)
 
@@ -151,7 +151,7 @@ def get_sentiment_trends(days: int = 7, ticker: Optional[str] = None) -> list[di
 
     try:
         with get_db_connection() as db:
-            cursor = db.conn.cursor()
+            cursor = db.conn.cursor(cursor_factory=RealDictCursor)
 
             date_limit = (datetime.now() - timedelta(days=days)).strftime("%Y-%m-%d")
 

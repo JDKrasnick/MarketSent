@@ -92,9 +92,9 @@ class ProcessDB():
                     ticker_list.append(COMPANY_TICKERS[word])
 
         # Return first match that isn't AI
-        for ticker in matches:
-            if ticker != 'AI' and ticker != 'US' and ticker != 'CEO' and ticker != 'LOL' and ticker != 'LOVE' and ticker != 'BULL':
-                ticker_list.append(ticker)
+        #for ticker in matches:
+        #    if ticker != 'AI' and ticker != 'US' and ticker != 'CEO' and ticker != 'LOL' and ticker != 'LOVE' and ticker != 'BULL':
+        #        ticker_list.append(ticker)
 
         if len(ticker_list) > 0:
             return ticker_list

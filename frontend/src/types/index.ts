@@ -83,9 +83,9 @@ export interface HotTickersResponse {
  */
 export interface TrendDataPoint {
   date: string;           // ISO date string (YYYY-MM-DD)
-  positive: number;       // Average positive sentiment
-  negative: number;       // Average negative sentiment
-  neutral: number;        // Average neutral sentiment
+  avg_positive: number;   // Average positive sentiment
+  avg_negative: number;   // Average negative sentiment
+  avg_neutral: number;    // Average neutral sentiment
   post_count: number;     // Number of posts on this date
 }
 

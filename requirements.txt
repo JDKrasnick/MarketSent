@@ -1,0 +1,21 @@
+# Web framework
+flask>=3.0.0
+flask-cors>=4.0.0
+gunicorn>=21.0.0
+
+# Database
+psycopg2-binary>=2.9.0
+sqlalchemy>=2.0.0
+
+# Environment
+python-dotenv>=1.0.0
+
+# Data processing
+pandas>=2.0.0
+
+# Reddit API
+praw>=7.7.0
+
+# ML/Sentiment
+torch>=2.0.0
+transformers>=4.35.0
