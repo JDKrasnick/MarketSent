@@ -8,7 +8,7 @@ import {
     SentimentChart,
     TickerChip,
 } from "../components";
-import { TickerSentiment } from "../types";
+import { Post, TickerSentiment } from "../types";
 
 export function Dashboard() {
     const [selectedTicker, setSelectedTicker] = useState<TickerSentiment | null>(null);
@@ -182,7 +182,7 @@ export function Dashboard() {
                                 <Loader />
                             ) : posts.length > 0 ? (
                                 <div className="posts-list">
-                                    {posts.slice(0, 10).map((post) => (
+                                    {posts.slice(0, 10).map((post: Post) => (
                                         <PostCard key={post.postid} post={post} />
                                     ))}
                                 </div>

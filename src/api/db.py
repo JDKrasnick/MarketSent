@@ -31,8 +31,12 @@ sys.path.append(os.path.dirname(os.path.dirname(os.path.dirname(os.path.abspath(
 from db.connection import SQLConnection
 
 load_dotenv()  # Loads from .env file or environment variables
+
 db_connection_str = os.getenv("DB_CONNECTION_STRING")
-engine = create_engine(db_connection_str)
+if db_connection_str:
+    engine = create_engine(db_connection_str)
+else:
+    engine = None  # Will use SQLConnection fallback
 
 
 def get_db_connection():
