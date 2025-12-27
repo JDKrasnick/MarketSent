@@ -1,8 +1,9 @@
 import { useState } from "react";
-import { useTickers, useTrends } from "../hooks";
+import { useTickers, useTrends, useTickerPosts } from "../hooks";
 import {
     Header,
     Loader,
+    PostCard,
     ScoreCard,
     SentimentChart,
     TickerChip,
@@ -17,6 +18,10 @@ export function Dashboard() {
     const { data: trends, loading: trendsLoading } = useTrends(
         days,
         selectedTicker?.symbol
+    );
+    const { data: posts, loading: postsLoading } = useTickerPosts(
+        selectedTicker?.symbol || null,
+        days
     );
 
     // Calculate overall sentiment from selected ticker or aggregate from all tickers
@@ -163,6 +168,29 @@ export function Dashboard() {
                                     );
                                 })}
                             </div>
+                        </section>
+                    )}
+
+                    {/* Posts Section - Shows when ticker is selected */}
+                    {selectedTicker && (
+                        <section className="posts-section">
+                            <div className="section-title">
+                                <span className="title-accent"></span>
+                                Recent Posts
+                            </div>
+                            {postsLoading ? (
+                                <Loader />
+                            ) : posts.length > 0 ? (
+                                <div className="posts-list">
+                                    {posts.slice(0, 10).map((post) => (
+                                        <PostCard key={post.postid} post={post} />
+                                    ))}
+                                </div>
+                            ) : (
+                                <p className="no-posts">
+                                    No posts found for {selectedTicker.symbol}
+                                </p>
+                            )}
                         </section>
                     )}
                 </main>

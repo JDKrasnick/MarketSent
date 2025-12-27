@@ -584,6 +584,127 @@ body {
     color: var(--white);
 }
 
+/* ==================== POSTS SECTION ==================== */
+
+.posts-section {
+    background: var(--white);
+    border: 1px solid var(--mid-grey);
+    padding: var(--grid-8);
+}
+
+.posts-list {
+    display: flex;
+    flex-direction: column;
+    gap: var(--grid-4);
+}
+
+.post-card {
+    background: var(--off-white);
+    padding: var(--grid-5);
+    display: flex;
+    flex-direction: column;
+    gap: var(--grid-3);
+    transition: all 0.2s ease;
+    border-left: 3px solid transparent;
+}
+
+.post-card:hover {
+    background: var(--light-grey);
+    border-left-color: var(--accent-red);
+    transform: translateX(4px);
+}
+
+.post-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.post-meta {
+    display: flex;
+    gap: var(--grid-2);
+    font-size: 0.75rem;
+    font-family: var(--font-mono);
+    color: var(--dark-grey);
+}
+
+.post-date,
+.post-score {
+    color: var(--dark-grey);
+}
+
+.post-sentiment {
+    font-family: var(--font-mono);
+    font-weight: 700;
+    font-size: 0.875rem;
+}
+
+.post-sentiment.positive {
+    color: var(--positive);
+}
+
+.post-sentiment.negative {
+    color: var(--negative);
+}
+
+.post-title {
+    font-size: 1rem;
+    font-weight: 600;
+    line-height: 1.4;
+    color: var(--black);
+}
+
+.post-body {
+    font-size: 0.875rem;
+    color: var(--dark-grey);
+    line-height: 1.5;
+}
+
+.post-tickers {
+    display: flex;
+    gap: var(--grid-2);
+    flex-wrap: wrap;
+}
+
+.post-ticker-tag {
+    background: var(--mid-grey);
+    padding: var(--grid-1) var(--grid-2);
+    font-family: var(--font-mono);
+    font-size: 0.75rem;
+    font-weight: 600;
+}
+
+.post-sentiment-bar {
+    display: flex;
+    height: 4px;
+    background: var(--light-grey);
+    overflow: hidden;
+}
+
+.sentiment-segment {
+    height: 100%;
+    transition: width 0.6s ease;
+}
+
+.sentiment-segment.positive {
+    background: var(--positive);
+}
+
+.sentiment-segment.neutral {
+    background: var(--neutral);
+}
+
+.sentiment-segment.negative {
+    background: var(--negative);
+}
+
+.no-posts {
+    text-align: center;
+    padding: var(--grid-8);
+    color: var(--dark-grey);
+    font-size: 0.875rem;
+}
+
 /* ==================== RESPONSIVE ==================== */
 
 @media (max-width: 1200px) {

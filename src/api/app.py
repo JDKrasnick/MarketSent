@@ -84,8 +84,8 @@ def create_app(config: dict = None) -> Flask:
                 "http://localhost:5173",      # Vite dev server
                 "http://127.0.0.1:3000",
                 "http://127.0.0.1:5173",
-                "http://localhost:5173"
-                "https://market-sent.vercel.app/"
+                "https://market-sent.vercel.app",
+                "https://*.vercel.app",       # Allow Vercel preview deployments
             ],
             "methods": ["GET", "POST", "PUT", "DELETE", "OPTIONS"],
             "allow_headers": ["Content-Type", "Authorization"]
