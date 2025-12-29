@@ -20,11 +20,13 @@ Usage:
     app.register_blueprint(api_bp, url_prefix='/api')
 """
 import string
+import threading
 
 from flask import Blueprint, jsonify, request
 
 from src.api.db import get_db_connection, get_sentiment_by_ticker, get_all_posts, get_sentiment_trends, get_top_ticker_list, get_posts_time
 from src.pipeline.ingest import RawDataIngestor
+from src.pipeline.preprocess import ProcessDB
 
 #from . import db
 
@@ -316,3 +318,40 @@ def health_check():
         'status': 'healthy',
         'database': db_status
     })
+
+# Track if refresh is already running
+_refresh_in_progress = False
+_refresh_lock = threading.Lock()
+
+
+def _run_refresh():
+    """Background task to refresh data."""
+    global _refresh_in_progress
+    try:
+        ProcessDB.ingestAndProcessWeek()
+    except Exception as e:
+        print(f"Refresh error: {e}")
+    finally:
+        with _refresh_lock:
+            _refresh_in_progress = False
+
+
+@api_bp.route('/refresh', methods=['POST'])
+def refresh():
+    """
+    Refreshes the stock data for the week.
+    Runs in background and returns immediately.
+    """
+    global _refresh_in_progress
+
+    with _refresh_lock:
+        if _refresh_in_progress:
+            return jsonify({'status': 'already_running', 'message': 'Refresh already in progress'}), 200
+
+        _refresh_in_progress = True
+
+    # Run in background thread
+    thread = threading.Thread(target=_run_refresh, daemon=True)
+    thread.start()
+
+    return jsonify({'status': 'started', 'message': 'Refresh started in background'}), 202

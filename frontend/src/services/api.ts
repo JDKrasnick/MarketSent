@@ -92,3 +92,14 @@ export const getHealth = async (): Promise<{ status: string; database: string }>
     const response = await api.get("/health");
     return response.data;
 };
+
+// REFRESH
+
+/**
+ * POST /api/refresh
+ * Triggers background data refresh
+ */
+export const triggerRefresh = async (): Promise<{ status: string; message: string }> => {
+    const response = await api.post("/refresh");
+    return response.data;
+};

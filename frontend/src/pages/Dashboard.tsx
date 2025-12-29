@@ -1,5 +1,6 @@
-import { useState } from "react";
+import { useState, useEffect } from "react";
 import { useTickers, useTrends, useTickerPosts } from "../hooks";
+import { triggerRefresh } from "../services/api";
 import {
     Header,
     Loader,
@@ -23,6 +24,13 @@ export function Dashboard() {
         selectedTicker?.symbol || null,
         days
     );
+
+    // Trigger background refresh on page load
+    useEffect(() => {
+        triggerRefresh().catch(() => {
+            // Silently ignore refresh errors - it's a background task
+        });
+    }, []);
 
     // Calculate overall sentiment from selected ticker or aggregate from all tickers
     const currentSentiment = selectedTicker?.sentiment || (() => {
