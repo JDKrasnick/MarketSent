@@ -2,6 +2,8 @@
 
   Real-time sentiment analysis dashboard for stock market discussions. Analyzes Reddit posts from finance communities using AI-powered sentiment analysis to track how investors feel about specific tickers.
 
+  Try it out here!: https://market-sent.vercel.app/
+
   ## Features
 
   - **Sentiment Tracking** - AI-powered analysis of Reddit posts from r/wallstreetbets, r/stocks, and other finance communities
@@ -9,6 +11,9 @@
   - **Trend Visualization** - Interactive charts showing sentiment over time
   - **Top Mentions** - See which tickers are being discussed most frequently
   - **Recent Posts** - Browse analyzed posts with sentiment scores
+
+
+<img width="1702" height="899" alt="Screenshot 2025-12-30 at 12 07 04 AM" src="https://github.com/user-attachments/assets/57324fff-df4d-4ba3-b4b5-b0cb5ac8fe9d" />
 
   ## Tech Stack
 
