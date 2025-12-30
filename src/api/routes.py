@@ -328,9 +328,9 @@ def _run_refresh():
     """Background task to refresh data."""
     global _refresh_in_progress
     try:
-        ProcessDB.ingestAndProcessWeek()
+        ProcessDB.ingestAndProcessWeek('posts')
     except Exception as e:
-        print(f"Refresh error: {e}")
+        print(f"Refresh error: {e}")if
     finally:
         with _refresh_lock:
             _refresh_in_progress = False

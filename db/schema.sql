@@ -23,4 +23,3 @@ CREATE TABLE IF NOT EXISTS posts(
 
 -- Some indexes for characteristics I'll want to lookup
 CREATE INDEX post_day_created ON posts(creation);
-CREATE INDEX post_index_of_comment ON comments(postID);
