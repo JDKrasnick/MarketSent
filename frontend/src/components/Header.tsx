@@ -17,9 +17,19 @@ export function Header() {
                     <span className="logo-box"></span>
                     MarketSent
                 </div>
-                <div className="header-meta">
-                    <span>{dateStr}</span>
-                    <span>{timeStr}</span>
+                <div className="header-right">
+                    <div className="info-button">
+                        <span className="info-icon">?</span>
+                        <div className="info-tooltip">
+                            <strong>MarketSent</strong> analyzes sentiment from Reddit stock discussions.
+                            Track how investors feel about specific tickers using AI-powered sentiment analysis
+                            of posts from r/wallstreetbets, r/stocks, and other finance communities.
+                        </div>
+                    </div>
+                    <div className="header-meta">
+                        <span>{dateStr}</span>
+                        <span>{timeStr}</span>
+                    </div>
                 </div>
             </div>
         </header>
