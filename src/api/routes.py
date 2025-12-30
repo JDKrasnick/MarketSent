@@ -330,7 +330,7 @@ def _run_refresh():
     try:
         ProcessDB.ingestAndProcessWeek('posts')
     except Exception as e:
-        print(f"Refresh error: {e}")if
+        print(f"Refresh error: {e}")
     finally:
         with _refresh_lock:
             _refresh_in_progress = False
