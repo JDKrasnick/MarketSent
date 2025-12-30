@@ -25,14 +25,9 @@ import threading
 from flask import Blueprint, jsonify, request
 
 from src.api.db import get_db_connection, get_sentiment_by_ticker, get_all_posts, get_sentiment_trends, get_top_ticker_list, get_posts_time
-from src.pipeline.ingest import RawDataIngestor
-from src.pipeline.preprocess import ProcessDB
-
-#from . import db
 
 # Blueprint for API routes
 api_bp = Blueprint('api', __name__)
-ingestor = RawDataIngestor()
 
 
 # =============================================================================
@@ -328,6 +323,8 @@ def _run_refresh():
     """Background task to refresh data."""
     global _refresh_in_progress
     try:
+        # Lazy import to avoid loading ML model at startup
+        from src.pipeline.preprocess import ProcessDB
         ProcessDB.ingestAndProcessWeek('posts')
     except Exception as e:
         print(f"Refresh error: {e}")

@@ -25,12 +25,12 @@ export function Dashboard() {
         days
     );
 
-    // Trigger background refresh on page load
-    useEffect(() => {
-        triggerRefresh().catch(() => {
-            // Silently ignore refresh errors - it's a background task
-        });
-    }, []);
+    // Background refresh disabled - run manually or via cron instead
+    // useEffect(() => {
+    //     triggerRefresh().catch(() => {
+    //         // Silently ignore refresh errors - it's a background task
+    //     });
+    // }, []);
 
     // Calculate overall sentiment from selected ticker or aggregate from all tickers
     const currentSentiment = selectedTicker?.sentiment || (() => {
