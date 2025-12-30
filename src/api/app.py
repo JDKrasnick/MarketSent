@@ -79,14 +79,7 @@ def create_app(config: dict = None) -> Flask:
     # TODO: Restrict origins in production
     CORS(app, resources={
         r"/api/*": {
-            "origins": [
-                "http://localhost:3000",      # React dev server
-                "http://localhost:5173",      # Vite dev server
-                "http://127.0.0.1:3000",
-                "http://127.0.0.1:5173",
-                "https://market-sent.vercel.app",
-                "https://*.vercel.app",       # Allow Vercel preview deployments
-            ],
+            "origins": "*",  # Allow all origins (public API)
             "methods": ["GET", "POST", "PUT", "DELETE", "OPTIONS"],
             "allow_headers": ["Content-Type", "Authorization"]
         }
