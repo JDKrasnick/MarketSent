@@ -3,6 +3,8 @@
   Real-time sentiment analysis dashboard for stock market discussions. Analyzes Reddit posts from finance communities using AI-powered sentiment analysis to track how investors feel about specific tickers.
 
   Try it out here!: https://market-sent.vercel.app/
+  
+  (Note: It's possible my Render instance spun down with inactivity, if so visit here to restart it: https://marketsent.onrender.com, then check again)
 
   ## Features
 
