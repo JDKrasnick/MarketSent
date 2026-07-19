@@ -43,8 +43,6 @@
   - time - Time period: "day" or "week"
   - symbol - Stock ticker symbol (e.g., AAPL, TSLA)
 
-=
-
   ## License
 
   MIT
