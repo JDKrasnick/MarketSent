@@ -23,12 +23,14 @@ separate frontend deployment to wake or configure.
 
 - **Frontend:** React, TypeScript, Vite, Recharts
 - **Backend:** Python, Flask, Gunicorn, TinyBERT/ONNX
-- **Data:** Reddit API, PostgreSQL (Supabase-compatible)
+- **Data:** Reddit API, PostgreSQL with an embedded SQLite continuity store
 - **Deployment:** One Render web service defined by `render.yaml`
 
 ## Local development
 
-Requirements: Python 3.11+, Node.js 22+, and PostgreSQL.
+Requirements: Python 3.11+ and Node.js 22+. PostgreSQL is recommended for
+durable production history; SQLite is used automatically when it is not
+configured or temporarily unavailable.
 
 ```bash
 python3 -m venv .venv
@@ -41,7 +43,9 @@ npm ci
 Create a root `.env` file with the services used by the backend:
 
 ```dotenv
+# Optional; omit to use the local SQLite continuity store.
 DB_CONNECTION_STRING=postgresql://user:password@host:5432/database
+SQLITE_FALLBACK_PATH=/tmp/marketsent.db
 REDDIT_CLIENT_ID=your_reddit_client_id
 REDDIT_CLIENT_SECRET=your_reddit_client_secret
 REDDIT_USER_AGENT=MarketSent/1.0
@@ -51,7 +55,7 @@ SENTIMENT_DTYPE=fp32
 REFRESH_TOKEN=choose_a_long_random_value
 ```
 
-Initialize a new database without dropping any existing data:
+Optionally initialize a new PostgreSQL database without dropping existing data:
 
 ```bash
 psql "$DB_CONNECTION_STRING" -f db/schema.sql
@@ -76,11 +80,12 @@ gunicorn --bind 0.0.0.0:5000 'src.api.app:create_app()'
 
 The scraper reads the configured subreddits, analyzes posts in batches with a
 compact financial TinyBERT ONNX model, and inserts new rows while ignoring
-duplicate titles. Render pre-downloads the 55 MB model during its build, avoiding
-a large first-refresh download and keeping inference within the free service's
-memory limit. Its single web worker starts a refresh shortly after each wake or
-deploy and repeats every 12 hours while the service remains awake. Existing
-post titles are filtered out before model inference.
+duplicate titles. The canonical Render build pre-downloads the 55 MB model;
+legacy Python-only deployments install the locked inference runtime on first
+use. Exactly one web worker starts a refresh shortly after each wake or deploy
+and repeats every 12 hours while the service remains awake. Existing post titles
+are filtered out before model inference. `REFRESH_TOKEN` is required only for
+manual refresh requests, not automatic scraping.
 
 ```bash
 curl -X POST http://localhost:5000/api/refresh \

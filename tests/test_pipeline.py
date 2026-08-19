@@ -1,15 +1,18 @@
 import os
+import tempfile
 import unittest
 from datetime import date
+from pathlib import Path
 from types import SimpleNamespace
 from unittest.mock import patch
 
 import numpy as np
 import pandas as pd
 
+from db import connection as database_connection
 from src.pipeline.ingest import RawDataIngestor, RedditAPIClient, posts_to_data
-from src.pipeline.preprocess import ProcessDB
-from src.pipeline.sentiment import SentimentPipeline
+from src.pipeline.preprocess import ProcessDB, _insert_ignoring_duplicate_titles
+from src.pipeline.sentiment import PROJECT_ROOT, SentimentPipeline, _ensure_node_runtime
 
 
 class FakeSentimentModel:
@@ -129,6 +132,25 @@ class PipelineTest(unittest.TestCase):
         with self.assertRaisesRegex(RuntimeError, "model unavailable"):
             SentimentPipeline().analyze("Text")
 
+    def test_sentiment_runtime_installs_missing_node_dependency(self):
+        with tempfile.TemporaryDirectory() as directory:
+            dependency = Path(directory) / "node_modules" / "transformers"
+
+            def install_runtime(*_args, **_kwargs):
+                dependency.mkdir(parents=True)
+                return SimpleNamespace(returncode=0, stdout="", stderr="")
+
+            with patch("src.pipeline.sentiment.NODE_DEPENDENCY", dependency):
+                with patch(
+                    "src.pipeline.sentiment.subprocess.run",
+                    side_effect=install_runtime,
+                ) as run:
+                    _ensure_node_runtime()
+
+            command = run.call_args.args[0]
+            self.assertEqual(command[:2], ["npm", "ci"])
+            self.assertEqual(run.call_args.kwargs["cwd"], PROJECT_ROOT)
+
     @patch("src.pipeline.preprocess.SentimentPipeline")
     @patch("src.pipeline.preprocess.RawDataIngestor")
     @patch.object(ProcessDB, "_engine")
@@ -152,6 +174,48 @@ class PipelineTest(unittest.TestCase):
     def test_ingest_rejects_unsafe_table_name(self):
         with self.assertRaisesRegex(ValueError, "Invalid database table name"):
             ProcessDB._ingest("week", "posts; DROP TABLE posts")
+
+    def test_sqlite_insert_ignores_duplicate_titles(self):
+        with tempfile.TemporaryDirectory() as directory:
+            env = {
+                "DB_CONNECTION_STRING": "",
+                "SQLITE_FALLBACK_PATH": str(Path(directory) / "marketsent.db"),
+            }
+            frame = pd.DataFrame(
+                [
+                    {
+                        "text": "Unique title",
+                        "tickers": "AAPL",
+                        "positive": 0.8,
+                        "negative": 0.1,
+                        "neutral": 0.1,
+                        "confidence": 0.8,
+                        "post_text": "Body",
+                        "score": 1,
+                        "upvote_ratio": 1.0,
+                        "creation": date.today(),
+                    }
+                ]
+            )
+            with patch.dict(os.environ, env, clear=False):
+                database_connection.reset_engine()
+                try:
+                    engine = database_connection.get_engine()
+                    for _ in range(2):
+                        frame.to_sql(
+                            "posts",
+                            engine,
+                            if_exists="append",
+                            index=False,
+                            method=_insert_ignoring_duplicate_titles,
+                        )
+                    with engine.connect() as connection:
+                        count = connection.exec_driver_sql(
+                            "SELECT COUNT(*) FROM posts"
+                        ).scalar_one()
+                    self.assertEqual(count, 1)
+                finally:
+                    database_connection.reset_engine()
 
 
 if __name__ == "__main__":

@@ -3,11 +3,53 @@
 import json
 import os
 import subprocess
+import threading
 from pathlib import Path
 from typing import Iterable, Optional
 
 
+PROJECT_ROOT = Path(__file__).resolve().parents[2]
 DEFAULT_SCRIPT = Path(__file__).with_suffix(".mjs")
+NODE_DEPENDENCY = PROJECT_ROOT / "node_modules" / "@huggingface" / "transformers"
+_runtime_install_lock = threading.Lock()
+
+
+def _ensure_node_runtime() -> None:
+    """Install inference dependencies when a legacy deploy skipped npm ci."""
+
+    if NODE_DEPENDENCY.is_dir():
+        return
+
+    with _runtime_install_lock:
+        if NODE_DEPENDENCY.is_dir():
+            return
+
+        try:
+            result = subprocess.run(
+                [
+                    os.getenv("NPM_BINARY", "npm"),
+                    "ci",
+                    "--omit=dev",
+                    "--no-audit",
+                    "--no-fund",
+                ],
+                cwd=PROJECT_ROOT,
+                text=True,
+                capture_output=True,
+                check=False,
+                timeout=300,
+            )
+        except FileNotFoundError as error:
+            raise RuntimeError("npm is required for sentiment inference") from error
+        except subprocess.TimeoutExpired as error:
+            raise RuntimeError("Installing sentiment dependencies timed out") from error
+
+        if result.returncode != 0:
+            detail = result.stderr.strip().splitlines()
+            message = detail[-1] if detail else "unknown npm error"
+            raise RuntimeError(f"Unable to install sentiment dependencies: {message}")
+        if not NODE_DEPENDENCY.is_dir():
+            raise RuntimeError("Sentiment dependencies were not installed correctly")
 
 
 class SentimentPipeline:
@@ -24,6 +66,7 @@ class SentimentPipeline:
         if not items:
             return []
 
+        _ensure_node_runtime()
         payload = json.dumps({"texts": items, "batchSize": batch_size})
         try:
             result = subprocess.run(

@@ -9,7 +9,7 @@ import threading
 from flask import Blueprint, jsonify, request
 
 from src.api.db import (
-    get_db_connection,
+    check_database,
     get_hot_ticker_list,
     get_posts_time,
     get_sentiment_by_ticker,
@@ -165,9 +165,10 @@ def get_ticker_sentiment_trends_specific(symbol: str):
 @api_bp.get("/health")
 def health_check():
     try:
-        with get_db_connection() as connection:
-            connection.cursor.execute("SELECT 1")
-        return jsonify({"status": "healthy", "database": "connected"})
+        backend = check_database()
+        return jsonify(
+            {"status": "healthy", "database": "connected", "backend": backend}
+        )
     except Exception:
         return jsonify({"status": "degraded", "database": "disconnected"}), 503
 
@@ -175,6 +176,7 @@ def health_check():
 _refresh_in_progress = False
 _refresh_lock = threading.Lock()
 _scheduler_started = False
+_scheduler_process_lock = None
 
 
 def _run_refresh():
@@ -190,7 +192,7 @@ def _run_refresh():
             _refresh_in_progress = False
 
 
-def _refresh_configuration_errors() -> list[str]:
+def _scraper_configuration_errors() -> list[str]:
     reddit_client = os.getenv("REDDIT_CLIENT_ID") or os.getenv("CLIENT_ID")
     reddit_secret = os.getenv("REDDIT_CLIENT_SECRET") or os.getenv("API_KEY")
     missing = []
@@ -198,11 +200,38 @@ def _refresh_configuration_errors() -> list[str]:
         missing.append("REDDIT_CLIENT_ID")
     if not reddit_secret:
         missing.append("REDDIT_CLIENT_SECRET")
-    if not os.getenv("DB_CONNECTION_STRING"):
-        missing.append("DB_CONNECTION_STRING")
+    return missing
+
+
+def _refresh_configuration_errors() -> list[str]:
+    missing = _scraper_configuration_errors()
     if not os.getenv("REFRESH_TOKEN"):
         missing.append("REFRESH_TOKEN")
     return missing
+
+
+def _claim_scheduler_process_lock() -> bool:
+    """Allow only one Gunicorn worker to own the in-process scheduler."""
+
+    global _scheduler_process_lock
+    if os.name != "posix":
+        return True
+
+    import fcntl
+
+    lock_path = os.getenv(
+        "REFRESH_SCHEDULER_LOCK_PATH",
+        "/tmp/marketsent-refresh-scheduler.lock",
+    )
+    lock_file = open(lock_path, "a+", encoding="utf-8")
+    try:
+        fcntl.flock(lock_file.fileno(), fcntl.LOCK_EX | fcntl.LOCK_NB)
+    except BlockingIOError:
+        lock_file.close()
+        return False
+
+    _scheduler_process_lock = lock_file
+    return True
 
 
 def _start_refresh() -> bool:
@@ -226,12 +255,14 @@ def start_refresh_scheduler() -> None:
     """Start one in-process scheduler for opportunistic Render refreshes."""
 
     global _scheduler_started
-    enabled = os.getenv("AUTO_REFRESH_ENABLED", "false").lower() in {"1", "true", "yes"}
-    if not enabled or _refresh_configuration_errors():
+    enabled = os.getenv("AUTO_REFRESH_ENABLED", "true").lower() in {"1", "true", "yes"}
+    if not enabled or _scraper_configuration_errors():
         return
 
     with _refresh_lock:
         if _scheduler_started:
+            return
+        if not _claim_scheduler_process_lock():
             return
         _scheduler_started = True
 

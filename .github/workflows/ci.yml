@@ -78,3 +78,6 @@ jobs:
 
       - name: Build frontend
         run: npm run build --prefix frontend
+
+      - name: Verify Render fallback bundle is current
+        run: git diff --exit-code -- frontend/dist
