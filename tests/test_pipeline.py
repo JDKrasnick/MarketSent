@@ -135,8 +135,29 @@ class PipelineTest(unittest.TestCase):
             stderr="Error: model unavailable\n",
         )
 
-        with self.assertRaisesRegex(RuntimeError, "model unavailable"):
-            SentimentPipeline().analyze("Text")
+        with patch.dict(
+            os.environ,
+            {"SENTIMENT_FALLBACK_ENABLED": "false"},
+            clear=False,
+        ):
+            with self.assertRaisesRegex(RuntimeError, "model unavailable"):
+                SentimentPipeline().analyze("Text")
+
+    def test_sentiment_runner_falls_back_when_runtime_is_missing(self):
+        missing_dependency = Path("/tmp/marketsent-missing-node-dependency")
+        env = {
+            "SENTIMENT_FALLBACK_ENABLED": "true",
+            "SENTIMENT_RUNTIME_INSTALL_ENABLED": "false",
+        }
+        with patch.dict(os.environ, env, clear=False):
+            with patch("src.pipeline.sentiment.NODE_DEPENDENCY", missing_dependency):
+                scores = SentimentPipeline().analyze_batch(
+                    ["Strong profit growth and record gains", "Weak loss warning"]
+                )
+
+        self.assertGreater(scores[0][0], scores[0][1])
+        self.assertGreater(scores[1][1], scores[1][0])
+        self.assertAlmostEqual(sum(scores[0]), 1.0)
 
     def test_sentiment_runtime_installs_missing_node_dependency(self):
         with tempfile.TemporaryDirectory() as directory:
@@ -146,12 +167,17 @@ class PipelineTest(unittest.TestCase):
                 dependency.mkdir(parents=True)
                 return SimpleNamespace(returncode=0, stdout="", stderr="")
 
-            with patch("src.pipeline.sentiment.NODE_DEPENDENCY", dependency):
-                with patch(
-                    "src.pipeline.sentiment.subprocess.run",
-                    side_effect=install_runtime,
-                ) as run:
-                    _ensure_node_runtime()
+            with patch.dict(
+                os.environ,
+                {"SENTIMENT_RUNTIME_INSTALL_ENABLED": "true"},
+                clear=False,
+            ):
+                with patch("src.pipeline.sentiment.NODE_DEPENDENCY", dependency):
+                    with patch(
+                        "src.pipeline.sentiment.subprocess.run",
+                        side_effect=install_runtime,
+                    ) as run:
+                        _ensure_node_runtime()
 
             command = run.call_args.args[0]
             self.assertEqual(command[:2], ["npm", "ci"])
