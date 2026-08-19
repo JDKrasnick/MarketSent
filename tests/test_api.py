@@ -192,6 +192,21 @@ class ApiRoutesTest(unittest.TestCase):
             self.assertEqual(routes._scraper_configuration_errors(), [])
             self.assertEqual(routes._refresh_configuration_errors(), ["REFRESH_TOKEN"])
 
+    def test_refresh_status_reports_processed_count(self):
+        with tempfile.TemporaryDirectory() as directory:
+            status_path = Path(directory) / "refresh.json"
+            with patch("src.api.routes._refresh_status_path", return_value=status_path):
+                with patch(
+                    "src.pipeline.preprocess.ProcessDB.ingestAndProcessWeek",
+                    return_value=[{}, {}],
+                ):
+                    routes._run_refresh()
+                response = self.client.get("/api/refresh/status")
+
+        self.assertEqual(response.status_code, 200)
+        self.assertEqual(response.get_json()["status"], "complete")
+        self.assertEqual(response.get_json()["processed"], 2)
+
     @patch("src.api.routes._start_refresh", return_value=True)
     def test_refresh_requires_configured_bearer_token(self, start_refresh):
         env = {

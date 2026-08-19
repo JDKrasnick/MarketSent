@@ -18,7 +18,7 @@ services:
       - key: REDDIT_SUBREDDITS
         value: stocks,wallstreetbets,investing,StockMarket
       - key: REDDIT_POST_LIMIT
-        value: "250"
+        value: "100"
       - key: SENTIMENT_MODEL
         value: mikeysharma/finance-sentiment-analysis
       - key: SENTIMENT_DTYPE
