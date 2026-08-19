@@ -23,6 +23,10 @@ services:
         value: mikeysharma/finance-sentiment-analysis
       - key: SENTIMENT_DTYPE
         value: fp32
+      - key: SENTIMENT_FALLBACK_ENABLED
+        value: "true"
+      - key: SENTIMENT_RUNTIME_INSTALL_ENABLED
+        value: "false"
       - key: AUTO_REFRESH_ENABLED
         value: "true"
       - key: REFRESH_INTERVAL_HOURS

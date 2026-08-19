@@ -81,11 +81,12 @@ gunicorn --bind 0.0.0.0:5000 'src.api.app:create_app()'
 The scraper reads the configured subreddits, analyzes posts in batches with a
 compact financial TinyBERT ONNX model, and inserts new rows while ignoring
 duplicate titles. The canonical Render build pre-downloads the 55 MB model;
-legacy Python-only deployments install the locked inference runtime on first
-use. Exactly one web worker starts a refresh shortly after each wake or deploy
-and repeats every 12 hours while the service remains awake. Existing post titles
-are filtered out before model inference. `REFRESH_TOKEN` is required only for
-manual refresh requests, not automatic scraping.
+legacy Python-only deployments use a deterministic financial lexicon when the
+optional ONNX runtime is unavailable. Exactly one web worker starts a refresh
+shortly after each wake or deploy and repeats every 12 hours while the service
+remains awake. Existing post titles are filtered out before model inference.
+`REFRESH_TOKEN` is required only for manual refresh requests, not automatic
+scraping.
 
 ```bash
 curl -X POST http://localhost:5000/api/refresh \
