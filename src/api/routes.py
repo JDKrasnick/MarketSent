@@ -1,10 +1,13 @@
 """HTTP routes for the MarketSent API."""
 
-import os
+import json
 import logging
+import os
 import re
 import secrets
 import threading
+from datetime import datetime, timezone
+from pathlib import Path
 
 from flask import Blueprint, jsonify, request
 
@@ -177,16 +180,49 @@ _refresh_in_progress = False
 _refresh_lock = threading.Lock()
 _scheduler_started = False
 _scheduler_process_lock = None
+_refresh_status_lock = threading.Lock()
+
+
+def _refresh_status_path() -> Path:
+    return Path(
+        os.getenv("REFRESH_STATUS_PATH", "/tmp/marketsent-refresh-status.json")
+    )
+
+
+def _write_refresh_status(status: str, **details) -> None:
+    payload = {
+        "status": status,
+        "updated_at": datetime.now(timezone.utc).isoformat(),
+        **details,
+    }
+    status_path = _refresh_status_path()
+    status_path.parent.mkdir(parents=True, exist_ok=True)
+    temporary_path = status_path.with_name(
+        f".{status_path.name}.{os.getpid()}.tmp"
+    )
+    with _refresh_status_lock:
+        temporary_path.write_text(json.dumps(payload), encoding="utf-8")
+        os.replace(temporary_path, status_path)
+
+
+def _read_refresh_status() -> dict:
+    try:
+        return json.loads(_refresh_status_path().read_text(encoding="utf-8"))
+    except (FileNotFoundError, json.JSONDecodeError, OSError):
+        return {"status": "idle", "message": "No refresh has run yet"}
 
 
 def _run_refresh():
     global _refresh_in_progress
+    _write_refresh_status("running")
     try:
         from src.pipeline.preprocess import ProcessDB
 
-        ProcessDB.ingestAndProcessWeek("posts")
-    except Exception:
+        processed = ProcessDB.ingestAndProcessWeek("posts")
+        _write_refresh_status("complete", processed=int(len(processed)))
+    except Exception as error:
         logger.exception("Background refresh failed")
+        _write_refresh_status("failed", error=type(error).__name__)
     finally:
         with _refresh_lock:
             _refresh_in_progress = False
@@ -243,8 +279,10 @@ def _start_refresh() -> bool:
 
     thread = threading.Thread(target=_run_refresh, daemon=True, name="marketsent-refresh")
     try:
+        _write_refresh_status("queued")
         thread.start()
     except Exception:
+        _write_refresh_status("failed", error="ThreadStartError")
         with _refresh_lock:
             _refresh_in_progress = False
         raise
@@ -281,11 +319,19 @@ def start_refresh_scheduler() -> None:
             _start_refresh()
             refresh_timer.wait(interval_seconds)
 
+    _write_refresh_status("scheduled", starts_in_seconds=start_delay)
     threading.Thread(
         target=schedule,
         daemon=True,
         name="marketsent-refresh-scheduler",
     ).start()
+
+
+@api_bp.get("/refresh/status")
+def refresh_status():
+    """Return non-sensitive state for the most recent automatic refresh."""
+
+    return jsonify(_read_refresh_status())
 
 
 @api_bp.post("/refresh")

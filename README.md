@@ -109,6 +109,7 @@ python -m src.pipeline.preprocess
 | `/api/hot_tickers?days=7&limit=10` | GET | Mentions ranked with a positive-sentiment boost |
 | `/api/tickers/AAPL?days=7` | GET | Posts mentioning one ticker |
 | `/api/trends?days=30&symbol=AAPL` | GET | Daily sentiment trends |
+| `/api/refresh/status` | GET | Last automatic refresh state and processed count |
 | `/api/refresh` | POST | Start an authenticated background refresh |
 
 Numeric query parameters are validated and bounded. Ticker symbols are

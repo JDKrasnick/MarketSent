@@ -85,11 +85,11 @@ class RedditAPIClient:
 
 
 def _configured_limit() -> int:
-    raw_limit = os.getenv("REDDIT_POST_LIMIT", "500")
+    raw_limit = os.getenv("REDDIT_POST_LIMIT", "100")
     try:
         return max(1, min(int(raw_limit), 1000))
     except ValueError:
-        return 500
+        return 100
 
 
 def posts_to_data(posts) -> dict[str, list]:

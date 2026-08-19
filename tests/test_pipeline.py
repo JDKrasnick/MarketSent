@@ -92,6 +92,12 @@ class PipelineTest(unittest.TestCase):
 
         self.assertEqual(len(frame), 1)
 
+    def test_reddit_client_defaults_to_bounded_first_run(self):
+        reddit = SimpleNamespace()
+        with patch.dict(os.environ, {"REDDIT_POST_LIMIT": ""}, clear=False):
+            client = RedditAPIClient(reddit=reddit)
+        self.assertEqual(client.limit, 100)
+
     def test_scraper_requires_credentials(self):
         env = {
             "REDDIT_CLIENT_ID": "",
