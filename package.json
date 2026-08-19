@@ -1,5 +1,14 @@
 {
+  "name": "marketsent-inference",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "warm-model": "node src/pipeline/sentiment.mjs --warm"
+  },
   "dependencies": {
-    "axios": "^1.13.2"
+    "@huggingface/transformers": "^3.8.1"
+  },
+  "overrides": {
+    "sharp": "^0.35.3"
   }
 }

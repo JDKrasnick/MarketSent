@@ -7,7 +7,7 @@ import {
     Tooltip,
     ResponsiveContainer,
 } from "recharts";
-import { TrendDataPoint } from "../types";
+import type { TrendDataPoint } from "../types";
 
 interface SentimentChartProps {
     data: TrendDataPoint[];
@@ -28,7 +28,12 @@ export function SentimentChart({ data, height = 300 }: SentimentChartProps) {
     }));
 
     return (
-        <div style={{ width: "100%", height }}>
+        <div
+            className="sentiment-chart"
+            style={{ height }}
+            role="img"
+            aria-label={`Stacked sentiment trend chart with ${chartData.length} daily data points`}
+        >
             <ResponsiveContainer>
                 <AreaChart data={chartData}>
                     <CartesianGrid strokeDasharray="3 3" stroke="#e0e0e0" />
@@ -49,7 +54,7 @@ export function SentimentChart({ data, height = 300 }: SentimentChartProps) {
                             border: "1px solid #e0e0e0",
                             fontSize: "12px",
                         }}
-                        formatter={(value: number) => [`${value.toFixed(1)}%`]}
+                        formatter={(value) => `${Number(value ?? 0).toFixed(1)}%`}
                     />
                     <Area
                         type="monotone"
@@ -58,6 +63,7 @@ export function SentimentChart({ data, height = 300 }: SentimentChartProps) {
                         stroke="#00b894"
                         fill="#55efc4"
                         name="Positive"
+                        isAnimationActive={false}
                     />
                     <Area
                         type="monotone"
@@ -66,6 +72,7 @@ export function SentimentChart({ data, height = 300 }: SentimentChartProps) {
                         stroke="#0984e3"
                         fill="#74b9ff"
                         name="Neutral"
+                        isAnimationActive={false}
                     />
                     <Area
                         type="monotone"
@@ -74,6 +81,7 @@ export function SentimentChart({ data, height = 300 }: SentimentChartProps) {
                         stroke="#d63031"
                         fill="#ff7675"
                         name="Negative"
+                        isAnimationActive={false}
                     />
                 </AreaChart>
             </ResponsiveContainer>

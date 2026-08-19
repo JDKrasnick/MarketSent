@@ -18,9 +18,16 @@ export function Header() {
                     MarketSent
                 </div>
                 <div className="header-right">
-                    <div className="info-button">
-                        <span className="info-icon">?</span>
-                        <div className="info-tooltip">
+                    <div className="info-control">
+                        <button
+                            type="button"
+                            className="info-button"
+                            aria-label="About MarketSent"
+                            aria-describedby="marketsent-description"
+                        >
+                            <span className="info-icon" aria-hidden="true">?</span>
+                        </button>
+                        <div className="info-tooltip" id="marketsent-description" role="tooltip">
                             <strong>MarketSent</strong> analyzes sentiment from Reddit stock discussions.
                             Track how investors feel about specific tickers using AI-powered sentiment analysis
                             of posts from r/wallstreetbets, r/stocks, and other finance communities.

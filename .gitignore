@@ -34,7 +34,9 @@ logs/
 
 # Build outputs
 frontend/dist/
+.cache/
 
 # Database
 *.db
 *.sqlite3
+.vercel

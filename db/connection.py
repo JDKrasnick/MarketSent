@@ -12,6 +12,8 @@ class SQLConnection:
     A class that contains the logic for creating a connection to the postgres database
     """
     def __init__(self):
+        self.conn = None
+        self.cursor = None
         try:
             # Use connection string if available (production), otherwise use individual params (local)
             connection_string = os.getenv('DB_CONNECTION_STRING')
@@ -38,5 +40,7 @@ class SQLConnection:
         self.close()
 
     def close(self):
-        self.cursor.close()
-        self.conn.close()
+        if self.cursor is not None and not self.cursor.closed:
+            self.cursor.close()
+        if self.conn is not None and not self.conn.closed:
+            self.conn.close()
