@@ -1,46 +1,121 @@
+"""Shared database engine with a resilient embedded fallback."""
+
+import logging
 import os
+import threading
+from pathlib import Path
 
-import psycopg2
 from dotenv import load_dotenv
+from sqlalchemy import create_engine, text
+from sqlalchemy.engine import Engine
 
-# Load .env file if it exists (for local development)
+
 load_dotenv()
+logger = logging.getLogger(__name__)
+
+_engine: Engine | None = None
+_backend: str | None = None
+_engine_lock = threading.Lock()
 
 
-class SQLConnection:
-    """
-    A class that contains the logic for creating a connection to the postgres database
-    """
-    def __init__(self):
-        self.conn = None
-        self.cursor = None
-        try:
-            # Use connection string if available (production), otherwise use individual params (local)
-            connection_string = os.getenv('DB_CONNECTION_STRING')
+SQLITE_SCHEMA = """
+CREATE TABLE IF NOT EXISTS posts (
+    postid INTEGER PRIMARY KEY AUTOINCREMENT,
+    text TEXT UNIQUE,
+    tickers TEXT,
+    positive FLOAT,
+    negative FLOAT,
+    neutral FLOAT,
+    confidence FLOAT,
+    post_text TEXT,
+    score FLOAT,
+    upvote_ratio FLOAT,
+    creation DATE
+)
+"""
 
-            if connection_string:
-                self.conn = psycopg2.connect(connection_string)
-            else:
-                # Fallback to individual parameters for local development
-                self.conn = psycopg2.connect(
-                    host=os.getenv('DB_HOST', 'localhost'),
-                    dbname=os.getenv('DB_NAME', 'postgres'),
-                    user=os.getenv('DB_USERNAME'),
-                    password=os.getenv('DB_PW'),
-                    port=os.getenv('DB_PORT', '5432')
+
+def _primary_engine(connection_string: str) -> Engine:
+    normalized = connection_string
+    if normalized.startswith("postgres://"):
+        normalized = normalized.replace("postgres://", "postgresql://", 1)
+    return create_engine(
+        normalized,
+        pool_pre_ping=True,
+        connect_args={"connect_timeout": 5},
+    )
+
+
+def _sqlite_engine() -> Engine:
+    configured_path = os.getenv("SQLITE_FALLBACK_PATH", "/tmp/marketsent.db")
+    database_path = Path(configured_path).expanduser().resolve()
+    database_path.parent.mkdir(parents=True, exist_ok=True)
+    return create_engine(
+        f"sqlite:///{database_path}",
+        connect_args={"check_same_thread": False, "timeout": 30},
+    )
+
+
+def _verify(engine: Engine) -> None:
+    with engine.connect() as connection:
+        connection.execute(text("SELECT 1"))
+
+
+def _initialize_sqlite(engine: Engine) -> None:
+    with engine.begin() as connection:
+        connection.execute(text(SQLITE_SCHEMA))
+        connection.execute(
+            text("CREATE INDEX IF NOT EXISTS post_day_created ON posts(creation)")
+        )
+
+
+def get_engine() -> Engine:
+    """Return PostgreSQL when healthy, otherwise a local SQLite continuity store."""
+
+    global _engine, _backend
+    if _engine is not None:
+        return _engine
+
+    with _engine_lock:
+        if _engine is not None:
+            return _engine
+
+        connection_string = os.getenv("DB_CONNECTION_STRING", "").strip()
+        if connection_string:
+            candidate = _primary_engine(connection_string)
+            try:
+                _verify(candidate)
+            except Exception as error:
+                candidate.dispose()
+                logger.warning(
+                    "PostgreSQL is unavailable; using the SQLite continuity store: %s",
+                    error,
                 )
-            self.cursor = self.conn.cursor()
-        except psycopg2.Error as e:
-            raise ConnectionError(f"Couldn't connect to PostgreSQL: {e}")
+            else:
+                _engine = candidate
+                _backend = "postgresql"
+                return _engine
 
-    def __enter__(self):
-        return self
+        fallback = _sqlite_engine()
+        _initialize_sqlite(fallback)
+        _engine = fallback
+        _backend = "sqlite"
+        return _engine
 
-    def __exit__(self, exc_type, exc_val, exc_tb):
-        self.close()
 
-    def close(self):
-        if self.cursor is not None and not self.cursor.closed:
-            self.cursor.close()
-        if self.conn is not None and not self.conn.closed:
-            self.conn.close()
+def get_backend() -> str:
+    """Return the active storage backend name."""
+
+    get_engine()
+    return _backend or "unknown"
+
+
+def reset_engine() -> None:
+    """Dispose cached state, primarily for isolated tests."""
+
+    global _engine, _backend
+    with _engine_lock:
+        if _engine is not None:
+            _engine.dispose()
+        _engine = None
+        _backend = None

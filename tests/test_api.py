@@ -1,10 +1,16 @@
 import os
 import tempfile
 import unittest
+from datetime import date
 from pathlib import Path
-from unittest.mock import MagicMock, patch
+from unittest.mock import patch
 
+from sqlalchemy import text
+
+from db import connection as database_connection
 from src.api.app import create_app
+from src.api import routes
+from src.api import db as api_database
 
 
 class ApiRoutesTest(unittest.TestCase):
@@ -67,25 +73,101 @@ class ApiRoutesTest(unittest.TestCase):
         response = self.client.get("/api/tickers/not%20a%20ticker")
         self.assertEqual(response.status_code, 400)
 
-    @patch("src.api.routes.get_db_connection")
-    def test_health_reports_connected_database(self, get_connection):
-        connection = MagicMock()
-        connection.__enter__.return_value = connection
-        get_connection.return_value = connection
-
+    @patch("src.api.routes.check_database", return_value="sqlite")
+    def test_health_reports_connected_database(self, _check_database):
         response = self.client.get("/api/health")
 
         self.assertEqual(response.status_code, 200)
         self.assertEqual(response.get_json()["status"], "healthy")
-        connection.cursor.execute.assert_called_once_with("SELECT 1")
+        self.assertEqual(response.get_json()["backend"], "sqlite")
 
-    @patch("src.api.routes.get_db_connection", side_effect=ConnectionError("offline"))
-    def test_health_reports_database_failure(self, _get_connection):
+    @patch("src.api.routes.check_database", side_effect=ConnectionError("offline"))
+    def test_health_reports_database_failure(self, _check_database):
         response = self.client.get("/api/health")
         self.assertEqual(response.status_code, 503)
         self.assertEqual(response.get_json()["status"], "degraded")
 
-    def test_refresh_explains_missing_configuration(self):
+    def test_sqlite_continuity_store_initializes_without_postgres(self):
+        with tempfile.TemporaryDirectory() as directory:
+            database_path = str(Path(directory) / "marketsent.db")
+            env = {
+                "DB_CONNECTION_STRING": "",
+                "SQLITE_FALLBACK_PATH": database_path,
+            }
+            with patch.dict(os.environ, env, clear=False):
+                database_connection.reset_engine()
+                try:
+                    engine = database_connection.get_engine()
+                    with engine.connect() as connection:
+                        tables = connection.exec_driver_sql(
+                            "SELECT name FROM sqlite_master WHERE type='table' AND name='posts'"
+                        ).scalar()
+                    self.assertEqual(tables, "posts")
+                    self.assertEqual(database_connection.get_backend(), "sqlite")
+                finally:
+                    database_connection.reset_engine()
+
+    def test_sqlite_continuity_store_supports_dashboard_queries(self):
+        with tempfile.TemporaryDirectory() as directory:
+            env = {
+                "DB_CONNECTION_STRING": "",
+                "SQLITE_FALLBACK_PATH": str(Path(directory) / "marketsent.db"),
+            }
+            with patch.dict(os.environ, env, clear=False):
+                database_connection.reset_engine()
+                try:
+                    engine = database_connection.get_engine()
+                    with engine.begin() as connection:
+                        connection.execute(
+                            text(
+                                """
+                                INSERT INTO posts
+                                    (text, post_text, tickers, positive, negative,
+                                     neutral, confidence, score, upvote_ratio, creation)
+                                VALUES
+                                    (:text, :post_text, :tickers, :positive, :negative,
+                                     :neutral, :confidence, :score, :upvote_ratio, :creation)
+                                """
+                            ),
+                            [
+                                {
+                                    "text": "Apple beats estimates",
+                                    "post_text": "AAPL demand remains strong",
+                                    "tickers": "AAPL",
+                                    "positive": 0.8,
+                                    "negative": 0.1,
+                                    "neutral": 0.1,
+                                    "confidence": 0.8,
+                                    "score": 100,
+                                    "upvote_ratio": 0.95,
+                                    "creation": date.today(),
+                                },
+                                {
+                                    "text": "Portfolio update",
+                                    "post_text": "AAPL and TSLA discussion",
+                                    "tickers": "AAPL,TSLA",
+                                    "positive": 0.2,
+                                    "negative": 0.6,
+                                    "neutral": 0.2,
+                                    "confidence": 0.6,
+                                    "score": 20,
+                                    "upvote_ratio": 0.7,
+                                    "creation": date.today(),
+                                },
+                            ],
+                        )
+
+                    self.assertEqual(len(api_database.search_posts("apple")), 1)
+                    self.assertEqual(len(api_database.get_sentiment_by_ticker("AAPL")), 2)
+                    self.assertEqual(len(api_database.get_sentiment_trends()), 1)
+                    self.assertEqual(api_database.get_top_ticker_list()[0][:2], ("AAPL", 2))
+                    response = self.client.get("/api/hot_tickers?days=7&limit=2")
+                    self.assertEqual(response.status_code, 200)
+                    self.assertEqual(response.get_json()["tickers"][0]["symbol"], "AAPL")
+                finally:
+                    database_connection.reset_engine()
+
+    def test_refresh_explains_missing_reddit_configuration(self):
         env = {
             "DB_CONNECTION_STRING": "",
             "REDDIT_CLIENT_ID": "",
@@ -97,7 +179,18 @@ class ApiRoutesTest(unittest.TestCase):
             response = self.client.post("/api/refresh")
 
         self.assertEqual(response.status_code, 503)
-        self.assertIn("DB_CONNECTION_STRING", response.get_json()["missing"])
+        self.assertIn("REDDIT_CLIENT_ID", response.get_json()["missing"])
+
+    def test_automatic_scraping_does_not_require_manual_refresh_token(self):
+        env = {
+            "DB_CONNECTION_STRING": "postgresql://configured",
+            "REDDIT_CLIENT_ID": "client",
+            "REDDIT_CLIENT_SECRET": "secret",
+            "REFRESH_TOKEN": "",
+        }
+        with patch.dict(os.environ, env, clear=False):
+            self.assertEqual(routes._scraper_configuration_errors(), [])
+            self.assertEqual(routes._refresh_configuration_errors(), ["REFRESH_TOKEN"])
 
     @patch("src.api.routes._start_refresh", return_value=True)
     def test_refresh_requires_configured_bearer_token(self, start_refresh):

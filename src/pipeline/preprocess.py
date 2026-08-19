@@ -1,14 +1,15 @@
 """Transform raw Reddit posts and persist analyzed results."""
 
-import os
 import re
 from typing import Optional
 
 import pandas as pd
 from dotenv import load_dotenv
-from sqlalchemy import bindparam, create_engine, text as sql_text
+from sqlalchemy import bindparam, text as sql_text
 from sqlalchemy.dialects.postgresql import insert as postgres_insert
+from sqlalchemy.dialects.sqlite import insert as sqlite_insert
 
+from db.connection import get_engine
 from src.pipeline.CompanyTickers import COMPANY_TICKERS
 from src.pipeline.ingest import RawDataIngestor
 from src.pipeline.sentiment import SentimentPipeline
@@ -28,8 +29,12 @@ def _insert_ignoring_duplicate_titles(table, connection, keys, data_iter):
     rows = [dict(zip(keys, row)) for row in data_iter]
     if not rows:
         return 0
-    statement = postgres_insert(table.table).values(rows)
-    statement = statement.on_conflict_do_nothing(index_elements=["text"])
+    insert_factory = (
+        sqlite_insert if connection.dialect.name == "sqlite" else postgres_insert
+    )
+    statement = insert_factory(table.table).values(rows).on_conflict_do_nothing(
+        index_elements=["text"]
+    )
     return connection.execute(statement).rowcount
 
 
@@ -37,10 +42,7 @@ class ProcessDB:
     @staticmethod
     def _engine():
         load_dotenv()
-        connection_string = os.getenv("DB_CONNECTION_STRING")
-        if not connection_string:
-            raise RuntimeError("DB_CONNECTION_STRING is required to persist scraped posts")
-        return create_engine(connection_string, pool_pre_ping=True)
+        return get_engine()
 
     @staticmethod
     def _ingest(period: str, table: str) -> pd.DataFrame:

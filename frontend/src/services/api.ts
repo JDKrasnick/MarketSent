@@ -104,7 +104,11 @@ export const getTickerTrends = (
 ): Promise<TrendsResponse> =>
     request(`/trends/${encodeURIComponent(symbol)}`, { days });
 
-export const getHealth = (): Promise<{ status: string; database: string }> =>
+export const getHealth = (): Promise<{
+    status: string;
+    database: string;
+    backend?: "postgresql" | "sqlite";
+}> =>
     request("/health");
 
 export const triggerRefresh = (
