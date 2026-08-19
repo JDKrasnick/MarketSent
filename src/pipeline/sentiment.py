@@ -34,6 +34,7 @@ def _ensure_node_runtime() -> None:
                     "--no-fund",
                 ],
                 cwd=PROJECT_ROOT,
+                env={**os.environ, "ONNXRUNTIME_NODE_INSTALL_CUDA": "skip"},
                 text=True,
                 capture_output=True,
                 check=False,

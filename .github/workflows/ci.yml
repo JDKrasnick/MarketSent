@@ -41,6 +41,8 @@ jobs:
 
       - name: Install inference dependencies
         run: npm ci
+        env:
+          ONNXRUNTIME_NODE_INSTALL_CUDA: skip
 
       - name: Audit inference dependencies
         run: npm audit --audit-level=high

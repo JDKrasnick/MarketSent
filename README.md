@@ -37,7 +37,7 @@ python3 -m venv .venv
 source .venv/bin/activate
 pip install -r requirements.txt
 npm ci --prefix frontend
-npm ci
+ONNXRUNTIME_NODE_INSTALL_CUDA=skip npm ci
 ```
 
 Create a root `.env` file with the services used by the backend:

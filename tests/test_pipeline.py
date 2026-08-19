@@ -150,6 +150,10 @@ class PipelineTest(unittest.TestCase):
             command = run.call_args.args[0]
             self.assertEqual(command[:2], ["npm", "ci"])
             self.assertEqual(run.call_args.kwargs["cwd"], PROJECT_ROOT)
+            self.assertEqual(
+                run.call_args.kwargs["env"]["ONNXRUNTIME_NODE_INSTALL_CUDA"],
+                "skip",
+            )
 
     @patch("src.pipeline.preprocess.SentimentPipeline")
     @patch("src.pipeline.preprocess.RawDataIngestor")
