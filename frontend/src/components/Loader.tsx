@@ -1,13 +1,8 @@
 export function Loader() {
     return (
-        <div style={{
-            display: "flex",
-            justifyContent: "center",
-            alignItems: "center",
-            padding: "var(--grid-8)",
-            color: "var(--dark-grey)"
-        }}>
-            Loading...
+        <div className="loader" role="status" aria-live="polite">
+            <span className="loader-mark" aria-hidden="true" />
+            Loading data
         </div>
     );
 }

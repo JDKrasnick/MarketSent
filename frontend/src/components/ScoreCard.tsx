@@ -2,11 +2,13 @@ interface ScoreCardProps {
     positive: number;
     negative: number;
     neutral: number;
-    mentions: number;
 }
 
-export function ScoreCard({ positive, negative, neutral, mentions: _mentions }: ScoreCardProps) {
-    const netScore = positive - negative;
+export function ScoreCard({ positive, negative, neutral }: ScoreCardProps) {
+    const safePositive = Number.isFinite(positive) ? positive : 0;
+    const safeNegative = Number.isFinite(negative) ? negative : 0;
+    const safeNeutral = Number.isFinite(neutral) ? neutral : 0;
+    const netScore = safePositive - safeNegative;
     const isPositive = netScore >= 0;
     const scorePercent = Math.abs(netScore * 100);
     const barWidth = Math.min(scorePercent, 100);
@@ -33,19 +35,19 @@ export function ScoreCard({ positive, negative, neutral, mentions: _mentions }: 
                     <div className="metrics">
                         <div className="metric-box">
                             <span className="metric-value" style={{ color: "var(--positive)" }}>
-                                {(positive * 100).toFixed(0)}%
+                                {(safePositive * 100).toFixed(0)}%
                             </span>
                             <span className="metric-label">Positive</span>
                         </div>
                         <div className="metric-box">
                             <span className="metric-value" style={{ color: "var(--neutral)" }}>
-                                {(neutral * 100).toFixed(0)}%
+                                {(safeNeutral * 100).toFixed(0)}%
                             </span>
                             <span className="metric-label">Neutral</span>
                         </div>
                         <div className="metric-box">
                             <span className="metric-value" style={{ color: "var(--negative)" }}>
-                                {(negative * 100).toFixed(0)}%
+                                {(safeNegative * 100).toFixed(0)}%
                             </span>
                             <span className="metric-label">Negative</span>
                         </div>

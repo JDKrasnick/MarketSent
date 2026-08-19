@@ -2,8 +2,6 @@
  The sql table creation for my database. Will contain all posts along with the comments linking to the posts
  */
 
-DROP TABLE IF EXISTS posts;
-
 CREATE TABLE IF NOT EXISTS posts(
     postId    SERIAL PRIMARY KEY,
     text      TEXT,
@@ -22,4 +20,4 @@ CREATE TABLE IF NOT EXISTS posts(
 
 
 -- Some indexes for characteristics I'll want to lookup
-CREATE INDEX post_day_created ON posts(creation);
+CREATE INDEX IF NOT EXISTS post_day_created ON posts(creation);

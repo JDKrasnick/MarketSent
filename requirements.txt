@@ -12,10 +12,9 @@ python-dotenv>=1.0.0
 
 # Data processing
 pandas>=2.0.0
+numpy>=1.24.0
 
 # Reddit API
 praw>=7.7.0
 
-# ML/Sentiment
-torch>=2.0.0
-transformers>=4.35.0
+# Sentiment inference runs through the compact ONNX model in package.json.

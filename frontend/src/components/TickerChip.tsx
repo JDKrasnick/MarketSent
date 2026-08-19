@@ -1,4 +1,4 @@
-import { TickerSentiment } from "../types";
+import type { TickerSentiment } from "../types";
 
 interface TickerChipProps {
     ticker: TickerSentiment;
@@ -12,15 +12,18 @@ export function TickerChip({ ticker, isActive = false, onClick }: TickerChipProp
     const scoreClass = netScore > 0.1 ? "pos" : netScore < -0.1 ? "neg" : "neu";
 
     return (
-        <div
+        <button
+            type="button"
             className={`stock-chip ${isActive ? "active" : ""}`}
             onClick={onClick}
+            aria-pressed={isActive}
+            aria-label={`Show ${ticker.symbol} sentiment`}
         >
             <span className="chip-ticker">{ticker.symbol}</span>
             <span className={`chip-score ${scoreClass}`}>
                 {netScore > 0 ? "+" : ""}
                 {(netScore * 100).toFixed(0)}%
             </span>
-        </div>
+        </button>
     );
 }

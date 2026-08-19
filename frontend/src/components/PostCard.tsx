@@ -1,13 +1,17 @@
-import { Post } from "../types";
+import type { Post } from "../types";
 
 interface PostCardProps {
     post: Post;
 }
 
 export function PostCard({ post }: PostCardProps) {
-    const netScore = post.positive - post.negative;
+    const positive = Number.isFinite(post.positive) ? post.positive : 0;
+    const negative = Number.isFinite(post.negative) ? post.negative : 0;
+    const neutral = Number.isFinite(post.neutral) ? post.neutral : 0;
+    const netScore = positive - negative;
     const isPositive = netScore >= 0;
-    const formattedDate = new Date(post.creation).toLocaleDateString("en-US", {
+    const parsedDate = new Date(post.creation);
+    const formattedDate = Number.isNaN(parsedDate.getTime()) ? "Unknown date" : parsedDate.toLocaleDateString("en-US", {
         month: "short",
         day: "numeric",
     });
@@ -43,18 +47,22 @@ export function PostCard({ post }: PostCardProps) {
                     ))}
                 </div>
             )}
-            <div className="post-sentiment-bar">
+            <div
+                className="post-sentiment-bar"
+                aria-label={`${(positive * 100).toFixed(0)}% positive, ${(neutral * 100).toFixed(0)}% neutral, ${(negative * 100).toFixed(0)}% negative`}
+                role="img"
+            >
                 <div
                     className="sentiment-segment positive"
-                    style={{ width: `${post.positive * 100}%` }}
+                    style={{ width: `${positive * 100}%` }}
                 />
                 <div
                     className="sentiment-segment neutral"
-                    style={{ width: `${post.neutral * 100}%` }}
+                    style={{ width: `${neutral * 100}%` }}
                 />
                 <div
                     className="sentiment-segment negative"
-                    style={{ width: `${post.negative * 100}%` }}
+                    style={{ width: `${negative * 100}%` }}
                 />
             </div>
         </article>

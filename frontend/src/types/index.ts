@@ -30,8 +30,9 @@ export interface Post {
  * Response from GET /api/posts?time=day|week
  */
 export interface PostsResponse {
-  tickers: Post[];
-  "Time period": string;
+  posts: Post[];
+  time: "day" | "week";
+  count: number;
 }
 
 // =============================================================================
@@ -141,4 +142,3 @@ export interface TickerSelectProps {
   onSelect: (ticker: string) => void;
   tickers: TickerSentiment[];
 }
-

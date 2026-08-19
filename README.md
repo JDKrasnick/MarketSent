@@ -1,49 +1,122 @@
 # MarketSent
 
-  Real-time sentiment analysis dashboard for stock market discussions. Analyzes Reddit posts from finance communities using AI-powered sentiment analysis to track how investors feel about specific tickers.
+MarketSent is a stock-market sentiment dashboard that analyzes recent Reddit
+finance discussions with a compact financial-language model. It tracks ticker mentions, sentiment mix,
+daily trends, and the posts behind each signal.
 
-  Try it out here!: https://market-sent.vercel.app/
-  
-  (Note: It's possible my Render instance spun down with inactivity, if so visit here to restart it: https://marketsent.onrender.com, then check again)
+**Live app:** https://marketsent.onrender.com/
 
-  ## Features
+The free Render service can take up to a minute to wake after a period of
+inactivity. The frontend and API share the same Render origin, so there is no
+separate frontend deployment to wake or configure.
 
-  - **Sentiment Tracking** - AI-powered analysis of Reddit posts from r/wallstreetbets, r/stocks, and other finance communities
-  - **Ticker Analysis** - View sentiment breakdown (positive/negative/neutral) for individual stock tickers
-  - **Trend Visualization** - Interactive charts showing sentiment over time
-  - **Top Mentions** - See which tickers are being discussed most frequently
-  - **Recent Posts** - Browse analyzed posts with sentiment scores
+## Features
 
+- Sentiment analysis of posts from configurable finance subreddits
+- Company-name, ticker-symbol, and cashtag extraction
+- Positive, negative, and neutral sentiment breakdowns
+- Daily trend visualization and top-mentioned ticker rankings
+- Recent source posts for each ticker
+- Protected, deduplicating background refresh endpoint
 
-<img width="1702" height="899" alt="Screenshot 2025-12-30 at 12 07 04 AM" src="https://github.com/user-attachments/assets/57324fff-df4d-4ba3-b4b5-b0cb5ac8fe9d" />
+## Stack
 
-  ## Tech Stack
+- **Frontend:** React, TypeScript, Vite, Recharts
+- **Backend:** Python, Flask, Gunicorn, TinyBERT/ONNX
+- **Data:** Reddit API, PostgreSQL (Supabase-compatible)
+- **Deployment:** One Render web service defined by `render.yaml`
 
-  **Frontend:** React, TypeScript, Vite, Recharts
+## Local development
 
-  **Backend:** Python, Flask, PostgreSQL, FinBERT, Reddit API
+Requirements: Python 3.11+, Node.js 22+, and PostgreSQL.
 
-  **Deployment:** Vercel (frontend), Render (backend), Supabase (database)
+```bash
+python3 -m venv .venv
+source .venv/bin/activate
+pip install -r requirements.txt
+npm ci --prefix frontend
+npm ci
+```
 
-  ## API Endpoints
+Create a root `.env` file with the services used by the backend:
 
-  | Endpoint                         | Method | Description                                       |
-  |----------------------------------|--------|---------------------------------------------------|
-  | /api/health                      | GET    | Health check - returns API and database status    |
-  | /api/toptickers?days=7           | GET    | Top mentioned tickers with sentiment scores       |
-  | /api/hot_tickers?days=7&limit=10 | GET    | Hot tickers ranked by mentions × sentiment        |
-  | /api/tickers/<symbol>?days=7     | GET    | Get all posts mentioning a specific ticker        |
-  | /api/trends?days=7&symbol=AAPL   | GET    | Overall sentiment trends (optional ticker filter) |
-  | /api/trends/<symbol>?days=7      | GET    | Sentiment trends for a specific ticker            |
-  | /api/posts?time=week             | GET    | Get posts by time period (day or week)            |
+```dotenv
+DB_CONNECTION_STRING=postgresql://user:password@host:5432/database
+REDDIT_CLIENT_ID=your_reddit_client_id
+REDDIT_CLIENT_SECRET=your_reddit_client_secret
+REDDIT_USER_AGENT=MarketSent/1.0
+REDDIT_SUBREDDITS=stocks,wallstreetbets,investing,StockMarket
+SENTIMENT_MODEL=mikeysharma/finance-sentiment-analysis
+SENTIMENT_DTYPE=fp32
+REFRESH_TOKEN=choose_a_long_random_value
+```
 
-  Query Parameters:
-  - days - Look-back period in days (default: 7)
-  - limit - Number of results to return
-  - time - Time period: "day" or "week"
-  - symbol - Stock ticker symbol (e.g., AAPL, TSLA)
+Initialize a new database without dropping any existing data:
 
-  ## License
+```bash
+psql "$DB_CONNECTION_STRING" -f db/schema.sql
+```
 
-  MIT
+Start the API and frontend in separate terminals:
 
+```bash
+python -m src.api.app
+npm run dev --prefix frontend
+```
+
+Vite proxies `/api` to Flask during development. A production build is served
+directly by Flask:
+
+```bash
+npm run build --prefix frontend
+gunicorn --bind 0.0.0.0:5000 'src.api.app:create_app()'
+```
+
+## Refreshing Reddit data
+
+The scraper reads the configured subreddits, analyzes posts in batches with a
+compact financial TinyBERT ONNX model, and inserts new rows while ignoring
+duplicate titles. Render pre-downloads the 55 MB model during its build, avoiding
+a large first-refresh download and keeping inference within the free service's
+memory limit. Its single web worker starts a refresh shortly after each wake or
+deploy and repeats every 12 hours while the service remains awake. Existing
+post titles are filtered out before model inference.
+
+```bash
+curl -X POST http://localhost:5000/api/refresh \
+  -H "Authorization: Bearer $REFRESH_TOKEN"
+```
+
+You can also run the weekly pipeline directly:
+
+```bash
+python -m src.pipeline.preprocess
+```
+
+## API
+
+| Endpoint | Method | Description |
+| --- | --- | --- |
+| `/api/health` | GET | API and database readiness |
+| `/api/posts?time=week&limit=100` | GET | Recent analyzed posts |
+| `/api/posts/search?q=tesla&limit=20` | GET | Search post titles and bodies |
+| `/api/toptickers?days=7&limit=10` | GET | Tickers ranked by mentions |
+| `/api/hot_tickers?days=7&limit=10` | GET | Mentions ranked with a positive-sentiment boost |
+| `/api/tickers/AAPL?days=7` | GET | Posts mentioning one ticker |
+| `/api/trends?days=30&symbol=AAPL` | GET | Daily sentiment trends |
+| `/api/refresh` | POST | Start an authenticated background refresh |
+
+Numeric query parameters are validated and bounded. Ticker symbols are
+normalized to uppercase before querying.
+
+## Verification
+
+```bash
+python -m unittest discover -s tests -v
+npm run lint --prefix frontend
+npm run build --prefix frontend
+```
+
+## License
+
+MIT

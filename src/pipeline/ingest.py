@@ -1,124 +1,125 @@
+"""Reddit ingestion for the MarketSent processing pipeline."""
+
 import os
-from datetime import datetime, timedelta
+from datetime import datetime, timezone
+from typing import Iterable, Optional
 
 import pandas as pd
 import praw
 from dotenv import load_dotenv
 
 
+DEFAULT_SUBREDDITS = ("stocks", "wallstreetbets", "investing", "StockMarket")
+
+
 class RawDataIngestor:
-    '''
-    The class that retreives API data and inserts the raw form into the database
-    '''
+    """Retrieve raw Reddit submissions for configured finance communities."""
 
-    def __init__(self):
-        self.api = RedditAPIClient()
-        self.subreddit = 'stocks'
+    def __init__(
+        self,
+        api: Optional["RedditAPIClient"] = None,
+        subreddits: Optional[Iterable[str]] = None,
+    ):
+        load_dotenv()
+        configured = os.getenv("REDDIT_SUBREDDITS")
+        if subreddits is not None:
+            selected = subreddits
+        elif configured:
+            selected = configured.split(",")
+        else:
+            selected = DEFAULT_SUBREDDITS
 
-    def get_last_day(self):
-        """
-        Returns: A dataframe containing up to 1000 posts from the last day, sorted by "top"
-        """
-        df = self.api.get_posts_daily(self.subreddit)
-        return df
+        self.subreddits = tuple(name.strip() for name in selected if name.strip())
+        if not self.subreddits:
+            raise ValueError("At least one subreddit must be configured")
+        self.api = api or RedditAPIClient()
 
+    @property
+    def subreddit_expression(self) -> str:
+        return "+".join(self.subreddits)
 
-    def get_last_week(self):
-        """
-        Returns: A dataframe containing up to 1000 posts from the last week, sorted by "top"
-        """
-        df = self.api.get_posts_weekly(self.subreddit)
-        return df
+    def get_last_day(self) -> pd.DataFrame:
+        return self.api.get_posts_daily(self.subreddit_expression)
+
+    def get_last_week(self) -> pd.DataFrame:
+        return self.api.get_posts_weekly(self.subreddit_expression)
 
 
 class RedditAPIClient:
+    """Small read-only PRAW client with explicit credential validation."""
 
-    def __init__(self):
-        '''
-        Initializes the Reddit API Client using PRAW
-        '''
-        load_dotenv('/Users/fastcheetah/PycharmProjects/MarketSent/.env')
-        self.client_id = os.getenv('CLIENT_ID')
-        self.client_secret = os.getenv('API_KEY')  # PRAW uses client_secret instead of API_KEY
+    def __init__(self, reddit=None, limit: Optional[int] = None):
+        load_dotenv()
+        self.limit = limit or _configured_limit()
+        if reddit is not None:
+            self.reddit = reddit
+            return
+
+        client_id = os.getenv("REDDIT_CLIENT_ID") or os.getenv("CLIENT_ID")
+        client_secret = os.getenv("REDDIT_CLIENT_SECRET") or os.getenv("API_KEY")
+        if not client_id or not client_secret:
+            raise RuntimeError(
+                "Reddit credentials are missing. Set REDDIT_CLIENT_ID and "
+                "REDDIT_CLIENT_SECRET."
+            )
 
         self.reddit = praw.Reddit(
-            client_id=self.client_id,
-            client_secret=self.client_secret,
-            user_agent='MarketSent_v0.0.1'
+            client_id=client_id,
+            client_secret=client_secret,
+            user_agent=os.getenv("REDDIT_USER_AGENT", "MarketSent/1.0"),
         )
+        self.reddit.read_only = True
 
-    def get_top_posts(self, subreddit):
-        '''
-        Returns: Top 100 posts from a subreddit
-        :param subreddit: The subreddit name posts are taken from
-        :return: A pandas dataframe containing the title, upvote ratio, upvotes, and overall score of each post
-        '''
-        subreddit_obj = self.reddit.subreddit(subreddit)
-        posts = subreddit_obj.hot(limit=None)
-
+    def get_top_posts(self, subreddit: str, period: str = "week") -> pd.DataFrame:
+        posts = self.reddit.subreddit(subreddit).top(
+            time_filter=period,
+            limit=self.limit,
+        )
         return pd.DataFrame(posts_to_data(posts))
 
-    def get_posts_daily(self, subreddit):
-        '''
-        Returns: Top 100 posts from the last day of a subreddit
+    def get_posts_daily(self, subreddit: str) -> pd.DataFrame:
+        return self.get_top_posts(subreddit, "day")
 
-        Requires: amount <= 1000
-
-        :param subreddit: The subreddit name posts are taken from
-        :return: A pandas dataframe containing posts from the last day
-        '''
-        subreddit_obj = self.reddit.subreddit(subreddit)
-        posts = subreddit_obj.hot(limit=None)
-
-        posts = [post for post in posts if datetime.fromtimestamp(post.created_utc) >= datetime.now() - timedelta(days=1)]
-
-        return pd.DataFrame(posts_to_data(posts))
-
-    def get_posts_weekly(self, subreddit):
-        '''
-        Returns: Top 100 posts from the last week of a subreddit
-
-        Requires: amount <= 1000
-
-        :param subreddit: The subreddit name posts are taken from
-        :return: A pandas dataframe containing posts from the last day
-        '''
-
-        subreddit_obj = self.reddit.subreddit(subreddit)
-        posts = subreddit_obj.hot(limit=None)
-
-        posts = [post for post in posts if datetime.fromtimestamp(post.created_utc) >= datetime.now() - timedelta(weeks=1)]
-
-        return pd.DataFrame(posts_to_data(posts))
+    def get_posts_weekly(self, subreddit: str) -> pd.DataFrame:
+        return self.get_top_posts(subreddit, "week")
 
 
-def posts_to_data(posts):
-    '''
-    Converts PRAW submission objects to a dictionary for DataFrame creation
-    :return: Dictionary with post data
-    '''
+def _configured_limit() -> int:
+    raw_limit = os.getenv("REDDIT_POST_LIMIT", "500")
+    try:
+        return max(1, min(int(raw_limit), 1000))
+    except ValueError:
+        return 500
+
+
+def posts_to_data(posts) -> dict[str, list]:
+    """Convert PRAW submission objects to DataFrame-ready columns."""
 
     data = {
-        'text': [],
-        'upvote_ratio': [],
-        'score': [],
-        'creation': [],
-        'tickers': [],
-        'positive': [],
-        'negative': [],
-        'neutral': [],
-        'post_text': []
+        "text": [],
+        "upvote_ratio": [],
+        "score": [],
+        "creation": [],
+        "tickers": [],
+        "positive": [],
+        "negative": [],
+        "neutral": [],
+        "confidence": [],
+        "post_text": [],
     }
 
     for post in posts:
-        data['text'].append(post.title)
-        data['upvote_ratio'].append(post.upvote_ratio)
-        data['score'].append(post.score)
-        data['creation'].append(datetime.fromtimestamp(post.created_utc))
-        data['tickers'].append(None)
-        data['positive'].append(None)
-        data['negative'].append(None)
-        data['neutral'].append(None)
-        data['post_text'].append(post.selftext)
+        data["text"].append(post.title)
+        data["upvote_ratio"].append(post.upvote_ratio)
+        data["score"].append(post.score)
+        data["creation"].append(
+            datetime.fromtimestamp(post.created_utc, tz=timezone.utc).date()
+        )
+        data["tickers"].append(None)
+        data["positive"].append(None)
+        data["negative"].append(None)
+        data["neutral"].append(None)
+        data["confidence"].append(None)
+        data["post_text"].append(post.selftext or "")
 
     return data
