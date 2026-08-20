@@ -36,12 +36,6 @@ logs/
 frontend/dist/
 .cache/
 
-# The existing Render service still uses a Python-only build command. Keep the
-# compiled dashboard available as a deployment fallback until its settings are
-# synced from render.yaml.
-!frontend/dist/
-!frontend/dist/**
-
 # Database
 *.db
 *.sqlite3

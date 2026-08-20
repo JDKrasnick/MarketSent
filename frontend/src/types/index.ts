@@ -9,8 +9,7 @@
 // =============================================================================
 
 /**
- * A single Reddit post with sentiment analysis data.
- * Matches the 'posts' table schema in PostgreSQL.
+ * A single source item with normalized sentiment data.
  */
 export interface Post {
   postid: number;         // Note: lowercase 'id' to match PostgreSQL
@@ -24,10 +23,23 @@ export interface Post {
   score: number;          // Reddit score (upvotes - downvotes)
   upvote_ratio: number;   // Reddit upvote ratio (0-1)
   creation: string;       // ISO date string
+  source: "reddit" | "google_news";
+  source_name: string;
+  publisher: string;
+  source_url: string;
+}
+
+export interface SourceStatus {
+  id: "reddit" | "google_news";
+  name: string;
+  status: "ok" | "partial" | "stale";
+  item_count: number;
+  updated_at: string | null;
+  message?: string;
 }
 
 /**
- * Response from GET /api/posts?time=day|week
+ * Recent posts derived from the production snapshot.
  */
 export interface PostsResponse {
   posts: Post[];
@@ -53,22 +65,24 @@ export interface TickerSentiment {
 }
 
 /**
- * Response from GET /api/tickers
+ * Aggregated ticker data derived from the production snapshot.
  */
 export interface TopTickersResponse {
   tickers: TickerSentiment[];
   days: number;
+  generated_at: string;
+  sources: SourceStatus[];
 }
 
 /**
- * Response from GET /api/tickers/:symbol?days=7
+ * Source items for one ticker.
  */
 export interface TickerDetailResponse {
   posts: Post[];
 }
 
 /**
- * Response from GET /api/hot_tickers?days=7&limit=10
+ * Tickers ranked by mention volume and positive momentum.
  */
 export interface HotTickersResponse {
   tickers: TickerSentiment[];
@@ -91,8 +105,7 @@ export interface TrendDataPoint {
 }
 
 /**
- * Response from GET /api/trends?days=7&symbol=X
- * Response from GET /api/trends/:symbol?days=7
+ * Daily sentiment averages for the selected market window.
  */
 export interface TrendsResponse {
   posts: TrendDataPoint[];

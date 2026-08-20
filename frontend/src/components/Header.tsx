@@ -28,9 +28,9 @@ export function Header() {
                             <span className="info-icon" aria-hidden="true">?</span>
                         </button>
                         <div className="info-tooltip" id="marketsent-description" role="tooltip">
-                            <strong>MarketSent</strong> analyzes sentiment from Reddit stock discussions.
-                            Track how investors feel about specific tickers using AI-powered sentiment analysis
-                            of posts from r/wallstreetbets, r/stocks, and other finance communities.
+                            <strong>MarketSent</strong> tracks ticker sentiment across Reddit finance
+                            communities and current market coverage from Google News. Source snapshots
+                            refresh automatically throughout the day.
                         </div>
                     </div>
                     <div className="header-meta">

@@ -27,14 +27,18 @@ export function PostCard({ post }: PostCardProps) {
                 <div className="post-meta">
                     <span className="post-date">{formattedDate}</span>
                     <span className="separator">/</span>
-                    <span className="post-score">Score: {post.score}</span>
+                    <span className="post-source">{post.publisher || post.source_name}</span>
                 </div>
                 <div className={`post-sentiment ${isPositive ? "positive" : "negative"}`}>
                     {isPositive ? "+" : ""}
                     {(netScore * 100).toFixed(0)}%
                 </div>
             </div>
-            <h3 className="post-title">{post.text}</h3>
+            <h3 className="post-title">
+                <a href={post.source_url} target="_blank" rel="noreferrer">
+                    {post.text}
+                </a>
+            </h3>
             {post.post_text && (
                 <p className="post-body">{post.post_text.slice(0, 200)}{post.post_text.length > 200 ? "..." : ""}</p>
             )}

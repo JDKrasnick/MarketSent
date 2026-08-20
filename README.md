@@ -1,127 +1,80 @@
 # MarketSent
 
-MarketSent is a stock-market sentiment dashboard that analyzes recent Reddit
-finance discussions with a compact financial-language model. It tracks ticker mentions, sentiment mix,
-daily trends, and the posts behind each signal.
+MarketSent is a stock-market sentiment dashboard built from recent investor
+discussion and market coverage. It tracks ticker mentions, positive/negative
+sentiment, daily trends, and the source items behind each signal.
 
-**Live app:** https://marketsent.onrender.com/
+**Live app:** https://marketsent.jdkrasnick.com/
 
-The free Render service can take up to a minute to wake after a period of
-inactivity. The frontend and API share the same Render origin, so there is no
-separate frontend deployment to wake or configure.
+The production site runs entirely on Vercel. A scheduled GitHub Actions job
+refreshes the bundled dataset every six hours, so the dashboard has no sleeping
+web service or external runtime dependency.
 
-## Features
+## Sources and features
 
-- Sentiment analysis of posts from configurable finance subreddits
+- Top weekly posts from r/stocks, r/investing, r/wallstreetbets, and r/StockMarket
+- Current stock-market and earnings coverage from Google News RSS
 - Company-name, ticker-symbol, and cashtag extraction
-- Positive, negative, and neutral sentiment breakdowns
+- Positive, negative, and neutral financial-language sentiment
 - Daily trend visualization and top-mentioned ticker rankings
-- Recent source posts for each ticker
-- Protected, deduplicating background refresh endpoint
+- Direct links to every source item
+- Per-source freshness and partial-outage status
+- Last-good-data continuity when a feed is temporarily unavailable
 
-## Stack
+## Production data flow
 
-- **Frontend:** React, TypeScript, Vite, Recharts
-- **Backend:** Python, Flask, Gunicorn, TinyBERT/ONNX
-- **Data:** Reddit API, PostgreSQL with an embedded SQLite continuity store
-- **Deployment:** One Render web service defined by `render.yaml`
+```text
+Reddit Atom feeds ─┐
+                   ├─ GitHub Actions ─ sentiment snapshot ─ Vercel
+Google News RSS ───┘
+```
+
+The `Refresh market data` workflow runs at minute 17 every six hours and can
+also be started manually. It downloads both sources, runs the compact ONNX
+financial-language model, writes `frontend/public/data/marketsent.json`, and
+commits a changed snapshot to `main`. Vercel deploys that commit as a static
+frontend and data file.
 
 ## Local development
 
-Requirements: Python 3.11+ and Node.js 22+. PostgreSQL is recommended for
-durable production history; SQLite is used automatically when it is not
-configured or temporarily unavailable.
+Requirements: Python 3.11+ and Node.js 22+.
 
 ```bash
-python3 -m venv .venv
-source .venv/bin/activate
-pip install -r requirements.txt
+npm ci
 npm ci --prefix frontend
-ONNXRUNTIME_NODE_INSTALL_CUDA=skip npm ci
-```
-
-Create a root `.env` file with the services used by the backend:
-
-```dotenv
-# Optional; omit to use the local SQLite continuity store.
-DB_CONNECTION_STRING=postgresql://user:password@host:5432/database
-SQLITE_FALLBACK_PATH=/tmp/marketsent.db
-REDDIT_CLIENT_ID=your_reddit_client_id
-REDDIT_CLIENT_SECRET=your_reddit_client_secret
-REDDIT_USER_AGENT=MarketSent/1.0
-REDDIT_SUBREDDITS=stocks,wallstreetbets,investing,StockMarket
-SENTIMENT_MODEL=mikeysharma/finance-sentiment-analysis
-SENTIMENT_DTYPE=fp32
-REFRESH_TOKEN=choose_a_long_random_value
-```
-
-Optionally initialize a new PostgreSQL database without dropping existing data:
-
-```bash
-psql "$DB_CONNECTION_STRING" -f db/schema.sql
-```
-
-Start the API and frontend in separate terminals:
-
-```bash
-python -m src.api.app
+python3 scripts/build_snapshot.py
 npm run dev --prefix frontend
 ```
 
-Vite proxies `/api` to Flask during development. A production build is served
-directly by Flask:
+The default snapshot command uses the deterministic sentiment fallback and has
+no credentials or Python package dependencies. To reproduce the production
+model pass after installing root Node dependencies:
 
 ```bash
-npm run build --prefix frontend
-gunicorn --bind 0.0.0.0:5000 'src.api.app:create_app()'
+ONNXRUNTIME_NODE_INSTALL_CUDA=skip npm ci
+npm run warm-model
+python3 scripts/build_snapshot.py --model
 ```
 
-## Refreshing Reddit data
+Vite serves the generated snapshot from `/data/marketsent.json` and reloads the
+dashboard source normally. No Flask process is needed for the production UI.
 
-The scraper reads the configured subreddits, analyzes posts in batches with a
-compact financial TinyBERT ONNX model, and inserts new rows while ignoring
-duplicate titles. The canonical Render build pre-downloads the 55 MB model;
-legacy Python-only deployments use a deterministic financial lexicon when the
-optional ONNX runtime is unavailable. Exactly one web worker starts a refresh
-shortly after each wake or deploy and repeats every 12 hours while the service
-remains awake. Existing post titles are filtered out before model inference.
-`REFRESH_TOKEN` is required only for manual refresh requests, not automatic
-scraping.
+## Optional Flask API
 
-```bash
-curl -X POST http://localhost:5000/api/refresh \
-  -H "Authorization: Bearer $REFRESH_TOKEN"
-```
-
-You can also run the weekly pipeline directly:
-
-```bash
-python -m src.pipeline.preprocess
-```
-
-## API
-
-| Endpoint | Method | Description |
-| --- | --- | --- |
-| `/api/health` | GET | API and database readiness |
-| `/api/posts?time=week&limit=100` | GET | Recent analyzed posts |
-| `/api/posts/search?q=tesla&limit=20` | GET | Search post titles and bodies |
-| `/api/toptickers?days=7&limit=10` | GET | Tickers ranked by mentions |
-| `/api/hot_tickers?days=7&limit=10` | GET | Mentions ranked with a positive-sentiment boost |
-| `/api/tickers/AAPL?days=7` | GET | Posts mentioning one ticker |
-| `/api/trends?days=30&symbol=AAPL` | GET | Daily sentiment trends |
-| `/api/refresh/status` | GET | Last automatic refresh state and processed count |
-| `/api/refresh` | POST | Start an authenticated background refresh |
-
-Numeric query parameters are validated and bounded. Ticker symbols are
-normalized to uppercase before querying.
+The repository retains the Flask/PostgreSQL pipeline for local data experiments
+and API compatibility. It is not part of the Vercel deployment. To run it,
+install `requirements.txt`, configure Reddit API and database variables in
+`.env`, and start `python3 -m src.api.app`.
 
 ## Verification
 
 ```bash
-python -m unittest discover -s tests -v
+python3 -m unittest discover -s tests -v
+npm audit --audit-level=high
+npm audit --audit-level=high --prefix frontend
 npm run lint --prefix frontend
 npm run build --prefix frontend
+python3 -m json.tool frontend/public/data/marketsent.json >/dev/null
 ```
 
 ## License

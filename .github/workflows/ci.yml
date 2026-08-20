@@ -81,5 +81,5 @@ jobs:
       - name: Build frontend
         run: npm run build --prefix frontend
 
-      - name: Verify Render fallback bundle is current
-        run: git diff --exit-code -- frontend/dist
+      - name: Verify production snapshot is valid JSON
+        run: python3 -m json.tool frontend/public/data/marketsent.json >/dev/null
