@@ -1,20 +1,20 @@
 {
   "schema_version": 2,
-  "generated_at": "2026-08-20T00:25:02.446416Z",
+  "generated_at": "2026-08-20T00:28:45.581080Z",
   "sources": [
     {
       "id": "reddit",
       "name": "Reddit",
       "status": "ok",
       "item_count": 100,
-      "updated_at": "2026-08-20T00:25:02.446416Z"
+      "updated_at": "2026-08-20T00:28:45.581080Z"
     },
     {
       "id": "google_news",
       "name": "Google News",
       "status": "ok",
       "item_count": 100,
-      "updated_at": "2026-08-20T00:25:02.446416Z"
+      "updated_at": "2026-08-20T00:28:45.581080Z"
     }
   ],
   "count": 199,
@@ -31,10 +31,10 @@
       "publisher": "axios.com",
       "source_url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE0wSTd6Vm95Y0RBOGxfLUhlT01QRWx2bktpS2h2eFF4WFY5ZmNCU1JXeWtJcFB4aGtCMXlucVJSQVVlQlF4M0x5RjMwazdpSC1BYm9xTDdULUJOenRmd1lpNHVMY0FFUEFib3E0Zndqbw?oc=5",
       "tickers": "",
-      "positive": 0.438736,
+      "positive": 0.438737,
       "negative": 0.016872,
-      "neutral": 0.544392,
-      "confidence": 0.544392
+      "neutral": 0.544391,
+      "confidence": 0.544391
     },
     {
       "postid": 271646635109526,
@@ -67,8 +67,8 @@
       "tickers": "",
       "positive": 0.091727,
       "negative": 0.22351,
-      "neutral": 0.684764,
-      "confidence": 0.684764
+      "neutral": 0.684763,
+      "confidence": 0.684763
     },
     {
       "postid": 264428343874006,
@@ -99,10 +99,10 @@
       "publisher": "r/wallstreetbets",
       "source_url": "https://www.reddit.com/r/wallstreetbets/comments/1vsf7u7/sk_hynix_acquires_40_trillion_won_shares_for/",
       "tickers": "",
-      "positive": 0.540465,
+      "positive": 0.540463,
       "negative": 0.054074,
-      "neutral": 0.405461,
-      "confidence": 0.540465
+      "neutral": 0.405463,
+      "confidence": 0.540463
     },
     {
       "postid": 243038983356190,
@@ -168,7 +168,7 @@
       "source_url": "https://www.reddit.com/r/wallstreetbets/comments/1vscv7x/getting_zucked/",
       "tickers": "",
       "positive": 0.024376,
-      "negative": 0.289991,
+      "negative": 0.28999,
       "neutral": 0.685634,
       "confidence": 0.685634
     },
@@ -225,20 +225,20 @@
     },
     {
       "postid": 186353739231788,
-      "text": "Here’s How Much Traders Expect Walmart Stock to Move After Earnings - Investopedia",
-      "post_text": "Here’s How Much Traders Expect Walmart Stock to Move After Earnings Investopedia",
+      "text": "Here’s How Much Traders Expect Walmart Stock to Move After Earnings - investopedia.com",
+      "post_text": "Here’s How Much Traders Expect Walmart Stock to Move After Earnings investopedia.com",
       "score": 0,
       "upvote_ratio": 0,
       "creation": "2026-08-19",
       "source": "google_news",
       "source_name": "Google News",
-      "publisher": "Investopedia",
+      "publisher": "investopedia.com",
       "source_url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxPeUNnekUtT0NUVTBPdkRiWGFpNEp5d0djMEFXa1NFU043UUxjOFBrR281TkFGRVpURFBEMlZfUG05X1BoanlobjRPRFFnS1RQVExpUUJlZjdMbnhpT2FSbFVfeFBCb0JQSTVwUjlQSGZ3enNEV3BZZGZpblp6RFRrS3Vyc29MRFBEbGUyb0tjNDJwVVd0R3BoQUVKQ2ZEMG85VmUtYkpNYkVnUmpRcDVNYXdNZHVKZHc2b1E?oc=5",
       "tickers": "WMT",
-      "positive": 0.035522,
-      "negative": 0.020234,
-      "neutral": 0.944244,
-      "confidence": 0.944244
+      "positive": 0.022559,
+      "negative": 0.013673,
+      "neutral": 0.963768,
+      "confidence": 0.963768
     },
     {
       "postid": 178378171426475,
@@ -254,8 +254,8 @@
       "tickers": "",
       "positive": 0.228401,
       "negative": 0.105597,
-      "neutral": 0.666001,
-      "confidence": 0.666001
+      "neutral": 0.666002,
+      "confidence": 0.666002
     },
     {
       "postid": 172459365887713,
@@ -356,7 +356,7 @@
       "tickers": "",
       "positive": 0.832402,
       "negative": 0.010801,
-      "neutral": 0.156798,
+      "neutral": 0.156797,
       "confidence": 0.832402
     },
     {
@@ -388,10 +388,10 @@
       "publisher": "CNBC",
       "source_url": "https://news.google.com/rss/articles/CBMickFVX3lxTE1qbGJ2ajhnbkUwUVNhYkk3SVc3bzlaWVdrendoaXlpM3JjYkliMVI0ZkJybWMxVllyNFBJRjFWYk5faDlLVFg1am5KV0QtVDdCbnFsNkxtRFZzUVhPN0EyempURUFUdG1pMmNISEFVQlM2UdIBd0FVX3lxTE4yWG43Y0FmeVRVZml1UThMVU1qdVU0LW9CUHV0ZTc5ZmRha2x6VjNfaTBLb25jTVlhaDRqMFhBdmpHUFprckJJeml6NTdrRW1aWDV1TnVIZ05wM2VPY251eTVGOENlMFRxWnp3R0dIbGtUcl9aX2tZ?oc=5",
       "tickers": "TGT",
-      "positive": 0.57397,
+      "positive": 0.573971,
       "negative": 0.012439,
-      "neutral": 0.413592,
-      "confidence": 0.57397
+      "neutral": 0.41359,
+      "confidence": 0.573971
     },
     {
       "postid": 108899016674139,
@@ -507,7 +507,7 @@
       "publisher": "r/stocks",
       "source_url": "https://www.reddit.com/r/stocks/comments/1vsi83x/sk_hynix_just_announced_a_nearly_29b_buyback/",
       "tickers": "",
-      "positive": 0.378276,
+      "positive": 0.378275,
       "negative": 0.513385,
       "neutral": 0.108339,
       "confidence": 0.513385
@@ -526,7 +526,7 @@
       "tickers": "",
       "positive": 0.016699,
       "negative": 0.800648,
-      "neutral": 0.182653,
+      "neutral": 0.182654,
       "confidence": 0.800648
     },
     {
@@ -542,7 +542,7 @@
       "source_url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPMG81aklqMVNadGhVOXpYR29jSC1KeVh1RENTbFNLUHRkREtCOWlpT1FBNko0X0dYTkpwOXFpZUxtSndDMHF4dV9FdEJXTGh4VDdna3V0Y2tmUWJfaHVHWXhJZll5RHVCQ0RpVnF6Q3JIUzlBS2hsZmtDNjVWSGRGZmhWOW9NM1piMERrVDhtbzVVd1JicFZ5RkdRMzN2SjlLajRoTEEtYmxJSzdw?oc=5",
       "tickers": "",
       "positive": 0.430116,
-      "negative": 0.353929,
+      "negative": 0.353928,
       "neutral": 0.215956,
       "confidence": 0.430116
     },
@@ -558,10 +558,10 @@
       "publisher": "r/wallstreetbets",
       "source_url": "https://www.reddit.com/r/wallstreetbets/comments/1vsbal1/chinas_backflipping_robot_maker_unitree_pops_542/",
       "tickers": "",
-      "positive": 0.81337,
+      "positive": 0.813369,
       "negative": 0.028787,
-      "neutral": 0.157843,
-      "confidence": 0.81337
+      "neutral": 0.157844,
+      "confidence": 0.813369
     },
     {
       "postid": 68466930423727,
@@ -627,9 +627,9 @@
       "source_url": "https://www.reddit.com/r/StockMarket/comments/1vs9pvs/trump_pauses_50_tariffs_on_canada_for_3_days/",
       "tickers": "",
       "positive": 0.02456,
-      "negative": 0.207684,
-      "neutral": 0.767756,
-      "confidence": 0.767756
+      "negative": 0.207683,
+      "neutral": 0.767757,
+      "confidence": 0.767757
     },
     {
       "postid": 42938738548401,
@@ -728,10 +728,10 @@
       "publisher": "MarketWatch",
       "source_url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxNUUtRZHpzYWlLVlMycEUyWEdtQ3ZiQ3RpbldFUjRYa25lTm5raVhIczhNWGVxVm5UazlsLXhjM1lXRjVqV3lzREdpVkpUb3hzZHJYMW1tUk96SU5IMlcxaUVPamd1VlVJdEcxVjl3UkxRMC1DdUxCNkRXWWlyZi1ob1NjQTNiRV9Ga0Q0SHppYU9PQXB5ODM1SjJSaDIxOG83T0lPcnFvT1JzZDV5ZHpKcG9RU1JiT0JrRmhoOEZVY0g?oc=5",
       "tickers": "MU",
-      "positive": 0.879896,
+      "positive": 0.879895,
       "negative": 0.033015,
       "neutral": 0.087089,
-      "confidence": 0.879896
+      "confidence": 0.879895
     },
     {
       "postid": 238844744092123,
@@ -747,8 +747,8 @@
       "tickers": "NVDA",
       "positive": 0.206235,
       "negative": 0.010054,
-      "neutral": 0.783712,
-      "confidence": 0.783712
+      "neutral": 0.783711,
+      "confidence": 0.783711
     },
     {
       "postid": 237254261600498,
@@ -779,7 +779,7 @@
       "publisher": "CNBC",
       "source_url": "https://news.google.com/rss/articles/CBMingFBVV95cUxOd2REMTRaZ2E5UUM2LUIxZFRKMmR4b3pGTUVVR216T1cxMjJtM081aHBWaDdyU0ZIaFc1R2d5dEw2RFZrMXI4eXFERW1xWWRVcV94S3NidUxDMHIwOE43MmdoT2FlSTF3eThTVVRKMTdzVGVmQ3EzRFFrOV9nenlybjRTbC15ZEtLUTNXZDgxbnl4TzFDaWVtNmJoZ3FyZw?oc=5",
       "tickers": "",
-      "positive": 0.06325,
+      "positive": 0.063251,
       "negative": 0.81179,
       "neutral": 0.124959,
       "confidence": 0.81179
@@ -814,9 +814,9 @@
       "source_url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxQVVo1bzFWd1pIWG5tdW9Ldm1CUkZoQnlRYVFDQXdFWDhiQW1ZdVBlU21jdmFHcktDd1VyNkhWOXpPT1RfWERuVC0yX0RCazdVc1VIem04WU8ySDBrZGFPZGl2M1dRVzBpeGRHNV8xRGt2QWZlMmcxVU90cUxnVVl4d2cwT0lyYVFEMi0w?oc=5",
       "tickers": "",
       "positive": 0.011691,
-      "negative": 0.270709,
-      "neutral": 0.7176,
-      "confidence": 0.7176
+      "negative": 0.270708,
+      "neutral": 0.717601,
+      "confidence": 0.717601
     },
     {
       "postid": 180359738921476,
@@ -915,10 +915,10 @@
       "publisher": "r/wallstreetbets",
       "source_url": "https://www.reddit.com/r/wallstreetbets/comments/1vrzz4a/scalping_spx_will_be_the_death_of_me/",
       "tickers": "",
-      "positive": 0.055653,
+      "positive": 0.055654,
       "negative": 0.259252,
-      "neutral": 0.685094,
-      "confidence": 0.685094
+      "neutral": 0.685095,
+      "confidence": 0.685095
     },
     {
       "postid": 138828907947772,
@@ -951,7 +951,7 @@
       "tickers": "",
       "positive": 0.014315,
       "negative": 0.625605,
-      "neutral": 0.36008,
+      "neutral": 0.360079,
       "confidence": 0.625605
     },
     {
@@ -967,7 +967,7 @@
       "source_url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxOb3lXQVg0dmFDZmU0bVN0ajN5R0ctMmlKWEJTZnlLdGVCNFZlcnUzbU9FNzB3blRKRkhCS25ib2JkNzNQeHctQ2phamVTcHJNQTdFTnh1TWdOUEJTbXdnc1U0WnpZbm1MdVhCNm5NaHFOeVBoU05nelR0T3VkY1QwcnZDN3ppbWk2akh2YWJmanZHNUtBOXBob2FiLTc?oc=5",
       "tickers": "AAPL",
       "positive": 0.266563,
-      "negative": 0.317111,
+      "negative": 0.317112,
       "neutral": 0.416326,
       "confidence": 0.416326
     },
@@ -1018,9 +1018,9 @@
       "source_url": "https://www.reddit.com/r/wallstreetbets/comments/1vs0jh8/nasdaq_plans_to_have_23_hour_trading_5_days_a/",
       "tickers": "",
       "positive": 0.012602,
-      "negative": 0.535197,
-      "neutral": 0.452201,
-      "confidence": 0.535197
+      "negative": 0.535198,
+      "neutral": 0.4522,
+      "confidence": 0.535198
     },
     {
       "postid": 120814928120189,
@@ -1240,8 +1240,8 @@
       "tickers": "",
       "positive": 0.103253,
       "negative": 0.009187,
-      "neutral": 0.887559,
-      "confidence": 0.887559
+      "neutral": 0.88756,
+      "confidence": 0.88756
     },
     {
       "postid": 62430307820575,
@@ -1290,9 +1290,9 @@
       "source_url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxOdU13WXBobTQ1bzRMMnh5QndnSE9TaFYxbGVlVHpRRUVFR1RVT3VtVFlQODdBMlFRS0pjTlg2R1pQVWNKUzFSXzlhVFcySklPajR0LTI4WWQtcVVsT3JLWjByZnljVUNnTUFrNHFzYjZHcmduV3lLRkhTT2paQWlJY3I1VHR6Vms?oc=5",
       "tickers": "",
       "positive": 0.022612,
-      "negative": 0.91155,
+      "negative": 0.911551,
       "neutral": 0.065838,
-      "confidence": 0.91155
+      "confidence": 0.911551
     },
     {
       "postid": 31340090968244,
@@ -1324,7 +1324,7 @@
       "source_url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE8wLVVoYllEQmN5czRCWGhZSHpOQUpxSWtCMW5EQjZmcHRnMmY1anVMYzFzUmpfMWw3RTIzaXdjdDdxdnpOQzI5bzJaZ3FPSEtLZWptX0ZMQ2F4MjJDMjlOWERlVl85TklmbmZjX0EwdHpHblhKUE0zU1NwcDE?oc=5",
       "tickers": "",
       "positive": 0.022622,
-      "negative": 0.064805,
+      "negative": 0.064804,
       "neutral": 0.912573,
       "confidence": 0.912573
     },
@@ -1341,7 +1341,7 @@
       "source_url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxOMDJMT0hxSWtHRUppMmgydmpNNnRJc1lONnZMOVB0MTJGTlJEUTZxRGFTbXpoaWhOazA1UHpEbFptUXNRQkNRRks1Q0xqeGIxbzNwVzRvUkloTHM0LUtacDAtNVJoOGM3MjBua2dwZ2RXdTFQX1BqXzdZbU9QckRHWXB5WlpPQjlkaHBPdVpZR3IxWXk2MDFsUGk5WUtRTHJWdGNOQzRpUUdmbmJkandQRk1MOWo1UQ?oc=5",
       "tickers": "MU",
       "positive": 0.022856,
-      "negative": 0.054916,
+      "negative": 0.054915,
       "neutral": 0.922228,
       "confidence": 0.922228
     },
@@ -1359,8 +1359,8 @@
       "tickers": "",
       "positive": 0.162128,
       "negative": 0.010413,
-      "neutral": 0.827459,
-      "confidence": 0.827459
+      "neutral": 0.82746,
+      "confidence": 0.82746
     },
     {
       "postid": 275218970005177,
@@ -1409,9 +1409,9 @@
       "source_url": "https://www.reddit.com/r/stocks/comments/1vqhf41/the_yen_carry_trade_will_eventually_unwind_and/",
       "tickers": "",
       "positive": 0.133235,
-      "negative": 0.503432,
+      "negative": 0.503433,
       "neutral": 0.363333,
-      "confidence": 0.503432
+      "confidence": 0.503433
     },
     {
       "postid": 264167272816268,
@@ -1442,10 +1442,10 @@
       "publisher": "Bloomberg.com",
       "source_url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQelpFelJfUmFKNHR3aV83S0ZiOFg4Q2ZkWTZWYlZmYUkxSjdhNU5aejRnODlBS29pVmI1NjZEYkRtNExLM3dCYW9hR3lDNmNRcUMzS1hVT3c1Zjc2Qk9Nd3daWlFQamxHS05oTk54NWhLZ2l5a19JQU9weUxpcEZGaHVZT3p3VnV2UFpaM0VWTDFVRDlnWGd0WWJIYU9xYXZYNDA5X080eDd1MW4taHJ3bF9rSDE?oc=5",
       "tickers": "",
-      "positive": 0.636549,
-      "negative": 0.306516,
-      "neutral": 0.056935,
-      "confidence": 0.636549
+      "positive": 0.636551,
+      "negative": 0.306514,
+      "neutral": 0.056934,
+      "confidence": 0.636551
     },
     {
       "postid": 207945735453372,
@@ -1460,9 +1460,9 @@
       "source_url": "https://www.reddit.com/r/wallstreetbets/comments/1vqgtq5/mu_loss/",
       "tickers": "MU,NVDA",
       "positive": 0.01369,
-      "negative": 0.167804,
-      "neutral": 0.818506,
-      "confidence": 0.818506
+      "negative": 0.167805,
+      "neutral": 0.818505,
+      "confidence": 0.818505
     },
     {
       "postid": 201558413708198,
@@ -1544,10 +1544,10 @@
       "publisher": "CNBC",
       "source_url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE9ha1JuTjc3MlZmb0RKVWwxcllxbzV6dFJFTFRrcEZPY0Ewd3lzWE1MdXRXM1VPYkItYnB3dmxjRWpPX1NWN25iZjEtdnEwdVFJNlZxSHBDb0tpSHA2Q3dIQlUyNG9vVkVsUl9fdlkzelJzOFhrbFlybdIBfkFVX3lxTE5JWmZBaUg3ZW13N3NWSmFZWUQ5MlUtbnV1eHpPaG5MWWVHYTBwM3g4al9VRlVzRzFJRmRHcVV6VURSanUxSEtmcExkZ2Q2VkROVU42Ml85VUh3VlFLckw1bWE4eG5aTUFWRW9UV3NHc1N2RHA3dzh5OGlrdmZQQQ?oc=5",
       "tickers": "",
-      "positive": 0.494019,
+      "positive": 0.49402,
       "negative": 0.013269,
       "neutral": 0.492712,
-      "confidence": 0.494019
+      "confidence": 0.49402
     },
     {
       "postid": 149383364339536,
@@ -1562,7 +1562,7 @@
       "source_url": "https://www.reddit.com/r/wallstreetbets/comments/1vqyvhu/im_back_turned_paycheck_into_250k/",
       "tickers": "",
       "positive": 0.01941,
-      "negative": 0.166618,
+      "negative": 0.166617,
       "neutral": 0.813972,
       "confidence": 0.813972
     },
@@ -1648,7 +1648,7 @@
       "tickers": "",
       "positive": 0.125616,
       "negative": 0.825241,
-      "neutral": 0.049143,
+      "neutral": 0.049142,
       "confidence": 0.825241
     },
     {
@@ -1663,10 +1663,10 @@
       "publisher": "Morningstar",
       "source_url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE1lTnluTG10dUtaSEJUcGdYbk9JYXNuYmc4ZnV1SEJ3alJWTDlnbGVmbU14ZkhmOXZBNVJGNWl3dTF3V3lZbWxtSE1fa2hRcjFzYWFDeGdfNWM1UUVVUGxKU0F0bTBvU0JLNnBMbVBqcW9XZ0tD?oc=5",
       "tickers": "",
-      "positive": 0.306432,
+      "positive": 0.306431,
       "negative": 0.01561,
-      "neutral": 0.677958,
-      "confidence": 0.677958
+      "neutral": 0.677959,
+      "confidence": 0.677959
     },
     {
       "postid": 87661286314508,
@@ -1680,7 +1680,7 @@
       "publisher": "r/wallstreetbets",
       "source_url": "https://www.reddit.com/r/wallstreetbets/comments/1vqxv8j/big_boys_have_loaded_up_on_mu_now_media_has_gone/",
       "tickers": "MU",
-      "positive": 0.162239,
+      "positive": 0.16224,
       "negative": 0.033057,
       "neutral": 0.804703,
       "confidence": 0.804703
@@ -1716,7 +1716,7 @@
       "tickers": "",
       "positive": 0.012354,
       "negative": 0.879711,
-      "neutral": 0.107936,
+      "neutral": 0.107935,
       "confidence": 0.879711
     },
     {
@@ -1749,9 +1749,9 @@
       "source_url": "https://www.reddit.com/r/wallstreetbets/comments/1vqya30/meta_faces_astronomical_consequences_as_legal/",
       "tickers": "META",
       "positive": 0.037476,
-      "negative": 0.355157,
-      "neutral": 0.607367,
-      "confidence": 0.607367
+      "negative": 0.355159,
+      "neutral": 0.607365,
+      "confidence": 0.607365
     },
     {
       "postid": 46430735547950,
@@ -1767,8 +1767,8 @@
       "tickers": "",
       "positive": 0.273972,
       "negative": 0.007602,
-      "neutral": 0.718426,
-      "confidence": 0.718426
+      "neutral": 0.718425,
+      "confidence": 0.718425
     },
     {
       "postid": 44201219917725,
@@ -1816,7 +1816,7 @@
       "publisher": "Yahoo Finance",
       "source_url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxNR2ZHNTdEU2dyc1pYWXM3ODliWk1LdHZlQ0FfWUd0ZjBWYVpBbWVJY3lsenlueTM3aVV4VWtTa2dTX3NJYlRzVEVWRWcxaFl3aFNwdmI3Rmo2T3JfeG9IRWhvcE1rNjFqUE1qdk84SVpLZXJGRDdqeXk3SFdtc3Vha3NzMVdWNnFIMm52U1lnbmdQVm1LWW1mNTdjN1F1aGdCdDZGb2RDcUNucG44eUlCbnZ4OXBYLTFL?oc=5",
       "tickers": "",
-      "positive": 0.206181,
+      "positive": 0.206182,
       "negative": 0.068483,
       "neutral": 0.725335,
       "confidence": 0.725335
@@ -1891,20 +1891,20 @@
     },
     {
       "postid": 264075167799331,
-      "text": "What to Expect in Markets This Week: Earnings from Walmart, Target and Home Depot - Investopedia",
-      "post_text": "What to Expect in Markets This Week: Earnings from Walmart, Target and Home Depot Investopedia",
+      "text": "What to Expect in Markets This Week: Earnings from Walmart, Target and Home Depot - investopedia.com",
+      "post_text": "What to Expect in Markets This Week: Earnings from Walmart, Target and Home Depot investopedia.com",
       "score": 0,
       "upvote_ratio": 0,
       "creation": "2026-08-16",
       "source": "google_news",
       "source_name": "Google News",
-      "publisher": "Investopedia",
+      "publisher": "investopedia.com",
       "source_url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxONjI0SUJ1cE1aSGhOaTBIclhyTThMLUo3ZWdmWDJTUDlTMW4ySDFtVkNpbW9Rb3h2d3JnX2lXaUtJUDZFXzdkWXVhTTdIWkYtcVBpdjFDcS1TbnpodlM4VnJvajBiSkMwcHp6NjFieEhfSmFiT04wbmh0UVFuUmxPTEU0Nm5fYmJndnJORUNjeGN2dGxHU0xhVGpkME1wVlFkWGQ5Tk9tYmYzYmU2NllNQQ?oc=5",
       "tickers": "HD,WMT,TGT",
-      "positive": 0.006256,
-      "negative": 0.006425,
-      "neutral": 0.987318,
-      "confidence": 0.987318
+      "positive": 0.006234,
+      "negative": 0.006352,
+      "neutral": 0.987414,
+      "confidence": 0.987414
     },
     {
       "postid": 226376772090931,
@@ -1971,8 +1971,8 @@
       "tickers": "",
       "positive": 0.037587,
       "negative": 0.004056,
-      "neutral": 0.958357,
-      "confidence": 0.958357
+      "neutral": 0.958358,
+      "confidence": 0.958358
     },
     {
       "postid": 75679001421493,
@@ -2105,10 +2105,10 @@
       "publisher": "r/stocks",
       "source_url": "https://www.reddit.com/r/stocks/comments/1vpgr1i/why_is_buffet_abel_aggressively_accumulating_so/",
       "tickers": "GOOG",
-      "positive": 0.286767,
+      "positive": 0.286769,
       "negative": 0.013747,
-      "neutral": 0.699485,
-      "confidence": 0.699485
+      "neutral": 0.699484,
+      "confidence": 0.699484
     },
     {
       "postid": 174473532288705,
@@ -2242,9 +2242,9 @@
       "source_url": "https://www.reddit.com/r/wallstreetbets/comments/1voyhlt/i_lost_178k_ytd_being_a_bear/",
       "tickers": "AVGO",
       "positive": 0.017213,
-      "negative": 0.768199,
-      "neutral": 0.214588,
-      "confidence": 0.768199
+      "negative": 0.768198,
+      "neutral": 0.214589,
+      "confidence": 0.768198
     },
     {
       "postid": 55718134466375,
@@ -2360,10 +2360,10 @@
       "publisher": "r/wallstreetbets",
       "source_url": "https://www.reddit.com/r/wallstreetbets/comments/1voe39a/rddt_gains_so_far_inclusion_into_sp500/",
       "tickers": "BRK.B",
-      "positive": 0.778213,
+      "positive": 0.778212,
       "negative": 0.015592,
-      "neutral": 0.206195,
-      "confidence": 0.778213
+      "neutral": 0.206196,
+      "confidence": 0.778212
     },
     {
       "postid": 226883782846336,
@@ -2377,7 +2377,7 @@
       "publisher": "r/stocks",
       "source_url": "https://www.reddit.com/r/stocks/comments/1vnwbfw/jeff_bezos_takes_bold_new_turn_amid_4b_amazon/",
       "tickers": "AMZN",
-      "positive": 0.112375,
+      "positive": 0.112374,
       "negative": 0.01971,
       "neutral": 0.867915,
       "confidence": 0.867915
@@ -2464,8 +2464,8 @@
       "tickers": "",
       "positive": 0.039623,
       "negative": 0.010122,
-      "neutral": 0.950255,
-      "confidence": 0.950255
+      "neutral": 0.950254,
+      "confidence": 0.950254
     },
     {
       "postid": 190380198597585,
@@ -2515,7 +2515,7 @@
       "tickers": "",
       "positive": 0.871441,
       "negative": 0.015681,
-      "neutral": 0.112878,
+      "neutral": 0.112879,
       "confidence": 0.871441
     },
     {
@@ -2532,7 +2532,7 @@
       "tickers": "",
       "positive": 0.634295,
       "negative": 0.020813,
-      "neutral": 0.344891,
+      "neutral": 0.344892,
       "confidence": 0.634295
     },
     {
@@ -2582,7 +2582,7 @@
       "source_url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxOOVRSWUJxWXlVamJib2FnZTdNSi1Uak5fanYwcy00UnB0b1VaLVByNWoxYzNoZFRLdEM4Z0RJYk5TRnlFdzVNMDFuOU9XVmJmS1RoY3AxNUEtUTN3cXdmazFqdktfN0tkY0NNaG1LekNtdUJYLTBvRjF0cnJLMXJLUWMtc0NCQXlmeDBZLU9QQUpQVFUtVnZVRnhrY1R1b0hkTDVjOHRqTXdxQW5tekdFV2JaZGlnbV9wN2dWYkpoTEN1RldQ?oc=5",
       "tickers": "",
       "positive": 0.006195,
-      "negative": 0.034993,
+      "negative": 0.034994,
       "neutral": 0.958812,
       "confidence": 0.958812
     },
@@ -2615,10 +2615,10 @@
       "publisher": "r/wallstreetbets",
       "source_url": "https://www.reddit.com/r/wallstreetbets/comments/1vohoer/stripe_advent_in_talks_to_buy_paypal/",
       "tickers": "PYPL,STRIPE",
-      "positive": 0.247658,
+      "positive": 0.247659,
       "negative": 0.015968,
-      "neutral": 0.736374,
-      "confidence": 0.736374
+      "neutral": 0.736373,
+      "confidence": 0.736373
     },
     {
       "postid": 91775669395055,
@@ -2649,10 +2649,10 @@
       "publisher": "r/StockMarket",
       "source_url": "https://www.reddit.com/r/StockMarket/comments/1vntlz3/trump_imposes_100_tariffs_on_some_drones/",
       "tickers": "",
-      "positive": 0.388833,
+      "positive": 0.388834,
       "negative": 0.006932,
-      "neutral": 0.604235,
-      "confidence": 0.604235
+      "neutral": 0.604234,
+      "confidence": 0.604234
     },
     {
       "postid": 85245137998459,
@@ -2666,8 +2666,8 @@
       "publisher": "r/wallstreetbets",
       "source_url": "https://www.reddit.com/r/wallstreetbets/comments/1vobifx/900k_0dte_spy_puts/",
       "tickers": "MU",
-      "positive": 0.030869,
-      "negative": 0.218423,
+      "positive": 0.03087,
+      "negative": 0.218422,
       "neutral": 0.750708,
       "confidence": 0.750708
     },
@@ -2719,7 +2719,7 @@
       "tickers": "",
       "positive": 0.021742,
       "negative": 0.513815,
-      "neutral": 0.464442,
+      "neutral": 0.464443,
       "confidence": 0.513815
     },
     {
@@ -2802,7 +2802,7 @@
       "publisher": "r/stocks",
       "source_url": "https://www.reddit.com/r/stocks/comments/1vno96w/reddit_to_join_sp_500_index_on_aug_18/",
       "tickers": "",
-      "positive": 0.027126,
+      "positive": 0.027127,
       "negative": 0.0078,
       "neutral": 0.965073,
       "confidence": 0.965073
@@ -2973,9 +2973,9 @@
       "source_url": "https://www.reddit.com/r/wallstreetbets/comments/1vmxra5/vix_died_so_yeah/",
       "tickers": "",
       "positive": 0.112142,
-      "negative": 0.633766,
-      "neutral": 0.254093,
-      "confidence": 0.633766
+      "negative": 0.633764,
+      "neutral": 0.254094,
+      "confidence": 0.633764
     },
     {
       "postid": 212267572408437,
@@ -3023,10 +3023,10 @@
       "publisher": "WSJ",
       "source_url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxQQ1BCdkwwYW92MUhlY3Q2ci1yN2NrbGpSVGw3clRkSmNodUZ0SkxlNlR5M0NwalBSRE9xNHQ5Z3V6MV96U2M3dE5QdVFFOThQLVNQT2hmS1RzcjBSaUtGNHl5T1RDcXN0ak9GV0YzdUVXSU9MLVRsYVZod2d4RTZhNmd5OGVCcUJZXzRUeQ?oc=5",
       "tickers": "",
-      "positive": 0.962187,
+      "positive": 0.962186,
       "negative": 0.020239,
       "neutral": 0.017575,
-      "confidence": 0.962187
+      "confidence": 0.962186
     },
     {
       "postid": 199608514660335,
@@ -3057,10 +3057,10 @@
       "publisher": "CNBC",
       "source_url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPcHJISkFOM3hGZ0JGTFhkZXZFUUJrX2dQWEJ5d3Mxei1Wc2t2dTNFU0RxdjRkU014VUtudzc3di1lX19NNnZUR0xpTFBwOGZ2NXdLdGg2U3gwT05PcTNOUktWQlVCd0pJN090Nm1QMzlZTWxBY2I1aU5wUGJTYnAzRVZQTnZHTTBjNlZTaUxIUTZnblFhcVh6cUo5UEI3WUx0OTRDSmFVT0tRd9IBrwFBVV95cUxPU3V3ZzN3U3llRDlqRnVWVTNXNXowYWo4MXFiQTNseWttTFRSQjAzSUs3YzJKa2VUaWxEQjA1MHVOb0VuZkhBX1VNSnJ0WEJWTU9mcmJPSXRDOGNCZUpLVU1ZdWIzVDBvSHlPbTF0OV96Zm1oZGc0SGlWRDRMQ3A0NDZzWkY4ZEthX2lOa2VSMENRYllYQTU4RXhSMW01S1lheFllZGZZMDZXSzB6YnlB?oc=5",
       "tickers": "CSCO",
-      "positive": 0.766788,
-      "negative": 0.18039,
+      "positive": 0.76679,
+      "negative": 0.180388,
       "neutral": 0.052822,
-      "confidence": 0.766788
+      "confidence": 0.76679
     },
     {
       "postid": 185340580584834,
@@ -3108,10 +3108,10 @@
       "publisher": "r/wallstreetbets",
       "source_url": "https://www.reddit.com/r/wallstreetbets/comments/1vnnz4o/reddit_added_to_the_sp500/",
       "tickers": "",
-      "positive": 0.529455,
-      "negative": 0.020666,
-      "neutral": 0.44988,
-      "confidence": 0.529455
+      "positive": 0.529453,
+      "negative": 0.020665,
+      "neutral": 0.449882,
+      "confidence": 0.529453
     },
     {
       "postid": 132044173256091,
@@ -3262,9 +3262,9 @@
       "source_url": "https://www.reddit.com/r/StockMarket/comments/1vn7unr/median_manhattan_apartment_rent_on_new_leases_hit/",
       "tickers": "",
       "positive": 0.056281,
-      "negative": 0.894571,
+      "negative": 0.894572,
       "neutral": 0.049147,
-      "confidence": 0.894571
+      "confidence": 0.894572
     },
     {
       "postid": 72180153573780,
@@ -3297,7 +3297,7 @@
       "tickers": "",
       "positive": 0.930441,
       "negative": 0.013616,
-      "neutral": 0.055944,
+      "neutral": 0.055943,
       "confidence": 0.930441
     },
     {
@@ -3347,9 +3347,9 @@
       "source_url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPNTFaSEQyZkFiaU1KTkNPU2FuTk40RmpObmYtUUVXdVU2a2JIZ3RJSThFZ2pNdkZCYU53SjlyU0ZTMUlKVEl4Qi1pV2QxUkotYngtZ3pDRmZ6djhTUWhOc1dvVXlWckxDNG5kOUdCNkgtQ1plb1hJMUxmOWNCMXNDbVUxMWQ?oc=5",
       "tickers": "",
       "positive": 0.088503,
-      "negative": 0.864153,
+      "negative": 0.864154,
       "neutral": 0.047344,
-      "confidence": 0.864153
+      "confidence": 0.864154
     },
     {
       "postid": 16323308206671,
@@ -3365,8 +3365,8 @@
       "tickers": "",
       "positive": 0.007962,
       "negative": 0.007506,
-      "neutral": 0.984532,
-      "confidence": 0.984532
+      "neutral": 0.984531,
+      "confidence": 0.984531
     },
     {
       "postid": 12143299500740,
