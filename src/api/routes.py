@@ -290,7 +290,7 @@ def _start_refresh() -> bool:
 
 
 def start_refresh_scheduler() -> None:
-    """Start one in-process scheduler for opportunistic Render refreshes."""
+    """Start one in-process scheduler for optional hosted API refreshes."""
 
     global _scheduler_started
     enabled = os.getenv("AUTO_REFRESH_ENABLED", "true").lower() in {"1", "true", "yes"}

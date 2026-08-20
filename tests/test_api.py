@@ -226,7 +226,7 @@ class ApiRoutesTest(unittest.TestCase):
         self.assertEqual(accepted.status_code, 202)
         start_refresh.assert_called_once_with()
 
-    def test_frontend_is_served_from_render_web_service(self):
+    def test_frontend_is_served_from_backend(self):
         with tempfile.TemporaryDirectory() as directory:
             dist = Path(directory)
             (dist / "index.html").write_text("<h1>MarketSent</h1>", encoding="utf-8")

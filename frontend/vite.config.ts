@@ -5,8 +5,8 @@ import path from 'path'
 /**
  * Vite Configuration for MarketSent Dashboard
  *
- * Development server runs on port 5173 by default
- * API proxy forwards /api requests to Flask backend on port 5000
+ * Development server runs on port 5173 by default.
+ * Market data is loaded from public/data/marketsent.json.
  */
 export default defineConfig({
   plugins: [react()],
@@ -19,13 +19,6 @@ export default defineConfig({
 
   server: {
     port: 5173,
-    // Proxy API requests to Flask backend during development
-    proxy: {
-      '/api': {
-        target: 'http://localhost:5000',
-        changeOrigin: true,
-      },
-    },
   },
 
   build: {

@@ -1,120 +1,235 @@
 import type {
-    PostsResponse,
-    TopTickersResponse,
     HotTickersResponse,
+    Post,
+    PostsResponse,
+    SourceStatus,
     TickerDetailResponse,
+    TickerSentiment,
+    TopTickersResponse,
+    TrendDataPoint,
     TrendsResponse,
 } from "@/types";
 
 
-const configuredBaseUrl = import.meta.env.VITE_API_URL?.trim();
-const API_BASE_URL = (configuredBaseUrl || "/api").replace(/\/+$/, "");
-const REQUEST_TIMEOUT_MS = 20_000;
+const SNAPSHOT_URL = "/data/marketsent.json";
+const REQUEST_TIMEOUT_MS = 15_000;
 
 
-class ApiRequestError extends Error {
-    constructor(message: string, readonly status?: number) {
+interface MarketSnapshot {
+    schema_version: number;
+    generated_at: string;
+    sources: SourceStatus[];
+    posts: Post[];
+}
+
+
+class DataRequestError extends Error {
+    constructor(message: string) {
         super(message);
-        this.name = "ApiRequestError";
+        this.name = "DataRequestError";
     }
 }
 
 
-async function request<T>(
-    path: string,
-    params?: Record<string, string | number | undefined>,
-    options?: RequestInit
-): Promise<T> {
-    const query = new URLSearchParams();
-    for (const [key, value] of Object.entries(params || {})) {
-        if (value !== undefined) query.set(key, String(value));
+let snapshotPromise: Promise<MarketSnapshot> | null = null;
+
+
+async function loadSnapshot(): Promise<MarketSnapshot> {
+    if (!snapshotPromise) {
+        snapshotPromise = (async () => {
+            const controller = new AbortController();
+            const timeout = window.setTimeout(() => controller.abort(), REQUEST_TIMEOUT_MS);
+            try {
+                const response = await fetch(SNAPSHOT_URL, {
+                    headers: { Accept: "application/json" },
+                    cache: "no-cache",
+                    signal: controller.signal,
+                });
+                if (!response.ok) {
+                    throw new DataRequestError(`Market data is unavailable (${response.status}).`);
+                }
+                const payload = await response.json() as Partial<MarketSnapshot>;
+                if (
+                    payload.schema_version !== 2
+                    || typeof payload.generated_at !== "string"
+                    || !Array.isArray(payload.sources)
+                    || !Array.isArray(payload.posts)
+                ) {
+                    throw new DataRequestError("Market data is in an unsupported format.");
+                }
+                return payload as MarketSnapshot;
+            } catch (error) {
+                snapshotPromise = null;
+                if (error instanceof DOMException && error.name === "AbortError") {
+                    throw new DataRequestError("Market data took too long to load. Please try again.");
+                }
+                throw error;
+            } finally {
+                window.clearTimeout(timeout);
+            }
+        })();
     }
-    const suffix = query.size > 0 ? `?${query.toString()}` : "";
-    const controller = new AbortController();
-    const timeout = window.setTimeout(() => controller.abort(), REQUEST_TIMEOUT_MS);
+    return snapshotPromise;
+}
 
-    try {
-        const response = await fetch(`${API_BASE_URL}${path}${suffix}`, {
-            ...options,
-            headers: {
-                Accept: "application/json",
-                ...options?.headers,
-            },
-            signal: controller.signal,
-        });
 
-        let payload: unknown;
-        try {
-            payload = await response.json();
-        } catch {
-            throw new ApiRequestError("The data service returned an invalid response.", response.status);
-        }
+function postDate(post: Post): number {
+    const value = new Date(`${post.creation}T23:59:59Z`).getTime();
+    return Number.isNaN(value) ? 0 : value;
+}
 
-        if (!response.ok) {
-            const body = payload as { message?: unknown; error?: unknown };
-            const detail = typeof body.message === "string"
-                ? body.message
-                : typeof body.error === "string"
-                    ? body.error
-                    : `Request failed with status ${response.status}`;
-            throw new ApiRequestError(detail, response.status);
+
+function recentPosts(posts: Post[], days: number): Post[] {
+    const cutoff = Date.now() - days * 24 * 60 * 60 * 1000;
+    return posts.filter((post) => postDate(post) >= cutoff);
+}
+
+
+function symbolsFor(post: Post): string[] {
+    return post.tickers
+        .replace(/[{}]/g, "")
+        .split(",")
+        .map((symbol) => symbol.trim().toUpperCase())
+        .filter(Boolean);
+}
+
+
+function aggregateTickers(posts: Post[]): TickerSentiment[] {
+    const aggregates = new Map<string, {
+        mentions: number;
+        positive: number;
+        negative: number;
+        neutral: number;
+    }>();
+    for (const post of posts) {
+        for (const symbol of new Set(symbolsFor(post))) {
+            const current = aggregates.get(symbol) || {
+                mentions: 0,
+                positive: 0,
+                negative: 0,
+                neutral: 0,
+            };
+            current.mentions += 1;
+            current.positive += post.positive;
+            current.negative += post.negative;
+            current.neutral += post.neutral;
+            aggregates.set(symbol, current);
         }
-        return payload as T;
-    } catch (error) {
-        if (error instanceof DOMException && error.name === "AbortError") {
-            throw new ApiRequestError("The data service took too long to respond. Please try again.");
-        }
-        throw error;
-    } finally {
-        window.clearTimeout(timeout);
     }
+    return Array.from(aggregates, ([symbol, value]) => ({
+        symbol,
+        mentions: value.mentions,
+        sentiment: {
+            positive: value.positive / value.mentions,
+            negative: value.negative / value.mentions,
+            neutral: value.neutral / value.mentions,
+        },
+    })).sort((left, right) => right.mentions - left.mentions || left.symbol.localeCompare(right.symbol));
+}
+
+
+function trendData(posts: Post[]): TrendDataPoint[] {
+    const daily = new Map<string, {
+        count: number;
+        positive: number;
+        negative: number;
+        neutral: number;
+    }>();
+    for (const post of posts) {
+        const current = daily.get(post.creation) || {
+            count: 0,
+            positive: 0,
+            negative: 0,
+            neutral: 0,
+        };
+        current.count += 1;
+        current.positive += post.positive;
+        current.negative += post.negative;
+        current.neutral += post.neutral;
+        daily.set(post.creation, current);
+    }
+    return Array.from(daily, ([date, value]) => ({
+        date,
+        avg_positive: value.positive / value.count,
+        avg_negative: value.negative / value.count,
+        avg_neutral: value.neutral / value.count,
+        post_count: value.count,
+    })).sort((left, right) => left.date.localeCompare(right.date));
 }
 
 
 export function getApiErrorMessage(error: unknown, fallback: string): string {
-    return error instanceof ApiRequestError ? error.message : fallback;
+    return error instanceof DataRequestError ? error.message : fallback;
 }
 
 
-export const getPosts = (time: string = "week"): Promise<PostsResponse> =>
-    request("/posts", { time });
+export async function getPosts(time: "day" | "week" = "week"): Promise<PostsResponse> {
+    const snapshot = await loadSnapshot();
+    const posts = recentPosts(snapshot.posts, time === "day" ? 1 : 7);
+    return { posts, time, count: posts.length };
+}
 
-export const getTopTickers = (days: number = 7): Promise<TopTickersResponse> =>
-    request("/toptickers", { days });
 
-export const getHotTickers = (
+export async function getTopTickers(days: number = 7): Promise<TopTickersResponse> {
+    const snapshot = await loadSnapshot();
+    return {
+        tickers: aggregateTickers(recentPosts(snapshot.posts, days)),
+        days,
+        generated_at: snapshot.generated_at,
+        sources: snapshot.sources,
+    };
+}
+
+
+export async function getHotTickers(
     days: number = 7,
     limit: number = 10
-): Promise<HotTickersResponse> => request("/hot_tickers", { days, limit });
+): Promise<HotTickersResponse> {
+    const response = await getTopTickers(days);
+    const tickers = [...response.tickers]
+        .sort((left, right) => {
+            const leftHeat = left.mentions * (1 + left.sentiment.positive - left.sentiment.negative);
+            const rightHeat = right.mentions * (1 + right.sentiment.positive - right.sentiment.negative);
+            return rightHeat - leftHeat;
+        })
+        .slice(0, limit);
+    return { tickers, days };
+}
 
-export const getTickerSentiment = (
+
+export async function getTickerSentiment(
     symbol: string,
     days: number = 7
-): Promise<TickerDetailResponse> =>
-    request(`/tickers/${encodeURIComponent(symbol)}`, { days });
+): Promise<TickerDetailResponse> {
+    const snapshot = await loadSnapshot();
+    const normalized = symbol.trim().toUpperCase();
+    const posts = recentPosts(snapshot.posts, days).filter((post) => symbolsFor(post).includes(normalized));
+    return { posts };
+}
 
-export const getTrends = (
+
+export async function getTrends(
     days: number = 7,
     symbol?: string
-): Promise<TrendsResponse> => request("/trends", { days, symbol });
+): Promise<TrendsResponse> {
+    const snapshot = await loadSnapshot();
+    const normalized = symbol?.trim().toUpperCase();
+    const posts = recentPosts(snapshot.posts, days).filter(
+        (post) => !normalized || symbolsFor(post).includes(normalized)
+    );
+    return { posts: trendData(posts) };
+}
 
-export const getTickerTrends = (
-    symbol: string,
-    days: number = 7
-): Promise<TrendsResponse> =>
-    request(`/trends/${encodeURIComponent(symbol)}`, { days });
 
-export const getHealth = (): Promise<{
+export const getTickerTrends = (symbol: string, days: number = 7): Promise<TrendsResponse> =>
+    getTrends(days, symbol);
+
+
+export async function getHealth(): Promise<{
     status: string;
     database: string;
-    backend?: "postgresql" | "sqlite";
-}> =>
-    request("/health");
-
-export const triggerRefresh = (
-    token: string
-): Promise<{ status: string; message?: string }> =>
-    request("/refresh", undefined, {
-        method: "POST",
-        headers: { Authorization: `Bearer ${token}` },
-    });
+    backend: "static";
+}> {
+    await loadSnapshot();
+    return { status: "healthy", database: "snapshot", backend: "static" };
+}

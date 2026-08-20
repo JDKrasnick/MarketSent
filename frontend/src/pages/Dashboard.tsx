@@ -11,12 +11,27 @@ const SentimentChart = lazy(() =>
 );
 
 
+function formatUpdatedAt(value: string | null): string | null {
+    if (!value) return null;
+    const date = new Date(value);
+    if (Number.isNaN(date.getTime())) return null;
+    return new Intl.DateTimeFormat("en-US", {
+        month: "short",
+        day: "numeric",
+        hour: "numeric",
+        minute: "2-digit",
+    }).format(date);
+}
+
+
 export function Dashboard() {
     const [selectedTicker, setSelectedTicker] = useState<TickerSentiment | null>(null);
     const days = 30;
 
     const {
         data: tickers,
+        generatedAt,
+        sources,
         loading: tickersLoading,
         error: tickersError,
     } = useTickers(days);
@@ -53,6 +68,17 @@ export function Dashboard() {
     })();
 
     const totalMentions = selectedTicker?.mentions ?? allMentions;
+    const activeSources = sources.filter((source) => source.item_count > 0);
+    const sourcesDegraded = !tickersLoading && (
+        sources.length === 0
+        || sources.some((source) => source.status !== "ok" || source.item_count === 0)
+    );
+    const sourceStatusLabel = tickersLoading
+        ? "Loading sources"
+        : sources.length === 0
+            ? "Sources unavailable"
+            : `${activeSources.length} sources ${sourcesDegraded ? "degraded" : "live"}`;
+    const updatedLabel = formatUpdatedAt(generatedAt);
     const selectTicker = (ticker: TickerSentiment | null) => {
         setSelectedTicker(ticker);
         const reduceMotion = window.matchMedia("(prefers-reduced-motion: reduce)").matches;
@@ -103,16 +129,37 @@ export function Dashboard() {
                             <h1 className="ticker-display">
                                 {selectedTicker?.symbol || "Market Overview"}
                             </h1>
-                            <div className="status-indicator">
+                            <div className={`status-indicator ${sourcesDegraded ? "degraded" : ""}`}>
                                 <span className="indicator-dot" aria-hidden="true" />
-                                Reddit signal
+                                {sourceStatusLabel}
                             </div>
                         </div>
                         <div className="meta-row" aria-live="polite">
                             <span>Last {days} days</span>
                             <span className="separator" aria-hidden="true">·</span>
                             <span>{totalMentions.toLocaleString()} mentions</span>
+                            {updatedLabel && (
+                                <>
+                                    <span className="separator" aria-hidden="true">·</span>
+                                    <span>Updated {updatedLabel}</span>
+                                </>
+                            )}
                         </div>
+                        {sources.length > 0 && (
+                            <div className="source-statuses" aria-label="Ingestion sources">
+                                {sources.map((source) => (
+                                    <span
+                                        className={`source-badge ${source.status}`}
+                                        key={source.id}
+                                        title={source.message}
+                                    >
+                                        <span className="source-badge-dot" aria-hidden="true" />
+                                        {source.name}
+                                        <span className="source-badge-count">{source.item_count}</span>
+                                    </span>
+                                ))}
+                            </div>
+                        )}
                     </div>
 
                     <ScoreCard
