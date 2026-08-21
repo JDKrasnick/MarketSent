@@ -1,24 +1,41 @@
 {
   "schema_version": 2,
-  "generated_at": "2026-08-21T07:09:28.825904Z",
+  "generated_at": "2026-08-21T13:12:55.840354Z",
   "sources": [
     {
       "id": "reddit",
       "name": "Reddit",
       "status": "ok",
       "item_count": 100,
-      "updated_at": "2026-08-21T07:09:28.825904Z"
+      "updated_at": "2026-08-21T13:12:55.840354Z"
     },
     {
       "id": "google_news",
       "name": "Google News",
       "status": "ok",
       "item_count": 100,
-      "updated_at": "2026-08-21T07:09:28.825904Z"
+      "updated_at": "2026-08-21T13:12:55.840354Z"
     }
   ],
-  "count": 198,
+  "count": 199,
   "posts": [
+    {
+      "postid": 196945192872325,
+      "text": "Stocks and Bonds Steady at the End of a Tumultuous Week - The New York Times",
+      "post_text": "Stocks and Bonds Steady at the End of a Tumultuous Week The New York Times",
+      "score": 0,
+      "upvote_ratio": 0,
+      "creation": "2026-08-21",
+      "source": "google_news",
+      "source_name": "Google News",
+      "publisher": "The New York Times",
+      "source_url": "https://news.google.com/rss/articles/CBMifEFVX3lxTFBoRF9jQk1mekxocVpIazJKSWJOcFYzVjNjSzZGeXV3c1d4RXZDak5ubHBoYVpvcWVoeUpHWTVTVndGZzZuN3lKVkwyVWFuZUdJblhjUVpIQ1REeXM0MjRGRDRwcFhOazMwMWdVNkJlUTdoSENPZVlRdTBsSi0?oc=5",
+      "tickers": "",
+      "positive": 0.830784,
+      "negative": 0.009514,
+      "neutral": 0.159702,
+      "confidence": 0.830784
+    },
     {
       "postid": 183688785811255,
       "text": "Everyone knows QE but you’ll soon know FINANCIAL REPRESSION because that’s what’s coming after what Bessent just did",
@@ -37,6 +54,57 @@
       "confidence": 0.986559
     },
     {
+      "postid": 136250226729225,
+      "text": "Stock Market Bargains Are Hiding in This Overlooked Place - WSJ",
+      "post_text": "Stock Market Bargains Are Hiding in This Overlooked Place WSJ",
+      "score": 0,
+      "upvote_ratio": 0,
+      "creation": "2026-08-21",
+      "source": "google_news",
+      "source_name": "Google News",
+      "publisher": "WSJ",
+      "source_url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxNSW9EWUR5dzlYMmN3c1dtLXZ1WGpQR19kazVOcjBodEZ4UlRqUlYxRUo1eDJHRDY2YUdhdTEwYmY0anUtSEwxakYxOGNIWXIxdFVNOVJvSGtFczNwYWY1dkpOekczZVNEeTZOTnVkaFFkNjRJTEIzOVA5WlVmWEpRcDVTVmpRbmlQeDgwYUN4UThlOV9nWHlfYi1wRXN4OVVlbjRB?oc=5",
+      "tickers": "",
+      "positive": 0.011692,
+      "negative": 0.529453,
+      "neutral": 0.458854,
+      "confidence": 0.529453
+    },
+    {
+      "postid": 120503500874877,
+      "text": "Investors sell stocks and bonds as government efforts fail to soothe market - NPR",
+      "post_text": "Investors sell stocks and bonds as government efforts fail to soothe market NPR",
+      "score": 0,
+      "upvote_ratio": 0,
+      "creation": "2026-08-21",
+      "source": "google_news",
+      "source_name": "Google News",
+      "publisher": "NPR",
+      "source_url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxQYXpqa1NyUWtnOHo4V2VNWENNV1ZpeVVUcmlsRExrVXZqVVBOaUhMcTdFMm9ONlMwX3RaREN5WTg5LWZxWi1vMUw2LXlYR0p0T19UVUJtdlh6clE5VE1IVEkwZXNHM2NFTFBCYW1KVV9YblB1Vk4xbTMtb0pUak41X1NwX0pwV1FTM1pYT2ZDSEZESDl0VE1sc1l5NlVEYzNQSlVqd0xqV3J6dFdMVkRwQ3VqRENDZ296eDFmMA?oc=5",
+      "tickers": "",
+      "positive": 0.039768,
+      "negative": 0.658864,
+      "neutral": 0.301368,
+      "confidence": 0.658864
+    },
+    {
+      "postid": 36899912337549,
+      "text": "Walmart raises outlook, but drug price declines hit hard - Axios",
+      "post_text": "Walmart raises outlook, but drug price declines hit hard Axios",
+      "score": 0,
+      "upvote_ratio": 0,
+      "creation": "2026-08-21",
+      "source": "google_news",
+      "source_name": "Google News",
+      "publisher": "Axios",
+      "source_url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE5wOWZudXdzMlYyUkROMW5JUFBERjJPYjJQVERJY3VBb05FNFJlSDFVR2tmYXZWQXlHX1dKTHJYOEptSzU4UGZ5RHpqelhaQUpiSjd3VTdBYjRYY1JzNE5PVWV0dWQ4UFJCeVcyLV91amI?oc=5",
+      "tickers": "WMT",
+      "positive": 0.945022,
+      "negative": 0.027092,
+      "neutral": 0.027886,
+      "confidence": 0.945022
+    },
+    {
       "postid": 32193878785349,
       "text": "Trump Administration Ends Corporate Ownership Reporting Rule, Orders U.S. Records Deleted",
       "post_text": "This means U.S. companies no longer have to tell the federal government who really owns them, and existing ownership records will be deleted. Trump‘s administration is framing this as deregulation and less burdens on small businesses but this probably opens the door for the rich to continue to obfuscate their ownership interest in certain deals and more easily hide from scrutiny into their financial deals. submitted by /u/Prime-Paradox to r/StockMarket [link] [comments]",
@@ -52,6 +120,23 @@
       "negative": 0.038843,
       "neutral": 0.955909,
       "confidence": 0.955909
+    },
+    {
+      "postid": 22783029228599,
+      "text": "Why is there zero outrage over politicians committing insider trading?",
+      "post_text": "I'm talking about a riot, actual outrage. Every day I see people scream over minor culture war nonsense, but where is the outrage over open corruption? I'm neither left nor right-wing, and I'm talking about blatant stuff like insider trading like in the case of Nancy Pelosi or the president doing something that's clearly against the law. A physician colleague of mine moved to the US to practice medicine. His parents sent him some funds from abroad to help settle in and cover training expenses. Like most normal people, he had no idea what IRS form 3520 (foreign gift reporting) was. Because the ",
+      "score": 0,
+      "upvote_ratio": 0,
+      "creation": "2026-08-21",
+      "source": "reddit",
+      "source_name": "Reddit",
+      "publisher": "r/stocks",
+      "source_url": "https://www.reddit.com/r/stocks/comments/1vu8dds/why_is_there_zero_outrage_over_politicians/",
+      "tickers": "",
+      "positive": 0.011973,
+      "negative": 0.055635,
+      "neutral": 0.932392,
+      "confidence": 0.932392
     },
     {
       "postid": 279563523374686,
@@ -88,21 +173,21 @@
       "confidence": 0.947458
     },
     {
-      "postid": 270664983725323,
-      "text": "How to Identify the Ultimate AI Winners in a Volatile Stock Market - Morningstar",
-      "post_text": "How to Identify the Ultimate AI Winners in a Volatile Stock Market Morningstar",
+      "postid": 272975840299235,
+      "text": "Gains in AI company stakes juice second-quarter earnings for S&P 500 - Reuters",
+      "post_text": "Gains in AI company stakes juice second-quarter earnings for S&P 500 Reuters",
       "score": 0,
       "upvote_ratio": 0,
       "creation": "2026-08-20",
       "source": "google_news",
       "source_name": "Google News",
-      "publisher": "Morningstar",
-      "source_url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxOQll3TUVneVlkSWJOVTZTWTBxSGtscmZOX0dOMlBlOG1UTUxUUTE5ZlRJSzJRaXNRU0pzSVdYNHUzd3ZuU1lURHVaUjBkWFFmODNjNUlsVlMzSnBfZmxvLXNaS0FvWTZ5Zl9kYW8yM2tfakFteWFOZ3d2WkVtMms2OFBwS08ydmFXWFlWTVFjNXk4MDJqUWt3azBTd1A2QVk?oc=5",
+      "publisher": "Reuters",
+      "source_url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxOdEoyTlBhdlZxOEhhZFREWWpnNDdtV0RDODN4eFFTcmV5T1RfenE3eFRHYzd0VUlrclYwN0w3YUJnWGRzSWZITEx5a2xvQkdVYmVzcHJsSGxBV2JCN2pIOVlhb19pSXVJTWVHVVRFSnVmTXlZWkMwSUFhMWRQeDAzVXY1WUVoWDliVGhJNE9vN3dJV2FyZTZqYmJZc1h3TFE5WDItZFprR1Y?oc=5",
       "tickers": "",
-      "positive": 0.006486,
-      "negative": 0.008619,
-      "neutral": 0.984895,
-      "confidence": 0.984895
+      "positive": 0.896294,
+      "negative": 0.034473,
+      "neutral": 0.069233,
+      "confidence": 0.896294
     },
     {
       "postid": 267650565978627,
@@ -120,23 +205,6 @@
       "negative": 0.008869,
       "neutral": 0.983775,
       "confidence": 0.983775
-    },
-    {
-      "postid": 265707091814842,
-      "text": "Deere Reports Third Quarter Net Income of $1.379 Billion - John Deere",
-      "post_text": "Deere Reports Third Quarter Net Income of $1.379 Billion John Deere",
-      "score": 0,
-      "upvote_ratio": 0,
-      "creation": "2026-08-20",
-      "source": "google_news",
-      "source_name": "Google News",
-      "publisher": "John Deere",
-      "source_url": "https://news.google.com/rss/articles/CBMibEFVX3lxTFBMYXN0SF8xTlVEamNyR3J0Z3BPLTY5WnM0MXV2Vy1sYndWX3I1QUt3Zmc1U0tkbHJNVHlxb2VSTE1VcGo5TnF2TmZ2a0RlNzNYRjQxbU5raC1qVDZma0kybWswckYtU3F4VjRpXw?oc=5",
-      "tickers": "DE",
-      "positive": 0.019119,
-      "negative": 0.017869,
-      "neutral": 0.963012,
-      "confidence": 0.963012
     },
     {
       "postid": 258356171838040,
@@ -205,6 +273,23 @@
       "negative": 0.008728,
       "neutral": 0.975198,
       "confidence": 0.975198
+    },
+    {
+      "postid": 225029751042781,
+      "text": "How to Identify the Ultimate AI Winners in a Volatile Stock Market - Morningstar",
+      "post_text": "How to Identify the Ultimate AI Winners in a Volatile Stock Market Morningstar",
+      "score": 0,
+      "upvote_ratio": 0,
+      "creation": "2026-08-20",
+      "source": "google_news",
+      "source_name": "Google News",
+      "publisher": "Morningstar",
+      "source_url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxOWVdVZG9ua1RDUVJzTXlkdzJtaVNYMlhVR3FHX19UYUZtVUlKSVNqenBQRGRMT1k0NThIa0pITW1OTkxYSGE3NG94WjhxV2VIS0p0QW5tNUhnTjFMMmhoWUQ2Z0pybjhnVW12VWI5M1dOZ0t3SW83Qjk1Z0hQSzdrcXNORmR2VTJIc2tRMmVIejdSVk5ERGh1STZvdFhRTFE?oc=5",
+      "tickers": "",
+      "positive": 0.006486,
+      "negative": 0.008619,
+      "neutral": 0.984895,
+      "confidence": 0.984895
     },
     {
       "postid": 215672876696374,
@@ -292,23 +377,6 @@
       "confidence": 0.960437
     },
     {
-      "postid": 154927229539169,
-      "text": "Walmart is cautious with expectations after slowest sales growth in 6 years - AP News",
-      "post_text": "Walmart is cautious with expectations after slowest sales growth in 6 years AP News",
-      "score": 0,
-      "upvote_ratio": 0,
-      "creation": "2026-08-20",
-      "source": "google_news",
-      "source_name": "Google News",
-      "publisher": "AP News",
-      "source_url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNdktGZ3YxUWlaaUM4MDdwcm1pZC1xUl9Qajd4enFwRVk2SFlqcld6emtrOEhVOW9CblIxZTlZMEdXWE9nUE9sVlFONmtCWHFEWlN5YkxZeklCei1zRDlMZTRXWUdUQUZlbHNHZDlTNm5SRVJGRWc3ZHFjeVVYNWc4OFNpVzd1OHpfTjZ4c09mOWp1NFpuQy1aQktWWUlKRm1xSmdETA?oc=5",
-      "tickers": "WMT",
-      "positive": 0.740177,
-      "negative": 0.078127,
-      "neutral": 0.181696,
-      "confidence": 0.740177
-    },
-    {
       "postid": 152240072834549,
       "text": "Walmart stock drops as sales growth slows, customers make 'trade-offs' amid high fuel costs",
       "post_text": "submitted by /u/Force_Hammer to r/wallstreetbets [link] [comments]",
@@ -341,57 +409,6 @@
       "negative": 0.883668,
       "neutral": 0.053065,
       "confidence": 0.883668
-    },
-    {
-      "postid": 139798478858225,
-      "text": "Ross Stores Reports Strong Second Quarter Sales and Earnings Results - Yahoo Finance",
-      "post_text": "Ross Stores Reports Strong Second Quarter Sales and Earnings Results Yahoo Finance",
-      "score": 0,
-      "upvote_ratio": 0,
-      "creation": "2026-08-20",
-      "source": "google_news",
-      "source_name": "Google News",
-      "publisher": "Yahoo Finance",
-      "source_url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQZjBpdi1ndWdOME10Wm9UaHpxUEphbGNpTko3TmxVVVYtQzdOUThhR25ibTh2bWFFUENRWmNVdkdvWURGNklPWXZGc09XU2pvdllqMkhoM0NER3FrNFl1YlAteTBVcUJrVmJ1bG9VcHkzcmNMeE5XNnp4MTI3MHhwYkZQR0kwcEw3Tmhpd2dQV3BQT1BJazdOV2xyanFKTGM?oc=5",
-      "tickers": "",
-      "positive": 0.971328,
-      "negative": 0.012414,
-      "neutral": 0.016258,
-      "confidence": 0.971328
-    },
-    {
-      "postid": 127777324136546,
-      "text": "The S&P 500 Index Is Calm. Its Stocks Aren’t. - Penn Mutual Asset Management",
-      "post_text": "The S&P 500 Index Is Calm. Its Stocks Aren’t. Penn Mutual Asset Management",
-      "score": 0,
-      "upvote_ratio": 0,
-      "creation": "2026-08-20",
-      "source": "google_news",
-      "source_name": "Google News",
-      "publisher": "Penn Mutual Asset Management",
-      "source_url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxPWWdBZ1I2VkJwM05oaFZiMlRYc0VPTjBWazFweVl4YlJNdndBVFZGSVEwZ3hXUjFZR0l4d0ZTQ0xSSl9CcjRUM0tGeXRIMzJnblRXTk83MjlkTWhkVlpmaG1FX3JlWUZnSzVSTUxsRGZ6YmZiaFJJUDBkVWpwYlJKVUVndHpzeW5SdndodzJsX3NYMkw2c2lSemd3U2wzU1FKSFluWldwa3NndWo3eVZaUWJTWkNaZjRWaEdrODFrUThTZllGV2c?oc=5",
-      "tickers": "",
-      "positive": 0.506263,
-      "negative": 0.009464,
-      "neutral": 0.484273,
-      "confidence": 0.506263
-    },
-    {
-      "postid": 122542734163822,
-      "text": "Retail earnings highlight selective consumers. - CME Group",
-      "post_text": "Retail earnings highlight selective consumers. CME Group",
-      "score": 0,
-      "upvote_ratio": 0,
-      "creation": "2026-08-20",
-      "source": "google_news",
-      "source_name": "Google News",
-      "publisher": "CME Group",
-      "source_url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxPZVRoZGNhckdabTVFTDlkMVFrYjFGd09mOFZiWUIxc1JnTTZEcm5hY3FVOEtpOFJZRWN4Y2V1M3c1N20xUE91TGtBQzBsdzcxOE4ybkVaOGR2MzFEdlVPUXVBckVoUnk2WnJJMUs1WFg0WTg3Q1hJeF9QbEo2alBhaDQtRjRWTTUwemtCRDlzWXNaWmFtTGNBVGwzTlk1dVVYSTdn?oc=5",
-      "tickers": "",
-      "positive": 0.052637,
-      "negative": 0.009852,
-      "neutral": 0.937511,
-      "confidence": 0.937511
     },
     {
       "postid": 121287790856562,
@@ -513,6 +530,23 @@
       "confidence": 0.932904
     },
     {
+      "postid": 94729306238876,
+      "text": "Earnings Preview: IREN Limited (IREN) Q4 Earnings Expected to Decline - Yahoo Finance",
+      "post_text": "Earnings Preview: IREN Limited (IREN) Q4 Earnings Expected to Decline Yahoo Finance",
+      "score": 0,
+      "upvote_ratio": 0,
+      "creation": "2026-08-20",
+      "source": "google_news",
+      "source_name": "Google News",
+      "publisher": "Yahoo Finance",
+      "source_url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxOTUlDOXRfMWFibXdOUTJaVXlXSjNBMnk5YUQ5eVN4a0FmbC1tdDhITUI5QlZQaXRib1BxU19ka1AxZWlBS0FMTzc1UWg0YW5VSnp2dkdXZ3NpNGpUb2dzaE5MWXpMbzhhdXBrdjlIcnhuc2Vyb3VPRGZHdUZ6SlRNaWd0R05YZTdtVTZyVGpQS1c4Sjc2M3lyRjhZSWhKeUFl?oc=5",
+      "tickers": "",
+      "positive": 0.019401,
+      "negative": 0.940879,
+      "neutral": 0.03972,
+      "confidence": 0.940879
+    },
+    {
       "postid": 87931175032562,
       "text": "Walmart stock tumbles 9% after outlook disappoints Wall Street - CNBC",
       "post_text": "Walmart stock tumbles 9% after outlook disappoints Wall Street CNBC",
@@ -547,23 +581,6 @@
       "confidence": 0.956098
     },
     {
-      "postid": 72380548722367,
-      "text": "U.S. Stocks and Bonds Slide, Brushing Off Treasury’s Buyback Plans - WSJ",
-      "post_text": "U.S. Stocks and Bonds Slide, Brushing Off Treasury’s Buyback Plans WSJ",
-      "score": 0,
-      "upvote_ratio": 0,
-      "creation": "2026-08-20",
-      "source": "google_news",
-      "source_name": "Google News",
-      "publisher": "WSJ",
-      "source_url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxOLXJ0NUtVanV5enNtZTRJeHpkMVliX0JGOVVubWhTYU51QmlWSXlvMWhJbXI0SWdGRFJfeFhKNHhuMHhRcVFXTnZmNGdGNnhxeERlNHp0Q0QxbG5oQUpBZnR0cF91dVl0NzIxUnpfNnJjdFh0MzAtSlA5cDdrNzdMc0lGVVpfWXZVVm1VcHdwY1diQTFoQlR4cDZscWJZRVFVLWx2T0pnLVVkMzg?oc=5",
-      "tickers": "",
-      "positive": 0.07296,
-      "negative": 0.814647,
-      "neutral": 0.112392,
-      "confidence": 0.814647
-    },
-    {
       "postid": 63208205499543,
       "text": "Zuckerberg is a failure",
       "post_text": "The zuck is a failure and the stock price ($Meta) reflects that. I tried to be optimistic, I really did, but their management team have amazing expertise to find the most optimal way to spend as much money as possible for as little ROI as possible. I do not believe the idea that ai investments lead to increased ad conversions and top line growth, but rather it’s a function of an already engaging platform that captures the world’s attention. On top of them incinerating cash to make CAPEX providers rich (Cuckerberg style),reality labs is a permanent tax on their FCF. They are also likely to lose",
@@ -596,23 +613,6 @@
       "negative": 0.934263,
       "neutral": 0.042902,
       "confidence": 0.934263
-    },
-    {
-      "postid": 58909561010382,
-      "text": "U.S. Stocks Slide as Bond Yields Rebound; Walmart Disappoints - WSJ",
-      "post_text": "U.S. Stocks Slide as Bond Yields Rebound; Walmart Disappoints WSJ",
-      "score": 0,
-      "upvote_ratio": 0,
-      "creation": "2026-08-20",
-      "source": "google_news",
-      "source_name": "Google News",
-      "publisher": "WSJ",
-      "source_url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPRWN0bmZIYnRUUUFldVlQcEoyQWlfZHRJY2R6blF2bHZpUThtU09xREVvSlFvTGxzb2dHcjlrMnVzbmNGMS1nLVRGRHJMekYyN3lzUVZFYzRxWmR6bmlFOHV0bHpfVnRFOVJKQ0l3TkVMREp1UUZpRWU5RC1YWWNRSlVKWVdUeWhFZzA1NFFCWUI2dE1QOUtSTWR3VkZyVWFGRUdjaTNB?oc=5",
-      "tickers": "WMT",
-      "positive": 0.932765,
-      "negative": 0.035922,
-      "neutral": 0.031314,
-      "confidence": 0.932765
     },
     {
       "postid": 56608255943044,
@@ -681,23 +681,6 @@
       "negative": 0.011564,
       "neutral": 0.014606,
       "confidence": 0.97383
-    },
-    {
-      "postid": 36899912337549,
-      "text": "Walmart raises outlook, but drug price declines hit hard - Axios",
-      "post_text": "Walmart raises outlook, but drug price declines hit hard Axios",
-      "score": 0,
-      "upvote_ratio": 0,
-      "creation": "2026-08-20",
-      "source": "google_news",
-      "source_name": "Google News",
-      "publisher": "Axios",
-      "source_url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE5wOWZudXdzMlYyUkROMW5JUFBERjJPYjJQVERJY3VBb05FNFJlSDFVR2tmYXZWQXlHX1dKTHJYOEptSzU4UGZ5RHpqelhaQUpiSjd3VTdBYjRYY1JzNE5PVWV0dWQ4UFJCeVcyLV91amI?oc=5",
-      "tickers": "WMT",
-      "positive": 0.945022,
-      "negative": 0.027092,
-      "neutral": 0.027886,
-      "confidence": 0.945022
     },
     {
       "postid": 35355552479153,
@@ -919,6 +902,23 @@
       "negative": 0.054074,
       "neutral": 0.405463,
       "confidence": 0.540463
+    },
+    {
+      "postid": 252728036657833,
+      "text": "Treasury Announces Increased Sizes of Nominal Long-End Liquidity Support Buybacks Beginning September 9",
+      "post_text": "https://home.treasury.gov/news/press-releases/sb0607 The U.S. Department of the Treasury is increasing, by at least double, the size of liquidity support buyback operations for longer-dated nominal coupon securities (the 10-year to 20-year sector and the 20-year to 30-year sector). The current maximum size of $2 billion per operation will be at least $4 billion per operation. This change is effective September 9, 2026 and will be in effect for the remainder of this refunding quarter (through November 4, 2026). Treasury will provide more information about future buyback sizes at the next Quarte",
+      "score": 0,
+      "upvote_ratio": 0,
+      "creation": "2026-08-19",
+      "source": "reddit",
+      "source_name": "Reddit",
+      "publisher": "r/stocks",
+      "source_url": "https://www.reddit.com/r/stocks/comments/1vsmhf5/treasury_announces_increased_sizes_of_nominal/",
+      "tickers": "",
+      "positive": 0.59419,
+      "negative": 0.009111,
+      "neutral": 0.396699,
+      "confidence": 0.59419
     },
     {
       "postid": 243038983356190,
@@ -1312,23 +1312,6 @@
       "confidence": 0.64661
     },
     {
-      "postid": 91121514775914,
-      "text": "Target Corporation Reports Second Quarter Earnings - PR Newswire",
-      "post_text": "Target Corporation Reports Second Quarter Earnings PR Newswire",
-      "score": 0,
-      "upvote_ratio": 0,
-      "creation": "2026-08-19",
-      "source": "google_news",
-      "source_name": "Google News",
-      "publisher": "PR Newswire",
-      "source_url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQdFRBMnVEYVVtNmJPV1paelNXWUZ2Uk1lckhQV3NBQlBqVmpxNENmektPbDRCcUdkQzJFdE8wajVnQnl0UGNrMlUyYWhQZGRXVXlRZzlKM2lQZDNBUmNPTVdVSkNfSzVUUVMybmlLWUcyTHZ5VWMxUDExa0lZZW1pLUNDdFo1X29KU2FvY05PN0VwVV8xX1ZCZnVyQU5IQ1Y3Q3RDZy12ekdCQQ?oc=5",
-      "tickers": "TGT",
-      "positive": 0.100642,
-      "negative": 0.122737,
-      "neutral": 0.776621,
-      "confidence": 0.776621
-    },
-    {
       "postid": 88679471708166,
       "text": "U.S. Stocks Up as Treasury Buybacks Calm Bond Yields; Moderna Surges - WSJ",
       "post_text": "U.S. Stocks Up as Treasury Buybacks Calm Bond Yields; Moderna Surges WSJ",
@@ -1482,23 +1465,6 @@
       "confidence": 0.958174
     },
     {
-      "postid": 63232485773256,
-      "text": "10 Stocks with the Largest Fair Value Estimate Increases During Q2 Earnings - Morningstar",
-      "post_text": "10 Stocks with the Largest Fair Value Estimate Increases During Q2 Earnings Morningstar",
-      "score": 0,
-      "upvote_ratio": 0,
-      "creation": "2026-08-19",
-      "source": "google_news",
-      "source_name": "Google News",
-      "publisher": "Morningstar",
-      "source_url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNSFhLUFhDT0ZSNUg3RXp5MXBQT1JLaTV5OHBoRmY2MHNHclBQVkExNjI0V1J5S3VyMHlfZE5rSF9JWUFpTHlTdC03UGVlRml6cU1qcmNrUDgwTzdrWUlzQUJhSHlkMGtLdE01QXhpOFFmVmhienJxYXdnd2JGaE5KMGtXaVE3QUtnTWpUUWstbGp6aDhVVVV5MkItaHhhWkhVTXNHZlV6NHdpMzBX?oc=5",
-      "tickers": "",
-      "positive": 0.658472,
-      "negative": 0.016002,
-      "neutral": 0.325527,
-      "confidence": 0.658472
-    },
-    {
       "postid": 45526247126444,
       "text": "Bessent Becomes Most Interventionist Treasury Chief in Decades",
       "post_text": "submitted by /u/joe4942 to r/StockMarket [link] [comments]",
@@ -1582,23 +1548,6 @@
       "negative": 0.939579,
       "neutral": 0.037503,
       "confidence": 0.939579
-    },
-    {
-      "postid": 26048635822569,
-      "text": "3 S&P 500 Stocks We Keep Off Our Radar - Yahoo Finance",
-      "post_text": "3 S&P 500 Stocks We Keep Off Our Radar Yahoo Finance",
-      "score": 0,
-      "upvote_ratio": 0,
-      "creation": "2026-08-19",
-      "source": "google_news",
-      "source_name": "Google News",
-      "publisher": "Yahoo Finance",
-      "source_url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxONzVuMTZ2WER6elZwUkYxWTBHOXkzTXg5a0hSZ0gwTWZPM3AzOHgzLTVKclhXQkpBQk9OYlhxT3RKZ1lHcjdLaS1nZkJJYTZmeXFpcjVyT19fcXhfMkFiVktpSEVCRVIzbzQzVGFfQktHcFE4Y0VrRTZTa2k3VHU4d3NKZE9ka0xsMlRlMw?oc=5",
-      "tickers": "",
-      "positive": 0.056341,
-      "negative": 0.44749,
-      "neutral": 0.496168,
-      "confidence": 0.496168
     },
     {
       "postid": 24365544441461,
@@ -1737,6 +1686,40 @@
       "confidence": 0.717601
     },
     {
+      "postid": 149704725387836,
+      "text": "Trump Has Abandoned His Role as Stock Market Cheerleader - Barron's",
+      "post_text": "Trump Has Abandoned His Role as Stock Market Cheerleader Barron's",
+      "score": 0,
+      "upvote_ratio": 0,
+      "creation": "2026-08-18",
+      "source": "google_news",
+      "source_name": "Google News",
+      "publisher": "Barron's",
+      "source_url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxQc0c1UXJad2RPMFBmLVg4U0M3cG9KZWNEOGIteDNYMEk5WnNJRGF3bVVmWmc2a0haVzFkN1VPU1NKVzdJVDhxSjdvTWFqMVdFTDk2RXo0STVBa3dCX3RjY1NleWdUSmxQSTQ2Z005X3NnWmRfYk9xVVFHNEU2YU9oZ0ZVR29rUFgz?oc=5",
+      "tickers": "",
+      "positive": 0.012746,
+      "negative": 0.644886,
+      "neutral": 0.342368,
+      "confidence": 0.644886
+    },
+    {
+      "postid": 147180774649436,
+      "text": "Global bond sell-off pressures stocks: AlphaCheck - Yahoo Finance",
+      "post_text": "Global bond sell-off pressures stocks: AlphaCheck Yahoo Finance",
+      "score": 0,
+      "upvote_ratio": 0,
+      "creation": "2026-08-18",
+      "source": "google_news",
+      "source_name": "Google News",
+      "publisher": "Yahoo Finance",
+      "source_url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQR2IyNHJDdVRJYzdCVkxxSmNUdkpwdUMySkVwYzFrS2dfQlRhTDZQUmxXNnMyTElZaUljYjQ3VkN5aGxob0ViVmtVZV9GZy1jaExfaDlDQkJfd0pESGljUEtLbVZDZVY2ZVg0Vm9FME1rYi1YcTJDejktSHBKMXVrdWFEN01PSjNfcU5LVGFEbU83dXpoNnNOeVlVRzlzWk9PNWs4M0VEal8?oc=5",
+      "tickers": "",
+      "positive": 0.01194,
+      "negative": 0.040135,
+      "neutral": 0.947926,
+      "confidence": 0.947926
+    },
+    {
       "postid": 146413898987793,
       "text": "The Best \"Strong Buy\" Stocks to Buy Now and Heading into September - Zacks Investment Research",
       "post_text": "The Best \"Strong Buy\" Stocks to Buy Now and Heading into September Zacks Investment Research",
@@ -1837,6 +1820,23 @@
       "negative": 0.535198,
       "neutral": 0.4522,
       "confidence": 0.535198
+    },
+    {
+      "postid": 110153798796543,
+      "text": "E&E News: “The Stock Market May Have a Climate Change Problem” - Resources for the Future",
+      "post_text": "E&E News: “The Stock Market May Have a Climate Change Problem” Resources for the Future",
+      "score": 0,
+      "upvote_ratio": 0,
+      "creation": "2026-08-18",
+      "source": "google_news",
+      "source_name": "Google News",
+      "publisher": "Resources for the Future",
+      "source_url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxORkgtTndkOERLRG1SbTdrZERZeVNHdXNNcm5KbHFGSU1vWVRrSDBpMzFWLU1jbTRJNWxLWHA5VF9QcGdOTEJMeVBmaktsdmZ1VjBib0NKZHFCSlQ5YjdMemNuYmJEelpNQ01nelNCa2RWdURPV1NqMWRSTXVhNDRFMjdsQVpLTGE4MjVPVllaLXphUE1sTGVzT1FWalNpYjdtZno0?oc=5",
+      "tickers": "",
+      "positive": 0.007818,
+      "negative": 0.091119,
+      "neutral": 0.901063,
+      "confidence": 0.901063
     },
     {
       "postid": 110147888734313,
@@ -1975,6 +1975,23 @@
       "confidence": 0.977436
     },
     {
+      "postid": 66738149891257,
+      "text": "Trading Day: Bonds slam stocks - Reuters",
+      "post_text": "Trading Day: Bonds slam stocks Reuters",
+      "score": 0,
+      "upvote_ratio": 0,
+      "creation": "2026-08-18",
+      "source": "google_news",
+      "source_name": "Google News",
+      "publisher": "Reuters",
+      "source_url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPVnhrWTdQM0VHLXhpVXBwdm1sWW1PTVJ2V3JfRHVqV0ZrSGpvcG5PTTFVZ2Q2bFo2elRmTnR1UXVKaWlSNTYxR095TnpKRDJvT21OSV94LUUyQ09hcXdnYUtSN213akNlTVNlSVE2dXlZRHVwY3RqSmpkclRwM0dKYVlRRHkwY2psOW5ob0RiTW5aU0lvbU1uWWdkMlZsVlBDQWVteE13?oc=5",
+      "tickers": "",
+      "positive": 0.020065,
+      "negative": 0.011793,
+      "neutral": 0.968141,
+      "confidence": 0.968141
+    },
+    {
       "postid": 62430307820575,
       "text": "Home Depot reaffirms guidance amid 'frozen housing market conditions' - CNBC",
       "post_text": "Home Depot reaffirms guidance amid 'frozen housing market conditions' CNBC",
@@ -2007,6 +2024,23 @@
       "negative": 0.034841,
       "neutral": 0.038102,
       "confidence": 0.927057
+    },
+    {
+      "postid": 52110925624100,
+      "text": "BofA Poll Sees Few Bears Left as Investors Pile Into Stocks - Bloomberg.com",
+      "post_text": "BofA Poll Sees Few Bears Left as Investors Pile Into Stocks Bloomberg.com",
+      "score": 0,
+      "upvote_ratio": 0,
+      "creation": "2026-08-18",
+      "source": "google_news",
+      "source_name": "Google News",
+      "publisher": "Bloomberg.com",
+      "source_url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxPdEtIdkFfUW1RSHd5dGdmekFKTjJWc3d2NG9rOVM0ODIxbFU4S3lBNWpGRUo5ZF9rYU1tSnlveGlrVWNfV2ZsTnlWRmo0Zno3aXZ4cWx1TW1Pek41YUI5SUxTSS1MWXRrckdwYmplNkt5d1lJZlNBbTNKWTVLRnpRZ0lOYjRJSzBDYTVpMVN3RlRud3lWQUZDMURjLTFxVHk4SUxia0RhNVVuNXZnN2JJ?oc=5",
+      "tickers": "",
+      "positive": 0.03553,
+      "negative": 0.585921,
+      "neutral": 0.378549,
+      "confidence": 0.585921
     },
     {
       "postid": 42213686024934,
@@ -2162,6 +2196,23 @@
       "confidence": 0.956431
     },
     {
+      "postid": 243159798708429,
+      "text": "The AI productivity payoff is coming. Here are 20 stocks primed to capture the gains as adoption spreads. - MarketWatch",
+      "post_text": "The AI productivity payoff is coming. Here are 20 stocks primed to capture the gains as adoption spreads. MarketWatch",
+      "score": 0,
+      "upvote_ratio": 0,
+      "creation": "2026-08-17",
+      "source": "google_news",
+      "source_name": "Google News",
+      "publisher": "MarketWatch",
+      "source_url": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxPdFVLazlzX1NtOFpMY0toT3YxZUVqTXIwRVFrMVl6aW5BOXluYk9DX3lERmpQTVIxWEd0VEFlSmplcHNBeVI3c21RS25IRHpIVzdFdEJRUm1HTmhoTUNFQldwUlNkdnJYVk92S2RyeFljYnBHdy1veGlLTWRXQVhfSlM0Z2NnQmI1alk5UzN4eWo0MTNWcXB3YmhpTmcyRmxYSXVoNW9yZWJaTmNsdEtqa1VKYVlITXREeDFWUVd0SVpQV1RwV0lHaWxJanhrM2RDZW1jQ0NZcHdlN3dSS0Nv?oc=5",
+      "tickers": "",
+      "positive": 0.245451,
+      "negative": 0.00634,
+      "neutral": 0.748209,
+      "confidence": 0.748209
+    },
+    {
       "postid": 220897938836533,
       "text": "Guggenheim Rushes to Clarify 77% Earnings Drop After Loan Slides - Bloomberg.com",
       "post_text": "Guggenheim Rushes to Clarify 77% Earnings Drop After Loan Slides Bloomberg.com",
@@ -2228,6 +2279,23 @@
       "negative": 0.006298,
       "neutral": 0.980346,
       "confidence": 0.980346
+    },
+    {
+      "postid": 189658225996656,
+      "text": "U.S. Stocks Slip as Oil Impasse Weighs on Sentiment - WSJ",
+      "post_text": "U.S. Stocks Slip as Oil Impasse Weighs on Sentiment WSJ",
+      "score": 0,
+      "upvote_ratio": 0,
+      "creation": "2026-08-17",
+      "source": "google_news",
+      "source_name": "Google News",
+      "publisher": "WSJ",
+      "source_url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxPb0R6ZG5jaUtZaURyVjhpZFlBclo4VmhEWFUzeWtFX1BNQ3JHdFpsbEhCbWV3eWF3MGxjcnlTLU1RYm12OW43VUs5WTRtWGc1WWJwRzMzemVYdFpBQW1GbU01ZXMyb0lLQVRkbDJ5SUdqSjVWSHk0aDZoczdMNm4zYTJLZmZaWmV4cXgxRnRtNG01Vkk4VmVqc3lB?oc=5",
+      "tickers": "",
+      "positive": 0.138426,
+      "negative": 0.773234,
+      "neutral": 0.088341,
+      "confidence": 0.773234
     },
     {
       "postid": 188070281595421,
@@ -3080,40 +3148,6 @@
       "confidence": 0.778212
     },
     {
-      "postid": 222392731318033,
-      "text": "Applied Materials Stock Falls After Earnings Weren’t Quite Good Enough - Barron's",
-      "post_text": "Applied Materials Stock Falls After Earnings Weren’t Quite Good Enough Barron's",
-      "score": 0,
-      "upvote_ratio": 0,
-      "creation": "2026-08-14",
-      "source": "google_news",
-      "source_name": "Google News",
-      "publisher": "Barron's",
-      "source_url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxNeHNaSk9VQzl2Um1MUUZUR0ZsN1FfcHFFbjFIVlhQZV9hODFhWTRMSzlhUHNZQzNIRThkUFlQWHExeUZBM0dHRGNrLWFpendHSEhmeWZvQVlZRGp0WjJRdkFLYV9TR3F3NlBHdERoTThxd2N2Y2xhcVJDSWhKd2ZoOVNfZk5rRW8?oc=5",
-      "tickers": "AMAT",
-      "positive": 0.031776,
-      "negative": 0.948496,
-      "neutral": 0.019728,
-      "confidence": 0.948496
-    },
-    {
-      "postid": 204749075900390,
-      "text": "How do I get my money back? :(",
-      "post_text": "submitted by /u/DamageCivil9250 to r/wallstreetbets [link] [comments]",
-      "score": 0,
-      "upvote_ratio": 0,
-      "creation": "2026-08-14",
-      "source": "reddit",
-      "source_name": "Reddit",
-      "publisher": "r/wallstreetbets",
-      "source_url": "https://www.reddit.com/r/wallstreetbets/comments/1vo2c6i/how_do_i_get_my_money_back/",
-      "tickers": "",
-      "positive": 0.005505,
-      "negative": 0.01103,
-      "neutral": 0.983465,
-      "confidence": 0.983465
-    },
-    {
       "postid": 198875733236912,
       "text": "Just started investing after getting laid off",
       "post_text": "This is where it starts going up right? submitted by /u/LateGameMachines to r/wallstreetbets [link] [comments]",
@@ -3318,23 +3352,6 @@
       "confidence": 0.956109
     },
     {
-      "postid": 69499773233634,
-      "text": "Selling all of my BTC slowly every month (not all at once) to re-buy the SP500",
-      "post_text": "I bought too much bitcoin, or should I say, I am all in since february. I now deeply regret my decision. While BTC just went sideways, AI stocks and the SP500 went just up and up. And then there is the quantum treat, spam in the blockchain and the fact that it's not a productive asset. I think I'm gonna slowly DCA out of BTC and into the SP500 - every month 10% of my bitcoin portfolio. Some may have still faith in the coin, but I don't have as much as in february with all that nonsense happening in the world right now and the evolution of quantum computers, so I go back to traditional finance.",
-      "score": 0,
-      "upvote_ratio": 0,
-      "creation": "2026-08-14",
-      "source": "reddit",
-      "source_name": "Reddit",
-      "publisher": "r/investing",
-      "source_url": "https://www.reddit.com/r/investing/comments/1vo4qn8/selling_all_of_my_btc_slowly_every_month_not_all/",
-      "tickers": "",
-      "positive": 0.027085,
-      "negative": 0.018452,
-      "neutral": 0.954463,
-      "confidence": 0.954463
-    },
-    {
       "postid": 51430409510220,
       "text": "Michael Buried",
       "post_text": "Rip submitted by /u/twist_games to r/wallstreetbets [link] [comments]",
@@ -3352,21 +3369,21 @@
       "confidence": 0.513815
     },
     {
-      "postid": 48613842078343,
-      "text": "How Big Tech’s Earnings Are Inflated by Other Tech Companies - WSJ",
-      "post_text": "How Big Tech’s Earnings Are Inflated by Other Tech Companies WSJ",
+      "postid": 42694189676502,
+      "text": "Record Profits For Refiners. These 5 Oil Stocks Are Worthy Bets. - Investor's Business Daily",
+      "post_text": "Record Profits For Refiners. These 5 Oil Stocks Are Worthy Bets. Investor's Business Daily",
       "score": 0,
       "upvote_ratio": 0,
       "creation": "2026-08-14",
       "source": "google_news",
       "source_name": "Google News",
-      "publisher": "WSJ",
-      "source_url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNN1lvQVNDelc5YXJQYjBQVkVaRmVtdFlvVExLejM5YklKenRiTUFsVkR4UFI0SWV4dkJJczFvN0F6aTBUY3pGa3pqVzVBRjhQWG83alQxNEdfSXpFVE54WTUzLVB1TUFNZUpxaXJvaDdxU01GN0xJck51Y2EtY2h3akQyUDhRdFlmRUZmNlZGYlRROUU0amJiM0Z6NFpSbHA2U2NaSEU5VQ?oc=5",
+      "publisher": "Investor's Business Daily",
+      "source_url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE4xRTFWaUEtVE1mZFd4VmpPMTdWZ3ROaGw0Z0NyZmRVZVBRSlBqNHhiYjdMSktxNWdSVlhGRWdzQVhJSGhSakYza0pUQkJsYlZOdEp0STRjWk1ObEVQalBidGllVDlvTVVjUWNNNkRicGdOVS02?oc=5",
       "tickers": "",
-      "positive": 0.795747,
-      "negative": 0.086746,
-      "neutral": 0.117507,
-      "confidence": 0.795747
+      "positive": 0.912477,
+      "negative": 0.007498,
+      "neutral": 0.080024,
+      "confidence": 0.912477
     },
     {
       "postid": 27554354478,
