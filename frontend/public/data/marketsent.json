@@ -1,24 +1,92 @@
 {
   "schema_version": 2,
-  "generated_at": "2026-08-24T01:59:10.653543Z",
+  "generated_at": "2026-08-24T07:30:10.910662Z",
   "sources": [
     {
       "id": "reddit",
       "name": "Reddit",
       "status": "ok",
       "item_count": 100,
-      "updated_at": "2026-08-24T01:59:10.653543Z"
+      "updated_at": "2026-08-24T07:30:10.910662Z"
     },
     {
       "id": "google_news",
       "name": "Google News",
       "status": "ok",
       "item_count": 100,
-      "updated_at": "2026-08-24T01:59:10.653543Z"
+      "updated_at": "2026-08-24T07:30:10.910662Z"
     }
   ],
   "count": 199,
   "posts": [
+    {
+      "postid": 273050784996049,
+      "text": "3 Growth Stocks That Could Skyrocket in the Second Half of 2026 - Yahoo Finance",
+      "post_text": "3 Growth Stocks That Could Skyrocket in the Second Half of 2026 Yahoo Finance",
+      "score": 0,
+      "upvote_ratio": 0,
+      "creation": "2026-08-24",
+      "source": "google_news",
+      "source_name": "Google News",
+      "publisher": "Yahoo Finance",
+      "source_url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxPNDRURTRQenJ0TTgzazNnaVZTNUhjMzFkQ2psNDlodV9fN2lxVXliSTV3allWRlRUSXNmMEptd0NYVi1Rdnc2V0x3M21YM21nTS1xT0FrS0hKM0NkR0xaQTUzZW5aSk9pdFRtZHR6dEpSSERCeXpaa0hkVENiX3ZoYnVWS0RtUTMwUVZ5dU1xZHhpNmlrV3U0c0FFNHo?oc=5",
+      "tickers": "",
+      "positive": 0.342278,
+      "negative": 0.020948,
+      "neutral": 0.636774,
+      "confidence": 0.636774
+    },
+    {
+      "postid": 150785669259613,
+      "text": "That is how the USA now treats its 'allies'. And that is why every country in its right mind wants out of the relationship",
+      "post_text": "submitted by /u/CartographerRare4123 to r/StockMarket [link] [comments]",
+      "score": 0,
+      "upvote_ratio": 0,
+      "creation": "2026-08-24",
+      "source": "reddit",
+      "source_name": "Reddit",
+      "publisher": "r/StockMarket",
+      "source_url": "https://www.reddit.com/r/StockMarket/comments/1vwscyh/that_is_how_the_usa_now_treats_its_allies_and/",
+      "tickers": "",
+      "positive": 0.008209,
+      "negative": 0.006475,
+      "neutral": 0.985316,
+      "confidence": 0.985316
+    },
+    {
+      "postid": 93163425132318,
+      "text": "$1,000,000 - Full Porting $SPCX and $MSTR",
+      "post_text": "Yes, I max margin. Wish me luck bulls. submitted by /u/Dull_Fly_7443 to r/wallstreetbets [link] [comments]",
+      "score": 0,
+      "upvote_ratio": 0,
+      "creation": "2026-08-24",
+      "source": "reddit",
+      "source_name": "Reddit",
+      "publisher": "r/wallstreetbets",
+      "source_url": "https://www.reddit.com/r/wallstreetbets/comments/1vwovao/1000000_full_porting_spcx_and_mstr/",
+      "tickers": "",
+      "positive": 0.036878,
+      "negative": 0.010039,
+      "neutral": 0.953083,
+      "confidence": 0.953083
+    },
+    {
+      "postid": 34494572460823,
+      "text": "Fund manager lists four of his best-value unloved stocks to swerve the AI hype - CNBC",
+      "post_text": "Fund manager lists four of his best-value unloved stocks to swerve the AI hype CNBC",
+      "score": 0,
+      "upvote_ratio": 0,
+      "creation": "2026-08-24",
+      "source": "google_news",
+      "source_name": "Google News",
+      "publisher": "CNBC",
+      "source_url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE1KeXROUEd2cFF4R3R4QzVKNk9LTnNKb3hIV1NxWm9ydXBjOTB4cHc1cWVnV09DTkhPT09lUXJVelZ1Zl9NM2Q3c19sN0VwaTZidkEyNzNDSmdqeklseEUxcXg2VS1xeWdHb2Q3OXo0d2xfRGpMd1JDREI4OTk?oc=5",
+      "tickers": "",
+      "positive": 0.02407,
+      "negative": 0.005591,
+      "neutral": 0.970338,
+      "confidence": 0.970338
+    },
     {
       "postid": 275153478579946,
       "text": "Nvidia earnings and Jackson Hole: What to watch this week - Yahoo Finance",
@@ -258,6 +326,23 @@
       "confidence": 0.921703
     },
     {
+      "postid": 249347825263138,
+      "text": "Stock Market Week Ahead: A Choppy Market Heads For Nvidia Earnings, Jackson Hole - Investor's Business Daily",
+      "post_text": "Stock Market Week Ahead: A Choppy Market Heads For Nvidia Earnings, Jackson Hole Investor's Business Daily",
+      "score": 0,
+      "upvote_ratio": 0,
+      "creation": "2026-08-22",
+      "source": "google_news",
+      "source_name": "Google News",
+      "publisher": "Investor's Business Daily",
+      "source_url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxNcW5QRE12ZEV3TUE2ZnFjdGljdFJhV3JGay1NRHBUa0pCSWhuNy00bkh1NDVScGVuazFZVFZwWnAzcDhMc0luWkRNeG90MWM1LUc4SXFwMmlPT2t3dVQ4a2pLbUc4NzJaS19LT1Brd01oYXUxcFNBTGVKaHJTNkRPcnRjbll3UzNNN0hOU3lub0FhU2hBeU9fSWF0NXpIRDRJb2dyN1IySVVKbTV6cm9tNzZqdlZqeTVkZnBrbFA0cFkzQ29qMmVhOFJ0V05jMGtXUnc?oc=5",
+      "tickers": "NVDA",
+      "positive": 0.850099,
+      "negative": 0.01284,
+      "neutral": 0.137061,
+      "confidence": 0.850099
+    },
+    {
       "postid": 244813981808839,
       "text": "Canada says it will match US tariffs 'dollar for dollar' as trade talks break down",
       "post_text": "A fresh wave of US tariffs on a wide array of Canadian goods came into effect on Saturday after a last-minute breakdown in trade talks. Announcing the suspension of negotiations shortly before the Friday night deadline, Canadian Prime Minister Mark Carney said he would impose reciprocal tariffs on US goods \"dollar for dollar\". Carney said \"last-minute changes in the US proposed terms were unfair, uneconomic, and called into question the reliability of any deal\". Trade negotiators had been engaged in intense talks since July, after President Donald Trump threatened to impose a 50% levy on nearl",
@@ -273,6 +358,23 @@
       "negative": 0.317952,
       "neutral": 0.204383,
       "confidence": 0.477665
+    },
+    {
+      "postid": 215938047987489,
+      "text": "Nvidia Q2 Preview: Strong Earnings and Low Valuation Set the Stage for Upside - Yahoo Finance",
+      "post_text": "Nvidia Q2 Preview: Strong Earnings and Low Valuation Set the Stage for Upside Yahoo Finance",
+      "score": 0,
+      "upvote_ratio": 0,
+      "creation": "2026-08-22",
+      "source": "google_news",
+      "source_name": "Google News",
+      "publisher": "Yahoo Finance",
+      "source_url": "https://news.google.com/rss/articles/CBMingFBVV95cUxPUXhoeG9BWG9yOWZCdHRSOG9GMHJhaUlFbjJPQUJYeFJ5ZTdkZGNDaXc0bTRBR1pJaXI5M2JDZkZKTnlzcVI0Zm1Sd1BuU1JwejJOQ05CR29nOEM1MEx1STJnRHFFWXJ4cFFpb3hvbW9ESkQycl8xbWhtN3psX1Y2cTJLX0xvb3ZyamRGaGhmVHBYWHBOUjFoSzlBRWw3QQ?oc=5",
+      "tickers": "NVDA",
+      "positive": 0.832618,
+      "negative": 0.015177,
+      "neutral": 0.152206,
+      "confidence": 0.832618
     },
     {
       "postid": 183761013887507,
@@ -394,23 +496,6 @@
       "confidence": 0.981255
     },
     {
-      "postid": 131137551092504,
-      "text": "Rising bond yields have stocks 'on the brink' of a 20% drop, strategist warns - Business Insider",
-      "post_text": "Rising bond yields have stocks 'on the brink' of a 20% drop, strategist warns Business Insider",
-      "score": 0,
-      "upvote_ratio": 0,
-      "creation": "2026-08-22",
-      "source": "google_news",
-      "source_name": "Google News",
-      "publisher": "Business Insider",
-      "source_url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNbHd3X3hLUzFOTUNKOFFUNElhSDFqSFVicDhoUWhKRGFVODZ2ZUhSRFZ1dmRpNHl2amtxaFBwUERlZmhNWFJyNTNYV0h1bmU3MTluNkZTLU1GWm1IRGlQb2VTc3RITC1RdFBPM2Y4ZlNZRW1jLWQ2ZVc1NlBGbE14cUFRSGotaUtJZkxJUWdrUXhNaklKZzZ3LUIyZ3NHbzhxS044Y1JYeVdrNTA?oc=5",
-      "tickers": "",
-      "positive": 0.073392,
-      "negative": 0.842772,
-      "neutral": 0.083836,
-      "confidence": 0.842772
-    },
-    {
       "postid": 128549177922611,
       "text": "Six investors reveal the biggest market risks — and one strategy they agree on - CNBC",
       "post_text": "Six investors reveal the biggest market risks — and one strategy they agree on CNBC",
@@ -494,6 +579,23 @@
       "negative": 0.068463,
       "neutral": 0.054261,
       "confidence": 0.877276
+    },
+    {
+      "postid": 20927141449240,
+      "text": "Trump reshuffled his portfolio in June, selling names like Meta and buying Berkshire Hathaway - CNBC",
+      "post_text": "Trump reshuffled his portfolio in June, selling names like Meta and buying Berkshire Hathaway CNBC",
+      "score": 0,
+      "upvote_ratio": 0,
+      "creation": "2026-08-22",
+      "source": "google_news",
+      "source_name": "Google News",
+      "publisher": "CNBC",
+      "source_url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxPZWx5RzFyeUdwM3dWQ1A5ek1VbmhWd2xqOEFlSGthUFNxbExWWkxrbnNyUHNaVnBTWTFCSVU4eENTMXJ5cjBHZjNaYjNpb25jbEhrOWU1M05tdGt5SWNfREpVRlhIekkzWTBFdy1OUGRZSzJHdzgtaDZVOG9GUEw2dTczV05nUC00SENKbFFRdUJqOFZsd3h2RXN1T0FMVE0tNVNQdjA4X196RGV1bG1hcFpJU0tEazU1TEQyWEV6LS1RVC1SQ2RxYdIBzgFBVV95cUxOSDNuZGNGcUhpX19VSk83SVhjb3J4QlNMQzVzWU9DMG9oMGU5TVoxdHY4bFlzdVQxM2tuQ01FMnBUQlExQXBkbkZUREdraUUwNmNpbllYcVAweG5YenZhdUNjSHR2Nm81N3VZOWkyMXNMZEFwb0hneFVEYjVURzh0a0dBZElXWnpfNnZoTTYweVQ4WGlUZm43MkdGV1ZLcVZkTVdRbkF2YXc2dFJ2MjUycTM3U0dkM2F1X3NuYmZKNXV2QkNJdTF0SWRJbWF6QQ?oc=5",
+      "tickers": "BRK.B,META",
+      "positive": 0.078685,
+      "negative": 0.009665,
+      "neutral": 0.91165,
+      "confidence": 0.91165
     },
     {
       "postid": 279824713531320,
@@ -751,23 +853,6 @@
       "confidence": 0.980186
     },
     {
-      "postid": 143791658440084,
-      "text": "Above the Noise: AI, earnings, and permabears - invesco.com",
-      "post_text": "Above the Noise: AI, earnings, and permabears invesco.com",
-      "score": 0,
-      "upvote_ratio": 0,
-      "creation": "2026-08-21",
-      "source": "google_news",
-      "source_name": "Google News",
-      "publisher": "invesco.com",
-      "source_url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxQSlNkODZPZHJYR0ZTT0VQcmszR0N5bDBKdFVSRlZFWkdCU2h4dW40U1Z5STVCSXVhMlNRNHU1NHdxZk9lemN4QWU5eFZzSXpzNlI5akVMUVNfa3RHd1E5aWtPdndYSU05bGdCY1RuSXY0QVFRSG1sakg2b2tqNkJGcVRpbjk2WUpJVEVhcGZoZjdPNklMeFE?oc=5",
-      "tickers": "",
-      "positive": 0.2642,
-      "negative": 0.018562,
-      "neutral": 0.717238,
-      "confidence": 0.717238
-    },
-    {
       "postid": 136250226729225,
       "text": "Stock Market Bargains Are Hiding in This Overlooked Place - WSJ",
       "post_text": "Stock Market Bargains Are Hiding in This Overlooked Place WSJ",
@@ -851,6 +936,23 @@
       "negative": 0.009855,
       "neutral": 0.051738,
       "confidence": 0.938407
+    },
+    {
+      "postid": 76653641903618,
+      "text": "European stocks gain, but inflation worries drive weekly decline - Reuters",
+      "post_text": "European stocks gain, but inflation worries drive weekly decline Reuters",
+      "score": 0,
+      "upvote_ratio": 0,
+      "creation": "2026-08-21",
+      "source": "google_news",
+      "source_name": "Google News",
+      "publisher": "Reuters",
+      "source_url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQTGI4aEFTYmRYM0wyeVlIYmtqcjNFRWpHQndSS1FZRzBqTnZUUmJoRGdXTGNtV2VaakRWdzBqNmZpUWh5OFdTM0RqWmZrQ0ZmX0VqMEtnRU5jOGlQUDlHR0VxX1JhMS15ZGtCVmNDWV9QUTN6WFlwalVqbTZvcXNDQzVVRjRwQU1XcUxPNmMyajMyMHdtbHVwY2dPWUpWOHJjTzFIR2RfV29QeW9wOEVqMFJvdVVHUQ?oc=5",
+      "tickers": "",
+      "positive": 0.106344,
+      "negative": 0.778521,
+      "neutral": 0.115135,
+      "confidence": 0.778521
     },
     {
       "postid": 72278722174830,
@@ -1023,6 +1125,23 @@
       "confidence": 0.985544
     },
     {
+      "postid": 279563523374686,
+      "text": "3 Undervalued Stocks To Buy Now For September 2026 - Forbes",
+      "post_text": "3 Undervalued Stocks To Buy Now For September 2026 Forbes",
+      "score": 0,
+      "upvote_ratio": 0,
+      "creation": "2026-08-20",
+      "source": "google_news",
+      "source_name": "Google News",
+      "publisher": "Forbes",
+      "source_url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxOMWxQWjdYTkJnYzB4UzVJTzZUUkVQeXBKVGpzYUpuMmpIeUdyNG5BcG9SQ0I0cW9nMHZOZkduaDNrX3phTU5jUnAtLVdsaXB3QVRrd25ReTJNTDVJN1cyQkdSZUFraExaYjFuWXZXS3Bqa2tkQzVyZEw4a1ZhS0U2TVZpX0ZVV0FxQkZCTDZlaDZMRTRINkhIMw?oc=5",
+      "tickers": "",
+      "positive": 0.041519,
+      "negative": 0.013778,
+      "neutral": 0.944703,
+      "confidence": 0.944703
+    },
+    {
       "postid": 274657885480750,
       "text": "Alibaba Stock Falls After Earnings. Why AI Is to Blame. - Barron's",
       "post_text": "Alibaba Stock Falls After Earnings. Why AI Is to Blame. Barron's",
@@ -1038,23 +1157,6 @@
       "negative": 0.947458,
       "neutral": 0.024715,
       "confidence": 0.947458
-    },
-    {
-      "postid": 272975840299235,
-      "text": "Gains in AI company stakes juice second-quarter earnings for S&P 500 - Reuters",
-      "post_text": "Gains in AI company stakes juice second-quarter earnings for S&P 500 Reuters",
-      "score": 0,
-      "upvote_ratio": 0,
-      "creation": "2026-08-20",
-      "source": "google_news",
-      "source_name": "Google News",
-      "publisher": "Reuters",
-      "source_url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxOdEoyTlBhdlZxOEhhZFREWWpnNDdtV0RDODN4eFFTcmV5T1RfenE3eFRHYzd0VUlrclYwN0w3YUJnWGRzSWZITEx5a2xvQkdVYmVzcHJsSGxBV2JCN2pIOVlhb19pSXVJTWVHVVRFSnVmTXlZWkMwSUFhMWRQeDAzVXY1WUVoWDliVGhJNE9vN3dJV2FyZTZqYmJZc1h3TFE5WDItZFprR1Y?oc=5",
-      "tickers": "",
-      "positive": 0.896294,
-      "negative": 0.034473,
-      "neutral": 0.069233,
-      "confidence": 0.896294
     },
     {
       "postid": 267650565978627,
@@ -1516,6 +1618,23 @@
       "confidence": 0.97383
     },
     {
+      "postid": 39389724327023,
+      "text": "Moderna Stock Soared 177%. Is There Still Upside After Its Phase 3 Win?",
+      "post_text": "submitted by /u/Organic_Garden_7076 to r/StockMarket [link] [comments]",
+      "score": 0,
+      "upvote_ratio": 0,
+      "creation": "2026-08-20",
+      "source": "reddit",
+      "source_name": "Reddit",
+      "publisher": "r/StockMarket",
+      "source_url": "https://www.reddit.com/r/StockMarket/comments/1vt8hk6/moderna_stock_soared_177_is_there_still_upside/",
+      "tickers": "MRNA",
+      "positive": 0.951335,
+      "negative": 0.019026,
+      "neutral": 0.029639,
+      "confidence": 0.951335
+    },
+    {
       "postid": 36899912337549,
       "text": "Walmart raises outlook, but drug price declines hit hard - Axios",
       "post_text": "Walmart raises outlook, but drug price declines hit hard Axios",
@@ -1565,6 +1684,23 @@
       "negative": 0.037425,
       "neutral": 0.908549,
       "confidence": 0.908549
+    },
+    {
+      "postid": 19491860240588,
+      "text": "Crypto Stocks Continue to Surge After Upbeat White House Meeting - WSJ",
+      "post_text": "Crypto Stocks Continue to Surge After Upbeat White House Meeting WSJ",
+      "score": 0,
+      "upvote_ratio": 0,
+      "creation": "2026-08-20",
+      "source": "google_news",
+      "source_name": "Google News",
+      "publisher": "WSJ",
+      "source_url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxOaFMzREFDaGl0SVIzV3hWRUNtMVFValB0cExwSWJNeVYtZjFvazRUYmsyWlpEQlFnR2pMWk4zR01lWXBYc01LOWRVNGhMRXYxTVlDRHFFQ2ZNeWRNZWNocUFFY1pMODFscnk3am9KRWxEdWt0Wld3U0NjeDMxVzRMSEtiQjlPTy1vNzRnV3FkcW1MSXU4SmNhRzQ4WXROMzBZVWNFTUo0dUduUDBwY3RvUW9IWUlNdWh4aFlF?oc=5",
+      "tickers": "",
+      "positive": 0.97164,
+      "negative": 0.01412,
+      "neutral": 0.014241,
+      "confidence": 0.97164
     },
     {
       "postid": 9343048484717,
@@ -2009,23 +2145,6 @@
       "confidence": 0.942967
     },
     {
-      "postid": 134736278918223,
-      "text": "Shares in humanoid robot firm Unitree surge 600% on Chinese stock market debut - The Guardian",
-      "post_text": "Shares in humanoid robot firm Unitree surge 600% on Chinese stock market debut The Guardian",
-      "score": 0,
-      "upvote_ratio": 0,
-      "creation": "2026-08-19",
-      "source": "google_news",
-      "source_name": "Google News",
-      "publisher": "The Guardian",
-      "source_url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxNdDlFR3ZmOFh2SnJLU2xTMjRvTGFIR0phcjdza0FlTUJSaHdHdktFTHJ5aFlCWmxSOGhLRUxmUHZhaFRNYjFISkVBM3YyYmt2Z3g1SEJNdjVYU3h3TVZkQnR4ZGRROURpd1dVSVI2bm9GNUNfVmd1Z1dwblh3S3BkSXByNVJaOVpoS2htbXRIbnZCU284SVpTeU45Z0NGTmd4d01MdzJlcVhJTU93aFFBZERrNWhPalhCbEE?oc=5",
-      "tickers": "",
-      "positive": 0.942954,
-      "negative": 0.010827,
-      "neutral": 0.046219,
-      "confidence": 0.942954
-    },
-    {
       "postid": 126567556928740,
       "text": "printer go brrrrrrr",
       "post_text": "submitted by /u/Redd411 to r/wallstreetbets [link] [comments]",
@@ -2417,23 +2536,6 @@
       "confidence": 0.637768
     },
     {
-      "postid": 267711283439421,
-      "text": "The Home Depot Announces Second Quarter Fiscal 2026 Results; Reaffirms Fiscal 2026 Guidance - The Home Depot",
-      "post_text": "The Home Depot Announces Second Quarter Fiscal 2026 Results; Reaffirms Fiscal 2026 Guidance The Home Depot",
-      "score": 0,
-      "upvote_ratio": 0,
-      "creation": "2026-08-18",
-      "source": "google_news",
-      "source_name": "Google News",
-      "publisher": "The Home Depot",
-      "source_url": "https://news.google.com/rss/articles/CBMickFVX3lxTFA1cGJkbzZfUWpYZnhaMVNvZHFlYTgwaWJNSE1CbkpjRG14cllmVkNzTFhHYnlTaS1ETS1uZlJPNzFnbXRkekhCTXBseTZIWlZiNjJ4b080dXUxdFQxTWVBLVltdFBjTk1LOTl4ZW9hTTliUQ?oc=5",
-      "tickers": "HD",
-      "positive": 0.067043,
-      "negative": 0.004242,
-      "neutral": 0.928715,
-      "confidence": 0.928715
-    },
-    {
       "postid": 247933079321869,
       "text": "Everything is priced in.",
       "post_text": "Don’t bother asking. Whatever you’re thinking about, the market thought about it three quarters ago. Think Apple is about to crush earnings? Priced in. Think Tesla is secretly working on a flying car? Priced in. You work the night shift at Wendy’s and discover the Frosty machine is powered by a miniature nuclear reactor? Believe it or not, priced in. You really think some random piece of information has escaped the attention of millions of investors, hedge funds, algorithms, insiders, analysts, economists, and one unemployed guy with twelve monitors in his bedroom? The market knows. It knew yo",
@@ -2502,23 +2604,6 @@
       "confidence": 0.467443
     },
     {
-      "postid": 210002356229971,
-      "text": "Cramer likes this retailer ahead of earnings — but sees trouble for one of our tech giants - CNBC",
-      "post_text": "Cramer likes this retailer ahead of earnings — but sees trouble for one of our tech giants CNBC",
-      "score": 0,
-      "upvote_ratio": 0,
-      "creation": "2026-08-18",
-      "source": "google_news",
-      "source_name": "Google News",
-      "publisher": "CNBC",
-      "source_url": "https://news.google.com/rss/articles/CBMingFBVV95cUxOd2REMTRaZ2E5UUM2LUIxZFRKMmR4b3pGTUVVR216T1cxMjJtM081aHBWaDdyU0ZIaFc1R2d5dEw2RFZrMXI4eXFERW1xWWRVcV94S3NidUxDMHIwOE43MmdoT2FlSTF3eThTVVRKMTdzVGVmQ3EzRFFrOV9nenlybjRTbC15ZEtLUTNXZDgxbnl4TzFDaWVtNmJoZ3FyZw?oc=5",
-      "tickers": "",
-      "positive": 0.063251,
-      "negative": 0.81179,
-      "neutral": 0.124959,
-      "confidence": 0.81179
-    },
-    {
       "postid": 191967557307767,
       "text": "The stock market may have a climate change problem - E&E News by POLITICO",
       "post_text": "The stock market may have a climate change problem E&E News by POLITICO",
@@ -2551,23 +2636,6 @@
       "negative": 0.945532,
       "neutral": 0.039483,
       "confidence": 0.945532
-    },
-    {
-      "postid": 150381594058161,
-      "text": "Stocks Climb as Treasury Steps In to Support Bonds: Markets Wrap - Bloomberg",
-      "post_text": "Stocks Climb as Treasury Steps In to Support Bonds: Markets Wrap Bloomberg",
-      "score": 0,
-      "upvote_ratio": 0,
-      "creation": "2026-08-18",
-      "source": "google_news",
-      "source_name": "Google News",
-      "publisher": "Bloomberg",
-      "source_url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxNYk94Z1FDZFo0amZJN1M1WGFVc1ZYTklnSS1ObnpQXy1vS3hWeTRob3pWcmFKV3E5X19jQXhMZzJyYWthZWV4NXZFNlJnZTVpRmVrcmk3YXFNYTJzWDZ3cXBRclBWSGJxVU1IRC1LMWN4czA3OUxkOVZJSFVzRmIzbjR0Z1UzWnltVnlhQ2xmc2txbDNy?oc=5",
-      "tickers": "",
-      "positive": 0.952732,
-      "negative": 0.009882,
-      "neutral": 0.037386,
-      "confidence": 0.952732
     },
     {
       "postid": 149704725387836,
@@ -2687,6 +2755,23 @@
       "negative": 0.008753,
       "neutral": 0.956518,
       "confidence": 0.956518
+    },
+    {
+      "postid": 120814928120189,
+      "text": "The Home Depot Announces Second Quarter Fiscal 2026 Results; Reaffirms Fiscal 2026 Guidance - The Home Depot",
+      "post_text": "The Home Depot Announces Second Quarter Fiscal 2026 Results; Reaffirms Fiscal 2026 Guidance The Home Depot",
+      "score": 0,
+      "upvote_ratio": 0,
+      "creation": "2026-08-18",
+      "source": "google_news",
+      "source_name": "Google News",
+      "publisher": "The Home Depot",
+      "source_url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxPNFdXZjZXc2JObjJ2ak1WZnBrM2sybmFzZHF6Qk9ZZ2E5Q0pkZGc2b25qdUV5MFJfVEE0V045VnNwVnhTQk9WT1A4eU0yZHR5eThJN3BiN2hCeU9vM3dVdVJvN0FwTFdwMjFuT1pWVF9SNGVfNTVEdlpTSTJBaW1jMEZoSnhra2dwTXFPaFR6bUxuWkxKckpCc2pRZw?oc=5",
+      "tickers": "HD",
+      "positive": 0.067043,
+      "negative": 0.004242,
+      "neutral": 0.928715,
+      "confidence": 0.928715
     },
     {
       "postid": 110147888734313,
@@ -2978,23 +3063,6 @@
       "confidence": 0.914015
     },
     {
-      "postid": 269816146898385,
-      "text": "The yen carry trade will eventually unwind and the market will crash",
-      "post_text": "Historically, interest rates in Japan have been next to nothing. Japanese and global institutions have taken advantage of this. They borrowed the yen cheaply, converted to dollars and bought US treasuries, US stocks, and various US investments. They make their returns in the US and get big profits. They can then easily convert their dollars back to yen to cover their loans with minimal interest as for quite some time Japan has had near zero interest rates and the Japanese yen typically declines in value against the US dollar. Right now, Japan has a big problem. They’re dealing with inflation f",
-      "score": 0,
-      "upvote_ratio": 0,
-      "creation": "2026-08-17",
-      "source": "reddit",
-      "source_name": "Reddit",
-      "publisher": "r/stocks",
-      "source_url": "https://www.reddit.com/r/stocks/comments/1vqhf41/the_yen_carry_trade_will_eventually_unwind_and/",
-      "tickers": "",
-      "positive": 0.133235,
-      "negative": 0.503433,
-      "neutral": 0.363333,
-      "confidence": 0.503433
-    },
-    {
       "postid": 264167272816268,
       "text": "Many Companies Would Announce Earnings Quarterly, Ditch Filings Under SEC Proposal - WSJ",
       "post_text": "Many Companies Would Announce Earnings Quarterly, Ditch Filings Under SEC Proposal WSJ",
@@ -3044,23 +3112,6 @@
       "negative": 0.022644,
       "neutral": 0.967458,
       "confidence": 0.967458
-    },
-    {
-      "postid": 207945735453372,
-      "text": "MU loss",
-      "post_text": "Admin removed my initial post so trying again with more info. Moving up the corporate ladder at Wendy’s. After losing 270k on NVDA calls a year ago seems I outdone myself. At the highest this was worth 1.5 million but I held submitted by /u/Middle_Garbage_5547 to r/wallstreetbets [link] [comments]",
-      "score": 0,
-      "upvote_ratio": 0,
-      "creation": "2026-08-17",
-      "source": "reddit",
-      "source_name": "Reddit",
-      "publisher": "r/wallstreetbets",
-      "source_url": "https://www.reddit.com/r/wallstreetbets/comments/1vqgtq5/mu_loss/",
-      "tickers": "MU,NVDA",
-      "positive": 0.01369,
-      "negative": 0.167805,
-      "neutral": 0.818505,
-      "confidence": 0.818505
     },
     {
       "postid": 201558413708198,
@@ -3267,23 +3318,6 @@
       "confidence": 0.815315
     },
     {
-      "postid": 93297608664360,
-      "text": "9 New 4-Star Stocks This Week - Morningstar",
-      "post_text": "9 New 4-Star Stocks This Week Morningstar",
-      "score": 0,
-      "upvote_ratio": 0,
-      "creation": "2026-08-17",
-      "source": "google_news",
-      "source_name": "Google News",
-      "publisher": "Morningstar",
-      "source_url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE1lTnluTG10dUtaSEJUcGdYbk9JYXNuYmc4ZnV1SEJ3alJWTDlnbGVmbU14ZkhmOXZBNVJGNWl3dTF3V3lZbWxtSE1fa2hRcjFzYWFDeGdfNWM1UUVVUGxKU0F0bTBvU0JLNnBMbVBqcW9XZ0tD?oc=5",
-      "tickers": "",
-      "positive": 0.306431,
-      "negative": 0.01561,
-      "neutral": 0.677959,
-      "confidence": 0.677959
-    },
-    {
       "postid": 87661286314508,
       "text": "Big boys have loaded up on MU, now media has gone 180 on the MU AI story",
       "post_text": "Seriously nothing has changed since MU’s once in a life time earnings and guide in June. Stock rose 18% next day, media gave the MU its due and then over the next five weeks we get hit piece after hit piece of why MU good = MU bad and MU great =MU still bad. Stock dropped to 700 despite everything being fucking sold out and even with cxmt there isn’t enough memory to go around for the next 4 years. Then we hear citidel buying SA for Pennies on the dollar, we saw the vol movements that flashed institutional trades and now all of a sudden all the hit pieces are gone and MU is once again an AI da",
@@ -3316,40 +3350,6 @@
       "negative": 0.005921,
       "neutral": 0.986692,
       "confidence": 0.986692
-    },
-    {
-      "postid": 75329622595963,
-      "text": "Italy's cheese loan system is under strain",
-      "post_text": "Puts on $ITALY By credit default swaps on Parmigiano-Reggiano submitted by /u/mafugga77 to r/wallstreetbets [link] [comments]",
-      "score": 0,
-      "upvote_ratio": 0,
-      "creation": "2026-08-17",
-      "source": "reddit",
-      "source_name": "Reddit",
-      "publisher": "r/wallstreetbets",
-      "source_url": "https://www.reddit.com/r/wallstreetbets/comments/1vqg1c3/italys_cheese_loan_system_is_under_strain/",
-      "tickers": "",
-      "positive": 0.012354,
-      "negative": 0.879711,
-      "neutral": 0.107935,
-      "confidence": 0.879711
-    },
-    {
-      "postid": 67654961332603,
-      "text": "Earnings Are Crushing It. Stocks Are Riding High. Why Isn’t Wall Street Moving on S&P 500 Price Targets? - Barron's",
-      "post_text": "Earnings Are Crushing It. Stocks Are Riding High. Why Isn’t Wall Street Moving on S&P 500 Price Targets? Barron's",
-      "score": 0,
-      "upvote_ratio": 0,
-      "creation": "2026-08-17",
-      "source": "google_news",
-      "source_name": "Google News",
-      "publisher": "Barron's",
-      "source_url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNOVpoRG53QmJZWjh6WEpVMEp0ZzVabUgtS0JyTmVCYWNNVHpoYVFLZlBnSnFiRm9zMW9DZm53WkdEMGpOZ2NFVmp4R2FPMUd0Y0hqVzlmYkJmbzhjcktTRld3R2tRQjlPam5rbGtqWTczV0Y4aGM0UkYtNFVRQUhhbzIwVmg?oc=5",
-      "tickers": "",
-      "positive": 0.644442,
-      "negative": 0.141675,
-      "neutral": 0.213883,
-      "confidence": 0.644442
     },
     {
       "postid": 49022116484636,
