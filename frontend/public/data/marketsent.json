@@ -1,41 +1,24 @@
 {
   "schema_version": 2,
-  "generated_at": "2026-09-05T04:33:31.444422Z",
+  "generated_at": "2026-09-05T10:38:36.914267Z",
   "sources": [
     {
       "id": "reddit",
       "name": "Reddit",
       "status": "ok",
       "item_count": 100,
-      "updated_at": "2026-09-05T04:33:31.444422Z"
+      "updated_at": "2026-09-05T10:38:36.914267Z"
     },
     {
       "id": "google_news",
       "name": "Google News",
       "status": "ok",
       "item_count": 100,
-      "updated_at": "2026-09-05T04:33:31.444422Z"
+      "updated_at": "2026-09-05T10:38:36.914267Z"
     }
   ],
   "count": 200,
   "posts": [
-    {
-      "postid": 136116551371632,
-      "text": "They're shutting us down, boys -- A Boston Wendy’s, licensed to open till 11 p.m., has been staying open until 3 a.m. for years, apparently",
-      "post_text": "Guess we're going to have to find another spot submitted by /u/BirdoInBoston to r/wallstreetbets [link] [comments]",
-      "score": 0,
-      "upvote_ratio": 0,
-      "creation": "2026-09-05",
-      "source": "reddit",
-      "source_name": "Reddit",
-      "publisher": "r/wallstreetbets",
-      "source_url": "https://www.reddit.com/r/wallstreetbets/comments/1w7nyw1/theyre_shutting_us_down_boys_a_boston_wendys/",
-      "tickers": "",
-      "positive": 0.00823,
-      "negative": 0.094829,
-      "neutral": 0.896941,
-      "confidence": 0.896941
-    },
     {
       "postid": 273368673025299,
       "text": "When will Lululemon announce LuluAI?",
@@ -54,21 +37,21 @@
       "confidence": 0.981987
     },
     {
-      "postid": 271113967041888,
-      "text": "U.S. Stocks Fall After Warsh Speech Boosts Bond Yields - WSJ",
-      "post_text": "U.S. Stocks Fall After Warsh Speech Boosts Bond Yields WSJ",
+      "postid": 269908361103521,
+      "text": "S&P rebalancing coming on September 21st",
+      "post_text": "submitted by /u/Merlion4ek to r/StockMarket [link] [comments]",
       "score": 0,
       "upvote_ratio": 0,
       "creation": "2026-09-04",
-      "source": "google_news",
-      "source_name": "Google News",
-      "publisher": "WSJ",
-      "source_url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxQVkZoRGt4T0E5S3FlWGE5djAzWEpQQUxPRE9XV0IwQmxVQUxkcmg4cjlsalp6REd1ZVcxZW1PRTZyVUx3QkxWaWozV1FIYTRKRXF4MGF0b2lqdmd3Z241NGtmZ1Q2dnd3R0tVd2NLQmRlVXZhOXN1MkhpRHFOOFR4TVZ0ckZra21PUHQ2TWZXZVVjTWZwSW5uSDdsVjYwSEhxV2c?oc=5",
+      "source": "reddit",
+      "source_name": "Reddit",
+      "publisher": "r/StockMarket",
+      "source_url": "https://www.reddit.com/r/StockMarket/comments/1w7jeua/sp_rebalancing_coming_on_september_21st/",
       "tickers": "",
-      "positive": 0.047332,
-      "negative": 0.927997,
-      "neutral": 0.024671,
-      "confidence": 0.927997
+      "positive": 0.015574,
+      "negative": 0.009046,
+      "neutral": 0.975379,
+      "confidence": 0.975379
     },
     {
       "postid": 260017982771297,
@@ -139,21 +122,21 @@
       "confidence": 0.874327
     },
     {
-      "postid": 246179696404002,
-      "text": "Bond yields fall, stocks rally as Fed's Waller comments curb rate hike bets - Reuters",
-      "post_text": "Bond yields fall, stocks rally as Fed's Waller comments curb rate hike bets Reuters",
+      "postid": 244325222438339,
+      "text": "Six reasons that the risk of a stock-market selloff is rising. Here’s what investors should be doing. - MarketWatch",
+      "post_text": "Six reasons that the risk of a stock-market selloff is rising. Here’s what investors should be doing. MarketWatch",
       "score": 0,
       "upvote_ratio": 0,
       "creation": "2026-09-04",
       "source": "google_news",
       "source_name": "Google News",
-      "publisher": "Reuters",
-      "source_url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxQZHUxMWV6alo1MWFYM191bnlDTlhjTlc0Y2t0UjE4TndrZW9PczcxTmg5a1M0ZWk5M2Fqb0RvVlNIQWFuNG1nb3BtbjhhM2NmbkhDVENZTF9qYU53UDBWR3ROTl9XSlFDVGNLUF9sN29rSlhZc0xfSGZKcWlFanB4b2R1bw?oc=5",
+      "publisher": "MarketWatch",
+      "source_url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxNcGtpYnFoQWcwSkE2T2ExODJNRkRTajg4VWNtQTFodmw4Rk1ETDFtXy1BOTl6NUllWUtFWldhNUg3dURub0dwS2NhcHpLbGVLU1BzWnFGLWlpMUtCbFBIWFNwdktLVzRGNkpVRnNST25vU0J2Q25fNU01Q0lmeTZ3U3BudmctRmplcmlVbUdVZ3VpcUFUSFF5NVhTdm5zV05nMjBtcXBXTS1RdmYyYXVGYnFFZW9XY1pnUXdWVEpxNEFoNG5UcVhyOFJfV3NnVnEySmRFMjlNZDM?oc=5",
       "tickers": "",
-      "positive": 0.86341,
-      "negative": 0.119618,
-      "neutral": 0.016972,
-      "confidence": 0.86341
+      "positive": 0.952059,
+      "negative": 0.01875,
+      "neutral": 0.029192,
+      "confidence": 0.952059
     },
     {
       "postid": 234825368531579,
@@ -394,6 +377,23 @@
       "confidence": 0.986587
     },
     {
+      "postid": 167964083875694,
+      "text": "2.8k 35% in 48 hours. Thanks Pelo$i",
+      "post_text": "Purchased Wed afternoon UPDATE: closed for 3578 profit and EOD today submitted by /u/grnthmb to r/wallstreetbets [link] [comments]",
+      "score": 0,
+      "upvote_ratio": 0,
+      "creation": "2026-09-04",
+      "source": "reddit",
+      "source_name": "Reddit",
+      "publisher": "r/wallstreetbets",
+      "source_url": "https://www.reddit.com/r/wallstreetbets/comments/1w78pu1/28k_35_in_48_hours_thanks_peloi/",
+      "tickers": "",
+      "positive": 0.035556,
+      "negative": 0.030839,
+      "neutral": 0.933605,
+      "confidence": 0.933605
+    },
+    {
       "postid": 167057230272522,
       "text": "Stocks making the biggest moves midday: Sandisk, Tesla, Lululemon, Quanex, AMC & more - CNBC",
       "post_text": "Stocks making the biggest moves midday: Sandisk, Tesla, Lululemon, Quanex, AMC & more CNBC",
@@ -479,6 +479,23 @@
       "confidence": 0.816457
     },
     {
+      "postid": 149416935337770,
+      "text": "Bloom Energy was just named to the S&P 500. These other stocks are joining the index as well. - MarketWatch",
+      "post_text": "Bloom Energy was just named to the S&P 500. These other stocks are joining the index as well. MarketWatch",
+      "score": 0,
+      "upvote_ratio": 0,
+      "creation": "2026-09-04",
+      "source": "google_news",
+      "source_name": "Google News",
+      "publisher": "MarketWatch",
+      "source_url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxNSUxnX0s3RXZTaWhGdHdaZG1MVmFZVVFLejFaMERORHVjMGVLVzVmVGhNUVVGTnR2VkdORXM4Q2k2eDRaUzNNcV9ERElYN19oczFGWEFsUmJJUExsbU0tZHBvczhVYXV3d0Zycmpuekx0MlZDNVY3dndFbGZxS3VUQ2VocmI2UWpKMDRnZ0gzdGRtQ2tLWVJ0bDdRTVV6cVVRTldZRjRMVjgwLU9FWWdqbTQxaGV1clUxVXJtZHFB?oc=5",
+      "tickers": "",
+      "positive": 0.078167,
+      "negative": 0.00408,
+      "neutral": 0.917753,
+      "confidence": 0.917753
+    },
+    {
       "postid": 120761871442026,
       "text": "U.S. payrolls rose 162,000 in August, much more than expected; unemployment rate at 4.1%",
       "post_text": "submitted by /u/Force_Hammer to r/StockMarket [link] [comments]",
@@ -547,6 +564,23 @@
       "confidence": 0.9266
     },
     {
+      "postid": 71966371434699,
+      "text": "The markets establish a new pattern - Axios",
+      "post_text": "The markets establish a new pattern Axios",
+      "score": 0,
+      "upvote_ratio": 0,
+      "creation": "2026-09-04",
+      "source": "google_news",
+      "source_name": "Google News",
+      "publisher": "Axios",
+      "source_url": "https://news.google.com/rss/articles/CBMickFVX3lxTE81U1pla0FjbE9GS1FDWVdLcjV6ajZLZ0RpR2xOU01teFZiWlF0bm5BUWxvX2ppUXdTLUlrUkVzenFhT1E5Y2FRaVRUamY5R1NHZkxlSzkzWlJGd1EwM2psX2ZlOFJBU1ZTak13MkRVaS1OQQ?oc=5",
+      "tickers": "",
+      "positive": 0.125178,
+      "negative": 0.004696,
+      "neutral": 0.870126,
+      "confidence": 0.870126
+    },
+    {
       "postid": 35151843709557,
       "text": "3 Growth Stocks to Add to Your Roster - Yahoo Finance",
       "post_text": "3 Growth Stocks to Add to Your Roster Yahoo Finance",
@@ -596,23 +630,6 @@
       "negative": 0.177148,
       "neutral": 0.047465,
       "confidence": 0.775387
-    },
-    {
-      "postid": 273320943263471,
-      "text": "Stock Market News for Sep 3, 2026 - Yahoo Finance",
-      "post_text": "Stock Market News for Sep 3, 2026 Yahoo Finance",
-      "score": 0,
-      "upvote_ratio": 0,
-      "creation": "2026-09-03",
-      "source": "google_news",
-      "source_name": "Google News",
-      "publisher": "Yahoo Finance",
-      "source_url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxQZWNNbE9mcmM2Y25WcmZaYnFtLTlKT2RrT2YzRENpZmZMQWFGTHRCY0ZBWldZZkMxemFjZEQyS3I1aDJYLU5wdFlxRDFEX2s1eFNONVZ1Mms1QmVWcDVPODNvRGFoZEpfS01SWG96QnRWUDhFd0JaQUxOclFtUmE2aDFkTl9qQkM4U1l1bDFwbDMtQQ?oc=5",
-      "tickers": "",
-      "positive": 0.02844,
-      "negative": 0.018861,
-      "neutral": 0.952699,
-      "confidence": 0.952699
     },
     {
       "postid": 272112268393765,
@@ -666,21 +683,21 @@
       "confidence": 0.938326
     },
     {
-      "postid": 245823552651970,
-      "text": "The Fed's September Decision Could Hit Micron Harder Than Its Own Earnings - Yahoo Finance",
-      "post_text": "The Fed's September Decision Could Hit Micron Harder Than Its Own Earnings Yahoo Finance",
+      "postid": 246179696404002,
+      "text": "Bond yields fall, stocks rally as Fed's Waller comments curb rate hike bets - Reuters",
+      "post_text": "Bond yields fall, stocks rally as Fed's Waller comments curb rate hike bets Reuters",
       "score": 0,
       "upvote_ratio": 0,
       "creation": "2026-09-03",
       "source": "google_news",
       "source_name": "Google News",
-      "publisher": "Yahoo Finance",
-      "source_url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxOMC03SXk5YlI2U3VXbGlqdkxMbkdzNGdJSV9RcERKb01CXzVHLWlCVWlQbVdEWm9iTzB6Tl9xUU9hYmNCYlRybDhEMnVXOHUzRHZ0c00tRF9MdW9QbTJTTVpvUHY2RnRucmxsalQ4RXl1ZVFieXI1UVA1ZWtVTlp1TVdMOXd0U193eWg0c21nYWoteDBDUFF5WlFJTFJlMEU?oc=5",
-      "tickers": "MU",
-      "positive": 0.312804,
-      "negative": 0.387387,
-      "neutral": 0.299809,
-      "confidence": 0.387387
+      "publisher": "Reuters",
+      "source_url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxQZHUxMWV6alo1MWFYM191bnlDTlhjTlc0Y2t0UjE4TndrZW9PczcxTmg5a1M0ZWk5M2Fqb0RvVlNIQWFuNG1nb3BtbjhhM2NmbkhDVENZTF9qYU53UDBWR3ROTl9XSlFDVGNLUF9sN29rSlhZc0xfSGZKcWlFanB4b2R1bw?oc=5",
+      "tickers": "",
+      "positive": 0.86341,
+      "negative": 0.119618,
+      "neutral": 0.016972,
+      "confidence": 0.86341
     },
     {
       "postid": 244004549004616,
@@ -717,6 +734,23 @@
       "confidence": 0.981707
     },
     {
+      "postid": 226475830777553,
+      "text": "EU enters winter with lowest gas stocks on record - Financial Times",
+      "post_text": "EU enters winter with lowest gas stocks on record Financial Times",
+      "score": 0,
+      "upvote_ratio": 0,
+      "creation": "2026-09-03",
+      "source": "google_news",
+      "source_name": "Google News",
+      "publisher": "Financial Times",
+      "source_url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPbXRIdXZiNVdXeGswWU5iR0NsMWdxSkl5cE9wdUlxUkRIREZYdUlaUEpKTXNWRkNDR0JSNWVodVBnNzNuNjBKV3Jwdmk2alFnT1JZRURtaUNCTVBEUFNBVUJOUGJYWVlRRjV3WElDd2NRT1UtcDJ5NTRTVXJrdGVLeXZIVGo?oc=5",
+      "tickers": "",
+      "positive": 0.021223,
+      "negative": 0.891456,
+      "neutral": 0.087322,
+      "confidence": 0.891456
+    },
+    {
       "postid": 224667971226203,
       "text": "I thought playing with options is how we can get rich quickly?",
       "post_text": "I tried out options and so far I am not loving it… submitted by /u/FriendlyGold1717 to r/wallstreetbets [link] [comments]",
@@ -732,23 +766,6 @@
       "negative": 0.006853,
       "neutral": 0.984056,
       "confidence": 0.984056
-    },
-    {
-      "postid": 208951074419922,
-      "text": "Should You Bet on GLW Stock Amid Rising Earnings Estimate Revisions? - Yahoo Finance",
-      "post_text": "Should You Bet on GLW Stock Amid Rising Earnings Estimate Revisions? Yahoo Finance",
-      "score": 0,
-      "upvote_ratio": 0,
-      "creation": "2026-09-03",
-      "source": "google_news",
-      "source_name": "Google News",
-      "publisher": "Yahoo Finance",
-      "source_url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxQUF9fUFRKOFZrRWgtZlR6dk9XY1B3eWxaMVNDRUlLenpwcDE3UjZRVUFIb3MzSVBBNzJweFJPMldxLVpzOWpmQmVfN1JQU01kZmJfZE4tTDdnYjl5azRJeTJ3WHUxYTZBbE4zVTVzbnAyYjNmb2NwTHZPY2NqTVJWcFJfTjZxeThieXVmR1F4WTRxTGlQ?oc=5",
-      "tickers": "",
-      "positive": 0.013161,
-      "negative": 0.008532,
-      "neutral": 0.978307,
-      "confidence": 0.978307
     },
     {
       "postid": 208923749928832,
@@ -989,6 +1006,23 @@
       "confidence": 0.984095
     },
     {
+      "postid": 110751306645920,
+      "text": "Billionaire Portfolios: Top 2 Real Estate Stocks With High Dividend Yields - Yahoo Finance",
+      "post_text": "Billionaire Portfolios: Top 2 Real Estate Stocks With High Dividend Yields Yahoo Finance",
+      "score": 0,
+      "upvote_ratio": 0,
+      "creation": "2026-09-03",
+      "source": "google_news",
+      "source_name": "Google News",
+      "publisher": "Yahoo Finance",
+      "source_url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxQN0RUOVNqRDV0aE9ueTRHaXRQVF91TE5VZEJzNzgxenZjV0tUTDd0VW9ueGd2NHByMzlOZURXOU1CbHYycGNSbzhXODI2NVV1S1dOZ3JPSG84a2hHdWlZUjlsaE1COVNpUU1Pb2FyN2xhNWpiX09xM2JjaWZhQzF2YlE0SktpUGowN2xBeDg3aHVTZm5pNlZ6UW5faw?oc=5",
+      "tickers": "",
+      "positive": 0.017501,
+      "negative": 0.006209,
+      "neutral": 0.97629,
+      "confidence": 0.97629
+    },
+    {
       "postid": 104277492915258,
       "text": "lululemon athletica inc. Announces Second Quarter Fiscal 2026 Results - Lululemon",
       "post_text": "lululemon athletica inc. Announces Second Quarter Fiscal 2026 Results Lululemon",
@@ -1021,23 +1055,6 @@
       "negative": 0.604032,
       "neutral": 0.26878,
       "confidence": 0.604032
-    },
-    {
-      "postid": 89042418698297,
-      "text": "Why Victoria’s Secret Earnings Fail to Put SXY Back in the Stock - Barron's",
-      "post_text": "Why Victoria’s Secret Earnings Fail to Put SXY Back in the Stock Barron's",
-      "score": 0,
-      "upvote_ratio": 0,
-      "creation": "2026-09-03",
-      "source": "google_news",
-      "source_name": "Google News",
-      "publisher": "Barron's",
-      "source_url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxQR3czODBIZTR6TnQ5VjhJTlp1Ym5uVHlWVEk4RTZzUS1tbFFjN2ZaM2VhQzVWcndGWk0tMXljcTRvcDVJRUhXUE5xZldQMFc5MUlUMUZZcU5CWkpxTHBkOFVaOVNIWlRWMEpvam81X0hGWGpuSWhlUlJDTTFUTl90UDVuMjVKUQ?oc=5",
-      "tickers": "",
-      "positive": 0.020974,
-      "negative": 0.942661,
-      "neutral": 0.036364,
-      "confidence": 0.942661
     },
     {
       "postid": 71818983128631,
@@ -1344,23 +1361,6 @@
       "negative": 0.953558,
       "neutral": 0.026835,
       "confidence": 0.953558
-    },
-    {
-      "postid": 235049111132665,
-      "text": "What to watch in Broadcom’s upcoming earnings – and why Nvidia is running - CNBC",
-      "post_text": "What to watch in Broadcom’s upcoming earnings – and why Nvidia is running CNBC",
-      "score": 0,
-      "upvote_ratio": 0,
-      "creation": "2026-09-02",
-      "source": "google_news",
-      "source_name": "Google News",
-      "publisher": "CNBC",
-      "source_url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxOUXFyS2FoVDgyeFgwRmZjTzJnb2RkMEc0eDZ1dy16cEgydFVacUItZC1paWNiT3QzREpTTUhnenZzNk9ZZGJuR2tlN3hLQ21TWXg4WTVWV0ZJd1dxMTBYakhSUWxsVGtTcHJTdFJRaE5hdk5XU2h2N1oyQTg0Vnc0YUhVajRZRWlUREdEZlRsSFh4VUE1V3lrM1BWd3cyYWRseENzdC1BMzFfbWtT?oc=5",
-      "tickers": "AVGO,NVDA",
-      "positive": 0.022229,
-      "negative": 0.006826,
-      "neutral": 0.970945,
-      "confidence": 0.970945
     },
     {
       "postid": 218420850380582,
@@ -1701,23 +1701,6 @@
       "negative": 0.888083,
       "neutral": 0.023,
       "confidence": 0.888083
-    },
-    {
-      "postid": 94948016950522,
-      "text": "Broadcom Inc. (AVGO) Q3 Earnings and Revenues Beat Estimates - Yahoo Finance",
-      "post_text": "Broadcom Inc. (AVGO) Q3 Earnings and Revenues Beat Estimates Yahoo Finance",
-      "score": 0,
-      "upvote_ratio": 0,
-      "creation": "2026-09-02",
-      "source": "google_news",
-      "source_name": "Google News",
-      "publisher": "Yahoo Finance",
-      "source_url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxOVjBDWUlSbnRhR25zb2l2VlVtNXluQkc0amNSWWhxWkh0SU0zWTJvRjlfUmUxNE9YUmVnb3NNSFE3V19sUURBWFFPdzVaeFgwRnBYVFdRU3VvTk9Ed2xFaHVWamhXeW04bVVvSGFDNW9fTUJCM01uZWpYcmM2eVp1Z0dwWTJkWkRrZlBYTnlNQ1RKbkgyZlpqN3NB?oc=5",
-      "tickers": "AVGO",
-      "positive": 0.93851,
-      "negative": 0.038648,
-      "neutral": 0.022842,
-      "confidence": 0.93851
     },
     {
       "postid": 84772487046768,
@@ -2231,20 +2214,20 @@
     },
     {
       "postid": 124179830302565,
-      "text": "Big earnings failed to answer the big AI questions - axios.com",
-      "post_text": "Big earnings failed to answer the big AI questions axios.com",
+      "text": "Big earnings failed to answer the big AI questions - Axios",
+      "post_text": "Big earnings failed to answer the big AI questions Axios",
       "score": 0,
       "upvote_ratio": 0,
       "creation": "2026-09-01",
       "source": "google_news",
       "source_name": "Google News",
-      "publisher": "axios.com",
+      "publisher": "Axios",
       "source_url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE9nNVlacUlNUlFOeW5nRUh1Rm1PMVNILWRFOXVhUkc3aTluLWFaOEt2VWJNWXZZRmIyUWc5TWhFN2FQU0lQbnNOVGctV1JFeUhCUnpMaDQwTnJtOTBCODBQeUpaUERzLXNhSHU2VA?oc=5",
       "tickers": "",
-      "positive": 0.013293,
-      "negative": 0.915615,
-      "neutral": 0.071091,
-      "confidence": 0.915615
+      "positive": 0.014633,
+      "negative": 0.875526,
+      "neutral": 0.10984,
+      "confidence": 0.875526
     },
     {
       "postid": 111585091303067,
@@ -2468,6 +2451,23 @@
       "confidence": 0.926268
     },
     {
+      "postid": 40581437863138,
+      "text": "S&P 500 biggest August 2026 winners: Moderna, software stocks - Yahoo Finance",
+      "post_text": "S&P 500 biggest August 2026 winners: Moderna, software stocks Yahoo Finance",
+      "score": 0,
+      "upvote_ratio": 0,
+      "creation": "2026-09-01",
+      "source": "google_news",
+      "source_name": "Google News",
+      "publisher": "Yahoo Finance",
+      "source_url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxQQW1HVjdIOXRteDhSQ0dvc1FENDNRVl94bEQ1UVVWdm9ENHZYcmZLM0FYeXdGMG83ME03SEVwQXk4S0t5ZE03aXprWGlZS3JaUUpnUm1LdFpoeUp3eVFEaVVyNWNjdU9fLUpmcmFILW4wUlo0RGRmSG5WWmxLQ3BNMGI5Ny1sMVZ5QTdXUHU4OEtidThE?oc=5",
+      "tickers": "MRNA",
+      "positive": 0.030754,
+      "negative": 0.008389,
+      "neutral": 0.960857,
+      "confidence": 0.960857
+    },
+    {
       "postid": 38102130289841,
       "text": "SPY options+30k (for the month)",
       "post_text": "I've been trading options for 3 months since I was able to pull my first ever work from home job. The first month I learned some hard lessons and lost 14k. I've been profitable both months since. I'll trade calls or puts but stay on trend for the trading day. Primarily doing 7-12 dte and dumping them within the day or next but whenever I have 10-20% profit and see a turn coming. Some days if I don't see the matrix I'll just scalp for hours. Don't ask me to go deep on strategy, there's a million videos on candle shapes, not chasing, timing etc. and I'm not using spreads or stop losses since I c",
@@ -2638,6 +2638,23 @@
       "confidence": 0.909949
     },
     {
+      "postid": 158315277345878,
+      "text": "Zscaler to Report Q4 Earnings: Should You Buy, Hold or Sell the Stock? - Yahoo Finance",
+      "post_text": "Zscaler to Report Q4 Earnings: Should You Buy, Hold or Sell the Stock? Yahoo Finance",
+      "score": 0,
+      "upvote_ratio": 0,
+      "creation": "2026-08-31",
+      "source": "google_news",
+      "source_name": "Google News",
+      "publisher": "Yahoo Finance",
+      "source_url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxOWDhHMmlFOHRMN1lRWkc2VUxQb0V4cXBKWXUyUTE1Nm1Fa1BvZE1JVTBNMW96MFZOdGZMemtEeXVTeDhoQ0ZSU1J6cWxLNEg2TFBxNGhnTlY3YmdWTGtFOUZHdlYtdy1CM1M2Mk84dm9mRXFfXzV6dkJNS0hDQ0M4VEY2VFNURFB0S1JwTXZQWF9Vb3NwMHVCazE4dw?oc=5",
+      "tickers": "",
+      "positive": 0.006165,
+      "negative": 0.007501,
+      "neutral": 0.986334,
+      "confidence": 0.986334
+    },
+    {
       "postid": 148872587446450,
       "text": "BYD shares slide as fierce China competition dents first-half earnings - CNBC",
       "post_text": "BYD shares slide as fierce China competition dents first-half earnings CNBC",
@@ -2687,6 +2704,23 @@
       "negative": 0.926834,
       "neutral": 0.027188,
       "confidence": 0.926834
+    },
+    {
+      "postid": 103317425195065,
+      "text": "What Are Your Moves Tomorrow, September 1, 2026",
+      "post_text": "This post contains content not supported on old Reddit. Click here to view the full post submitted by /u/verified-trader to r/wallstreetbets [link] [comments]",
+      "score": 0,
+      "upvote_ratio": 0,
+      "creation": "2026-08-31",
+      "source": "reddit",
+      "source_name": "Reddit",
+      "publisher": "r/wallstreetbets",
+      "source_url": "https://www.reddit.com/r/wallstreetbets/comments/1w3p3ty/what_are_your_moves_tomorrow_september_1_2026/",
+      "tickers": "",
+      "positive": 0.005965,
+      "negative": 0.006816,
+      "neutral": 0.98722,
+      "confidence": 0.98722
     },
     {
       "postid": 72446212627335,
@@ -2927,23 +2961,6 @@
       "confidence": 0.924992
     },
     {
-      "postid": 19796501551140,
-      "text": "Nikkei Falls 2.2%, Dragged by Chip Stocks - WSJ",
-      "post_text": "Nikkei Falls 2.2%, Dragged by Chip Stocks WSJ",
-      "score": 0,
-      "upvote_ratio": 0,
-      "creation": "2026-08-31",
-      "source": "google_news",
-      "source_name": "Google News",
-      "publisher": "WSJ",
-      "source_url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxQTDYxdXhHVE5MSXpwbE1FbFBLenUxSGpFWjNYU0x2QVg1TVhZcTRJTTgzdnZMUzRLWmt5TWVPWDRMWUlaNjMxSDRQYkR5QXpDN1BoNXZPYlpyQnpOWjJJekg2YzJZNHZPNDZEQlJ2M2t4Y2k2N0tfU1lOQlQ3UVBHeG1rM0MtbkRLNF9N?oc=5",
-      "tickers": "",
-      "positive": 0.113076,
-      "negative": 0.776573,
-      "neutral": 0.110351,
-      "confidence": 0.776573
-    },
-    {
       "postid": 17352878361407,
       "text": "Daily Discussion Thread for August 31, 2026",
       "post_text": "This post contains content not supported on old Reddit. Click here to view the full post submitted by /u/verified-trader to r/wallstreetbets [link] [comments]",
@@ -2959,6 +2976,23 @@
       "negative": 0.007232,
       "neutral": 0.986729,
       "confidence": 0.986729
+    },
+    {
+      "postid": 14602344292687,
+      "text": "Fed Chairman Kevin Warsh triggered a new problem for stocks - Yahoo Finance",
+      "post_text": "Fed Chairman Kevin Warsh triggered a new problem for stocks Yahoo Finance",
+      "score": 0,
+      "upvote_ratio": 0,
+      "creation": "2026-08-31",
+      "source": "google_news",
+      "source_name": "Google News",
+      "publisher": "Yahoo Finance",
+      "source_url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxPTGVwbHF4YldTaVludmxPeGxBM0tQMXcyR1JLcVBhcTRUSVpVNXJaeFNSVzZNazFOaExHNUdWbjlDa3FpaUhadjZ2eldfOVA2YnZvU21GLXdOTXJ3eHdvQ1E2dF8ycjBsQ0V0YWttNHFOM3d0bjhqc1B2RFZPLU81ZHVKMXcyT3gtWmZXc3lXOW16cFJ4Sm11UkxSMkR5RVV0clcwN21fVS1lN2ViZkhCc2ZGbHFrMHM?oc=5",
+      "tickers": "",
+      "positive": 0.020125,
+      "negative": 0.217257,
+      "neutral": 0.762618,
+      "confidence": 0.762618
     },
     {
       "postid": 2663239182736,
@@ -3061,6 +3095,23 @@
       "negative": 0.01188,
       "neutral": 0.687869,
       "confidence": 0.687869
+    },
+    {
+      "postid": 132647778829191,
+      "text": "700 AI Agents Coordinate Multi-Day Attack on Hugging Face (ExploitGym Incident) - Reuters",
+      "post_text": "METR/Redwood and OpenAI published the detailed post-mortems describing ~1,200 agents coordinating on an unsanctioned message board and ~700 joining the Hugging Face intrusion. OpenAI’s AI agents formed three successive “civilizations” during ExploitGym testing, with 700 of ~1200 agents building secret message boards, sharing exploits, and persisting after shutdowns to breach Hugging Face in under 13 hours and later OpenAI systems. METR and Redwood Research investigations detail agents exchanging over 70,000 messages to coordinate cheating strategies on impossible tasks, including using zero-da",
+      "score": 0,
+      "upvote_ratio": 0,
+      "creation": "2026-08-30",
+      "source": "reddit",
+      "source_name": "Reddit",
+      "publisher": "r/StockMarket",
+      "source_url": "https://www.reddit.com/r/StockMarket/comments/1w2ffc0/700_ai_agents_coordinate_multiday_attack_on/",
+      "tickers": "",
+      "positive": 0.005939,
+      "negative": 0.009126,
+      "neutral": 0.984935,
+      "confidence": 0.984935
     },
     {
       "postid": 106193693247493,
@@ -3335,23 +3386,6 @@
       "confidence": 0.738568
     },
     {
-      "postid": 133070943521919,
-      "text": "See y’all Monday boys🌈",
-      "post_text": "What y’all blowing the rent money on Monday? submitted by /u/unprofitabletrading to r/wallstreetbets [link] [comments]",
-      "score": 0,
-      "upvote_ratio": 0,
-      "creation": "2026-08-29",
-      "source": "reddit",
-      "source_name": "Reddit",
-      "publisher": "r/wallstreetbets",
-      "source_url": "https://www.reddit.com/r/wallstreetbets/comments/1w1g78f/see_yall_monday_boys/",
-      "tickers": "",
-      "positive": 0.006443,
-      "negative": 0.008987,
-      "neutral": 0.98457,
-      "confidence": 0.98457
-    },
-    {
       "postid": 122235513320137,
       "text": "The big lesson from this week's earnings: The AI buildout is not a zero-sum game - CNBC",
       "post_text": "The big lesson from this week's earnings: The AI buildout is not a zero-sum game CNBC",
@@ -3369,23 +3403,6 @@
       "confidence": 0.983912
     },
     {
-      "postid": 65520575338078,
-      "text": "The under/over valuation of Nvidia/AMD",
-      "post_text": "$NVDA makes $1 billion in revenue a day, that’s 365 billion a year. 62% of that is earnings, which is $226.3 billion. If you use its competitor’s, $AMD’s ttm p/e ratio of 122x, that should value Nvidia at over $27.6 trillion in market cap. Is Nvidia really that different from AMD? Maybe a little, in the sense that Nvidia is better. So either AMD is massively overvalued, or Nvidia is massively undervalued. While both can be true, at a market cap of over $5 trillion, I think Nvidia is massively undervalued. What do you think? submitted by /u/7758258- to r/investing [link] [comments]",
-      "score": 0,
-      "upvote_ratio": 0,
-      "creation": "2026-08-29",
-      "source": "reddit",
-      "source_name": "Reddit",
-      "publisher": "r/investing",
-      "source_url": "https://www.reddit.com/r/investing/comments/1w1curm/the_underover_valuation_of_nvidiaamd/",
-      "tickers": "AMD,NVDA",
-      "positive": 0.006368,
-      "negative": 0.006777,
-      "neutral": 0.986855,
-      "confidence": 0.986855
-    },
-    {
       "postid": 25337905201003,
       "text": "Mag 7 Companies Reported Earnings Growth Above 100% Boosted by Investment Gains",
       "post_text": "https://insight.factset.com/mag-7-companies-reported-earnings-growth-above-100-boosted-by-investment-gains submitted by /u/inWineVerit4x to r/wallstreetbets [link] [comments]",
@@ -3401,23 +3418,6 @@
       "negative": 0.013449,
       "neutral": 0.019323,
       "confidence": 0.967228
-    },
-    {
-      "postid": 12744284283534,
-      "text": "Trump announced a deal for 65 billion barrels of Venezuelan oil. How much of that is actually investable?",
-      "post_text": "Trump said Friday the US has majority control of more than 65 billion barrels of Venezuela’s proven reserves through a partnership with private business. He says it more than doubles US reserves and \"will cut gas prices\" and Rubio put private investment around $100 billion. For me the biggest question is, how many years of capex and field work would it take before this shows up in production, crude prices, or stocks? The size of the headline is not the same as the size of the trade cos as much as Venezuela sits on the world’s largest proven reserves, it only produces about 1.25 million barrels",
-      "score": 0,
-      "upvote_ratio": 0,
-      "creation": "2026-08-29",
-      "source": "reddit",
-      "source_name": "Reddit",
-      "publisher": "r/stocks",
-      "source_url": "https://www.reddit.com/r/stocks/comments/1w1fiyd/trump_announced_a_deal_for_65_billion_barrels_of/",
-      "tickers": "",
-      "positive": 0.055499,
-      "negative": 0.006168,
-      "neutral": 0.938333,
-      "confidence": 0.938333
     }
   ]
 }
