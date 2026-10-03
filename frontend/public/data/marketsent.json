@@ -1,24 +1,92 @@
 {
   "schema_version": 2,
-  "generated_at": "2026-10-03T11:42:57.206954Z",
+  "generated_at": "2026-10-03T16:20:14.618644Z",
   "sources": [
     {
       "id": "reddit",
       "name": "Reddit",
       "status": "ok",
       "item_count": 100,
-      "updated_at": "2026-10-03T11:42:57.206954Z"
+      "updated_at": "2026-10-03T16:20:14.618644Z"
     },
     {
       "id": "google_news",
       "name": "Google News",
       "status": "ok",
       "item_count": 100,
-      "updated_at": "2026-10-03T11:42:57.206954Z"
+      "updated_at": "2026-10-03T16:20:14.618644Z"
     }
   ],
   "count": 197,
   "posts": [
+    {
+      "postid": 253209063850786,
+      "text": "I thought putting $132k into a UK housebuilder was a good idea.",
+      "post_text": "Spoiler: it wasn't. submitted by /u/Modja to r/wallstreetbets [link] [comments]",
+      "score": 0,
+      "upvote_ratio": 0,
+      "creation": "2026-10-03",
+      "source": "reddit",
+      "source_name": "Reddit",
+      "publisher": "r/wallstreetbets",
+      "source_url": "https://www.reddit.com/r/wallstreetbets/comments/1wwl0zq/i_thought_putting_132k_into_a_uk_housebuilder_was/",
+      "tickers": "",
+      "positive": 0.096857,
+      "negative": 0.020816,
+      "neutral": 0.882327,
+      "confidence": 0.882327
+    },
+    {
+      "postid": 237032921157784,
+      "text": "You might be shocked by how many stocks are in a bear market right now - MarketWatch",
+      "post_text": "You might be shocked by how many stocks are in a bear market right now MarketWatch",
+      "score": 0,
+      "upvote_ratio": 0,
+      "creation": "2026-10-03",
+      "source": "google_news",
+      "source_name": "Google News",
+      "publisher": "MarketWatch",
+      "source_url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNYWtkcjhDeFVRbFJSbXZxc0w4eGs0SlpRMWxLYWxGNWdTdVowd0dBOVRQc2Y2Q3lhX21IcU9HdkU0S0NZU0dnUWY4SzhSM3hMWlBseGI1VUJXZWd5YXpWc2hOejJGOHFscHFPSnJCbW50eF9meFEtNjlWRTNmTDNheDZKWlZrNTdKM1hyYmdYRHNpWWV3T2FLb19nNkdHR21OU2N2bWtoRElmNUlEdTQtN3F5NA?oc=5",
+      "tickers": "",
+      "positive": 0.040262,
+      "negative": 0.527272,
+      "neutral": 0.432466,
+      "confidence": 0.527272
+    },
+    {
+      "postid": 195240352739027,
+      "text": "Are we soon to see a crashing stock market? - Yahoo Finance UK",
+      "post_text": "Are we soon to see a crashing stock market? Yahoo Finance UK",
+      "score": 0,
+      "upvote_ratio": 0,
+      "creation": "2026-10-03",
+      "source": "google_news",
+      "source_name": "Google News",
+      "publisher": "Yahoo Finance UK",
+      "source_url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxPXzhOakJxRmJLOEZSaDZFRlMwWmF5UGZKR0NVdkJ2aVV3U3JzeGJMbW11dl9hNWV2OTVFZGozUEJiUkxMNTdIQTNyRlJlbC1wZmlwRVZCYVBLb3JoYVAzWlVrbHRZZ2tmSUNpTW9Tb3o3LUFlWi1RVkV1VDk3YWZaa3BYT2Vadw?oc=5",
+      "tickers": "",
+      "positive": 0.025139,
+      "negative": 0.118782,
+      "neutral": 0.85608,
+      "confidence": 0.85608
+    },
+    {
+      "postid": 150125709281263,
+      "text": "How Long Will the AI Boom Last? Memory Stocks Offer Clues - WSJ",
+      "post_text": "How Long Will the AI Boom Last? Memory Stocks Offer Clues WSJ",
+      "score": 0,
+      "upvote_ratio": 0,
+      "creation": "2026-10-03",
+      "source": "google_news",
+      "source_name": "Google News",
+      "publisher": "WSJ",
+      "source_url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxQTlJhNXJDVzZYYm9UQjBya1dvN1pyd1FXY2JYVmhCbHFMRDVYeW9oU0x1Z2xrUFZsOE5rYy1xeWFoZm53R01ESWlRNkNoSlZmVlRFTXl0bTJFN250UEF4SjVpODE2R1VtbmxGbzJuUWs3RlhBb3c4ZnpEWWFjdEtFNEJncGRoZm1iS1M0cFJnQkdhWlpYZHgyUg?oc=5",
+      "tickers": "",
+      "positive": 0.008723,
+      "negative": 0.007497,
+      "neutral": 0.983781,
+      "confidence": 0.983781
+    },
     {
       "postid": 148607786516298,
       "text": "Luxury Stocks Are Selling at Fast-Fashion Prices - WSJ",
@@ -343,21 +411,21 @@
       "confidence": 0.500654
     },
     {
-      "postid": 104146035855315,
-      "text": "Oil prices lower as G7 nations to release diesel stocks, Saudis reportedly plan attack on Houthis - CNBC",
-      "post_text": "Oil prices lower as G7 nations to release diesel stocks, Saudis reportedly plan attack on Houthis CNBC",
+      "postid": 97075527142656,
+      "text": "Stock Market Today (Oct. 2, 2026): Dow rises after key jobs report - Yahoo Finance",
+      "post_text": "Stock Market Today (Oct. 2, 2026): Dow rises after key jobs report Yahoo Finance",
       "score": 0,
       "upvote_ratio": 0,
       "creation": "2026-10-02",
       "source": "google_news",
       "source_name": "Google News",
-      "publisher": "CNBC",
-      "source_url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxOVTUyNzJqcnoxNnd5aFVZYzNMbmVzR0pvZW11eXBHUlhWX1NyZ1JKZ3JrZjN2NWdxQVVmSzN6cnd5dVhJWlk2cmxjZkRfWkRBTDZNeHNSYmlKZ05LMVRLQXFSZWdxVVFFLUFDWU5tUkZZSFdoR2hXMnVKQmJJV25TSzd5eUvSAYoBQVVfeXFMTkRoQTgtdG5Mc3pnWjduNVhrNWhYN0YyckxTdm1WN25zSVBQLUZtZUpVc0pTazlLRlZEeWZsZElBZHpXa3NVeG5Iemk0eEFXYmVTSktkMHVqQk90Q0tLWkdIMXpIcmp2RWNucm02RXVFZjZ0TklHcmtUVURTVmNlV2xlMFI0c2duVGxR?oc=5",
+      "publisher": "Yahoo Finance",
+      "source_url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxQLU1ObVd4VVlRaTk0d213ak5yYUZxcW5PZUdKNzNqcjk4Q3ZUY0MyRXpVa1VXVnVsdUd2SFZScThTQ0doR0JMSXAwY1FWRHJFbGtQS0dsLV91cjJQTmZjTTVfM0NmelA4M1RkUXNrQ3pWbzVmVXZDUVdvVDZFYUV5R21jOHQzLWZIbHI4eFhBcTVSNFk?oc=5",
       "tickers": "",
-      "positive": 0.021939,
-      "negative": 0.954976,
-      "neutral": 0.023085,
-      "confidence": 0.954976
+      "positive": 0.972372,
+      "negative": 0.015473,
+      "neutral": 0.012156,
+      "confidence": 0.972372
     },
     {
       "postid": 92426204241396,
@@ -445,23 +513,6 @@
       "confidence": 0.790838
     },
     {
-      "postid": 44381693480830,
-      "text": "U.S. Stocks Rise as Jobs Report Tempers Rate Outlook - WSJ",
-      "post_text": "U.S. Stocks Rise as Jobs Report Tempers Rate Outlook WSJ",
-      "score": 0,
-      "upvote_ratio": 0,
-      "creation": "2026-10-02",
-      "source": "google_news",
-      "source_name": "Google News",
-      "publisher": "WSJ",
-      "source_url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxOdVFWS1puTWRJM1VGc2xzcU5lM1c1RUVUM2JUdXhueHd6Y2ozM0l4eVNLZkJKVjJSOENYV0xCbVppU1hDOEc4amo5ZnVGNVJpSjNLSXdDcHdSRUhuNWotWWtsUlB5NFJSUnpzaEI3d3VBMVlzUUVtc0dhMWE2ZWtqY3NVMmVmV0VtSzBMR0hyQmE5cnB4SHRPbkJ5RQ?oc=5",
-      "tickers": "",
-      "positive": 0.967576,
-      "negative": 0.014143,
-      "neutral": 0.01828,
-      "confidence": 0.967576
-    },
-    {
       "postid": 42536394292323,
       "text": "Non-farm payrolls whiff with 29k on 90k forecast",
       "post_text": "submitted by /u/puzzlingcaptcha to r/wallstreetbets [link] [comments]",
@@ -511,23 +562,6 @@
       "negative": 0.954489,
       "neutral": 0.01677,
       "confidence": 0.954489
-    },
-    {
-      "postid": 19676318472950,
-      "text": "EXCLUSIVE: US tells France and Germany to release diesel stocks or face US export ban, sources say - Reuters",
-      "post_text": "EXCLUSIVE: US tells France and Germany to release diesel stocks or face US export ban, sources say Reuters",
-      "score": 0,
-      "upvote_ratio": 0,
-      "creation": "2026-10-02",
-      "source": "google_news",
-      "source_name": "Google News",
-      "publisher": "Reuters",
-      "source_url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxNOGxXWEZnTW1hNUtCOXY4NTJTWHQ0ZkZoUEZsYkt3c3lQTVU1NDFVbHJnSkNJbXRTdzZCSlBWY2tsc0stTk5CSGk1Ymhpb0NwaG1WUEg5Ni1pVlFxQnRMc093VGllN0c5ektIdWYyN191ZW5ZX1lrUjhVODk2TUpsRXFQT3hQdGhVUzdjdklkSENrWm8yWmgwVkE1bEd6TTB2RHBsUHpZVExmTUhkbjhINTVrZ3ZpQnNsQW9wc0FBMWk4XzF0WEI1aXZBQQ?oc=5",
-      "tickers": "",
-      "positive": 0.010467,
-      "negative": 0.013015,
-      "neutral": 0.976519,
-      "confidence": 0.976519
     },
     {
       "postid": 9650440492621,
@@ -596,6 +630,23 @@
       "negative": 0.958815,
       "neutral": 0.021154,
       "confidence": 0.958815
+    },
+    {
+      "postid": 279209361714646,
+      "text": "October could be a huge month for the stock market. Here's why. - Fox Business",
+      "post_text": "October could be a huge month for the stock market. Here's why. Fox Business",
+      "score": 0,
+      "upvote_ratio": 0,
+      "creation": "2026-10-01",
+      "source": "google_news",
+      "source_name": "Google News",
+      "publisher": "Fox Business",
+      "source_url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxNb2ZnSEZfejhXUV9tc0c2dzJzbW9YNmRZVzQxd0pDT3kxMWxhY05kY1FIWEpNZk9DY0ZLTUg4QS0tT0lSaVVweW14VFM3dV82SGstdVRFcHpzYm1HXzV1bUx2Mm5Id2xwTWxxUU93UW1DTFNEZDNyRlJjRk5aampWQWtCS0l0WjZZSlhSWlZwQjBfUzZ2Z0xTclBKZ3TSAaIBQVVfeXFMTjY1ME1IalMyM3VUTVlkWGxxY3JjS2Zfalg3TWV6V042b3NYVy1kdWhRVXh0QTZPY3ZSQXJWYU44dGFoQWFXNy1fdm4yWFZNOThCbHM3Q3lkMFkweU9lam5lQ2VaQnJwOVBQbjFvbHc0djBOTGhWVmlYQ3dmLVJYY2NoUGtyVXhMakYzT3UwMU54RW9XR2FRblI3X3VoMlNyZVB3?oc=5",
+      "tickers": "",
+      "positive": 0.642252,
+      "negative": 0.009741,
+      "neutral": 0.348007,
+      "confidence": 0.642252
     },
     {
       "postid": 274285422528196,
@@ -735,20 +786,20 @@
     },
     {
       "postid": 243966783307661,
-      "text": "Here’s How Much Traders Expect Nike Stock to Move After Earnings - Investopedia",
-      "post_text": "Here’s How Much Traders Expect Nike Stock to Move After Earnings Investopedia",
+      "text": "Here’s How Much Traders Expect Nike Stock to Move After Earnings - investopedia.com",
+      "post_text": "Here’s How Much Traders Expect Nike Stock to Move After Earnings investopedia.com",
       "score": 0,
       "upvote_ratio": 0,
       "creation": "2026-10-01",
       "source": "google_news",
       "source_name": "Google News",
-      "publisher": "Investopedia",
+      "publisher": "investopedia.com",
       "source_url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxQR25uaXZucU9zLXAtcWdSWWViMThYa2RCb1haWWNHdkxYUGFXMUR4WGVEWl8welhNOElndlZKNkw3YTA0a0dsNzVXdUJtdzZKTFZ0cFpDd2FsclZSelNacXoxeUpDYThRRGJ6WDVwbDhDS1hGaDg5bWFTVUZkVFdRanJBbE11V3BXOFRnVnB2dmRJY1NlSV9IaUpRbUpBTzdYd2l1Z01lVlk3NVR6WUJSdzB2T3dHVkJIY29NQVZGTF9MQQ?oc=5",
       "tickers": "NKE",
-      "positive": 0.040276,
-      "negative": 0.023127,
-      "neutral": 0.936598,
-      "confidence": 0.936598
+      "positive": 0.033194,
+      "negative": 0.014698,
+      "neutral": 0.952108,
+      "confidence": 0.952108
     },
     {
       "postid": 240882784000151,
@@ -885,6 +936,23 @@
       "negative": 0.028054,
       "neutral": 0.859599,
       "confidence": 0.859599
+    },
+    {
+      "postid": 166245019489683,
+      "text": "SPY Options 77k (For the month)",
+      "post_text": "Month 4 of trading options. No changes to 'strategy' from my previous posts, but I've been comfortable holding more contracts, holding contracts longer and generally slightly less risk averse, I think because of the obvious kangaroo action we saw this month. I did miss the random +1% monday we had in September because I was in court and yea I'm still pissy about that. Hindsight is easy, but generally in September calls when SPY was below 763 and puts above 770 couldn't lose. I'm 50k away from the big boy tax bracket so I will have to slow down soon If I don't start losing money. Here are my pr",
+      "score": 0,
+      "upvote_ratio": 0,
+      "creation": "2026-10-01",
+      "source": "reddit",
+      "source_name": "Reddit",
+      "publisher": "r/wallstreetbets",
+      "source_url": "https://www.reddit.com/r/wallstreetbets/comments/1wuyyv1/spy_options_77k_for_the_month/",
+      "tickers": "",
+      "positive": 0.283523,
+      "negative": 0.101812,
+      "neutral": 0.614665,
+      "confidence": 0.614665
     },
     {
       "postid": 148803351438549,
@@ -1125,23 +1193,6 @@
       "confidence": 0.927247
     },
     {
-      "postid": 56194891207947,
-      "text": "Nike reports earnings after the bell: What to expect - CNBC",
-      "post_text": "Nike reports earnings after the bell: What to expect CNBC",
-      "score": 0,
-      "upvote_ratio": 0,
-      "creation": "2026-10-01",
-      "source": "google_news",
-      "source_name": "Google News",
-      "publisher": "CNBC",
-      "source_url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxNVTNyZlBSQU83UVlQYkQwX09TT184ZWMwOHdxX0kzWWtxSnZHZXUyV1ZqTWtHS2tISVR1VXpWN2YtZXFEWnFFQlE4VFFLUlM1bk02dEkxbDVwWWhsb25rSzlMalF1Y1dJRl9SZmVJZGFsWGd4NkczVDBxeFBHN2dIZ3JkSDhPVEgyVDM1Zk5ocTBGTGEyWkpPdF9n?oc=5",
-      "tickers": "NKE",
-      "positive": 0.009446,
-      "negative": 0.011684,
-      "neutral": 0.97887,
-      "confidence": 0.97887
-    },
-    {
       "postid": 55496806670230,
       "text": "13x💰",
       "post_text": "Started @40k in Aug. Hit 525k recently and took some money out to get a new car. Spy option plays. Dreaming of chilling on a yacht one day instead of 9-5. Good luck boys. Thank you for all the congrats and fck you comments. All plays are 0 dtes. Positions/plays are posted under mod’s comment. Wishing you all the best with your current and future positions. For those of you wondering how it’s done; you just need to jerk off in the morning before market open to calm your mind and pray to God you believe in that you make the right call at the right time that day 😉 submitted by /u/naughtypetz to r",
@@ -1225,6 +1276,23 @@
       "negative": 0.006842,
       "neutral": 0.985407,
       "confidence": 0.985407
+    },
+    {
+      "postid": 19676318472950,
+      "text": "EXCLUSIVE: US tells France and Germany to release diesel stocks or face US export ban, sources say - Reuters",
+      "post_text": "EXCLUSIVE: US tells France and Germany to release diesel stocks or face US export ban, sources say Reuters",
+      "score": 0,
+      "upvote_ratio": 0,
+      "creation": "2026-10-01",
+      "source": "google_news",
+      "source_name": "Google News",
+      "publisher": "Reuters",
+      "source_url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxNOGxXWEZnTW1hNUtCOXY4NTJTWHQ0ZkZoUEZsYkt3c3lQTVU1NDFVbHJnSkNJbXRTdzZCSlBWY2tsc0stTk5CSGk1Ymhpb0NwaG1WUEg5Ni1pVlFxQnRMc093VGllN0c5ektIdWYyN191ZW5ZX1lrUjhVODk2TUpsRXFQT3hQdGhVUzdjdklkSENrWm8yWmgwVkE1bEd6TTB2RHBsUHpZVExmTUhkbjhINTVrZ3ZpQnNsQW9wc0FBMWk4XzF0WEI1aXZBQQ?oc=5",
+      "tickers": "",
+      "positive": 0.010467,
+      "negative": 0.013015,
+      "neutral": 0.976519,
+      "confidence": 0.976519
     },
     {
       "postid": 17016953085883,
@@ -1429,6 +1497,23 @@
       "negative": 0.011854,
       "neutral": 0.019141,
       "confidence": 0.969005
+    },
+    {
+      "postid": 248830635564806,
+      "text": "A rare signal is flashing in the market that suggests the bull rally in stocks is about to peak - Business Insider",
+      "post_text": "A rare signal is flashing in the market that suggests the bull rally in stocks is about to peak Business Insider",
+      "score": 0,
+      "upvote_ratio": 0,
+      "creation": "2026-09-30",
+      "source": "google_news",
+      "source_name": "Google News",
+      "publisher": "Business Insider",
+      "source_url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxOeTN3c01MSExaSUs4cVVUU0ktNFladHZKb3k0TTVQOGc3NnFVejEyaFdZeWNwa3NKMTV1SzZQb3lmbE44SDZyaHNTSmhXRU5FMXhiRzREZDVVSDRhWVdJZWU1X0RYUFFLYlRZUHh3V2NKS1pSb1p3TG5uWHptbHhNeUhqaFVSTURQLUoyeEQ3cGpuZkI3dzVDQnEyLXlTYlAzcEdWNWx3?oc=5",
+      "tickers": "",
+      "positive": 0.774694,
+      "negative": 0.074667,
+      "neutral": 0.150639,
+      "confidence": 0.774694
     },
     {
       "postid": 248807851072865,
@@ -1652,6 +1737,23 @@
       "confidence": 0.898773
     },
     {
+      "postid": 154236849455180,
+      "text": "Hedge Fund’s Near Collapse Lays Bare Risks of Borrowing to Bet on A.I. - The New York Times",
+      "post_text": "Hedge Fund’s Near Collapse Lays Bare Risks of Borrowing to Bet on A.I. The New York Times",
+      "score": 0,
+      "upvote_ratio": 0,
+      "creation": "2026-09-30",
+      "source": "google_news",
+      "source_name": "Google News",
+      "publisher": "The New York Times",
+      "source_url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxOXzQzMUZZeENZMEd6RnhIUl9ZdmNXVmpPRzVhcnA4eXN5ZGEzZmZSTGswX2JEOXlKdVBIeHZKNFZ4UXUyUGFkVWhwYWR5STFuWHNFYktLeFROR2tQc2ljdVltTk9wSGc4cGdvbWJxUE8yODd1b3M2eEJaYkpCOXFQLW9kNTJkczVac3o2Yk85d1JSem9OZE5J?oc=5",
+      "tickers": "",
+      "positive": 0.036942,
+      "negative": 0.690694,
+      "neutral": 0.272364,
+      "confidence": 0.690694
+    },
+    {
       "postid": 150127218596970,
       "text": "Google rolls out Gemini 4 Argon, its most advanced AI model",
       "post_text": "submitted by /u/Force_Hammer to r/wallstreetbets [link] [comments]",
@@ -1684,6 +1786,23 @@
       "negative": 0.958974,
       "neutral": 0.0238,
       "confidence": 0.958974
+    },
+    {
+      "postid": 134658210454490,
+      "text": "YOLO: MU Micron $1,080 strike 10/2 exp calls - I'm Michael Burry's Boss Now",
+      "post_text": "eventually people are going to stop telling me that i got lucky (?) submitted by /u/oprah_2024 to r/wallstreetbets [link] [comments]",
+      "score": 0,
+      "upvote_ratio": 0,
+      "creation": "2026-09-30",
+      "source": "reddit",
+      "source_name": "Reddit",
+      "publisher": "r/wallstreetbets",
+      "source_url": "https://www.reddit.com/r/wallstreetbets/comments/1wufyjc/yolo_mu_micron_1080_strike_102_exp_calls_im/",
+      "tickers": "MU",
+      "positive": 0.020884,
+      "negative": 0.113746,
+      "neutral": 0.86537,
+      "confidence": 0.86537
     },
     {
       "postid": 131413134625507,
@@ -1772,20 +1891,20 @@
     },
     {
       "postid": 105716075504198,
-      "text": "Here’s How Much Micron Stock Is Expected to Move After Earnings - Investopedia",
-      "post_text": "Here’s How Much Micron Stock Is Expected to Move After Earnings Investopedia",
+      "text": "Here’s How Much Micron Stock Is Expected to Move After Earnings - investopedia.com",
+      "post_text": "Here’s How Much Micron Stock Is Expected to Move After Earnings investopedia.com",
       "score": 0,
       "upvote_ratio": 0,
       "creation": "2026-09-30",
       "source": "google_news",
       "source_name": "Google News",
-      "publisher": "Investopedia",
+      "publisher": "investopedia.com",
       "source_url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxPT1Q0R0g0RExEUTJDT1JTbzZOeVJGZFBBMUlUUTRqMk0yVFFvbm5vRHg3ZEI2SWpURmZYSjdfTGM0elNDMEQ0SFJ3SHZ2bk1nUDFrdVl6V2dLblA3ZksyQW5adzBiSGxmZWFEdHZxdGZRVEczVjlZYm9TblBOZ3h2RDQyQ0gxTU5FU2ZRdGwzLTd1MWhEeGY1ZWhoR3hBN1BUZmRvRDJ4dmt3Zm9UeG92VlNrWnRIcHNtNUQ0WWxlNA?oc=5",
       "tickers": "MU",
-      "positive": 0.021816,
-      "negative": 0.01116,
-      "neutral": 0.967024,
-      "confidence": 0.967024
+      "positive": 0.02075,
+      "negative": 0.009362,
+      "neutral": 0.969888,
+      "confidence": 0.969888
     },
     {
       "postid": 101830029958605,
@@ -2024,23 +2143,6 @@
       "negative": 0.032791,
       "neutral": 0.505318,
       "confidence": 0.505318
-    },
-    {
-      "postid": 237032921157784,
-      "text": "You might be shocked by how many stocks are in a bear market right now - MarketWatch",
-      "post_text": "You might be shocked by how many stocks are in a bear market right now MarketWatch",
-      "score": 0,
-      "upvote_ratio": 0,
-      "creation": "2026-09-29",
-      "source": "google_news",
-      "source_name": "Google News",
-      "publisher": "MarketWatch",
-      "source_url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNYWtkcjhDeFVRbFJSbXZxc0w4eGs0SlpRMWxLYWxGNWdTdVowd0dBOVRQc2Y2Q3lhX21IcU9HdkU0S0NZU0dnUWY4SzhSM3hMWlBseGI1VUJXZWd5YXpWc2hOejJGOHFscHFPSnJCbW50eF9meFEtNjlWRTNmTDNheDZKWlZrNTdKM1hyYmdYRHNpWWV3T2FLb19nNkdHR21OU2N2bWtoRElmNUlEdTQtN3F5NA?oc=5",
-      "tickers": "",
-      "positive": 0.040262,
-      "negative": 0.527272,
-      "neutral": 0.432466,
-      "confidence": 0.527272
     },
     {
       "postid": 231569045103257,
@@ -2449,23 +2551,6 @@
       "negative": 0.064652,
       "neutral": 0.842326,
       "confidence": 0.842326
-    },
-    {
-      "postid": 269432804742909,
-      "text": "Micron Stock: Earnings May Show Why $100 Billion Won’t Save The Rally - Forbes",
-      "post_text": "Micron Stock: Earnings May Show Why $100 Billion Won’t Save The Rally Forbes",
-      "score": 0,
-      "upvote_ratio": 0,
-      "creation": "2026-09-28",
-      "source": "google_news",
-      "source_name": "Google News",
-      "publisher": "Forbes",
-      "source_url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxQY1pEUWtwdFdPc2k1c01Ob1JmYm1lNmdtUVdFcEt0YXJnQTd6REprUlhPcGJxb1VJd1BpcGZ3eHB1bEplU1BBcFE1M1dTczJmdUlsaFR6Zk5qQjBQNHViZWJrYUZfX1E4NnhZTXFrWm1iVjl0ei1mMl9KLXQ5SzdseWhKdFp3WTE5SEloYzRRNEp6RGJHSGEzMnpIdDNCSUJoSlg3QlhNYWVNNHptVVpSUkdMZk9LTzQ?oc=5",
-      "tickers": "MU",
-      "positive": 0.81787,
-      "negative": 0.069654,
-      "neutral": 0.112476,
-      "confidence": 0.81787
     },
     {
       "postid": 263397990432270,
@@ -2927,23 +3012,6 @@
       "confidence": 0.874383
     },
     {
-      "postid": 13407893819516,
-      "text": "How midterm elections affect the stock market - U.S. Bank",
-      "post_text": "How midterm elections affect the stock market U.S. Bank",
-      "score": 0,
-      "upvote_ratio": 0,
-      "creation": "2026-09-28",
-      "source": "google_news",
-      "source_name": "Google News",
-      "publisher": "U.S. Bank",
-      "source_url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxPajZ2ZjFNZFhYeEl6dWNMT25UQjhZTUpYSjZaWVJtZWxSdmlHM2RveWtaYWpEeW44ekk0UmFWMlBVZzA3bmtqcHd1bElHSXhFOHVFVWZhQjF0dzBKV29GNDM0dlQ4SkNIUWczQW16Mmo3aG5oLWN5RnNBQ2VkQVJBRXhpVjBKUEJKbExvU1dxMG45S1QtenFQdnBEMk1hVTJEWFVaeFpCZTlyb215OVFIWE1Vbmp6SXl0YzRoNmh3?oc=5",
-      "tickers": "",
-      "positive": 0.006815,
-      "negative": 0.018479,
-      "neutral": 0.974706,
-      "confidence": 0.974706
-    },
-    {
       "postid": 10940564799129,
       "text": "Nvidia share buyback plan gets $150 billion boost",
       "post_text": "Nvidia said Monday it has authorized an additional $150 billion to its share buyback program, taking its total to $235 billion, amid record spending on AI. The chip giant said it marks the largest share repurchase authorization increase in history. It expects to complete the total remaining buyback program through the fiscal year 2028. Nvidia produces the most advanced chips used for AI and has been a huge beneficiary of the boom in spending on the infrastructure needed to power the tech. Nvidia’s shares have climbed 24% over the past 12 months, lifting the company’s market cap to $5.42 trilli",
@@ -3250,23 +3318,6 @@
       "confidence": 0.561817
     },
     {
-      "postid": 212126051800211,
-      "text": "Prediction: Sept. 30 Will Be a Big Day for the Stock Market. Here Are 2 Stocks to Buy Hand Over Fist Before That - Yahoo Finance",
-      "post_text": "Prediction: Sept. 30 Will Be a Big Day for the Stock Market. Here Are 2 Stocks to Buy Hand Over Fist Before That Yahoo Finance",
-      "score": 0,
-      "upvote_ratio": 0,
-      "creation": "2026-09-26",
-      "source": "google_news",
-      "source_name": "Google News",
-      "publisher": "Yahoo Finance",
-      "source_url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxPU1JESUNnY0FzYVdYQXFKc3BYODU4ZVFTYzNiekx0NkdFZHk4bnNHR05tdGlVUUdyYnBsdlJvQWxib0s4ZGFYWDlFMmJ4ZFQyS1V1Q1JVUUdMTGZFTkNpdmNKQ1dUbFhLLTlPaXBwU1N2X1NWVW52a091VXNlUm16OEZtTHNXWmppOG4wNWhnZDhGeEVwRUE?oc=5",
-      "tickers": "",
-      "positive": 0.175124,
-      "negative": 0.01025,
-      "neutral": 0.814626,
-      "confidence": 0.814626
-    },
-    {
       "postid": 150749293056935,
       "text": "Disney is hurting themselves by raising Disney+ prices",
       "post_text": "Disney is a hard sell in my book now. The math hasn’t been making sense and the last price increase was the last straw for me. We really only have Disney+ for my toddler but he repeatedly just watches Encanto and Finding Nemo. I really like Disney (I’m not an adult Disney person but I like Disney a lot because they sell happiness/joy which I appreciate) but the price is too high. I can buy Encanto and Finding Nemo on Amazon Prime for a total of $30 and that’s what I’m going to do. I think the high price is a big misstep and a disconnect from their customer base as most children are similar to ",
@@ -3282,57 +3333,6 @@
       "negative": 0.018259,
       "neutral": 0.97384,
       "confidence": 0.97384
-    },
-    {
-      "postid": 91031628092141,
-      "text": "Eight long years of blood, sweat, tears and cum.",
-      "post_text": "Got my folio looking like a textbook cup and handle breakout. Started off my journey with degenerate option plays and lost my ass. Now I just buy low and sell high, if I did that in the very beginning I’d be fucking loaded. submitted by /u/BluePuts to r/wallstreetbets [link] [comments]",
-      "score": 0,
-      "upvote_ratio": 0,
-      "creation": "2026-09-26",
-      "source": "reddit",
-      "source_name": "Reddit",
-      "publisher": "r/wallstreetbets",
-      "source_url": "https://www.reddit.com/r/wallstreetbets/comments/1wqs9f0/eight_long_years_of_blood_sweat_tears_and_cum/",
-      "tickers": "",
-      "positive": 0.014983,
-      "negative": 0.301952,
-      "neutral": 0.683065,
-      "confidence": 0.683065
-    },
-    {
-      "postid": 47033666127425,
-      "text": "+$348K YTD from futures trading strategies",
-      "post_text": "Not much else to say. Has been a mix of mostly long positions but also shorts on silver specifically, which is still overvalued IMO. Edit: Actually up $565k YTD, as shown in screenshot below, forgot to include my oil position from earlier in the year pre-war. submitted by /u/Legitimate-Waltz-512 to r/wallstreetbets [link] [comments]",
-      "score": 0,
-      "upvote_ratio": 0,
-      "creation": "2026-09-26",
-      "source": "reddit",
-      "source_name": "Reddit",
-      "publisher": "r/wallstreetbets",
-      "source_url": "https://www.reddit.com/r/wallstreetbets/comments/1wqu4wp/348k_ytd_from_futures_trading_strategies/",
-      "tickers": "",
-      "positive": 0.041029,
-      "negative": 0.00909,
-      "neutral": 0.949881,
-      "confidence": 0.949881
-    },
-    {
-      "postid": 41155335572516,
-      "text": "I can finally quit my 9 to 5 lol maybe possibly 😅",
-      "post_text": "submitted by /u/J_Phoenix504 to r/wallstreetbets [link] [comments]",
-      "score": 0,
-      "upvote_ratio": 0,
-      "creation": "2026-09-26",
-      "source": "reddit",
-      "source_name": "Reddit",
-      "publisher": "r/wallstreetbets",
-      "source_url": "https://www.reddit.com/r/wallstreetbets/comments/1wqpnxy/i_can_finally_quit_my_9_to_5_lol_maybe_possibly/",
-      "tickers": "",
-      "positive": 0.061021,
-      "negative": 0.23114,
-      "neutral": 0.707839,
-      "confidence": 0.707839
     },
     {
       "postid": 6281656107136,
