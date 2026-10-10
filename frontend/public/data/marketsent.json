@@ -1,24 +1,41 @@
 {
   "schema_version": 2,
-  "generated_at": "2026-10-10T05:56:19.739451Z",
+  "generated_at": "2026-10-10T12:36:10.859686Z",
   "sources": [
     {
       "id": "reddit",
       "name": "Reddit",
       "status": "ok",
       "item_count": 100,
-      "updated_at": "2026-10-10T05:56:19.739451Z"
+      "updated_at": "2026-10-10T12:36:10.859686Z"
     },
     {
       "id": "google_news",
       "name": "Google News",
       "status": "ok",
       "item_count": 100,
-      "updated_at": "2026-10-10T05:56:19.739451Z"
+      "updated_at": "2026-10-10T12:36:10.859686Z"
     }
   ],
   "count": 199,
   "posts": [
+    {
+      "postid": 242267535336658,
+      "text": "[Exclusive] \"There is no profit even if we sell\"…Samsung to cut smartphone production by 30% - MoneyToday",
+      "post_text": "While Samsung Electronics rode its memory division to $80 billion in operating last quarter, its mobile division is struggling so much from component prices that it is cutting smartphone production by 30 percent. More filler text to get over 250 characters submitted by /u/Prudent-Corgi3793 to r/StockMarket [link] [comments]",
+      "score": 0,
+      "upvote_ratio": 0,
+      "creation": "2026-10-10",
+      "source": "reddit",
+      "source_name": "Reddit",
+      "publisher": "r/StockMarket",
+      "source_url": "https://www.reddit.com/r/StockMarket/comments/1x258qi/exclusive_there_is_no_profit_even_if_we/",
+      "tickers": "",
+      "positive": 0.016388,
+      "negative": 0.678012,
+      "neutral": 0.3056,
+      "confidence": 0.678012
+    },
     {
       "postid": 220527204523793,
       "text": "European Stocks: Brace for a Turbulent Earnings Season - Morningstar",
@@ -35,6 +52,40 @@
       "negative": 0.024667,
       "neutral": 0.179156,
       "confidence": 0.796177
+    },
+    {
+      "postid": 205926767765468,
+      "text": "Firmus: Nvidia-backed data centre firm scraps IPO as AI valuation concerns deepen",
+      "post_text": "From the article: The Nvidia-backed firm said it had made the decision due to \"recent market volatility and prevailing market conditions\" and that going public would not be in the company or shareholders' best interests. Firmus had initially announced plans for a stock market debut that valued the company at more than $30bn (£22.65bn). submitted by /u/dgellow to r/wallstreetbets [link] [comments]",
+      "score": 0,
+      "upvote_ratio": 0,
+      "creation": "2026-10-10",
+      "source": "reddit",
+      "source_name": "Reddit",
+      "publisher": "r/wallstreetbets",
+      "source_url": "https://www.reddit.com/r/wallstreetbets/comments/1x292wu/firmus_nvidiabacked_data_centre_firm_scraps_ipo/",
+      "tickers": "NVDA",
+      "positive": 0.006153,
+      "negative": 0.015966,
+      "neutral": 0.977881,
+      "confidence": 0.977881
+    },
+    {
+      "postid": 107710115255219,
+      "text": "Small potatoes to some… Big potatoes to me. Quitting options before I hit 5 figures down. So embarrassed 🙄",
+      "post_text": "submitted by /u/level99mewtwo to r/wallstreetbets [link] [comments]",
+      "score": 0,
+      "upvote_ratio": 0,
+      "creation": "2026-10-10",
+      "source": "reddit",
+      "source_name": "Reddit",
+      "publisher": "r/wallstreetbets",
+      "source_url": "https://www.reddit.com/r/wallstreetbets/comments/1x25ztn/small_potatoes_to_some_big_potatoes_to_me/",
+      "tickers": "",
+      "positive": 0.021005,
+      "negative": 0.912779,
+      "neutral": 0.066216,
+      "confidence": 0.912779
     },
     {
       "postid": 28048347483292,
@@ -105,6 +156,23 @@
       "confidence": 0.950729
     },
     {
+      "postid": 255254636988563,
+      "text": "Bigger US corn stocks fuel doubts about USDA livestock feeding data - Reuters",
+      "post_text": "Bigger US corn stocks fuel doubts about USDA livestock feeding data Reuters",
+      "score": 0,
+      "upvote_ratio": 0,
+      "creation": "2026-10-09",
+      "source": "google_news",
+      "source_name": "Google News",
+      "publisher": "Reuters",
+      "source_url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxNT2JIeWNyZ2hyOHAwSmQtbnNDeUx5ZEI0bTlUYWhZRFk5T0JaUmF6T0RhSkF4MnRIWG15Tng4MV9OOFZYUnloZHg4VXFKMEtDVEJLZGl5Mjh2bG1ENktDYkZpNDNDOUNCd0RhbnQ0TkgtVF92Y2hYdUtkZXZfbG9PQmhKMU0yTFh3M1B5a1QyWnRQbmRSc0FfOFpBZEpCaUotYjgxcFlCZGtVd0h2cm9FNE5OUE8xT0k0VUtrd3VoZnBVOFdzek5z?oc=5",
+      "tickers": "",
+      "positive": 0.029684,
+      "negative": 0.927614,
+      "neutral": 0.042702,
+      "confidence": 0.927614
+    },
+    {
       "postid": 253799321927892,
       "text": "US, European telecom stocks slide as SpaceX spectrum deal rattles sector - Reuters",
       "post_text": "US, European telecom stocks slide as SpaceX spectrum deal rattles sector Reuters",
@@ -171,6 +239,23 @@
       "negative": 0.459209,
       "neutral": 0.199552,
       "confidence": 0.459209
+    },
+    {
+      "postid": 227369208408107,
+      "text": "U.S. Stocks Rise as Iran Escalation Fears Subside - WSJ",
+      "post_text": "U.S. Stocks Rise as Iran Escalation Fears Subside WSJ",
+      "score": 0,
+      "upvote_ratio": 0,
+      "creation": "2026-10-09",
+      "source": "google_news",
+      "source_name": "Google News",
+      "publisher": "WSJ",
+      "source_url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxNUEk1S05kM2xybmFka25kR0pBbkNJeE8zUXJXSkt6eFJocUU3eUg2a1BjcGE4RnI2WEc2ZmFvQjNmTjlNc1BTeFNMZE90RnRjazNfQVdhU1I4ZTRFLTNwdUdnUDJxdEc5OVdxdGFnM3VReTgtY2NYLVByZ01GRkpuR3B1QW9lOHIyUVZqeDV4dW82LWRtT0Jj?oc=5",
+      "tickers": "",
+      "positive": 0.95525,
+      "negative": 0.023463,
+      "neutral": 0.021287,
+      "confidence": 0.95525
     },
     {
       "postid": 197130755658471,
@@ -1329,23 +1414,6 @@
       "confidence": 0.798284
     },
     {
-      "postid": 257311104282826,
-      "text": "U.S. Stocks Fall as Treasury Yields Test Multidecade Highs - WSJ",
-      "post_text": "U.S. Stocks Fall as Treasury Yields Test Multidecade Highs WSJ",
-      "score": 0,
-      "upvote_ratio": 0,
-      "creation": "2026-10-07",
-      "source": "google_news",
-      "source_name": "Google News",
-      "publisher": "WSJ",
-      "source_url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxPc0kta0ZSTzVRZ0RIME01UkItZW9vRl82MmdGM19yUHlhbklXRmlHaU5lZjRVSW5mYmZTOTVKYWhJSEpMRm5qT2I1eGxVTkJQQXM3N004ZjRxS19fTVZyYm16QTBxUTJlTnRXX1JRaDlRcUtUNmJzeEx5RkpVazRnOEtXdWZPTXpISTZCeWhPUG5LLVhOUzY4a2lMN3NCR1Frd2lGSVZrcw?oc=5",
-      "tickers": "",
-      "positive": 0.066679,
-      "negative": 0.913791,
-      "neutral": 0.01953,
-      "confidence": 0.913791
-    },
-    {
       "postid": 245449980197153,
       "text": "Pt3: 200k day",
       "post_text": "Swung ndx/spx puts from yesterday. Switched to calls at the bottom and back to puts for eod today. submitted by /u/Fun-Negotiation-9046 to r/wallstreetbets [link] [comments]",
@@ -1584,23 +1652,6 @@
       "confidence": 0.961126
     },
     {
-      "postid": 176612591578737,
-      "text": "France to release 10 mln barrels of diesel from stocks, French PM says - Reuters",
-      "post_text": "France to release 10 mln barrels of diesel from stocks, French PM says Reuters",
-      "score": 0,
-      "upvote_ratio": 0,
-      "creation": "2026-10-07",
-      "source": "google_news",
-      "source_name": "Google News",
-      "publisher": "Reuters",
-      "source_url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxOaWFYZU9aMFBWYnZnMWVubE5TTlVVUW5sa2JSbkpQM2dnbTctV3VUeGtVTG9rVE8yR0E0aW5pWlYwR0JMRTEtWDFqTzIxZVFLbS1tZFhPTjlLQ0V5UFZqX2Roa1puV1lTUHpXSnJUODcxRURHUEFEVWMwakFWcVJ2bHZTR1N0X0NBN0Q1WXdRLUdFZUtrenVEcGlBbFNkWG5ZYUVtTUU4M3V1aS1CaE9F?oc=5",
-      "tickers": "",
-      "positive": 0.073028,
-      "negative": 0.009055,
-      "neutral": 0.917918,
-      "confidence": 0.917918
-    },
-    {
       "postid": 169221075101168,
       "text": "The year is 1996. You are Alan Greenspan and you are in the bathtub watching an episode of Frasier",
       "post_text": "You are head of the federal reserve and the stock market is booming. Your favourite boybands are touring the world. Life is good. The Nasdaq has just climbed to 1300. But that is just too high. All this internet talk. It's too risky. Too much too soon. It's irrational. It cannot last. It will lead to a long bear market. It's... exuberant. We need to intervene. Then, eureka! the phrase comes to you \"irrational exuberance\". That's it! It's going in tomorrow's speech. The Nasdaq would go on to quadruple in the next three and half years to over 5000. Of course, by 2002, the Nasdaq would fall to 11",
@@ -1735,6 +1786,23 @@
       "negative": 0.932294,
       "neutral": 0.023382,
       "confidence": 0.932294
+    },
+    {
+      "postid": 128660244132031,
+      "text": "Nvidia and Micron are about to dominate earnings season - Yahoo Finance",
+      "post_text": "Nvidia and Micron are about to dominate earnings season Yahoo Finance",
+      "score": 0,
+      "upvote_ratio": 0,
+      "creation": "2026-10-07",
+      "source": "google_news",
+      "source_name": "Google News",
+      "publisher": "Yahoo Finance",
+      "source_url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNcC1ES0gxVDhDdEpiNWd1eHZqOG95NzVMMjEyaXN1VG1HMlByMWVENVg2TWM1d0pZcnY2M19jdUhxYnpQTmtsdERHTC1MVkFnSmh5QkFvaTRYeUhocktQRFoxMFEtWXBvWWVrU1lBVUhxUU9zWDRQbjZWSk5JZktXVEI0S29xTnNBTUxFTFBDSjBMUVhnS2pwdjBOcFU3TmtZSGk1ZmZORVRZb1NwYWtRV01B?oc=5",
+      "tickers": "NVDA,MU",
+      "positive": 0.909093,
+      "negative": 0.009835,
+      "neutral": 0.081071,
+      "confidence": 0.909093
     },
     {
       "postid": 114314202664584,
@@ -2247,6 +2315,23 @@
       "confidence": 0.636486
     },
     {
+      "postid": 171923343724460,
+      "text": "Dividend stocks are getting crushed as bond yields hit 24-year highs - Quartz",
+      "post_text": "Dividend stocks are getting crushed as bond yields hit 24-year highs Quartz",
+      "score": 0,
+      "upvote_ratio": 0,
+      "creation": "2026-10-06",
+      "source": "google_news",
+      "source_name": "Google News",
+      "publisher": "Quartz",
+      "source_url": "https://news.google.com/rss/articles/CBMidkFVX3lxTFBGeHlLV2dPWDlfVDQ4LVBHMGpoTXNRTmx3TEVJd0FLV18wSF9QNWYzNG14MzlKanhTd2NibXVlRnZlVl9tUklQQWdtSkxHelh0UUZLSnFGbG1BcXZFQ09oTHVJSHY2Q1NncW1KX3pic3VmUVRLbUE?oc=5",
+      "tickers": "",
+      "positive": 0.060183,
+      "negative": 0.862717,
+      "neutral": 0.0771,
+      "confidence": 0.862717
+    },
+    {
       "postid": 130410862004412,
       "text": "Cramer says these blue-chip stocks are among the best ways to invest in the AI boom - CNBC",
       "post_text": "Cramer says these blue-chip stocks are among the best ways to invest in the AI boom CNBC",
@@ -2415,23 +2500,6 @@
       "negative": 0.022223,
       "neutral": 0.804082,
       "confidence": 0.804082
-    },
-    {
-      "postid": 39648239920394,
-      "text": "Biotechs Sell Off — These Are The Biggest Losers - Investor's Business Daily",
-      "post_text": "Biotechs Sell Off — These Are The Biggest Losers Investor's Business Daily",
-      "score": 0,
-      "upvote_ratio": 0,
-      "creation": "2026-10-06",
-      "source": "google_news",
-      "source_name": "Google News",
-      "publisher": "Investor's Business Daily",
-      "source_url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxOMVdxY1NsZDhBZ0JQR1h5OC1VRjBidHVJVTdVdW5sOFpRQTg5eTJydlNOQVhpODFjT3gxMnVETWRYcHBIRFdPYmUzXzZvaE9aQzJ5SXJ2bWlaYjR0RU04dkNLalFfSklhVjBJdE96SEY2OE5DU3ZFNnBrSjJjWExtdnhMek9yemZwSkFnM0dKUm1PWnNWbU1pNnE4azJkLUFjZmJkaXpR?oc=5",
-      "tickers": "",
-      "positive": 0.011078,
-      "negative": 0.56618,
-      "neutral": 0.422742,
-      "confidence": 0.56618
     },
     {
       "postid": 35865898279393,
@@ -2689,23 +2757,6 @@
       "confidence": 0.700482
     },
     {
-      "postid": 157918506811943,
-      "text": "Hong Kong stocks edge up as AI shares offset property weakness - Reuters",
-      "post_text": "Hong Kong stocks edge up as AI shares offset property weakness Reuters",
-      "score": 0,
-      "upvote_ratio": 0,
-      "creation": "2026-10-05",
-      "source": "google_news",
-      "source_name": "Google News",
-      "publisher": "Reuters",
-      "source_url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPaGcxRk1heFZUWmhpSGsyQnQzMkNCUElkcE16YWFXbmpfSlNPZUotTmFucVJjV1huTTktYWh3ZjhBUnJFU3AtWl9Kdkl4ZGhhVGxkYm5MMlBkVnpJLVBLZWZtU1Jhc3UyVS0xc184QUNacV95N2ctcmpRbUExSEJpTVFUZkYxSEhXSFFIU0MwZXFqa3VOM3Y1X3VtVmJjeUREZlVVeXFXczU5Tk04cjNSQTBOc3VqbnZR?oc=5",
-      "tickers": "",
-      "positive": 0.570247,
-      "negative": 0.257689,
-      "neutral": 0.172064,
-      "confidence": 0.570247
-    },
-    {
       "postid": 129122080260692,
       "text": "Why I’m Trying Not to Check the Stock Market and My Portfolio Every Day - The White Coat Investor",
       "post_text": "Why I’m Trying Not to Check the Stock Market and My Portfolio Every Day The White Coat Investor",
@@ -2842,23 +2893,6 @@
       "confidence": 0.530536
     },
     {
-      "postid": 79646850178138,
-      "text": "Cargill’s Earnings Slump 52% With High Cattle Costs, Cocoa Loss - Bloomberg.com",
-      "post_text": "Cargill’s Earnings Slump 52% With High Cattle Costs, Cocoa Loss Bloomberg.com",
-      "score": 0,
-      "upvote_ratio": 0,
-      "creation": "2026-10-05",
-      "source": "google_news",
-      "source_name": "Google News",
-      "publisher": "Bloomberg.com",
-      "source_url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNdlNtd191WTRCUFBKWGpSeWlSWUpQcHV6M3ZycDNPOV9kYm5qVmd5MGZ0RFlxMGZCNXRwR1N1Wk1FNXF4Nm8wZEVnNlhycFVPZFJLdm5PZmRMSEJoM3czeUR2MGU4WjVGdENLNkVyOFl6Yjh5dmpSZjZXWTZ3anRVLXloMFA2bHQzM2Fyc0tzSUZiUkhady1xYk5wQzRDWElNcUxxNkkwaXVjcnJTUGRfMWJn?oc=5",
-      "tickers": "",
-      "positive": 0.028798,
-      "negative": 0.960187,
-      "neutral": 0.011015,
-      "confidence": 0.960187
-    },
-    {
       "postid": 62009024695369,
       "text": "Burry sells LULU",
       "post_text": "Burry is specifically positioning around expected tax-loss selling pressure in LULU, not merely doing an ordinary tax-loss harvest for his own tax bill. Burry is “mitigating near-term tax selling” and says he expects heightened selling pressure on underperforming stocks in Q4. He bought DECK as a proxy as he expects LULU and DECK will move similarly and when the wash sale that’s going to affect LULU is over 30 days from now he plans to repurchase LULU and maybe hold onto some of DECK. So we should all buy LULU right now and pump the stock and make Burry pay much more for LULU 30 days from now.",
@@ -2976,6 +3010,23 @@
       "negative": 0.181695,
       "neutral": 0.805837,
       "confidence": 0.805837
+    },
+    {
+      "postid": 23816689537996,
+      "text": "Every midterm election since 1946 has meant one thing for stocks - Yahoo Finance",
+      "post_text": "Every midterm election since 1946 has meant one thing for stocks Yahoo Finance",
+      "score": 0,
+      "upvote_ratio": 0,
+      "creation": "2026-10-05",
+      "source": "google_news",
+      "source_name": "Google News",
+      "publisher": "Yahoo Finance",
+      "source_url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxQRnp2LS1Yd3NUZW1Zb0xtR19rbThkZDFDRDg1RVNUT3NuckREQWs0NlBuQ0Q1LUxlZWJ3dUhQMDJ6MVJJd1lYNllZRnlfa1NWa2cwRlBVT1VZY1dpczBxRDkwVHk4bW51dXN2dVF0ZlN0dG5nNm5ZXzZIWVNBWmFDOVJVelREWklIMHdOdnBmN2ZOYXdvZFFOVUthMnZTUW5ZQnNQeWVQYUpRTzVja2N1NEFfdmN3Zkx5VmJxM2pR?oc=5",
+      "tickers": "",
+      "positive": 0.0064,
+      "negative": 0.005886,
+      "neutral": 0.987714,
+      "confidence": 0.987714
     },
     {
       "postid": 18779705846621,
@@ -3335,23 +3386,6 @@
       "confidence": 0.937859
     },
     {
-      "postid": 253209063850786,
-      "text": "I thought putting $132k into a UK housebuilder was a good idea.",
-      "post_text": "Spoiler: it wasn't. submitted by /u/Modja to r/wallstreetbets [link] [comments]",
-      "score": 0,
-      "upvote_ratio": 0,
-      "creation": "2026-10-03",
-      "source": "reddit",
-      "source_name": "Reddit",
-      "publisher": "r/wallstreetbets",
-      "source_url": "https://www.reddit.com/r/wallstreetbets/comments/1wwl0zq/i_thought_putting_132k_into_a_uk_housebuilder_was/",
-      "tickers": "",
-      "positive": 0.096857,
-      "negative": 0.020816,
-      "neutral": 0.882327,
-      "confidence": 0.882327
-    },
-    {
       "postid": 220568373744412,
       "text": "4.3M YOLO on $WULF",
       "post_text": "NFA. People were complaining that YOLO's were not announced as they were being made so here we are. $WULF is down almost 50% from June high's but nothing has changed in the company structure or macro environment. In fact, things are now more bullish since then peak, including: Anthropic signed. A 20-year lease for about 401 MW at Justified in Kentucky, worth roughly $19B, or up to about $33B if both five-year extensions are exercised. That averages about $950M a year from one campus, against a market cap near $7.7B. The power is approved. Kentucky's PSC signed off on up to 482 MW of electric s",
@@ -3367,40 +3401,6 @@
       "negative": 0.952066,
       "neutral": 0.017881,
       "confidence": 0.952066
-    },
-    {
-      "postid": 97922181789013,
-      "text": "Think it's time to call it in",
-      "post_text": "After 3 years of making regarded trades I think it's time to VTI and chill. I would have been up way more if I did that from the start. I hit 150k a couple times but didn't cash out. submitted by /u/Accurate-Flow8078 to r/wallstreetbets [link] [comments]",
-      "score": 0,
-      "upvote_ratio": 0,
-      "creation": "2026-10-03",
-      "source": "reddit",
-      "source_name": "Reddit",
-      "publisher": "r/wallstreetbets",
-      "source_url": "https://www.reddit.com/r/wallstreetbets/comments/1wwkbfr/think_its_time_to_call_it_in/",
-      "tickers": "",
-      "positive": 0.248167,
-      "negative": 0.016313,
-      "neutral": 0.73552,
-      "confidence": 0.73552
-    },
-    {
-      "postid": 88733354590235,
-      "text": "263k on $APP",
-      "post_text": "Failed Lawsuit, stock takes a dive while still CAGR growth of 30% projected for 5 years. If we believe the management, Q3 gonna be strong (also seasonally). Margins in the high 80ies, Revenue growth in the 50ies. This is a FCF generating monster. Also Mr. cokerat Cramer bearish on it submitted by /u/Riskismyapellido to r/wallstreetbets [link] [comments]",
-      "score": 0,
-      "upvote_ratio": 0,
-      "creation": "2026-10-03",
-      "source": "reddit",
-      "source_name": "Reddit",
-      "publisher": "r/wallstreetbets",
-      "source_url": "https://www.reddit.com/r/wallstreetbets/comments/1wwiakz/263k_on_app/",
-      "tickers": "",
-      "positive": 0.072281,
-      "negative": 0.667357,
-      "neutral": 0.260361,
-      "confidence": 0.667357
     }
   ]
 }
