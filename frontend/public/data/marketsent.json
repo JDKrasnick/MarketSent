@@ -1,24 +1,75 @@
 {
   "schema_version": 2,
-  "generated_at": "2026-10-11T05:51:18.844501Z",
+  "generated_at": "2026-10-11T12:54:57.108737Z",
   "sources": [
     {
       "id": "reddit",
       "name": "Reddit",
       "status": "ok",
       "item_count": 100,
-      "updated_at": "2026-10-11T05:51:18.844501Z"
+      "updated_at": "2026-10-11T12:54:57.108737Z"
     },
     {
       "id": "google_news",
       "name": "Google News",
       "status": "ok",
       "item_count": 100,
-      "updated_at": "2026-10-11T05:51:18.844501Z"
+      "updated_at": "2026-10-11T12:54:57.108737Z"
     }
   ],
   "count": 200,
   "posts": [
+    {
+      "postid": 252414995876509,
+      "text": "Welcome back to earnings season: What to watch this week - Yahoo Finance",
+      "post_text": "Welcome back to earnings season: What to watch this week Yahoo Finance",
+      "score": 0,
+      "upvote_ratio": 0,
+      "creation": "2026-10-11",
+      "source": "google_news",
+      "source_name": "Google News",
+      "publisher": "Yahoo Finance",
+      "source_url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxOUmxqWDVUZ28yeUZ4dGhtWXk5ZXNxSFdzbjZ5a1ZfSHk4SFVRSTZzMUJoNlJxSXMxVU05MlRhanBFX1RtU2tyMGxGcFludkhnLWZqQVJQcFMtcHo0Z1lRSjlwYXpPSEw5czc3cVhmd3Fhb3BPMHhEZ3o1S3JPVkJ1N2Y0b3VQamNySEhrYl9uQ1RVZVdjRXVBQ1dWNXNoM3VOSEhGSXhfT1ExYUVCWlZBanV3?oc=5",
+      "tickers": "",
+      "positive": 0.017143,
+      "negative": 0.004494,
+      "neutral": 0.978362,
+      "confidence": 0.978362
+    },
+    {
+      "postid": 207278381163374,
+      "text": "LG Electronics’ Preliminary Earnings Disappoint - WSJ",
+      "post_text": "LG Electronics’ Preliminary Earnings Disappoint WSJ",
+      "score": 0,
+      "upvote_ratio": 0,
+      "creation": "2026-10-11",
+      "source": "google_news",
+      "source_name": "Google News",
+      "publisher": "WSJ",
+      "source_url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxOVm8zZ3RFWElYTy1ubVBxZ0JQeDNDUmRVUmxQTVM0YjFCNVZnaWxHU2EyMXFHZEtCa1pDVUZ6R2d6LW0zV1lnZU0tTjdzT1EzVllFWnExZmVfUC0tM09rLVZKdWR3dnV1dG1oSHI5d0ZXN0NVeVhDTDBGa2N1SVZUVTRfVmFocmRkWE5GMlE4SUZ6NzV5VmpWczFROUFQbWo2LXc?oc=5",
+      "tickers": "",
+      "positive": 0.110024,
+      "negative": 0.036158,
+      "neutral": 0.853818,
+      "confidence": 0.853818
+    },
+    {
+      "postid": 22577604109243,
+      "text": "Tokenized Stocks Bring ‘Radical Change’ to Markets, Cuomo Says - WSJ",
+      "post_text": "Tokenized Stocks Bring ‘Radical Change’ to Markets, Cuomo Says WSJ",
+      "score": 0,
+      "upvote_ratio": 0,
+      "creation": "2026-10-11",
+      "source": "google_news",
+      "source_name": "Google News",
+      "publisher": "WSJ",
+      "source_url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPNmtzT2tCeEoxY3FCVGNlellPVGlHVkdQX0lBT2dtTk1FUV9vQjJ2Z3hZNEZRamI1Z2VHRVc1bjdKM0w2YlFLYVdkZzhxV2Vfd2FhOXlNQWUtMUVJR0o0c2VHSktPNVpJcDFpTUMtUWpmOTRXaGlidGdZVFhqdVE0enhOYzlfYjRqYzRYX3J2cDdJXzVPME5CbDJoUjdiZW9IemxYM05hOTFaQQ?oc=5",
+      "tickers": "",
+      "positive": 0.387372,
+      "negative": 0.057246,
+      "neutral": 0.555382,
+      "confidence": 0.555382
+    },
     {
       "postid": 271713235447843,
       "text": "Why I went 100% in MU: The Memory Wager",
@@ -54,6 +105,23 @@
       "confidence": 0.955525
     },
     {
+      "postid": 246294544387489,
+      "text": "Nvidia in talks to invest further in Reflection AI or buy it, FT reports",
+      "post_text": "> Talks are at an early stage and a deal ​could take several forms, including a so-called acqui-hire ​arrangement where Nvidia would hire staff and license ⁠technology rather than pursue a full acquisition, potentially avoiding ​a lengthy regulatory review, the newspaper said. > An agreement could be ​reached in the coming weeks, according to the report, which cited multiple people familiar with the matter, while adding that the ​discussions could still fall apart. circlejerking continues... submitted by /u/StraightSky7809 to r/wallstreetbets [link] [comments]",
+      "score": 0,
+      "upvote_ratio": 0,
+      "creation": "2026-10-10",
+      "source": "reddit",
+      "source_name": "Reddit",
+      "publisher": "r/wallstreetbets",
+      "source_url": "https://www.reddit.com/r/wallstreetbets/comments/1x2qs90/nvidia_in_talks_to_invest_further_in_reflection/",
+      "tickers": "NVDA",
+      "positive": 0.0133,
+      "negative": 0.005168,
+      "neutral": 0.981532,
+      "confidence": 0.981532
+    },
+    {
       "postid": 242267535336658,
       "text": "[Exclusive] \"There is no profit even if we sell\"…Samsung to cut smartphone production by 30% - MoneyToday",
       "post_text": "While Samsung Electronics rode its memory division to $80 billion in operating last quarter, its mobile division is struggling so much from component prices that it is cutting smartphone production by 30 percent. More filler text to get over 250 characters submitted by /u/Prudent-Corgi3793 to r/StockMarket [link] [comments]",
@@ -66,60 +134,26 @@
       "source_url": "https://www.reddit.com/r/StockMarket/comments/1x258qi/exclusive_there_is_no_profit_even_if_we/",
       "tickers": "",
       "positive": 0.016388,
-      "negative": 0.678011,
-      "neutral": 0.305601,
-      "confidence": 0.678011
+      "negative": 0.678012,
+      "neutral": 0.3056,
+      "confidence": 0.678012
     },
     {
-      "postid": 232793155182134,
-      "text": "Gridlock Is Good for Stocks. Certainty Is Better. - WSJ",
-      "post_text": "Gridlock Is Good for Stocks. Certainty Is Better. WSJ",
+      "postid": 208563028415546,
+      "text": "Can ASTS actually compete with SpaceX long term? Let's be all the way real....",
+      "post_text": "**This post has nothing to do with Elon's politics. Purely business. I own ASTS and can hold for 5+ years. But honestly I don’t fully understand how it stacks up against what SpaceX is doing. I know AST has AT&T and Verizon as partners. How much protection does that actually give them? Is there room for both companies to make money or does SpaceX eventually squeeze AST out? Be brutally honest. I want to hear the downside too. submitted by /u/Peacefulhuman1009 to r/stocks [link] [comments]",
       "score": 0,
       "upvote_ratio": 0,
       "creation": "2026-10-10",
-      "source": "google_news",
-      "source_name": "Google News",
-      "publisher": "WSJ",
-      "source_url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxNQk0zd0JBa1BONlp4UDhiR3NrOGI3d2tVMzBhUGhfejE4V2xNamFlNXJyT1ZqZGFZUy0wOEVaY19NSnRCd2NlbU4yS0s0b0J1c2s4Rk16YUtpNmxmaDRuWEJRNExuWG9aMXBzN2l4U0pKRzhPTUlpWGE0cXlxVTRJZThxS0VZV2JhNHJjRWh2cXdkRmZlR01SZUtB?oc=5",
-      "tickers": "",
-      "positive": 0.970867,
-      "negative": 0.010694,
-      "neutral": 0.01844,
-      "confidence": 0.970867
-    },
-    {
-      "postid": 220527204523793,
-      "text": "European Stocks: Brace for a Turbulent Earnings Season - Morningstar",
-      "post_text": "European Stocks: Brace for a Turbulent Earnings Season Morningstar",
-      "score": 0,
-      "upvote_ratio": 0,
-      "creation": "2026-10-10",
-      "source": "google_news",
-      "source_name": "Google News",
-      "publisher": "Morningstar",
-      "source_url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxQeTBFQ3RjZDZQckVLQkJqZVFEM1lja3Q3ck5sNUlaaWJFMFBaYXJQYy1DQ0ZzMmFQMWdUcUFJOTdyVndLVE9qUVdxUUUyblllU3Rkc3NSb254bmRSQ1lWYlhzNUZ0a0kwb3pWcW1GOU90dldpYkNCUWg2VG5jWkl2c01FWU5qc0MyR2RVTl8wNmFTOUhFN2c?oc=5",
-      "tickers": "",
-      "positive": 0.796176,
-      "negative": 0.024667,
-      "neutral": 0.179156,
-      "confidence": 0.796176
-    },
-    {
-      "postid": 212408725338390,
-      "text": "High-Flying Tech Stocks Losing Altitude - WSJ",
-      "post_text": "High-Flying Tech Stocks Losing Altitude WSJ",
-      "score": 0,
-      "upvote_ratio": 0,
-      "creation": "2026-10-10",
-      "source": "google_news",
-      "source_name": "Google News",
-      "publisher": "WSJ",
-      "source_url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxPbkVtaENyRWVxaHktUFdYN3RDYjZZRlYyTld5RnZYRUNqb2pWUjM4YTJvb1FKblM1SmJUZzFqUkpPSFJNMGVsMnZ3YXF6STlyQV9GUk9kWFk1bWFWalhFdEVicXZ2Q3NGeWhaRTFibFFFMS1QalJMN0t6YnljenA2czkzeW1qQXhYZ1lmSXFxWQ?oc=5",
-      "tickers": "",
-      "positive": 0.021535,
-      "negative": 0.955028,
-      "neutral": 0.023437,
-      "confidence": 0.955028
+      "source": "reddit",
+      "source_name": "Reddit",
+      "publisher": "r/stocks",
+      "source_url": "https://www.reddit.com/r/stocks/comments/1x2iamb/can_asts_actually_compete_with_spacex_long_term/",
+      "tickers": "VZ,SPACEX,T",
+      "positive": 0.009502,
+      "negative": 0.005321,
+      "neutral": 0.985177,
+      "confidence": 0.985177
     },
     {
       "postid": 152308286646116,
@@ -134,9 +168,9 @@
       "source_url": "https://www.reddit.com/r/StockMarket/comments/1x2je6z/nvidia_reportedly_discontinuing_rtx_5090_gb202/",
       "tickers": "RTX,NVDA",
       "positive": 0.008615,
-      "negative": 0.131311,
-      "neutral": 0.860074,
-      "confidence": 0.860074
+      "negative": 0.131312,
+      "neutral": 0.860073,
+      "confidence": 0.860073
     },
     {
       "postid": 137950119576060,
@@ -150,10 +184,10 @@
       "publisher": "r/stocks",
       "source_url": "https://www.reddit.com/r/stocks/comments/1x2a9dn/anthropic_145b_raised_2t_ipo_target_what_profit/",
       "tickers": "",
-      "positive": 0.511462,
+      "positive": 0.511463,
       "negative": 0.011843,
-      "neutral": 0.476696,
-      "confidence": 0.511462
+      "neutral": 0.476694,
+      "confidence": 0.511463
     },
     {
       "postid": 128828869563701,
@@ -201,27 +235,10 @@
       "publisher": "Barron's",
       "source_url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE1rcG9INW0zOG5YU3FNOENwekh0NEdyLWVnaTZxWU9hM0M1VjJVR1pxcmVCbTNWLVpVUXRSZkh5dFJlZzBHdjhJbV9kb3VPV191a3FRUGRHRjJxNWcxQ3FaeEQwTFk3NDRMMEtDdWJqQTRpRkNnRHRsMUNQYVY?oc=5",
       "tickers": "",
-      "positive": 0.801908,
+      "positive": 0.801909,
       "negative": 0.154074,
       "neutral": 0.044018,
-      "confidence": 0.801908
-    },
-    {
-      "postid": 91617912673978,
-      "text": "I am starting my shift at Wendy's from Monday",
-      "post_text": "It was good experience overall in the stock market. Although i have lost all the cash i had, my wife has left me. But at least now I feel kind of spiritual. Let's see how things go from Monday! submitted by /u/Otherwise-West4103 to r/wallstreetbets [link] [comments]",
-      "score": 0,
-      "upvote_ratio": 0,
-      "creation": "2026-10-10",
-      "source": "reddit",
-      "source_name": "Reddit",
-      "publisher": "r/wallstreetbets",
-      "source_url": "https://www.reddit.com/r/wallstreetbets/comments/1x2l0aa/i_am_starting_my_shift_at_wendys_from_monday/",
-      "tickers": "",
-      "positive": 0.033951,
-      "negative": 0.005001,
-      "neutral": 0.961048,
-      "confidence": 0.961048
+      "confidence": 0.801909
     },
     {
       "postid": 68692681367641,
@@ -239,23 +256,6 @@
       "negative": 0.008744,
       "neutral": 0.984446,
       "confidence": 0.984446
-    },
-    {
-      "postid": 48561527778664,
-      "text": "Nvidia, Intel, Micron, XP Inc., PTC, Vaxcyte, Western Digital, and More Stocks That Explain Today’s Market - Barron's",
-      "post_text": "Nvidia, Intel, Micron, XP Inc., PTC, Vaxcyte, Western Digital, and More Stocks That Explain Today’s Market Barron's",
-      "score": 0,
-      "upvote_ratio": 0,
-      "creation": "2026-10-10",
-      "source": "google_news",
-      "source_name": "Google News",
-      "publisher": "Barron's",
-      "source_url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTFA2SkZNSmdPMzdVUnlaenp2eW9mOUNlM1JSTWQzM3BYdGMxcjhxOGQ0eFRMWEJFM2VfY1JnNHhlbTMyQ2lKN3hPZXNqVzhpbVlPTEJxcS1memo0cU5oTUtOYW55eGc?oc=5",
-      "tickers": "NVDA,MU,INTC",
-      "positive": 0.038056,
-      "negative": 0.006069,
-      "neutral": 0.955875,
-      "confidence": 0.955875
     },
     {
       "postid": 28048347483292,
@@ -286,10 +286,10 @@
       "publisher": "r/StockMarket",
       "source_url": "https://www.reddit.com/r/StockMarket/comments/1x2j1yz/diesel_prices_628_aaa_above_2022_peak_levels_will/",
       "tickers": "",
-      "positive": 0.318454,
-      "negative": 0.561522,
+      "positive": 0.318452,
+      "negative": 0.561524,
       "neutral": 0.120024,
-      "confidence": 0.561522
+      "confidence": 0.561524
     },
     {
       "postid": 270360131879228,
@@ -343,6 +343,23 @@
       "confidence": 0.950729
     },
     {
+      "postid": 258312901039713,
+      "text": "4 Dividend Stocks Boomers Can Safely Buy Now and Hold Forever - Yahoo Finance",
+      "post_text": "4 Dividend Stocks Boomers Can Safely Buy Now and Hold Forever Yahoo Finance",
+      "score": 0,
+      "upvote_ratio": 0,
+      "creation": "2026-10-09",
+      "source": "google_news",
+      "source_name": "Google News",
+      "publisher": "Yahoo Finance",
+      "source_url": "https://news.google.com/rss/articles/CBMingFBVV95cUxPU1BWX1VHMDNDejBoZGFCWTctUC1ucW1RaVRrN1Iyb1RtYVFCUksyMmI1WEtKc253LUV1ZUdyUTFZS2tIVFJzTUxkSWQ2NHd5SkhMSUZPeWpXOHZUakZfQS1pemdUQWdPT3VMOENrSFAtU082NHFMYWRpaVJCaWROckxxU3hlUEt3cm40d1VVOVlpUnhoa2VYMHVMRDNjdw?oc=5",
+      "tickers": "",
+      "positive": 0.275964,
+      "negative": 0.007824,
+      "neutral": 0.716212,
+      "confidence": 0.716212
+    },
+    {
       "postid": 255254636988563,
       "text": "Bigger US corn stocks fuel doubts about USDA livestock feeding data - Reuters",
       "post_text": "Bigger US corn stocks fuel doubts about USDA livestock feeding data Reuters",
@@ -372,9 +389,9 @@
       "source_url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxOOUk2RnFEbjJ3U1VMdUdwTXNrT3VNT0FpcjBDMFVLVHVzSHVlLVJjZE8tRC15Y1I0aWN5ZzJJQlJZaldBVmJ0cy1FLUVZNGVVc0k2bzg5dDlQTFlabzFrSHgtQ0dMNXg2N21BSzhsZEhyTTRTUjlBa2JhSWh5RVU1UWs4bnlhZ3M5Z3RCMTBLSXVieTBwckZNTWR0MUhkYUk1NUp6STFSaGhZb3FFTE5hVlRodXVOdE9faFlDZklPdGRlaERDR2c?oc=5",
       "tickers": "SPACEX",
       "positive": 0.294734,
-      "negative": 0.603241,
-      "neutral": 0.102025,
-      "confidence": 0.603241
+      "negative": 0.60324,
+      "neutral": 0.102026,
+      "confidence": 0.60324
     },
     {
       "postid": 251272728078945,
@@ -479,6 +496,23 @@
       "confidence": 0.867624
     },
     {
+      "postid": 194170230729004,
+      "text": "Why The AI Stock Market May Not Be A Bubble - Forbes",
+      "post_text": "Why The AI Stock Market May Not Be A Bubble Forbes",
+      "score": 0,
+      "upvote_ratio": 0,
+      "creation": "2026-10-09",
+      "source": "google_news",
+      "source_name": "Google News",
+      "publisher": "Forbes",
+      "source_url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxPM3M0ZWJrUnVOc0xYSlZueW04ejRmWVV0RmxHNnBTUzVpRFZGMlRBWk50dEZ5aEo5YTRQLUx1RHVLNHRob0diZ0lGMXNYNUR3eFNyT1NYbF9EVXh6a285RTJiWk42UU03XzBSeVNwZHRwb1d4VVhzTHNYRzdXT0tYM0pCU1BSaEdKQ0hJc3hNQnVaYnItSmhFT0NWRQ?oc=5",
+      "tickers": "",
+      "positive": 0.435585,
+      "negative": 0.382207,
+      "neutral": 0.182208,
+      "confidence": 0.435585
+    },
+    {
       "postid": 185272593571211,
       "text": "Wall St Week Ahead Bank earnings, CPI headline busy markets week as S&P 500 hovers near records - Reuters",
       "post_text": "Wall St Week Ahead Bank earnings, CPI headline busy markets week as S&P 500 hovers near records Reuters",
@@ -494,23 +528,6 @@
       "negative": 0.010414,
       "neutral": 0.033642,
       "confidence": 0.955944
-    },
-    {
-      "postid": 168601653204268,
-      "text": "Delta Air Lines cuts 2026 forecast on fuel surge, but CEO says demand is still strong - CNBC",
-      "post_text": "Delta Air Lines cuts 2026 forecast on fuel surge, but CEO says demand is still strong CNBC",
-      "score": 0,
-      "upvote_ratio": 0,
-      "creation": "2026-10-09",
-      "source": "google_news",
-      "source_name": "Google News",
-      "publisher": "CNBC",
-      "source_url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE1uN0x0ZDRVT2syU1ptQnRMZlloZFhaSUZ3STdGR25hNHBZbjhiS0tFNV94WFpNS05xRnIteGlUcC1qeUh4ZkFmTllLbGt4bllqU2FYZVpOSllKU0YwbkdKeGp5cWxMc1JiUEMzay1EbUo0WkZaREtKMFFPUGhUQdIBgwFBVV95cUxQQXZrV2Zpem5Ud3hFRmNNWlhVZ3R0U2o0ZnVFbFNmYTZ1aklQNFdrTnNtQnp3YW9mTUFsc2JNT3hEb3ZjNE1tMXVCNm5xMHBlN0ptR2F6MW1ZazB3eXZIMXMyak8tSUUtQUtKZmdiYWhaMWlhQm9ZVTlvRWNLZWJ6VG9oQQ?oc=5",
-      "tickers": "",
-      "positive": 0.575366,
-      "negative": 0.393468,
-      "neutral": 0.031166,
-      "confidence": 0.575366
     },
     {
       "postid": 144265915266465,
@@ -645,7 +662,7 @@
       "tickers": "",
       "positive": 0.609503,
       "negative": 0.019363,
-      "neutral": 0.371134,
+      "neutral": 0.371135,
       "confidence": 0.609503
     },
     {
@@ -780,9 +797,9 @@
       "source_url": "https://www.reddit.com/r/wallstreetbets/comments/1x1ev7a/finally_green/",
       "tickers": "",
       "positive": 0.010138,
-      "negative": 0.481933,
-      "neutral": 0.507929,
-      "confidence": 0.507929
+      "negative": 0.481932,
+      "neutral": 0.50793,
+      "confidence": 0.50793
     },
     {
       "postid": 47624868543739,
@@ -819,21 +836,21 @@
       "confidence": 0.788986
     },
     {
-      "postid": 22577604109243,
-      "text": "Tokenized Stocks Bring ‘Radical Change’ to Markets, Cuomo Says - WSJ",
-      "post_text": "Tokenized Stocks Bring ‘Radical Change’ to Markets, Cuomo Says WSJ",
+      "postid": 32326530446680,
+      "text": "The New York Stock Exchange | NYSE - NYSE",
+      "post_text": "The New York Stock Exchange | NYSE NYSE",
       "score": 0,
       "upvote_ratio": 0,
       "creation": "2026-10-09",
       "source": "google_news",
       "source_name": "Google News",
-      "publisher": "WSJ",
-      "source_url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPNmtzT2tCeEoxY3FCVGNlellPVGlHVkdQX0lBT2dtTk1FUV9vQjJ2Z3hZNEZRamI1Z2VHRVc1bjdKM0w2YlFLYVdkZzhxV2Vfd2FhOXlNQWUtMUVJR0o0c2VHSktPNVpJcDFpTUMtUWpmOTRXaGlidGdZVFhqdVE0enhOYzlfYjRqYzRYX3J2cDdJXzVPME5CbDJoUjdiZW9IemxYM05hOTFaQQ?oc=5",
+      "publisher": "NYSE",
+      "source_url": "https://news.google.com/rss/articles/CBMiP0FVX3lxTE93UWVlU3g1TVNpdTNEcjI2Yk9kSHU2Tnh5Y0stVFBGRWVkLW9wbU1EbHhQaHdIOE56d2V5NXVhSQ?oc=5",
       "tickers": "",
-      "positive": 0.387372,
-      "negative": 0.057246,
-      "neutral": 0.555382,
-      "confidence": 0.555382
+      "positive": 0.010182,
+      "negative": 0.005885,
+      "neutral": 0.983933,
+      "confidence": 0.983933
     },
     {
       "postid": 21389287957461,
@@ -921,21 +938,21 @@
       "confidence": 0.976446
     },
     {
-      "postid": 276015677520098,
-      "text": "Stock Prices, Earnings and Cashflows: The AI Effect plays through! - Musings on Markets",
-      "post_text": "Stock Prices, Earnings and Cashflows: The AI Effect plays through! Musings on Markets",
+      "postid": 271703861868842,
+      "text": "A College-by-College Guide to Which Majors Pay Off — or Don’t - The New York Times",
+      "post_text": "A College-by-College Guide to Which Majors Pay Off — or Don’t The New York Times",
       "score": 0,
       "upvote_ratio": 0,
       "creation": "2026-10-08",
       "source": "google_news",
       "source_name": "Google News",
-      "publisher": "Musings on Markets",
-      "source_url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxPeFBsTWJvWGd3TlVaaDNPaHRYTEJTM0NmcV9WSWJMbmRycFlfV3JKcmhiSnlZNmJKdGE0RVBvX1R1a3ItQmltOFZQdkNtMVp5S1V1ZnVyNnQ1LWswZjB2b1VBRmxOMmlkWnB3WFFYX0NaTnFMbDhjUGhrREFqbzhpcEl2VXJfOEpqLXRzcXo0UzV0UQ?oc=5",
+      "publisher": "The New York Times",
+      "source_url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxNWHZtS2hRVjBBMjJSbERYMDhFYm45UzRKVGl1QWxHQjBPcC0xRzV2Q0lZVEZEVGM0YTdWRUhZaHlZd0xmTnN0UVlaZXh2b2hQQjB0YlJNR0pxQW9uQ2xST2p3RlllZGhUb0YyU2dkUFFYZ1VRVlFuTFJJNGhhbU1Id3VWNGszemhGUzFWalZsVk0yd00xeHpv?oc=5",
       "tickers": "",
-      "positive": 0.013451,
-      "negative": 0.005472,
-      "neutral": 0.981078,
-      "confidence": 0.981078
+      "positive": 0.01746,
+      "negative": 0.008936,
+      "neutral": 0.973605,
+      "confidence": 0.973605
     },
     {
       "postid": 262430910745464,
@@ -985,7 +1002,7 @@
       "tickers": "",
       "positive": 0.059215,
       "negative": 0.914234,
-      "neutral": 0.026551,
+      "neutral": 0.02655,
       "confidence": 0.914234
     },
     {
@@ -1001,7 +1018,7 @@
       "source_url": "https://www.reddit.com/r/StockMarket/comments/1x0vnok/inflation_on_many_everyday_items_was_entirely_due/",
       "tickers": "",
       "positive": 0.013898,
-      "negative": 0.259304,
+      "negative": 0.259305,
       "neutral": 0.726797,
       "confidence": 0.726797
     },
@@ -1018,9 +1035,9 @@
       "source_url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxNcDJpZENwTUF1QjNjY196Q3NXdFpsZ0dPWUVKQXZZb3JRTThSSnF1d25OZzdrakFjaHVXY2pRSjM4R0RWaXJTVEFmQzFvMWhxUVdReFFJQldfcHdfQ2R0QnNsdmhGTjV6dGZuVVFYb3lpQXQtX2ViY1ptOW9sT0FkZS1zZHpZYTJvQ2NRMU5lRVd3Qm1oTDNqNHZSSnlPZmxG?oc=5",
       "tickers": "",
       "positive": 0.090245,
-      "negative": 0.803759,
+      "negative": 0.80376,
       "neutral": 0.105996,
-      "confidence": 0.803759
+      "confidence": 0.80376
     },
     {
       "postid": 250990417686260,
@@ -1053,8 +1070,8 @@
       "tickers": "SPACEX",
       "positive": 0.137506,
       "negative": 0.316421,
-      "neutral": 0.546073,
-      "confidence": 0.546073
+      "neutral": 0.546072,
+      "confidence": 0.546072
     },
     {
       "postid": 248841885398680,
@@ -1086,9 +1103,26 @@
       "source_url": "https://news.google.com/rss/articles/CBMic0FVX3lxTFBHZ2RmTEVIR040SlByRGJBSHI2bU5LYV9GSjMxYjd0b2Rla2tadmJ4c0hqT2RtR2J3bEx6WE1ZZS13UW1BVE9UcHlLMktUQmJPX3NlUnhZTEZNWnhQUHJjT0J1QW1RSm1kd19PeTk2YTFpdlHSAXhBVV95cUxPOExNdndXTlBHTWozRXlmeUY1OEFLaU53MDBsR3RyWVY1YXVvVkNWRm85V0hXa3RWeVE1LU1jZXUyUDBUcnpaMTl5Nm9aTTN2ZUlyUHNBazBNT0RzQW1oMlFJQUJQaTRYMlVNZ0NBRmtCemEtU1J6NC0?oc=5",
       "tickers": "",
       "positive": 0.039214,
-      "negative": 0.884392,
+      "negative": 0.884393,
       "neutral": 0.076394,
-      "confidence": 0.884392
+      "confidence": 0.884393
+    },
+    {
+      "postid": 232793155182134,
+      "text": "Gridlock Is Good for Stocks. Certainty Is Better. - WSJ",
+      "post_text": "Gridlock Is Good for Stocks. Certainty Is Better. WSJ",
+      "score": 0,
+      "upvote_ratio": 0,
+      "creation": "2026-10-08",
+      "source": "google_news",
+      "source_name": "Google News",
+      "publisher": "WSJ",
+      "source_url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxNQk0zd0JBa1BONlp4UDhiR3NrOGI3d2tVMzBhUGhfejE4V2xNamFlNXJyT1ZqZGFZUy0wOEVaY19NSnRCd2NlbU4yS0s0b0J1c2s4Rk16YUtpNmxmaDRuWEJRNExuWG9aMXBzN2l4U0pKRzhPTUlpWGE0cXlxVTRJZThxS0VZV2JhNHJjRWh2cXdkRmZlR01SZUtB?oc=5",
+      "tickers": "",
+      "positive": 0.970867,
+      "negative": 0.010694,
+      "neutral": 0.01844,
+      "confidence": 0.970867
     },
     {
       "postid": 224411607353180,
@@ -1123,6 +1157,23 @@
       "negative": 0.941974,
       "neutral": 0.020289,
       "confidence": 0.941974
+    },
+    {
+      "postid": 212408725338390,
+      "text": "High-Flying Tech Stocks Losing Altitude - WSJ",
+      "post_text": "High-Flying Tech Stocks Losing Altitude WSJ",
+      "score": 0,
+      "upvote_ratio": 0,
+      "creation": "2026-10-08",
+      "source": "google_news",
+      "source_name": "Google News",
+      "publisher": "WSJ",
+      "source_url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxPbkVtaENyRWVxaHktUFdYN3RDYjZZRlYyTld5RnZYRUNqb2pWUjM4YTJvb1FKblM1SmJUZzFqUkpPSFJNMGVsMnZ3YXF6STlyQV9GUk9kWFk1bWFWalhFdEVicXZ2Q3NGeWhaRTFibFFFMS1QalJMN0t6YnljenA2czkzeW1qQXhYZ1lmSXFxWQ?oc=5",
+      "tickers": "",
+      "positive": 0.021534,
+      "negative": 0.955028,
+      "neutral": 0.023437,
+      "confidence": 0.955028
     },
     {
       "postid": 210480425576232,
@@ -1172,8 +1223,8 @@
       "tickers": "GOOG,AMZN",
       "positive": 0.085735,
       "negative": 0.061724,
-      "neutral": 0.85254,
-      "confidence": 0.85254
+      "neutral": 0.852541,
+      "confidence": 0.852541
     },
     {
       "postid": 201200115286533,
@@ -1189,8 +1240,8 @@
       "tickers": "MSFT,ADBE",
       "positive": 0.008518,
       "negative": 0.067501,
-      "neutral": 0.92398,
-      "confidence": 0.92398
+      "neutral": 0.923981,
+      "confidence": 0.923981
     },
     {
       "postid": 192884823607320,
@@ -1204,10 +1255,10 @@
       "publisher": "r/investing",
       "source_url": "https://www.reddit.com/r/investing/comments/1x15r3v/spacex_announces_800_mhz_spectrum_telecom/",
       "tickers": "SPACEX",
-      "positive": 0.372846,
+      "positive": 0.372847,
       "negative": 0.013367,
-      "neutral": 0.613787,
-      "confidence": 0.613787
+      "neutral": 0.613786,
+      "confidence": 0.613786
     },
     {
       "postid": 177590854327420,
@@ -1272,7 +1323,7 @@
       "publisher": "PR Newswire",
       "source_url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxNdEduR01nZ3VlaU9VWnR0YW1vMVNBeGVNbC0tRk1ZSE5UWjhWLWlZYnFjX3pBdkQyRUJUSy1ETU45aW44VWNScG04NjJOQnloQlRhMjZySWpaeFBHMk53Nkc0aEhhc09iNjN5RHh3Y2ZNQnlUS291RGVZb2JsV3VCR094YzRNcmdXUkpfajhIU09ZUmgwaVU2Y2VuQS10ajF5U3BaZTBraHlkSmh5N1JjSHRGX0wzd01odkVWM3U3S3Z5VzNDNHVOQ29KSldUVi1OZERmeQ?oc=5",
       "tickers": "",
-      "positive": 0.023194,
+      "positive": 0.023195,
       "negative": 0.00521,
       "neutral": 0.971595,
       "confidence": 0.971595
@@ -1393,7 +1444,7 @@
       "tickers": "",
       "positive": 0.531369,
       "negative": 0.020227,
-      "neutral": 0.448405,
+      "neutral": 0.448404,
       "confidence": 0.531369
     },
     {
@@ -1425,10 +1476,10 @@
       "publisher": "r/wallstreetbets",
       "source_url": "https://www.reddit.com/r/wallstreetbets/comments/1x0drw2/17k_in_2017_to_now_i_just_hold_and_use_it_as/",
       "tickers": "NVDA",
-      "positive": 0.365377,
+      "positive": 0.365378,
       "negative": 0.006865,
-      "neutral": 0.627757,
-      "confidence": 0.627757
+      "neutral": 0.627756,
+      "confidence": 0.627756
     },
     {
       "postid": 87777475227637,
@@ -1510,10 +1561,10 @@
       "publisher": "Reuters",
       "source_url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPdnhFSTVnZUJoZGRnMDJIQmZyM3RKR2c5X2FReUNWbmVwQ29uMnN6R1RUS1p2aG1hTlJYWFdRWElvNEpxYjJpMmFFWmtCVWJVZWpUVWNBcTJXQzllczlZWG5xWTkzbTJadkg1NUY0T2Nob3R1aDlRbDlhUUx5M3p4MTk0MXlWTmlWc1hIMHhMMzJGb1V1ZTlIaXNZTVlWbk5Ed29VWWtJMTlWRElZVk03QWxkaw?oc=5",
       "tickers": "",
-      "positive": 0.761675,
+      "positive": 0.761674,
       "negative": 0.168695,
       "neutral": 0.06963,
-      "confidence": 0.761675
+      "confidence": 0.761674
     },
     {
       "postid": 66588250654912,
@@ -1546,25 +1597,8 @@
       "tickers": "",
       "positive": 0.083648,
       "negative": 0.009745,
-      "neutral": 0.906607,
-      "confidence": 0.906607
-    },
-    {
-      "postid": 48921477780402,
-      "text": "Jim Cramer On GE Vernova (GEV) & Vertiv (VRT): Two Stocks To Buy Due To The Jobs - Yahoo Finance",
-      "post_text": "Jim Cramer On GE Vernova (GEV) & Vertiv (VRT): Two Stocks To Buy Due To The Jobs Yahoo Finance",
-      "score": 0,
-      "upvote_ratio": 0,
-      "creation": "2026-10-08",
-      "source": "google_news",
-      "source_name": "Google News",
-      "publisher": "Yahoo Finance",
-      "source_url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxPQ05CR1l0WmlxbUMtSG9xZ1VyRDU3M1JCSjZnOG5nd0lPWW12Vjhod2ZQMWhfZHhiTzRpeUxOUkFQd0hMMzlDeDNEOWt3dXFpNlJRbzdpZWxOay1RUlBKM3piT3U0VXc3R1lycEJRenJzbkJXLUwtOTJEd3dYemNLbjhXaGM5ODdDeUxKSkdtMW0xdVBB?oc=5",
-      "tickers": "GE",
-      "positive": 0.007061,
-      "negative": 0.01062,
-      "neutral": 0.982319,
-      "confidence": 0.982319
+      "neutral": 0.906606,
+      "confidence": 0.906606
     },
     {
       "postid": 47970451900691,
@@ -1629,10 +1663,10 @@
       "publisher": "WSJ",
       "source_url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQQnpOX3pQSGJpZi1qRFNMSVR3SzRoaEJPaVFIYVQ2NGNETExDT0RjWEFjS1lUUzVOVVBsLWtnY2lHU3NmV3FNQjNpMllWb01sdWpmYXdhd29oSXNVTXYyaFhRZzZUX3JoWGNtV1VPaW1IcldFbEdXeGRaVkZyTG9nUmJDS1ptSmFQZWxITkhpMVRTM19SMzlneDBHMzFrS2xrZHFHMFBnNURhdE40?oc=5",
       "tickers": "",
-      "positive": 0.658003,
-      "negative": 0.258301,
+      "positive": 0.658004,
+      "negative": 0.2583,
       "neutral": 0.083696,
-      "confidence": 0.658003
+      "confidence": 0.658004
     },
     {
       "postid": 7730018206373,
@@ -1697,7 +1731,7 @@
       "publisher": "r/wallstreetbets",
       "source_url": "https://www.reddit.com/r/wallstreetbets/comments/1x03env/pt3_200k_day/",
       "tickers": "",
-      "positive": 0.265937,
+      "positive": 0.265936,
       "negative": 0.046363,
       "neutral": 0.6877,
       "confidence": 0.6877
@@ -1805,23 +1839,6 @@
       "confidence": 0.983705
     },
     {
-      "postid": 207278381163374,
-      "text": "LG Electronics’ Preliminary Earnings Disappoint - WSJ",
-      "post_text": "LG Electronics’ Preliminary Earnings Disappoint WSJ",
-      "score": 0,
-      "upvote_ratio": 0,
-      "creation": "2026-10-07",
-      "source": "google_news",
-      "source_name": "Google News",
-      "publisher": "WSJ",
-      "source_url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxOVm8zZ3RFWElYTy1ubVBxZ0JQeDNDUmRVUmxQTVM0YjFCNVZnaWxHU2EyMXFHZEtCa1pDVUZ6R2d6LW0zV1lnZU0tTjdzT1EzVllFWnExZmVfUC0tM09rLVZKdWR3dnV1dG1oSHI5d0ZXN0NVeVhDTDBGa2N1SVZUVTRfVmFocmRkWE5GMlE4SUZ6NzV5VmpWczFROUFQbWo2LXc?oc=5",
-      "tickers": "",
-      "positive": 0.110024,
-      "negative": 0.036158,
-      "neutral": 0.853818,
-      "confidence": 0.853818
-    },
-    {
       "postid": 200259149176128,
       "text": "Meta And Microsoft Reportedly Trim Anthropic Reliance as Internal AI Tools Take Center Stage",
       "post_text": "From the article: Microsoft reduced its projected internal spending on Claude by over one-third, while Meta saw internal users of Anthropic's Claude Code coding assistant drop from roughly 60,000 to 30,000. Within the Microsoft Cloud and AI division, individual monthly AI usage caps were lowered from $100,000 down to roughly $10,000 in most instances submitted by /u/dgellow to r/wallstreetbets [link] [comments]",
@@ -1835,8 +1852,8 @@
       "tickers": "MSFT,META",
       "positive": 0.035625,
       "negative": 0.442226,
-      "neutral": 0.522149,
-      "confidence": 0.522149
+      "neutral": 0.522148,
+      "confidence": 0.522148
     },
     {
       "postid": 195141429316875,
@@ -1885,9 +1902,9 @@
       "source_url": "https://www.reddit.com/r/wallstreetbets/comments/1wzimpi/1280_gain_nvda_too_scared_to_sell/",
       "tickers": "NVDA",
       "positive": 0.087116,
-      "negative": 0.51055,
+      "negative": 0.510551,
       "neutral": 0.402333,
-      "confidence": 0.51055
+      "confidence": 0.510551
     },
     {
       "postid": 190286033485303,
@@ -1935,7 +1952,7 @@
       "publisher": "Reuters",
       "source_url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxOaWFYZU9aMFBWYnZnMWVubE5TTlVVUW5sa2JSbkpQM2dnbTctV3VUeGtVTG9rVE8yR0E0aW5pWlYwR0JMRTEtWDFqTzIxZVFLbS1tZFhPTjlLQ0V5UFZqX2Roa1puV1lTUHpXSnJUODcxRURHUEFEVWMwakFWcVJ2bHZTR1N0X0NBN0Q1WXdRLUdFZUtrenVEcGlBbFNkWG5ZYUVtTUU4M3V1aS1CaE9F?oc=5",
       "tickers": "",
-      "positive": 0.073027,
+      "positive": 0.073028,
       "negative": 0.009055,
       "neutral": 0.917918,
       "confidence": 0.917918
@@ -1987,9 +2004,9 @@
       "source_url": "https://www.reddit.com/r/wallstreetbets/comments/1x01ymi/mu_went_crazy/",
       "tickers": "MU",
       "positive": 0.104394,
-      "negative": 0.720968,
+      "negative": 0.720967,
       "neutral": 0.174638,
-      "confidence": 0.720968
+      "confidence": 0.720967
     },
     {
       "postid": 155039761343067,
@@ -2005,8 +2022,8 @@
       "tickers": "",
       "positive": 0.317119,
       "negative": 0.083865,
-      "neutral": 0.599016,
-      "confidence": 0.599016
+      "neutral": 0.599017,
+      "confidence": 0.599017
     },
     {
       "postid": 132789027910587,
@@ -2088,7 +2105,7 @@
       "publisher": "samsung.com",
       "source_url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxPWk9zVVlHbnd0S05sZ29hQkp1dXZJX2FLSW91Z2I3OFJ3V1Z1S1ZFLUFxQlpQM2xpMzIyNEdVYVYtU0EzUnBqVFVQbmViUDZHQTdRMTZ3cjJIVVI0NGNCTlVWTHlMX050dHo1cTUtT3dVZjhES19rRTYyODFCMUF2RHM1eHV1LUpLbDN1eUc3NmZPWncyaXZQUk1ZdnFjeWdlR0xHUA?oc=5",
       "tickers": "",
-      "positive": 0.46859,
+      "positive": 0.468591,
       "negative": 0.009595,
       "neutral": 0.521815,
       "confidence": 0.521815
@@ -2107,7 +2124,7 @@
       "tickers": "",
       "positive": 0.027786,
       "negative": 0.796344,
-      "neutral": 0.17587,
+      "neutral": 0.175871,
       "confidence": 0.796344
     },
     {
@@ -2192,8 +2209,8 @@
       "tickers": "",
       "positive": 0.339442,
       "negative": 0.054369,
-      "neutral": 0.60619,
-      "confidence": 0.60619
+      "neutral": 0.606189,
+      "confidence": 0.606189
     },
     {
       "postid": 56026386632723,
@@ -2241,10 +2258,10 @@
       "publisher": "Yahoo Finance",
       "source_url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxONVIxQzdDMkd5ZkxMczRLZjlTZ3lDczRHc09ReTJlWm1OTjdma1ZkYzBxdC10elEzNjNnaUFXVWZ3cnZrYUk5bGFaVUtwa2JxcHhSMUNVYWcyNGwteU5YM1EtWDNGX25PcW1nbVNEbWVyMlQxOEI1cFdJQy1yWWMtcGRWR2I5RVZZeFp4dDcyTERzY1Q0UXR1VGlFeWxTYTJpSjNRamlmQ252S1h0UFNnaUpFR0lMTkxLZnM1T2dFS3Z1THh5YTRMR2ZRY0dMOW9BTXdN?oc=5",
       "tickers": "",
-      "positive": 0.135689,
-      "negative": 0.670492,
+      "positive": 0.135688,
+      "negative": 0.670493,
       "neutral": 0.193819,
-      "confidence": 0.670492
+      "confidence": 0.670493
     },
     {
       "postid": 31385789452234,
@@ -2275,10 +2292,10 @@
       "publisher": "Yahoo Finance",
       "source_url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxQVUJ1ZlBlQjNZTUV4VlpWdTJYN29vSWdOenROd21Hd1lYMVlYa25vVFFEMk8zU2Q5YU9wX3ZzUjR2X0hNTXdzdnBrTl9ZTjFDSDJ4TUVTTm5TY1F6MTd6UDVoMnluZ1QtaTBwYmFoN29FYVZNSU9NTEhZdGpOSzM2N1I3Z2lwcFRaVGJ3SFB1bDBENHhjcWJKeDZsYXRyMVBUMWQzWDBFUmdKaktfalJ4Nl9Xclc3ZVFiN2h6YmdYRjA0ZUdReV82SVpPbkZNeWc?oc=5",
       "tickers": "",
-      "positive": 0.825549,
+      "positive": 0.825548,
       "negative": 0.01594,
       "neutral": 0.158512,
-      "confidence": 0.825549
+      "confidence": 0.825548
     },
     {
       "postid": 25373709275304,
@@ -2332,6 +2349,23 @@
       "confidence": 0.423874
     },
     {
+      "postid": 268199863087672,
+      "text": "3 Growth Stocks To Watch With Revenue Growth Up To 43% - Yahoo Finance",
+      "post_text": "3 Growth Stocks To Watch With Revenue Growth Up To 43% Yahoo Finance",
+      "score": 0,
+      "upvote_ratio": 0,
+      "creation": "2026-10-06",
+      "source": "google_news",
+      "source_name": "Google News",
+      "publisher": "Yahoo Finance",
+      "source_url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxOSnNKM01qTzhfcTdFVUV4d1BOUHI5UVBoblZONUpaQ1VLMzNOVjBkbUV6VUtCdkxmY1RKQ1I4TUxZME1GaXlGbm42Y05jNFZEY3dNbElmR01qM01MOTFab1VCdm1BUXI1bFRSV0VIelg2OWZrWVZlVEhhRDhvRy0zZll0bjR0MzZuY05Gajh4ODU4cHpUZ1RsU0ln?oc=5",
+      "tickers": "",
+      "positive": 0.802241,
+      "negative": 0.017888,
+      "neutral": 0.179871,
+      "confidence": 0.802241
+    },
+    {
       "postid": 249396642879579,
       "text": "IEA to decide on details of diesel stocks release next week, sources say, as market confusion grows - Reuters",
       "post_text": "IEA to decide on details of diesel stocks release next week, sources say, as market confusion grows Reuters",
@@ -2345,8 +2379,8 @@
       "tickers": "",
       "positive": 0.015719,
       "negative": 0.358589,
-      "neutral": 0.625691,
-      "confidence": 0.625691
+      "neutral": 0.625692,
+      "confidence": 0.625692
     },
     {
       "postid": 240920284917129,
@@ -2570,23 +2604,6 @@
       "confidence": 0.905087
     },
     {
-      "postid": 87741944523641,
-      "text": "US stocks hit record high, shrugging off bond market turmoil - CNN",
-      "post_text": "US stocks hit record high, shrugging off bond market turmoil CNN",
-      "score": 0,
-      "upvote_ratio": 0,
-      "creation": "2026-10-06",
-      "source": "google_news",
-      "source_name": "Google News",
-      "publisher": "CNN",
-      "source_url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE1CVkNXNkYyc2ZNcGxWSXlXMkFqZnA1ZGlQRTJHUXhZXzhnb0NrVEJ3eXBYQS1wS2xEcExvd2pVUFpndFBLUnd2SFIwY01uOGdzbWc5aURKLWIzVEZWQkJRQ2tGQUNzb1E?oc=5",
-      "tickers": "",
-      "positive": 0.771816,
-      "negative": 0.184151,
-      "neutral": 0.044032,
-      "confidence": 0.771816
-    },
-    {
       "postid": 84624718112525,
       "text": "I picked a bad time to sell AMD covered calls 😭😭😭",
       "post_text": "I've had these shares for a long time. Got assigned selling cash secured puts back in 2022. Then I had the regarded idea to sell covered calls against them in mid-September when AMD was trading around $500. Oof. submitted by /u/WeaverFan420 to r/wallstreetbets [link] [comments]",
@@ -2615,10 +2632,10 @@
       "publisher": "Reuters",
       "source_url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxOZm4yN3lGTlZFWFRCMmNTSFJSUWE4MnJqSGc5aGVKMXBWR3lrcXYtSEpTRWpncXNuUHc5QVVKeDVRa0NuTWpuXzBSRUxqXzcyUklYUlU2NUdLNTkwS2FndzlLdXBaQThKZThGT2d3cjRkN0FBVjFQcEJzR2NrbEpDa1RvSlJ3a3d2bUoxcnAwSF9jVnZXY0J4V0s4WjM5Y3hRVWlhY3dSQ0J0WkMxZ3c?oc=5",
       "tickers": "",
-      "positive": 0.097802,
-      "negative": 0.837404,
+      "positive": 0.097803,
+      "negative": 0.837403,
       "neutral": 0.064794,
-      "confidence": 0.837404
+      "confidence": 0.837403
     },
     {
       "postid": 70365325181151,
@@ -2685,8 +2702,25 @@
       "tickers": "",
       "positive": 0.173695,
       "negative": 0.022223,
-      "neutral": 0.804081,
-      "confidence": 0.804081
+      "neutral": 0.804082,
+      "confidence": 0.804082
+    },
+    {
+      "postid": 39648239920394,
+      "text": "Biotechs Sell Off — These Are The Biggest Losers - Investor's Business Daily",
+      "post_text": "Biotechs Sell Off — These Are The Biggest Losers Investor's Business Daily",
+      "score": 0,
+      "upvote_ratio": 0,
+      "creation": "2026-10-06",
+      "source": "google_news",
+      "source_name": "Google News",
+      "publisher": "Investor's Business Daily",
+      "source_url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxOMVdxY1NsZDhBZ0JQR1h5OC1VRjBidHVJVTdVdW5sOFpRQTg5eTJydlNOQVhpODFjT3gxMnVETWRYcHBIRFdPYmUzXzZvaE9aQzJ5SXJ2bWlaYjR0RU04dkNLalFfSklhVjBJdE96SEY2OE5DU3ZFNnBrSjJjWExtdnhMek9yemZwSkFnM0dKUm1PWnNWbU1pNnE4azJkLUFjZmJkaXpR?oc=5",
+      "tickers": "",
+      "positive": 0.011078,
+      "negative": 0.56618,
+      "neutral": 0.422742,
+      "confidence": 0.56618
     },
     {
       "postid": 35865898279393,
@@ -2735,9 +2769,9 @@
       "source_url": "https://www.reddit.com/r/wallstreetbets/comments/1wz4101/the_ai_bears_lose_again/",
       "tickers": "",
       "positive": 0.007423,
-      "negative": 0.124725,
-      "neutral": 0.867852,
-      "confidence": 0.867852
+      "negative": 0.124724,
+      "neutral": 0.867853,
+      "confidence": 0.867853
     },
     {
       "postid": 3392076074553,
@@ -2755,6 +2789,23 @@
       "negative": 0.009137,
       "neutral": 0.180613,
       "confidence": 0.810249
+    },
+    {
+      "postid": 271620811090740,
+      "text": "S&P 500 Hits All-Time High on AI Bets as Oil Drops: Markets Wrap - Bloomberg.com",
+      "post_text": "S&P 500 Hits All-Time High on AI Bets as Oil Drops: Markets Wrap Bloomberg.com",
+      "score": 0,
+      "upvote_ratio": 0,
+      "creation": "2026-10-05",
+      "source": "google_news",
+      "source_name": "Google News",
+      "publisher": "Bloomberg.com",
+      "source_url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxQMGNaZ3F4bG13LTdnUDBaRk54UU5oUkxNTi05R0dqS1l4dlNucGgyYnJVWUJrZDNoNXN2N1VFS1F3YmdWU2RyTWJRenJwMC05aWVJcDFTUEdCdVd2NndGbTBJTWRJODNiYWRLSnd4eE5NdFFpTnR2MXNSUXV5V2hvMTQ1YWhKLTV3Sk5vY3UxSE1WSnYzcWJnMTNVdzhES25JSmhiNGpia3lvVlhtWTlGZDVEc2VjU2Y2dW56MDF3?oc=5",
+      "tickers": "",
+      "positive": 0.888871,
+      "negative": 0.069911,
+      "neutral": 0.041219,
+      "confidence": 0.888871
     },
     {
       "postid": 265652566852517,
@@ -2853,7 +2904,7 @@
       "publisher": "WSJ",
       "source_url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxQeUh3Y3hjdkh3UzhLczZDcFRoOVlvZFFpc2lfZ2QtMnZBb0tKdkNLLXMzOVZGZUM4a0VaN2s5cmN1WmtEdFNQMFc0bHNEUDh1amJ2b3lZZnF3NHoyNFkyd3lOOEp2NTlWc0N4SmM1eklfcnVPWmtSVnB2YkFrV3NxSExtLV9ESERZd1E?oc=5",
       "tickers": "",
-      "positive": 0.121776,
+      "positive": 0.121775,
       "negative": 0.010194,
       "neutral": 0.86803,
       "confidence": 0.86803
@@ -2893,6 +2944,23 @@
       "confidence": 0.700482
     },
     {
+      "postid": 129122080260692,
+      "text": "Why I’m Trying Not to Check the Stock Market and My Portfolio Every Day - The White Coat Investor",
+      "post_text": "Why I’m Trying Not to Check the Stock Market and My Portfolio Every Day The White Coat Investor",
+      "score": 0,
+      "upvote_ratio": 0,
+      "creation": "2026-10-05",
+      "source": "google_news",
+      "source_name": "Google News",
+      "publisher": "The White Coat Investor",
+      "source_url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE5ETmgtYWI3NFFMRzRuMGRjVlhNWUh5QnpsYi1LOTN5M3didWdOamlfN0JQb3d2STYzVXZqUHdHaDBFNkF3eWlYdUllYURxUXVOTnQzaTFqdTFDWnJqdWUxYnZoR2lMUlRDZlloUnlqMGlIbWkyLUVkakpJNFFOZWM?oc=5",
+      "tickers": "",
+      "positive": 0.004729,
+      "negative": 0.020437,
+      "neutral": 0.974834,
+      "confidence": 0.974834
+    },
+    {
       "postid": 121007226706033,
       "text": "Daily Discussion Thread for October 5, 2026",
       "post_text": "This post contains content not supported on old Reddit. Click here to view the full post submitted by /u/verified-trader to r/wallstreetbets [link] [comments]",
@@ -2921,10 +2989,10 @@
       "publisher": "r/wallstreetbets",
       "source_url": "https://www.reddit.com/r/wallstreetbets/comments/1wykai5/2000000_full_porting_spcx_ive_doubled_my_previous/",
       "tickers": "TSLA,MCD",
-      "positive": 0.171068,
+      "positive": 0.171069,
       "negative": 0.014451,
-      "neutral": 0.814481,
-      "confidence": 0.814481
+      "neutral": 0.81448,
+      "confidence": 0.81448
     },
     {
       "postid": 107228547722308,
@@ -2972,10 +3040,10 @@
       "publisher": "Barron's",
       "source_url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxNeFVQODFQSndSaGh0S2ZyNFRSTEhTRWdvT0xCTXBQbl9zdkdHb3JCRkdmejVFa3RLcFpzemV4cTdHM3ZVbWlkLVpMODV4Uzd5RGszNGY4MnRONHlvaFFtRDVKUnlYLW5DakZGZkpyenpvMkhnYzY1dFhFYklxVGxoTmpBcFVQVC13djFVWTBEYXpEbzQ?oc=5",
       "tickers": "",
-      "positive": 0.827594,
+      "positive": 0.827595,
       "negative": 0.050449,
       "neutral": 0.121957,
-      "confidence": 0.827594
+      "confidence": 0.827595
     },
     {
       "postid": 85410052979247,
@@ -2991,8 +3059,8 @@
       "tickers": "",
       "positive": 0.029516,
       "negative": 0.439947,
-      "neutral": 0.530537,
-      "confidence": 0.530537
+      "neutral": 0.530536,
+      "confidence": 0.530536
     },
     {
       "postid": 62009024695369,
@@ -3024,9 +3092,26 @@
       "source_url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQbjhNWFhDYnlzZ0piZHVibV9fa3dwSlZTWlUzNEZXdFZfdlB2MmxTM0NUVXUzZjN2M2tJOV9uNWVwNk1YU3lWVkZZU25lNl80b2pneWkxdkdjOUhYYkg5ZlJUQmNPTVo1bTZPcGdmanRidjYtN05LZXRhRzJJb0xJZXhjeWNKQzhrZUlPVlc5V21ha0RNbzNhcTE3QzcxbnlnUTBWMDhoRTNSVGc?oc=5",
       "tickers": "",
       "positive": 0.049891,
-      "negative": 0.412847,
+      "negative": 0.412848,
       "neutral": 0.537261,
       "confidence": 0.537261
+    },
+    {
+      "postid": 54090887400783,
+      "text": "2 Growth Stocks with All-Star Potential and 1 We Brush Off - Yahoo Finance",
+      "post_text": "2 Growth Stocks with All-Star Potential and 1 We Brush Off Yahoo Finance",
+      "score": 0,
+      "upvote_ratio": 0,
+      "creation": "2026-10-05",
+      "source": "google_news",
+      "source_name": "Google News",
+      "publisher": "Yahoo Finance",
+      "source_url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxQYXp6cS1pa3NZdjhJZklpOW1zY2cwVkxjUnIyNjlGRFhrVDRiV1JORTBMZUtIX3ZCVVJqV1RRZ2hQN3dfZHVmS3VKVFFLSGltNFN4NlNJTklRdGxKRkZzY09ZZTl6MkVxcUl6NWJ5UGxzNjdpSU44NUVXM0N2bVVBMm5NZ2E4VnZrRlA4QnNBa1MzYnpaR0NlXzAxcw?oc=5",
+      "tickers": "",
+      "positive": 0.292648,
+      "negative": 0.109479,
+      "neutral": 0.597873,
+      "confidence": 0.597873
     },
     {
       "postid": 52622656725598,
@@ -3076,8 +3161,8 @@
       "tickers": "",
       "positive": 0.012165,
       "negative": 0.08721,
-      "neutral": 0.900625,
-      "confidence": 0.900625
+      "neutral": 0.900626,
+      "confidence": 0.900626
     },
     {
       "postid": 31648984011968,
@@ -3199,40 +3284,6 @@
       "confidence": 0.982573
     },
     {
-      "postid": 254254937117591,
-      "text": "Wall St Week Ahead Spiking bond yields, midterms, earnings to test US stocks' typical fourth-quarter strength - Reuters",
-      "post_text": "Wall St Week Ahead Spiking bond yields, midterms, earnings to test US stocks' typical fourth-quarter strength Reuters",
-      "score": 0,
-      "upvote_ratio": 0,
-      "creation": "2026-10-04",
-      "source": "google_news",
-      "source_name": "Google News",
-      "publisher": "Reuters",
-      "source_url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxNLWE0blFwNjQtYzV3UTJuODNjRmZQbTJydkY1SkVmZjd3bkFjVW5ET0JKS1U3aTEyb3N0MUN0RWNRUEdXX2YzSnpBMG9mbk9Ock8tNjZUMzdLRWRoN2lGMTlYY3BDVVdTeW5SdFlyNzVDbXBVSmJwWWdWTVcwSVFwaXgySHlleW56TS1ZN1k0S2ZlekxDemVmaWpnU3dWWHFQQlZfLXRvUEM2UGZVdjdJWThvRTd1djlsbWJuUkVFNUlpUQ?oc=5",
-      "tickers": "",
-      "positive": 0.951556,
-      "negative": 0.009887,
-      "neutral": 0.038557,
-      "confidence": 0.951556
-    },
-    {
-      "postid": 231275124691535,
-      "text": "G7 countries agree on release of diesel and oil stocks after US pressure - Reuters",
-      "post_text": "G7 countries agree on release of diesel and oil stocks after US pressure Reuters",
-      "score": 0,
-      "upvote_ratio": 0,
-      "creation": "2026-10-04",
-      "source": "google_news",
-      "source_name": "Google News",
-      "publisher": "Reuters",
-      "source_url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxQZnMyRFpEcDhNOHlnU2NJT3F1R2M5QkEzMjJPaGRUYlZ1S2RYYmNMZ1pERlZINEtxMkJDTktfMThYeHZ0U2FDZjVoQ3l3eHViLVkyajQ0S1RfSDJ4QS1xTEgxNVlaZzJSSkVjLTJYM04tX3ZHUEVSY0VHdjJHUU45RHBRajVxQzA3emVQNXpvRG9XRVVVZUtSdUtveUN2WUp6RzhBeVQwQ0JzVk8zWWYzS1FCVUtTZ3UtNTllVzJrbTJyUC00?oc=5",
-      "tickers": "",
-      "positive": 0.932852,
-      "negative": 0.015352,
-      "neutral": 0.051796,
-      "confidence": 0.932852
-    },
-    {
       "postid": 199973806232307,
       "text": "DRTS - Cancer Goes Bye Bye / Portfolio Goes High High",
       "post_text": "Hello degenerates - Here is my DD on DRTS, an oncology treatment that is going to pop. What's the problem with treating cancer? They're all different and it takes fucking forever to know if your molecule is actually going to kill it in vivo. Not only that, if your fancy new molecule does actually do something, most of the time the 'improvement' is measured in months. Someone lives twelve months instead of six? Fucking A that is a great cancer drug! Why do we measure outcomes in such small increments? Because cancer is multifaceted problem, (especially solid tumors), so just because lots of you",
@@ -3267,40 +3318,6 @@
       "confidence": 0.974041
     },
     {
-      "postid": 172012933262989,
-      "text": "WallStreetBets - The Anime",
-      "post_text": "the time has finally arrived source: FX Fighter Kurumi-chan submitted by /u/D4vester to r/wallstreetbets [link] [comments]",
-      "score": 0,
-      "upvote_ratio": 0,
-      "creation": "2026-10-04",
-      "source": "reddit",
-      "source_name": "Reddit",
-      "publisher": "r/wallstreetbets",
-      "source_url": "https://www.reddit.com/r/wallstreetbets/comments/1wxdexk/wallstreetbets_the_anime/",
-      "tickers": "",
-      "positive": 0.02992,
-      "negative": 0.004167,
-      "neutral": 0.965912,
-      "confidence": 0.965912
-    },
-    {
-      "postid": 137727532704993,
-      "text": "If a Stock Market Crash Is Coming, History Says These Are the 3 Financial Stocks to Buy - Yahoo Finance",
-      "post_text": "If a Stock Market Crash Is Coming, History Says These Are the 3 Financial Stocks to Buy Yahoo Finance",
-      "score": 0,
-      "upvote_ratio": 0,
-      "creation": "2026-10-04",
-      "source": "google_news",
-      "source_name": "Google News",
-      "publisher": "Yahoo Finance",
-      "source_url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNMjFfb0wyeGRIcGM0bVR4REdkNUxsazZhV3pJclA0YUY3V1hEZHY5ak41cFhHWXMxY09UWlVvZEZqb2hyWUtSclVSdUZWdXB5TlRiSjUxWDhUYURvalRvUDNOYUtmUnduOHRaNEFfemFvTE1Vemk0VkpQX01oV3h1Ry1LZF9vdFEyU2FZbXZQU1RpTVNRTjFXTktwenpxenc?oc=5",
-      "tickers": "",
-      "positive": 0.011574,
-      "negative": 0.010058,
-      "neutral": 0.978368,
-      "confidence": 0.978368
-    },
-    {
       "postid": 117412500377760,
       "text": "October can be a scary month for stocks. Here’s what investors need to watch this year. - MarketWatch",
       "post_text": "October can be a scary month for stocks. Here’s what investors need to watch this year. MarketWatch",
@@ -3313,9 +3330,9 @@
       "source_url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxQcVlHNERhcXBibm91R0c4V3o2Z2wzSUs0VFl5V2FhOGFsN29MazBnX2FlOEVDUVE1ei02blMxTG43SEtLQS01Zmh5cUswb29md0NWMDdYODBwNHllY1RpcThIcTRvam5VUzVlbVZ3bTh4WklmRGI3YmtudVV3dUJNRXcxbXB6SVBHRm5DZ0NINnB4T1FnUU1tcllWSnFKZzl2YTEwX2ZOdlBwRFBqbXRYU0h3bDNsY3RiaVBWcVZHWlhDNTZZS3c?oc=5",
       "tickers": "",
       "positive": 0.018636,
-      "negative": 0.535205,
+      "negative": 0.535204,
       "neutral": 0.446159,
-      "confidence": 0.535205
+      "confidence": 0.535204
     },
     {
       "postid": 46558025842581,
@@ -3348,8 +3365,8 @@
       "tickers": "",
       "positive": 0.474833,
       "negative": 0.010914,
-      "neutral": 0.514253,
-      "confidence": 0.514253
+      "neutral": 0.514252,
+      "confidence": 0.514252
     },
     {
       "postid": 35899793725772,
@@ -3367,23 +3384,6 @@
       "negative": 0.004371,
       "neutral": 0.975597,
       "confidence": 0.975597
-    },
-    {
-      "postid": 6347451725408,
-      "text": "Stock Futures Are Rising With Earnings Season, Fed Minutes Ahead - Barron's",
-      "post_text": "Stock Futures Are Rising With Earnings Season, Fed Minutes Ahead Barron's",
-      "score": 0,
-      "upvote_ratio": 0,
-      "creation": "2026-10-04",
-      "source": "google_news",
-      "source_name": "Google News",
-      "publisher": "Barron's",
-      "source_url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE80eV91ODRzQ2FMZUZxaDJwYmR2aFBGazJhUnZhUTRBQWFIOXZlaDRmcmRiOUc5TURzcFJRRG1yRDVrcjRlTVhNTW85WnBDRk9zWXNObkozaXVheUlxcU80V2FBeENvQW5yM2JRLTJTdV9Jay1hd1ExRWV3?oc=5",
-      "tickers": "",
-      "positive": 0.973765,
-      "negative": 0.012227,
-      "neutral": 0.014008,
-      "confidence": 0.973765
     },
     {
       "postid": 6344185018163,
