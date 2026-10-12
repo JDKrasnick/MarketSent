@@ -1,24 +1,58 @@
 {
   "schema_version": 2,
-  "generated_at": "2026-10-11T22:00:46.107351Z",
+  "generated_at": "2026-10-12T06:02:38.380568Z",
   "sources": [
     {
       "id": "reddit",
       "name": "Reddit",
       "status": "ok",
       "item_count": 100,
-      "updated_at": "2026-10-11T22:00:46.107351Z"
+      "updated_at": "2026-10-12T06:02:38.380568Z"
     },
     {
       "id": "google_news",
       "name": "Google News",
       "status": "ok",
       "item_count": 100,
-      "updated_at": "2026-10-11T22:00:46.107351Z"
+      "updated_at": "2026-10-12T06:02:38.380568Z"
     }
   ],
   "count": 199,
   "posts": [
+    {
+      "postid": 267510380030550,
+      "text": "Share markets choppy in Asia as earnings loom, oil slips - Reuters",
+      "post_text": "Share markets choppy in Asia as earnings loom, oil slips Reuters",
+      "score": 0,
+      "upvote_ratio": 0,
+      "creation": "2026-10-12",
+      "source": "google_news",
+      "source_name": "Google News",
+      "publisher": "Reuters",
+      "source_url": "https://news.google.com/rss/articles/CBMie0FVX3lxTFA4VndfYlhKMjFvd01KYndaSHVGZ3dlckMtTUtucy1jQjk0aE9JcHRpdEFuSE1SZGFWZzV1TW1MVFFabU9oNEhfajl6MVVIbzFVVF85VUZaWTFMRmx1WDFPRHItbWhuVWpoUzRxcXBPc0V4Tmo1UUU3QjRfbw?oc=5",
+      "tickers": "",
+      "positive": 0.038083,
+      "negative": 0.870693,
+      "neutral": 0.091224,
+      "confidence": 0.870693
+    },
+    {
+      "postid": 260670458519904,
+      "text": "Forget VOO. “VT and Chill” Owns 9,000 Stocks and Skips the Lost Decade Problem - Yahoo Finance",
+      "post_text": "Forget VOO. “VT and Chill” Owns 9,000 Stocks and Skips the Lost Decade Problem Yahoo Finance",
+      "score": 0,
+      "upvote_ratio": 0,
+      "creation": "2026-10-12",
+      "source": "google_news",
+      "source_name": "Google News",
+      "publisher": "Yahoo Finance",
+      "source_url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxQRVM0OHBGYnJMRVpfY3dhbGYyenlYa3Y5VDRqWmxBOXZSNnJvWnB1NWN0dWdSa0xPT0M3UWd1SFpJbEN0R0g3VDU1Q20tQUFicGViUUU3OHItQlhERHpSVmMxd280RHJucndib1F2R3ZGSW95dWNfX0h1dEN4VzhXZzF4VjE4TFd0Mko4SHlKaEdhcWM?oc=5",
+      "tickers": "",
+      "positive": 0.03516,
+      "negative": 0.842896,
+      "neutral": 0.121944,
+      "confidence": 0.842896
+    },
     {
       "postid": 252414995876509,
       "text": "Welcome back to earnings season: What to watch this week - Yahoo Finance",
@@ -71,6 +105,23 @@
       "confidence": 0.925187
     },
     {
+      "postid": 125702808343584,
+      "text": "SPY on Friday had the lowest daily volume since Dec. 24th 2019 (and that was a half day).",
+      "post_text": "Thoughts? submitted by /u/Far-Pain5261 to r/wallstreetbets [link] [comments]",
+      "score": 0,
+      "upvote_ratio": 0,
+      "creation": "2026-10-11",
+      "source": "reddit",
+      "source_name": "Reddit",
+      "publisher": "r/wallstreetbets",
+      "source_url": "https://www.reddit.com/r/wallstreetbets/comments/1x3cmsv/spy_on_friday_had_the_lowest_daily_volume_since/",
+      "tickers": "",
+      "positive": 0.005858,
+      "negative": 0.127879,
+      "neutral": 0.866262,
+      "confidence": 0.866262
+    },
+    {
       "postid": 79998868880978,
       "text": "Anthropic must pull the IPO in few months. What do you play?",
       "post_text": "So many AI related IPOs are being pulled - Firmus, Softbank Energy.... There is now way Anthropic is able to place 100bn of equity when even junk bonds are puking on further AI funding. Given the market is still pricing in the IPO, what would be your proxy play if Anthropic cancels / delays the IPO? submitted by /u/orbeduddudebro to r/wallstreetbets [link] [comments]",
@@ -86,23 +137,6 @@
       "negative": 0.007036,
       "neutral": 0.98687,
       "confidence": 0.98687
-    },
-    {
-      "postid": 42994909612753,
-      "text": "Stocks Up, Yields Up - WSJ",
-      "post_text": "Stocks Up, Yields Up WSJ",
-      "score": 0,
-      "upvote_ratio": 0,
-      "creation": "2026-10-11",
-      "source": "google_news",
-      "source_name": "Google News",
-      "publisher": "WSJ",
-      "source_url": "https://news.google.com/rss/articles/CBMicEFVX3lxTFBiX1F4bWhnbkl2YnY3aVFsaG1Hd1oxZ2lHNXI4am9MZXhEalpYS2k4WmFhQnk1REZEN2lKTmFaTUFpLXZrVDIySUlfckZDY205M3p6UHlPMUFyVjViZThlSDNYd1gtb3FSeW5tbjJ0TWg?oc=5",
-      "tickers": "",
-      "positive": 0.967478,
-      "negative": 0.009545,
-      "neutral": 0.022978,
-      "confidence": 0.967478
     },
     {
       "postid": 32609056838964,
@@ -122,21 +156,21 @@
       "confidence": 0.83947
     },
     {
-      "postid": 22577604109243,
-      "text": "Tokenized Stocks Bring ‘Radical Change’ to Markets, Cuomo Says - WSJ",
-      "post_text": "Tokenized Stocks Bring ‘Radical Change’ to Markets, Cuomo Says WSJ",
+      "postid": 9375967274970,
+      "text": "Anthropic inks unannounced IREN cloud deal.",
+      "post_text": "https://aiweekly.co/alerts/anthropic-adds-iren-to-530b-data-center-lease-scramble The AI run continues! submitted by /u/Bradley182 to r/wallstreetbets [link] [comments]",
       "score": 0,
       "upvote_ratio": 0,
       "creation": "2026-10-11",
-      "source": "google_news",
-      "source_name": "Google News",
-      "publisher": "WSJ",
-      "source_url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPNmtzT2tCeEoxY3FCVGNlellPVGlHVkdQX0lBT2dtTk1FUV9vQjJ2Z3hZNEZRamI1Z2VHRVc1bjdKM0w2YlFLYVdkZzhxV2Vfd2FhOXlNQWUtMUVJR0o0c2VHSktPNVpJcDFpTUMtUWpmOTRXaGlidGdZVFhqdVE0enhOYzlfYjRqYzRYX3J2cDdJXzVPME5CbDJoUjdiZW9IemxYM05hOTFaQQ?oc=5",
+      "source": "reddit",
+      "source_name": "Reddit",
+      "publisher": "r/wallstreetbets",
+      "source_url": "https://www.reddit.com/r/wallstreetbets/comments/1x3levx/anthropic_inks_unannounced_iren_cloud_deal/",
       "tickers": "",
-      "positive": 0.387372,
-      "negative": 0.057246,
-      "neutral": 0.555382,
-      "confidence": 0.555382
+      "positive": 0.056335,
+      "negative": 0.022009,
+      "neutral": 0.921656,
+      "confidence": 0.921656
     },
     {
       "postid": 2962835900316,
@@ -377,23 +411,6 @@
       "confidence": 0.796177
     },
     {
-      "postid": 73740185550309,
-      "text": "2 Dividend Stocks Worth Holding Forever (Including 1 Dividend King) - Yahoo Finance",
-      "post_text": "2 Dividend Stocks Worth Holding Forever (Including 1 Dividend King) Yahoo Finance",
-      "score": 0,
-      "upvote_ratio": 0,
-      "creation": "2026-10-10",
-      "source": "google_news",
-      "source_name": "Google News",
-      "publisher": "Yahoo Finance",
-      "source_url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxPemZlWnVlVzhyMERYR1dGMGViUE9XZzg1MlkzakF2Nll0LVh0N2ZkTF9nNkFfN0RSMEpmaDVWTk5Sdkt0d0VkZjVYTVFVY1ctSDJiR00xaHBUTGh4WXNiUkxqZTRaMlUxd3FYY055Vmh5WVNMaTBZTnpzbTgyeVY2dkN3bmlGZ0lRNnZOckxDelY3WnBMaGFZT2xvWWY?oc=5",
-      "tickers": "",
-      "positive": 0.009224,
-      "negative": 0.006864,
-      "neutral": 0.983912,
-      "confidence": 0.983912
-    },
-    {
       "postid": 68692681367641,
       "text": "Incredible that all this has happened in just 4 years",
       "post_text": "All in only 4 years submitted by /u/twist_games to r/wallstreetbets [link] [comments]",
@@ -511,6 +528,23 @@
       "negative": 0.950729,
       "neutral": 0.036402,
       "confidence": 0.950729
+    },
+    {
+      "postid": 258312901039713,
+      "text": "4 Dividend Stocks Boomers Can Safely Buy Now and Hold Forever - Yahoo Finance",
+      "post_text": "4 Dividend Stocks Boomers Can Safely Buy Now and Hold Forever Yahoo Finance",
+      "score": 0,
+      "upvote_ratio": 0,
+      "creation": "2026-10-09",
+      "source": "google_news",
+      "source_name": "Google News",
+      "publisher": "Yahoo Finance",
+      "source_url": "https://news.google.com/rss/articles/CBMingFBVV95cUxPU1BWX1VHMDNDejBoZGFCWTctUC1ucW1RaVRrN1Iyb1RtYVFCUksyMmI1WEtKc253LUV1ZUdyUTFZS2tIVFJzTUxkSWQ2NHd5SkhMSUZPeWpXOHZUakZfQS1pemdUQWdPT3VMOENrSFAtU082NHFMYWRpaVJCaWROckxxU3hlUEt3cm40d1VVOVlpUnhoa2VYMHVMRDNjdw?oc=5",
+      "tickers": "",
+      "positive": 0.275964,
+      "negative": 0.007824,
+      "neutral": 0.716212,
+      "confidence": 0.716212
     },
     {
       "postid": 255254636988563,
@@ -649,23 +683,6 @@
       "confidence": 0.867624
     },
     {
-      "postid": 194170230729004,
-      "text": "Why The AI Stock Market May Not Be A Bubble - Forbes",
-      "post_text": "Why The AI Stock Market May Not Be A Bubble Forbes",
-      "score": 0,
-      "upvote_ratio": 0,
-      "creation": "2026-10-09",
-      "source": "google_news",
-      "source_name": "Google News",
-      "publisher": "Forbes",
-      "source_url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxPM3M0ZWJrUnVOc0xYSlZueW04ejRmWVV0RmxHNnBTUzVpRFZGMlRBWk50dEZ5aEo5YTRQLUx1RHVLNHRob0diZ0lGMXNYNUR3eFNyT1NYbF9EVXh6a285RTJiWk42UU03XzBSeVNwZHRwb1d4VVhzTHNYRzdXT0tYM0pCU1BSaEdKQ0hJc3hNQnVaYnItSmhFT0NWRQ?oc=5",
-      "tickers": "",
-      "positive": 0.435585,
-      "negative": 0.382207,
-      "neutral": 0.182208,
-      "confidence": 0.435585
-    },
-    {
       "postid": 185272593571211,
       "text": "Wall St Week Ahead Bank earnings, CPI headline busy markets week as S&P 500 hovers near records - Reuters",
       "post_text": "Wall St Week Ahead Bank earnings, CPI headline busy markets week as S&P 500 hovers near records Reuters",
@@ -749,6 +766,23 @@
       "negative": 0.010449,
       "neutral": 0.668994,
       "confidence": 0.668994
+    },
+    {
+      "postid": 134636721336980,
+      "text": "Paxton Said in Deposition That Donor Gave Him Stocks to Please God - The New York Times",
+      "post_text": "Paxton Said in Deposition That Donor Gave Him Stocks to Please God The New York Times",
+      "score": 0,
+      "upvote_ratio": 0,
+      "creation": "2026-10-09",
+      "source": "google_news",
+      "source_name": "Google News",
+      "publisher": "The New York Times",
+      "source_url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxONEZSTjhVeXlNb3otR1VDRE9jZW9ibmhKX1RlcDBvbndBMTlKODFNQk1TVWJTM2VocWd6SWRHOTgxQ2d5czgxZWV2X0hXbGk0MldPaDBORXRhMTN0WUlEY0hpbkdNQU13R3VfOVhRb21SbXhPMmF6T0dWYmVoUkZGcF9R?oc=5",
+      "tickers": "",
+      "positive": 0.011192,
+      "negative": 0.005338,
+      "neutral": 0.98347,
+      "confidence": 0.98347
     },
     {
       "postid": 134552308326288,
@@ -870,6 +904,23 @@
       "confidence": 0.971297
     },
     {
+      "postid": 93658841085733,
+      "text": "What risks? Earnings are up and to the right - J.P. Morgan Private Bank",
+      "post_text": "What risks? Earnings are up and to the right J.P. Morgan Private Bank",
+      "score": 0,
+      "upvote_ratio": 0,
+      "creation": "2026-10-09",
+      "source": "google_news",
+      "source_name": "Google News",
+      "publisher": "J.P. Morgan Private Bank",
+      "source_url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxNS2FDNF9idklpdzVnUFpXRXJSZFlrbU1Gam1lNkFkUnhnUkx0LXNkNTN4RjQwVWg0em05YlRpVzNWMDl2amJJM0xORG1JUHN0Si1RSndFei1XTzFrYjRJMWRHRzlmQ053Y2Y0VVlicHI5enRQUzg1REJqVUxOUlNJY25CM04xemJfMnI3OURSY3FWYzNmSWI1aTQ1VWtpdjRZUXNBSDdvU2NOd0VwVHAyRm5ZVy1PX1BMRFlV?oc=5",
+      "tickers": "",
+      "positive": 0.027447,
+      "negative": 0.004981,
+      "neutral": 0.967572,
+      "confidence": 0.967572
+    },
+    {
       "postid": 87938401440310,
       "text": "Why bank stocks are falling despite surging interest rates - Financial Times",
       "post_text": "Why bank stocks are falling despite surging interest rates Financial Times",
@@ -919,23 +970,6 @@
       "negative": 0.015525,
       "neutral": 0.960961,
       "confidence": 0.960961
-    },
-    {
-      "postid": 61526941685672,
-      "text": "Stocks rise as Trump says Russia to release diesel to world markets - AFP.com",
-      "post_text": "Stocks rise as Trump says Russia to release diesel to world markets AFP.com",
-      "score": 0,
-      "upvote_ratio": 0,
-      "creation": "2026-10-09",
-      "source": "google_news",
-      "source_name": "Google News",
-      "publisher": "AFP.com",
-      "source_url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxQMUJwZFF3Q3Q5YWlmcjVZNy1IaGpuaEN5UDNEdXJYb1ZNS1lPTDNNX3N6UFk4VXQzLTRUUFZCNjZvZy0xcS1EQXk1b0wxOGZZS3NCT2Q5c09NNk1XSWxMbkpvWEFwSGpNT1FLRkpRNzdKaUxZSU4yaFU3NnlrTkpIeFZYc29WbmpX?oc=5",
-      "tickers": "",
-      "positive": 0.934098,
-      "negative": 0.01071,
-      "neutral": 0.055192,
-      "confidence": 0.934098
     },
     {
       "postid": 61229977163242,
@@ -1004,6 +1038,23 @@
       "negative": 0.014736,
       "neutral": 0.011571,
       "confidence": 0.973693
+    },
+    {
+      "postid": 22577604109243,
+      "text": "Tokenized Stocks Bring ‘Radical Change’ to Markets, Cuomo Says - WSJ",
+      "post_text": "Tokenized Stocks Bring ‘Radical Change’ to Markets, Cuomo Says WSJ",
+      "score": 0,
+      "upvote_ratio": 0,
+      "creation": "2026-10-09",
+      "source": "google_news",
+      "source_name": "Google News",
+      "publisher": "WSJ",
+      "source_url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPNmtzT2tCeEoxY3FCVGNlellPVGlHVkdQX0lBT2dtTk1FUV9vQjJ2Z3hZNEZRamI1Z2VHRVc1bjdKM0w2YlFLYVdkZzhxV2Vfd2FhOXlNQWUtMUVJR0o0c2VHSktPNVpJcDFpTUMtUWpmOTRXaGlidGdZVFhqdVE0enhOYzlfYjRqYzRYX3J2cDdJXzVPME5CbDJoUjdiZW9IemxYM05hOTFaQQ?oc=5",
+      "tickers": "",
+      "positive": 0.387372,
+      "negative": 0.057246,
+      "neutral": 0.555382,
+      "confidence": 0.555382
     },
     {
       "postid": 21389287957461,
@@ -1123,23 +1174,6 @@
       "negative": 0.006961,
       "neutral": 0.981583,
       "confidence": 0.981583
-    },
-    {
-      "postid": 262337382900417,
-      "text": "King of Regards",
-      "post_text": "Reposting because the other post got removed for not including my positions. There are too many to include so I’ll only show my biggest loser. Comment if you wanna see more. I will claim my throne as the king of regards. Challenge accepted submitted by /u/Iampoorghini to r/wallstreetbets [link] [comments]",
-      "score": 0,
-      "upvote_ratio": 0,
-      "creation": "2026-10-08",
-      "source": "reddit",
-      "source_name": "Reddit",
-      "publisher": "r/wallstreetbets",
-      "source_url": "https://www.reddit.com/r/wallstreetbets/comments/1x0zwf6/king_of_regards/",
-      "tickers": "",
-      "positive": 0.004929,
-      "negative": 0.011595,
-      "neutral": 0.983476,
-      "confidence": 0.983476
     },
     {
       "postid": 260109193181248,
@@ -1363,6 +1397,23 @@
       "confidence": 0.85024
     },
     {
+      "postid": 205788936918372,
+      "text": "Stock Market Today (Oct. 8, 2025): Nasdaq, Russell 2000 suffer on higher oil, Treasurys - Yahoo Finance Singapore",
+      "post_text": "Stock Market Today (Oct. 8, 2025): Nasdaq, Russell 2000 suffer on higher oil, Treasurys Yahoo Finance Singapore",
+      "score": 0,
+      "upvote_ratio": 0,
+      "creation": "2026-10-08",
+      "source": "google_news",
+      "source_name": "Google News",
+      "publisher": "Yahoo Finance Singapore",
+      "source_url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE91Y2JTZWtjeF95OTBWREtlczg3X1VmUDFrX0c0UWZZOVZKQmZSSnpzQ1llSDNzZjl1YThaM3FxVHNKN2VFTnZ2aVZTR2tkMUt3SXZwWWtid29TLWNaN1ZnbGFJdGdOT1NKenp1T1RlMVo1M2JTTk5DNnpDTGVHdw?oc=5",
+      "tickers": "",
+      "positive": 0.027366,
+      "negative": 0.952798,
+      "neutral": 0.019836,
+      "confidence": 0.952798
+    },
+    {
       "postid": 202574919670896,
       "text": "Google might win bigly from AI software-cloning. $GOOGL",
       "post_text": "EDIT to add this up top: - I do not work at Google or Amazon. My company is a worse performer than both. - I have not even bought this stock yet. - this is not a SaaSpocalypse post. Nobody thinks this will replace enterprise software. That’s not what I’m saying. I think GOOGL might be one of the cleaner winners from this weird AI software-cloning wave. If you aren't following what's happening over the past 2 days, go check X, youtube, whatever. I work in FAANG and have never seen anything like it. Its awesome. REA, “Reverse Engineer Anything,” is blowing up. It gives AI agents reverse engineer",
@@ -1429,23 +1480,6 @@
       "negative": 0.069278,
       "neutral": 0.921126,
       "confidence": 0.921126
-    },
-    {
-      "postid": 170641889418942,
-      "text": "Is the stock market open on Columbus Day, Indigenous Peoples Day? - Yahoo Finance",
-      "post_text": "Is the stock market open on Columbus Day, Indigenous Peoples Day? Yahoo Finance",
-      "score": 0,
-      "upvote_ratio": 0,
-      "creation": "2026-10-08",
-      "source": "google_news",
-      "source_name": "Google News",
-      "publisher": "Yahoo Finance",
-      "source_url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxQdUxaQ0dZRTY2Wmo0WElseFdGeC0yOU1GM0NxUEktek8yOVlwalFEeVJiMnB6enBYN3NleVI1LW5FckkyY1FrYzhibTZLTGw2YktDc0FwVTI4THJyVGZwRHQwaTZCOVA1NHJBRU5RalBLaVFZNlN5dEJ6RHBaTXI1TFRWQVNqcXZzMGRidVFueHVoMll6ZUtPWHlxaHk0ZnlhaTRfdU5lQVBnaGJPaGVOMU96UFYwMkpVRG5fMTAySTMwMUljQURFc0hIbmttdWt4ZXRpZ3p3?oc=5",
-      "tickers": "",
-      "positive": 0.008368,
-      "negative": 0.004666,
-      "neutral": 0.986966,
-      "confidence": 0.986966
     },
     {
       "postid": 158298057970052,
@@ -2213,23 +2247,6 @@
       "confidence": 0.943518
     },
     {
-      "postid": 130511933971767,
-      "text": "Oil Rise Spurs Fresh Selling in Stocks and Bonds: Markets Wrap - Bloomberg.com",
-      "post_text": "Oil Rise Spurs Fresh Selling in Stocks and Bonds: Markets Wrap Bloomberg.com",
-      "score": 0,
-      "upvote_ratio": 0,
-      "creation": "2026-10-07",
-      "source": "google_news",
-      "source_name": "Google News",
-      "publisher": "Bloomberg.com",
-      "source_url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxNQU1SaHdYWU1rZkFDZjFUZTVMU2dkQ2dCRUF4eXhJRmdMSzFuZHFqSDYtdF9VNWZEV3doQkh6TGVtZklPWWc4NkpYQ0s2by1pMUZNMmFaWERvblBiZXRzZnJ0ajRaaXh0NVo0VlRYWmVENFVJeFhidG5IdXVna0FxdHMxanN1YjIyRmczQXFlS0xGMXph?oc=5",
-      "tickers": "",
-      "positive": 0.893821,
-      "negative": 0.014869,
-      "neutral": 0.09131,
-      "confidence": 0.893821
-    },
-    {
       "postid": 128896767277046,
       "text": "US crude stocks fall amid strong exports, refining activity, the EIA says - Reuters",
       "post_text": "US crude stocks fall amid strong exports, refining activity, the EIA says Reuters",
@@ -2944,23 +2961,6 @@
       "confidence": 0.594483
     },
     {
-      "postid": 265087456188139,
-      "text": "Can someone explain to me how the stock market is basically a separate entity from the economy?",
-      "post_text": "So I’m 23 years old, and I put left over scholarship money into a S&P tracking RothIRA at 20, fully planning on letting it sit and add to it I decided to pull my money out (it’s still in Fidelity just not invested) when the Iran war started. That event, plus the AI bubble and over evaluation with SpaceX, and the economy doing terribly rn (at least anecdotally), it seemed we were in for a crash. Now I know “time in the market beats timing the marking”, but this felt like a very easy chance to avoid catastrophe And yet it hasn’t happened yet. It’s been months at this point. Clearly the rules of ",
-      "score": 0,
-      "upvote_ratio": 0,
-      "creation": "2026-10-05",
-      "source": "reddit",
-      "source_name": "Reddit",
-      "publisher": "r/stocks",
-      "source_url": "https://www.reddit.com/r/stocks/comments/1wy0ajt/can_someone_explain_to_me_how_the_stock_market_is/",
-      "tickers": "SPACEX",
-      "positive": 0.010571,
-      "negative": 0.010021,
-      "neutral": 0.979408,
-      "confidence": 0.979408
-    },
-    {
       "postid": 252336488495888,
       "text": "Nasdaq closes at fresh record as tech shares rise and traders look past higher yields",
       "post_text": "The Nasdaq Composite sailed to a fresh all-time high as traders looked past rising U.S. Treasury yields and digested new economic data. The Nasdaq Composite was up 1.05% and hit an intraday record of 27,544.07. The Dow Jones Industrial Average advanced 90 points, or nearly 0.2% higher. The S&P 500 advanced roughly 0.7%. Several stocks tied to the artificial intelligence trade led the way higher for the Nasdaq. SpaceX jumped nearly 6%, while hyperscalers Meta and Microsoft ticked up more than 2% and 1%, respectively. Nvidia gained more than 1%, while Tesla rose 2%. submitted by /u/Broke_BruceWa",
@@ -2976,23 +2976,6 @@
       "negative": 0.015274,
       "neutral": 0.013301,
       "confidence": 0.971425
-    },
-    {
-      "postid": 251307402231099,
-      "text": "India's IT stocks gain as Accenture outlook lifts sector sentiment - Reuters",
-      "post_text": "India's IT stocks gain as Accenture outlook lifts sector sentiment Reuters",
-      "score": 0,
-      "upvote_ratio": 0,
-      "creation": "2026-10-05",
-      "source": "google_news",
-      "source_name": "Google News",
-      "publisher": "Reuters",
-      "source_url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPM2Rudl96YlBQajZ5TUFaMVc5SlZ4SHYzd3luaFZ0UjcwZ3dwR0hRNlVnN2txY2w3U0k3UmVIYkZUN3Vmd0hoZlJPU1Zja09HVVF3dDNIUVhNdGdELWZzNllUWEF3T0NRR29Vb1U2Q0ZZZnN0TGZGMkVnRWdkU2gzNGVKbEdBZDJYOWg2QkVldGhpWVNkWWNCdnhhdnFZVWx0VXpMRnczZDNQd3JnZ1hCVw?oc=5",
-      "tickers": "",
-      "positive": 0.965499,
-      "negative": 0.011328,
-      "neutral": 0.023173,
-      "confidence": 0.965499
     },
     {
       "postid": 250670394046213,
@@ -3216,6 +3199,23 @@
       "confidence": 0.737055
     },
     {
+      "postid": 55848540071437,
+      "text": "Micron (MU) Posts 87% Gross Margins, Yet Trades at 6 Times Earnings. Is the Cycle Different? - Yahoo Finance",
+      "post_text": "Micron (MU) Posts 87% Gross Margins, Yet Trades at 6 Times Earnings. Is the Cycle Different? Yahoo Finance",
+      "score": 0,
+      "upvote_ratio": 0,
+      "creation": "2026-10-05",
+      "source": "google_news",
+      "source_name": "Google News",
+      "publisher": "Yahoo Finance",
+      "source_url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxOOHJldzdZQTVOWE9ZZjBJU053ckp5dndCY0VJVVRydC1JY1REbXZUSzFPVFlxMUF1VU5aRVpIMXFDaVotQjk4LW9nR2hkeElIQjVEWG9uYVI2MFBuZ1o1anBmTGVQcUZDZ25CV2NzUXJSMlNVUTVYdFhHbWdCUUdmNHVJUzdxLU80ZWxURjg2OGw3SUU?oc=5",
+      "tickers": "MU",
+      "positive": 0.006347,
+      "negative": 0.007,
+      "neutral": 0.986653,
+      "confidence": 0.986653
+    },
+    {
       "postid": 55298146572450,
       "text": "There's tremendous distortion right now in stocks, says Jim Cramer - CNBC",
       "post_text": "There's tremendous distortion right now in stocks, says Jim Cramer CNBC",
@@ -3233,6 +3233,23 @@
       "confidence": 0.537261
     },
     {
+      "postid": 54090887400783,
+      "text": "2 Growth Stocks with All-Star Potential and 1 We Brush Off - Yahoo Finance",
+      "post_text": "2 Growth Stocks with All-Star Potential and 1 We Brush Off Yahoo Finance",
+      "score": 0,
+      "upvote_ratio": 0,
+      "creation": "2026-10-05",
+      "source": "google_news",
+      "source_name": "Google News",
+      "publisher": "Yahoo Finance",
+      "source_url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxQYXp6cS1pa3NZdjhJZklpOW1zY2cwVkxjUnIyNjlGRFhrVDRiV1JORTBMZUtIX3ZCVVJqV1RRZ2hQN3dfZHVmS3VKVFFLSGltNFN4NlNJTklRdGxKRkZzY09ZZTl6MkVxcUl6NWJ5UGxzNjdpSU44NUVXM0N2bVVBMm5NZ2E4VnZrRlA4QnNBa1MzYnpaR0NlXzAxcw?oc=5",
+      "tickers": "",
+      "positive": 0.292648,
+      "negative": 0.109479,
+      "neutral": 0.597873,
+      "confidence": 0.597873
+    },
+    {
       "postid": 52622656725598,
       "text": "The euro is at a 17-month low and traders are pulling out the 2011 European debt crisis playbook",
       "post_text": "France's fiscal situation combined with energy-driven inflation is the exact pairing that cracked European sovereign spreads wide open in 2011. Traders are already referencing that playbook, per Bloomberg, and the euro hitting a 17-month low suggests positioning is moving fast. The mechanism is straightforward. High energy costs blow out fiscal deficits in import-heavy economies, bond markets start demanding a higher premium to hold that paper, spreads widen, and the currency takes the hit first because it's the most liquid expression of the stress. France is the systemically important name in",
@@ -3248,6 +3265,23 @@
       "negative": 0.111912,
       "neutral": 0.806157,
       "confidence": 0.806157
+    },
+    {
+      "postid": 42994909612753,
+      "text": "Stocks Up, Yields Up - WSJ",
+      "post_text": "Stocks Up, Yields Up WSJ",
+      "score": 0,
+      "upvote_ratio": 0,
+      "creation": "2026-10-05",
+      "source": "google_news",
+      "source_name": "Google News",
+      "publisher": "WSJ",
+      "source_url": "https://news.google.com/rss/articles/CBMicEFVX3lxTFBiX1F4bWhnbkl2YnY3aVFsaG1Hd1oxZ2lHNXI4am9MZXhEalpYS2k4WmFhQnk1REZEN2lKTmFaTUFpLXZrVDIySUlfckZDY205M3p6UHlPMUFyVjViZThlSDNYd1gtb3FSeW5tbjJ0TWg?oc=5",
+      "tickers": "",
+      "positive": 0.967478,
+      "negative": 0.009545,
+      "neutral": 0.022978,
+      "confidence": 0.967478
     },
     {
       "postid": 41531841185659,
@@ -3367,40 +3401,6 @@
       "negative": 0.884466,
       "neutral": 0.10017,
       "confidence": 0.884466
-    },
-    {
-      "postid": 5976580087543,
-      "text": "Penguin Solutions (PENG) Q3 Earnings: What To Expect - Yahoo Finance",
-      "post_text": "Penguin Solutions (PENG) Q3 Earnings: What To Expect Yahoo Finance",
-      "score": 0,
-      "upvote_ratio": 0,
-      "creation": "2026-10-05",
-      "source": "google_news",
-      "source_name": "Google News",
-      "publisher": "Yahoo Finance",
-      "source_url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPTFhjT21GWVBBcWhRZTFwQm5WYm1lSFhsTjM5bWFSZk9GdU1IWUkwbFY2a2x0anBRQlRfY1A2WVA5N2lOdmk4WVRDOFVXU05tb1ZHaGRrNFlfdE8xY1RpYi1ZcmRSOWNoekloakhuY0drSjdZTDM0eHk4d2ZzaXFVd1d2MmhFWktpbks1SllhdVhaeTc0b3NsZGl3YVlSamFE?oc=5",
-      "tickers": "",
-      "positive": 0.007756,
-      "negative": 0.009671,
-      "neutral": 0.982573,
-      "confidence": 0.982573
-    },
-    {
-      "postid": 6347451725408,
-      "text": "Stock Futures Are Rising With Earnings Season, Fed Minutes Ahead - Barron's",
-      "post_text": "Stock Futures Are Rising With Earnings Season, Fed Minutes Ahead Barron's",
-      "score": 0,
-      "upvote_ratio": 0,
-      "creation": "2026-10-04",
-      "source": "google_news",
-      "source_name": "Google News",
-      "publisher": "Barron's",
-      "source_url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE80eV91ODRzQ2FMZUZxaDJwYmR2aFBGazJhUnZhUTRBQWFIOXZlaDRmcmRiOUc5TURzcFJRRG1yRDVrcjRlTVhNTW85WnBDRk9zWXNObkozaXVheUlxcU80V2FBeENvQW5yM2JRLTJTdV9Jay1hd1ExRWV3?oc=5",
-      "tickers": "",
-      "positive": 0.973765,
-      "negative": 0.012227,
-      "neutral": 0.014008,
-      "confidence": 0.973765
     }
   ]
 }
