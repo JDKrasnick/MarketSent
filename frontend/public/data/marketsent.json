@@ -1,23 +1,23 @@
 {
   "schema_version": 2,
-  "generated_at": "2026-10-15T17:04:14.832019Z",
+  "generated_at": "2026-10-15T21:26:04.735032Z",
   "sources": [
     {
       "id": "reddit",
       "name": "Reddit",
       "status": "ok",
       "item_count": 100,
-      "updated_at": "2026-10-15T17:04:14.832019Z"
+      "updated_at": "2026-10-15T21:26:04.735032Z"
     },
     {
       "id": "google_news",
       "name": "Google News",
       "status": "ok",
       "item_count": 100,
-      "updated_at": "2026-10-15T17:04:14.832019Z"
+      "updated_at": "2026-10-15T21:26:04.735032Z"
     }
   ],
-  "count": 196,
+  "count": 197,
   "posts": [
     {
       "postid": 273554944230526,
@@ -48,10 +48,27 @@
       "publisher": "Yahoo Finance",
       "source_url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxPRnZJeXJsR3h1MDNCeEpVTFNEZlVRMHRuVnJfeDNIY0NmSHNsZjc0YUhBOExrb3VIdDVhVkJPSkhIVnY3SHZoOG1fVzhGX3Izd1NtenlpMVZxQnQ3Z21CRGpYTjdoZXJ5VzJOcm1YSHZxanpBbUNHTk52Q25YN3FWRy15Q1pEODJUMTZwckk4bmNfbERTcEE?oc=5",
       "tickers": "",
-      "positive": 0.297794,
-      "negative": 0.494961,
+      "positive": 0.297793,
+      "negative": 0.494962,
       "neutral": 0.207245,
-      "confidence": 0.494961
+      "confidence": 0.494962
+    },
+    {
+      "postid": 250785416219343,
+      "text": "Core Scientific, Inc. Schedules Third Quarter Fiscal Year 2026 Earnings Release, Conference Call and Webcast - Core Scientific",
+      "post_text": "Core Scientific, Inc. Schedules Third Quarter Fiscal Year 2026 Earnings Release, Conference Call and Webcast Core Scientific",
+      "score": 0,
+      "upvote_ratio": 0,
+      "creation": "2026-10-15",
+      "source": "google_news",
+      "source_name": "Google News",
+      "publisher": "Core Scientific",
+      "source_url": "https://news.google.com/rss/articles/CBMijAJBVV95cUxQSVhaek51MmdERHFORXpESUNGSko2TGJNZm5MMk9kb2FnR0RyVFVDMVpfd2hFUC1tbjV6LVNvTWl0bWRta00tdmhrcjZiZGcwdG83UHk0TW4td292TXZEcnJtd3h2dWlxNDZkNWNIR2RfNXd3eEthbHZDUWRHUU50MmxIMnBlTFlfTmlrcDFjaFMtMGxsR1h5TGxSX0pGdy1zUWU2M25KWEhpaEtmd2s4VG5nUk1PMlowQi1WbDM4Vk43MWpNdF9YSlRZMlVVMnBhaGg3NDNTc2JldGlIVno0Z3hiOVZEZ0o2bHNMOTVvVXFTclM2UTFSbnBZclZnSTVvdnoyNEM5UGFBRWs1?oc=5",
+      "tickers": "",
+      "positive": 0.006821,
+      "negative": 0.006371,
+      "neutral": 0.986808,
+      "confidence": 0.986808
     },
     {
       "postid": 245166632902442,
@@ -105,6 +122,40 @@
       "confidence": 0.970867
     },
     {
+      "postid": 227291056900068,
+      "text": "Undeniable proof that the stock market will be flipped!",
+      "post_text": "submitted by /u/tranquil40 to r/wallstreetbets [link] [comments]",
+      "score": 0,
+      "upvote_ratio": 0,
+      "creation": "2026-10-15",
+      "source": "reddit",
+      "source_name": "Reddit",
+      "publisher": "r/wallstreetbets",
+      "source_url": "https://www.reddit.com/r/wallstreetbets/comments/1x6vqhr/undeniable_proof_that_the_stock_market_will_be/",
+      "tickers": "",
+      "positive": 0.042628,
+      "negative": 0.060944,
+      "neutral": 0.896428,
+      "confidence": 0.896428
+    },
+    {
+      "postid": 221040575029990,
+      "text": "For Stocks, the Future Ain’t What It Used to Be - WSJ",
+      "post_text": "For Stocks, the Future Ain’t What It Used to Be WSJ",
+      "score": 0,
+      "upvote_ratio": 0,
+      "creation": "2026-10-15",
+      "source": "google_news",
+      "source_name": "Google News",
+      "publisher": "WSJ",
+      "source_url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxPc01IRHV1R1M4WWZKalpGNGt2UklGZG50akFyMUk1cjlXS25CTFIxb204bV9KaEgtdVBXV25fQXlWVzdFQlI3MnVGSnlSOGdPQkZRdTVpMUdzcERHWmxUaDNLZWU5Tnh2eHh3bnJOLUdNLWpidmNMQ0NCbFVxaDZQb00xNDZTYVFTZDdiVGNYZExickJVWkQ4?oc=5",
+      "tickers": "",
+      "positive": 0.007154,
+      "negative": 0.006042,
+      "neutral": 0.986804,
+      "confidence": 0.986804
+    },
+    {
       "postid": 213629580946864,
       "text": "Wholesale prices jump in a wild 6.3% rally, biggest gain since 2022 when inflation ran almost 10%",
       "post_text": "September’s producer price index came in much hotter than economists forecasted on Thursday, underscoring the continued inflationary pressure from energy amid the U.S. war with Iran. The measure of underylying inflation pressures climbed 1.3% in September and 6.3% on an annual basis, marking its largest 12-month advance since late 2022, according to data released by the Bureau of Labor Statistics. Economists polled by Dow Jones forecasted an advance of 0.6% on the month and 5.5% annually. submitted by /u/Gaius__Of__The_Julii to r/investing [link] [comments]",
@@ -116,10 +167,27 @@
       "publisher": "r/investing",
       "source_url": "https://www.reddit.com/r/investing/comments/1x6kmqw/wholesale_prices_jump_in_a_wild_63_rally_biggest/",
       "tickers": "",
-      "positive": 0.94204,
+      "positive": 0.942041,
       "negative": 0.022726,
       "neutral": 0.035234,
-      "confidence": 0.94204
+      "confidence": 0.942041
+    },
+    {
+      "postid": 207742167721356,
+      "text": "Cracks are beginning to show in the stock market, as doubts grow about AI investments - NBC News",
+      "post_text": "Cracks are beginning to show in the stock market, as doubts grow about AI investments NBC News",
+      "score": 0,
+      "upvote_ratio": 0,
+      "creation": "2026-10-15",
+      "source": "google_news",
+      "source_name": "Google News",
+      "publisher": "NBC News",
+      "source_url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxPTEpUNXhwc2JkVzhOd282UndZbzRHYnRvY0I5MWlRZEhveFZYZGVLYVFUUy1iR21XVE5XQ05KUlk5Rm54RmFHdUEtWnMtcENhNTBaM2xvTTZfQW5CZ3VITTQ2aHFIVU1rOUVRSXl3cjM5NUgxU3RMYkJpd0dHWjZJUWVZWVZhTWhKWkpqNVo4Slg?oc=5",
+      "tickers": "",
+      "positive": 0.031869,
+      "negative": 0.933429,
+      "neutral": 0.034702,
+      "confidence": 0.933429
     },
     {
       "postid": 201534563186334,
@@ -156,9 +224,26 @@
       "confidence": 0.973451
     },
     {
+      "postid": 193805711992539,
+      "text": "The GEO Group Announces Date for Third Quarter 2026 Earnings Release and Conference Call - The GEO Group",
+      "post_text": "The GEO Group Announces Date for Third Quarter 2026 Earnings Release and Conference Call The GEO Group",
+      "score": 0,
+      "upvote_ratio": 0,
+      "creation": "2026-10-15",
+      "source": "google_news",
+      "source_name": "Google News",
+      "publisher": "The GEO Group",
+      "source_url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxNOGhWR0t6OWNNWkRNcjA5cDJjbDVkampwN1lkVHlhSDJsZFVXUFNWT3BZZjdvb25WS1hPUW1Mc2hPSEtlS1l3YlpVQlRMeHljVUNza201STZIbTZ5ODVOcWZzaGNwQkxWOTJDNGd6VFJaSEJmbEhSTzB2XzlHTHFGRkNuSFJBOVpvQ3dzcy1MVW9CSFVkcHhPaGNpdWFnODFxckhQcmZiYjlwNXNnX0dPd014YVhEMUwwbkI1RGpLVDBfXzE0Z1N5d2pR?oc=5",
+      "tickers": "",
+      "positive": 0.008416,
+      "negative": 0.004916,
+      "neutral": 0.986668,
+      "confidence": 0.986668
+    },
+    {
       "postid": 182708518190185,
-      "text": "Tech Stocks Plunge as Doubts Over A.I. Spending Intensify - The New York Times",
-      "post_text": "Tech Stocks Plunge as Doubts Over A.I. Spending Intensify The New York Times",
+      "text": "Tech Stocks Drop Further Amid Doubts Over AI Spending - The New York Times",
+      "post_text": "Tech Stocks Drop Further Amid Doubts Over AI Spending The New York Times",
       "score": 0,
       "upvote_ratio": 0,
       "creation": "2026-10-15",
@@ -167,10 +252,10 @@
       "publisher": "The New York Times",
       "source_url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE1oaGRDMjZQUUc2Z1JIN3RWUHlLYmNlUEZIc2ticW14dmFXXzdGQXdSYl9aeTFUS1QxOUZSQXJuMXV6cV9TR3BSblllb2lZSlJpWG9vZ3d5cXVVRkVJN0E2MjFpWndlZ1lIbF8yTmcyMWh3V3RWSHp4N19Mdw?oc=5",
       "tickers": "",
-      "positive": 0.050752,
-      "negative": 0.837944,
-      "neutral": 0.111304,
-      "confidence": 0.837944
+      "positive": 0.050509,
+      "negative": 0.918926,
+      "neutral": 0.030565,
+      "confidence": 0.918926
     },
     {
       "postid": 155193651063267,
@@ -190,6 +275,23 @@
       "confidence": 0.955909
     },
     {
+      "postid": 154375297469275,
+      "text": "Ramp completes funding at $60 Billion value as revenue surges",
+      "post_text": "submitted by /u/Severe-Appointment40 to r/wallstreetbets [link] [comments]",
+      "score": 0,
+      "upvote_ratio": 0,
+      "creation": "2026-10-15",
+      "source": "reddit",
+      "source_name": "Reddit",
+      "publisher": "r/wallstreetbets",
+      "source_url": "https://www.reddit.com/r/wallstreetbets/comments/1x6ogie/ramp_completes_funding_at_60_billion_value_as/",
+      "tickers": "",
+      "positive": 0.899088,
+      "negative": 0.026676,
+      "neutral": 0.074236,
+      "confidence": 0.899088
+    },
+    {
       "postid": 145736804967264,
       "text": "Memory stocks are getting hammered. China and a 2029 oversupply are the big worries - CNBC",
       "post_text": "Memory stocks are getting hammered. China and a 2029 oversupply are the big worries CNBC",
@@ -207,6 +309,23 @@
       "confidence": 0.594889
     },
     {
+      "postid": 137878583165903,
+      "text": "“The name’s Bond. Junk Bond.”",
+      "post_text": "submitted by /u/Criticall16 to r/wallstreetbets [link] [comments]",
+      "score": 0,
+      "upvote_ratio": 0,
+      "creation": "2026-10-15",
+      "source": "reddit",
+      "source_name": "Reddit",
+      "publisher": "r/wallstreetbets",
+      "source_url": "https://www.reddit.com/r/wallstreetbets/comments/1x6rw40/the_names_bond_junk_bond/",
+      "tickers": "",
+      "positive": 0.007316,
+      "negative": 0.005496,
+      "neutral": 0.987188,
+      "confidence": 0.987188
+    },
+    {
       "postid": 127311151344704,
       "text": "Well...",
       "post_text": "Does it? submitted by /u/Archevening to r/wallstreetbets [link] [comments]",
@@ -222,6 +341,23 @@
       "negative": 0.006133,
       "neutral": 0.98621,
       "confidence": 0.98621
+    },
+    {
+      "postid": 125610604780091,
+      "text": "Kospi Cuck Chair",
+      "post_text": "very expensive cuck chair where you pay to watch your portfolio get absolutely railed, -7.57% today submitted by /u/Varelixz to r/wallstreetbets [link] [comments]",
+      "score": 0,
+      "upvote_ratio": 0,
+      "creation": "2026-10-15",
+      "source": "reddit",
+      "source_name": "Reddit",
+      "publisher": "r/wallstreetbets",
+      "source_url": "https://www.reddit.com/r/wallstreetbets/comments/1x6mdof/kospi_cuck_chair/",
+      "tickers": "",
+      "positive": 0.006632,
+      "negative": 0.01018,
+      "neutral": 0.983188,
+      "confidence": 0.983188
     },
     {
       "postid": 125308507638432,
@@ -269,10 +405,10 @@
       "publisher": "r/wallstreetbets",
       "source_url": "https://www.reddit.com/r/wallstreetbets/comments/1x6eacg/tsmc_profit_soars_69_in_another_record_quarter/",
       "tickers": "TSM",
-      "positive": 0.942935,
+      "positive": 0.942934,
       "negative": 0.020855,
       "neutral": 0.03621,
-      "confidence": 0.942935
+      "confidence": 0.942934
     },
     {
       "postid": 96714496087948,
@@ -286,15 +422,32 @@
       "publisher": "r/StockMarket",
       "source_url": "https://www.reddit.com/r/StockMarket/comments/1x6kfvn/only_one_bubble_in_the_last_200_years_had_higher/",
       "tickers": "",
-      "positive": 0.051519,
+      "positive": 0.05152,
       "negative": 0.062897,
-      "neutral": 0.885584,
-      "confidence": 0.885584
+      "neutral": 0.885583,
+      "confidence": 0.885583
+    },
+    {
+      "postid": 95830379997659,
+      "text": "What about the upcoming drop?",
+      "post_text": "submitted by /u/siorge to r/wallstreetbets [link] [comments]",
+      "score": 0,
+      "upvote_ratio": 0,
+      "creation": "2026-10-15",
+      "source": "reddit",
+      "source_name": "Reddit",
+      "publisher": "r/wallstreetbets",
+      "source_url": "https://www.reddit.com/r/wallstreetbets/comments/1x6frm4/what_about_the_upcoming_drop/",
+      "tickers": "",
+      "positive": 0.004838,
+      "negative": 0.01098,
+      "neutral": 0.984182,
+      "confidence": 0.984182
     },
     {
       "postid": 95769183911222,
-      "text": "Global tech sell-off deepens as enthusiasm for AI stocks wobbles - CNN",
-      "post_text": "Global tech sell-off deepens as enthusiasm for AI stocks wobbles CNN",
+      "text": "Chipmaker sell-off sends investors to other stocks and bonds for safety - CNN",
+      "post_text": "Chipmaker sell-off sends investors to other stocks and bonds for safety CNN",
       "score": 0,
       "upvote_ratio": 0,
       "creation": "2026-10-15",
@@ -303,10 +456,10 @@
       "publisher": "CNN",
       "source_url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE44QURFNXNKc2JOay1PenlxMHdlOGxDMzd5a2xiV1ZXWmtmT2FEWTJ0NVJPSVBOTGs2YnFXUFJQWWtPQ3phYnhIMXZheTRfc051QUczOU9Md1NFRFdhZlVnZ0R3Y1pvSGU0SlBHV1l5TFBydjdwS3c?oc=5",
       "tickers": "",
-      "positive": 0.946344,
-      "negative": 0.026696,
-      "neutral": 0.02696,
-      "confidence": 0.946344
+      "positive": 0.014609,
+      "negative": 0.054922,
+      "neutral": 0.930469,
+      "confidence": 0.930469
     },
     {
       "postid": 83100190762009,
@@ -322,7 +475,7 @@
       "tickers": "",
       "positive": 0.956868,
       "negative": 0.013708,
-      "neutral": 0.029425,
+      "neutral": 0.029424,
       "confidence": 0.956868
     },
     {
@@ -344,8 +497,8 @@
     },
     {
       "postid": 73106986030709,
-      "text": "Stocks and dollar slide as tech rout deepens - Yahoo Finance",
-      "post_text": "Stocks and dollar slide as tech rout deepens Yahoo Finance",
+      "text": "Global stocks edge lower as AI and rate fears hit tech - Yahoo Finance",
+      "post_text": "Global stocks edge lower as AI and rate fears hit tech Yahoo Finance",
       "score": 0,
       "upvote_ratio": 0,
       "creation": "2026-10-15",
@@ -354,15 +507,15 @@
       "publisher": "Yahoo Finance",
       "source_url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxOeTRzUk5SRExJbm1EUXdJWG9JaXdKSEdtX29rb0k3ZkRTRFZIeHRxb0xMcm00eUF0NzhCS1owVkp4OWQ2eHF2dWl3aVpPak85emN3eGdqX1hEOW0zNjVlTWs3eGVUSlFUME1fVHVXRTFtNEZ4aVBZS1pSQmJnOVdHZTNZQkQwMnowenVWaW9PVFZnSG5i?oc=5",
       "tickers": "",
-      "positive": 0.427622,
-      "negative": 0.316014,
-      "neutral": 0.256364,
-      "confidence": 0.427622
+      "positive": 0.0436,
+      "negative": 0.938786,
+      "neutral": 0.017614,
+      "confidence": 0.938786
     },
     {
       "postid": 54460045950868,
-      "text": "Nvidia, AMD, Micron fall as AI stock sell-off deepens - CNBC",
-      "post_text": "Nvidia, AMD, Micron fall as AI stock sell-off deepens CNBC",
+      "text": "Nvidia, AMD, Dell sell-off in global tech rout on AI funding worries - CNBC",
+      "post_text": "Nvidia, AMD, Dell sell-off in global tech rout on AI funding worries CNBC",
       "score": 0,
       "upvote_ratio": 0,
       "creation": "2026-10-15",
@@ -370,11 +523,11 @@
       "source_name": "Google News",
       "publisher": "CNBC",
       "source_url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPaGhRTkZ4cjB1WFcxY0ZaekZ0anhJSW1MYlRMVV9pZzFacHJySWt5QkZaSEFoMmVBbVZKRzc0TmloQXkydmRSaGs5RW1vQjIyZ1hhQzFBSXN1ZGlJVmI1b2VKU1FIaXlZVTJBZHZZMUkxemJ1ZWZUY3E5Q205RWp1WFItS2FJMEx2Zjg4ejRHQy11UjRMbkFPSXJnSkluT01nMVNKbHRn0gGrAUFVX3lxTE1fQkI2UFBBMEExelZWTnRzQ1lzaE1Hdms2R3hjLW9tVmdsZ1hWNGdxRVE1VnlZWVBQU1ZZTW56SUJrYVNYX25QTFFOMExfZmpZY1RCRkpwZmFZX3d6T1BCdU5Rd3ZsME5zdHJhUFRkNG5KUHdkNUsyRHBjX3I1VWNpZkhWRVZ4eFZlS3Jhc1ZoS1dBbVpPRlFyTkRUd1pRNDNqMHNDTWgzV1VGaw?oc=5",
-      "tickers": "AMD,NVDA,MU",
-      "positive": 0.023344,
-      "negative": 0.957067,
-      "neutral": 0.01959,
-      "confidence": 0.957067
+      "tickers": "AMD,NVDA",
+      "positive": 0.038404,
+      "negative": 0.841155,
+      "neutral": 0.12044,
+      "confidence": 0.841155
     },
     {
       "postid": 48937624780572,
@@ -411,6 +564,23 @@
       "confidence": 0.987463
     },
     {
+      "postid": 40099168714805,
+      "text": "Cocoa +60% since my June DD. A GODZILLA El Niño is coming, and we’re LESS prepared than in 2023.",
+      "post_text": "SaltyVegan69 checking in. 🌱🍫 Four months ago, on June 11, I posted my original cocoa DD ⁠, arguing that the market was massively underpricing the risk of a Super El Niño hitting global cocoa production. Some of you called it AI slop. Others compared it to ornamental gourds. Well. Cocoa on June 11: ~$3,700/tonne. Cocoa today: ~$5,950/tonne. That’s approximately +60%. And I think the most interesting part of this trade is still ahead of us. Here’s what’s changed. 1. MY ORIGINAL THESIS: THE MARKET WAS LOOKING AT THE WRONG CROP This was the central argument in June. Everyone was obsessing over the",
+      "score": 0,
+      "upvote_ratio": 0,
+      "creation": "2026-10-15",
+      "source": "reddit",
+      "source_name": "Reddit",
+      "publisher": "r/wallstreetbets",
+      "source_url": "https://www.reddit.com/r/wallstreetbets/comments/1x6jiow/cocoa_60_since_my_june_dd_a_godzilla_el_niño_is/",
+      "tickers": "",
+      "positive": 0.02008,
+      "negative": 0.042779,
+      "neutral": 0.937141,
+      "confidence": 0.937141
+    },
+    {
       "postid": 36903056890843,
       "text": "US chip stocks set to wipe out $2 trillion after latest selloff - Reuters",
       "post_text": "US chip stocks set to wipe out $2 trillion after latest selloff Reuters",
@@ -422,10 +592,27 @@
       "publisher": "Reuters",
       "source_url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNVDZEYU5ySFdLYUlmY29XeGxBbzZ1Nk92dHprTE44dzd5V19Yd09NdmUxUFpXMHhxdzYwenJiUjJQRFhPOXhBcHptTW9rY2J2Y01kM1loR3VQMVBXRG9mR2hQbkdWVnNGQVpCN01KelozT1h4aGx0RjRYeUZHRVRCYnlLWlpXWmpwbFRmRG4tSFR1RkNpRHNTb0lueU1VdWlpSjVFVGljZw?oc=5",
       "tickers": "",
-      "positive": 0.261507,
-      "negative": 0.599253,
+      "positive": 0.261506,
+      "negative": 0.599254,
       "neutral": 0.13924,
-      "confidence": 0.599253
+      "confidence": 0.599254
+    },
+    {
+      "postid": 23488036566782,
+      "text": "Don’t do options, kids. -$360k",
+      "post_text": "1 year. Zero to hero to zero. Thanks ASTS and its management . submitted by /u/CartmanAndCartman to r/wallstreetbets [link] [comments]",
+      "score": 0,
+      "upvote_ratio": 0,
+      "creation": "2026-10-15",
+      "source": "reddit",
+      "source_name": "Reddit",
+      "publisher": "r/wallstreetbets",
+      "source_url": "https://www.reddit.com/r/wallstreetbets/comments/1x6vxpj/dont_do_options_kids_360k/",
+      "tickers": "",
+      "positive": 0.047915,
+      "negative": 0.009995,
+      "neutral": 0.94209,
+      "confidence": 0.94209
     },
     {
       "postid": 22577604109243,
@@ -462,21 +649,38 @@
       "confidence": 0.922107
     },
     {
-      "postid": 274194490206584,
-      "text": "AI Jitters and Rate-Hike Fears Combine for Worst Day for Stocks Since July - WSJ",
-      "post_text": "AI Jitters and Rate-Hike Fears Combine for Worst Day for Stocks Since July WSJ",
+      "postid": 4921139028705,
+      "text": "Why the chip stocks wobbled - Axios",
+      "post_text": "Why the chip stocks wobbled Axios",
       "score": 0,
       "upvote_ratio": 0,
-      "creation": "2026-10-14",
+      "creation": "2026-10-15",
       "source": "google_news",
       "source_name": "Google News",
-      "publisher": "WSJ",
-      "source_url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxNMS00bEJpQnlrdXVFckxXaFhKeHJSOU9KcmMxLUlpVzFLdGVjOFYtZWI1WklfZDhlTUJBREVlZmdlNU96UG1wdkt1WTVFRUo3cDlXSFBQWVVpbmplc2ktS3pLRF9lelliT0J2alZ3enNxSmxXU3E0clpUU0I0MjZGNHJpeUMtRnZrVUFOX2c5UEVVdzY2WjZ5cWJzaEthU2pqMHRQMHk5OWVBeHJsLXpUZ2doWXpyYkFVcHc?oc=5",
+      "publisher": "Axios",
+      "source_url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE8tZnJqNldwazJQeEM1MEY5bllDUlpCZ0k5T19YNVcyTHN0MkpDVTNGOEFxaU00cjRmSGwzbnFWVkJTZ1ctSjFlWEp2YkEyUWw0V2tRcDRISW55OXBJbmZveXpVeFhtb09hUmkyREhoT0dWb2c?oc=5",
       "tickers": "",
-      "positive": 0.048495,
-      "negative": 0.893296,
-      "neutral": 0.058209,
-      "confidence": 0.893296
+      "positive": 0.035745,
+      "negative": 0.313953,
+      "neutral": 0.650302,
+      "confidence": 0.650302
+    },
+    {
+      "postid": 3542631740488,
+      "text": "Game Over",
+      "post_text": "Was living a nightmare the past year trying to get back losses. submitted by /u/WingWorried6176 to r/wallstreetbets [link] [comments]",
+      "score": 0,
+      "upvote_ratio": 0,
+      "creation": "2026-10-15",
+      "source": "reddit",
+      "source_name": "Reddit",
+      "publisher": "r/wallstreetbets",
+      "source_url": "https://www.reddit.com/r/wallstreetbets/comments/1x6qk73/game_over/",
+      "tickers": "",
+      "positive": 0.013768,
+      "negative": 0.783907,
+      "neutral": 0.202324,
+      "confidence": 0.783907
     },
     {
       "postid": 270598249951499,
@@ -576,7 +780,7 @@
       "source_url": "https://www.reddit.com/r/wallstreetbets/comments/1x61egt/coreweave_ceo_says_market_acting_irrationally/",
       "tickers": "",
       "positive": 0.01842,
-      "negative": 0.490117,
+      "negative": 0.490118,
       "neutral": 0.491463,
       "confidence": 0.491463
     },
@@ -593,7 +797,7 @@
       "source_url": "https://www.reddit.com/r/wallstreetbets/comments/1x66sbx/340k_profits_on_spy_0dte_today/",
       "tickers": "",
       "positive": 0.078079,
-      "negative": 0.128989,
+      "negative": 0.12899,
       "neutral": 0.792932,
       "confidence": 0.792932
     },
@@ -613,6 +817,23 @@
       "negative": 0.021442,
       "neutral": 0.923794,
       "confidence": 0.923794
+    },
+    {
+      "postid": 240406173975548,
+      "text": "Chip Stocks Set to Erase $1 Trillion in Value as Rout Deepens - Bloomberg.com",
+      "post_text": "Chip Stocks Set to Erase $1 Trillion in Value as Rout Deepens Bloomberg.com",
+      "score": 0,
+      "upvote_ratio": 0,
+      "creation": "2026-10-14",
+      "source": "google_news",
+      "source_name": "Google News",
+      "publisher": "Bloomberg.com",
+      "source_url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQLU5tdUlObk9iVy1wT3p6QjBDQVdUNEhIOUR1ZS0zOFhsSFhoN29PdWQ0ZjQ1X0RHOTVfQ3hkbEVGTU5aRGxVWi1meDRWM2loYlJzR3JfUHJhXzZvRkpBR2ktSzhBbFlrcDFSU1YtcFM0d2IzQTZtUmZRRDVlQXlrRHl3NlZKeXRjYW1vUHpiWDd3UVdQSTMxanhnZWVYQTdadVB5bDRvcU1taVNza2ZfZg?oc=5",
+      "tickers": "",
+      "positive": 0.117014,
+      "negative": 0.568154,
+      "neutral": 0.314832,
+      "confidence": 0.568154
     },
     {
       "postid": 236547175230161,
@@ -715,6 +936,23 @@
       "negative": 0.034634,
       "neutral": 0.021574,
       "confidence": 0.943791
+    },
+    {
+      "postid": 211862570883185,
+      "text": "How Warren Buffett Handles Market Downturns—And What Investors Can Learn From His Approach - Investopedia",
+      "post_text": "How Warren Buffett Handles Market Downturns—And What Investors Can Learn From His Approach Investopedia",
+      "score": 0,
+      "upvote_ratio": 0,
+      "creation": "2026-10-14",
+      "source": "google_news",
+      "source_name": "Google News",
+      "publisher": "Investopedia",
+      "source_url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxQSHhYTDlmWF9JUDgycXhnRTR4cDJnUWRBM253QVNfUTM5RHZ5aGs4eHFHczBJRWtyS3k5Z0p3SGdwM3B6Z2dQRmJjX1VCdDQyUjVLenhHUkFnZVIxZkFCcEVmTUhzWjhOUUltSjJ6TFFrYWhFUEM0NG5RZU9fRDZ2SkF0QVBLV2hpR0JlT2tCamJjUFBoVm9VN3dRdFhMMWpBUHFBaGpzZlFIVHF2NGtuYndGSWlWRmdPc2V0YnNieXVhYWpGUC1V?oc=5",
+      "tickers": "",
+      "positive": 0.016388,
+      "negative": 0.007286,
+      "neutral": 0.976326,
+      "confidence": 0.976326
     },
     {
       "postid": 199524551067897,
@@ -849,7 +1087,7 @@
       "tickers": "",
       "positive": 0.056571,
       "negative": 0.636093,
-      "neutral": 0.307337,
+      "neutral": 0.307336,
       "confidence": 0.636093
     },
     {
@@ -1040,23 +1278,6 @@
       "confidence": 0.986718
     },
     {
-      "postid": 71843340948339,
-      "text": "Stock Market Today (Oct. 14, 2026): Russell 2000, Nasdaq fall 2% on hot inflation data - Yahoo Finance",
-      "post_text": "Stock Market Today (Oct. 14, 2026): Russell 2000, Nasdaq fall 2% on hot inflation data Yahoo Finance",
-      "score": 0,
-      "upvote_ratio": 0,
-      "creation": "2026-10-14",
-      "source": "google_news",
-      "source_name": "Google News",
-      "publisher": "Yahoo Finance",
-      "source_url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxOd2x1TWFHUWVuczZKaVpGZjlSX1Jvc0hIOWtxbWxfbTZLUTJPOEhUTi1BRF9XN3pwRXBqVUZXdExfZTZPUXhvMHNubW9Pbm01QVBkeGVDTXo5S2FiSi1YSi1RTjNvMTV1YTN0Y011eFhoZy1nLTRUVFRiNFVNcWwyajhxLXNfLVRPRUJpcDZreVlJSVlQ?oc=5",
-      "tickers": "",
-      "positive": 0.034684,
-      "negative": 0.954556,
-      "neutral": 0.01076,
-      "confidence": 0.954556
-    },
-    {
       "postid": 68043134866116,
       "text": "Rocket Lab (RKLB) delayed inaugural launch of its Neutron vehicle to 2027",
       "post_text": "submitted by /u/D4vester to r/wallstreetbets [link] [comments]",
@@ -1069,9 +1290,9 @@
       "source_url": "https://www.reddit.com/r/wallstreetbets/comments/1x62s07/rocket_lab_rklb_delayed_inaugural_launch_of_its/",
       "tickers": "",
       "positive": 0.018536,
-      "negative": 0.362024,
-      "neutral": 0.61944,
-      "confidence": 0.61944
+      "negative": 0.362023,
+      "neutral": 0.619442,
+      "confidence": 0.619442
     },
     {
       "postid": 58976053303119,
@@ -1159,6 +1380,23 @@
       "confidence": 0.926936
     },
     {
+      "postid": 31686726085350,
+      "text": "ASML Stock Is Falling After Earnings Point to Soaring AI Demand. Here's Why. - Barron's",
+      "post_text": "ASML Stock Is Falling After Earnings Point to Soaring AI Demand. Here's Why. Barron's",
+      "score": 0,
+      "upvote_ratio": 0,
+      "creation": "2026-10-14",
+      "source": "google_news",
+      "source_name": "Google News",
+      "publisher": "Barron's",
+      "source_url": "https://news.google.com/rss/articles/CBMidkFVX3lxTFBpbkxpTFBzSFJrQVlNUlVPeFhaTjM1cmMzVFYydUJEMkN1Y0RjbmFSZ0FZRVk5R0h2d1MxNjdLU3hZNXpyTU42LTM2ZWVxcTBUN1AzSjlsRFpEdkd0MHJGRW8tNndSdVVkU3NYc3owWXJtdXFYWEE?oc=5",
+      "tickers": "ASML",
+      "positive": 0.025653,
+      "negative": 0.961751,
+      "neutral": 0.012595,
+      "confidence": 0.961751
+    },
+    {
       "postid": 29634401471553,
       "text": "E-mini S&P 500 futures hold flat as bank earnings season begins. - CME Group",
       "post_text": "E-mini S&P 500 futures hold flat as bank earnings season begins. CME Group",
@@ -1205,7 +1443,7 @@
       "source_url": "https://www.reddit.com/r/wallstreetbets/comments/1x61429/scoop_andreessen_horowitz_lays_off_majority_of/",
       "tickers": "",
       "positive": 0.013161,
-      "negative": 0.317915,
+      "negative": 0.317914,
       "neutral": 0.668924,
       "confidence": 0.668924
     },
@@ -1376,8 +1614,25 @@
       "tickers": "SPOT",
       "positive": 0.434979,
       "negative": 0.175635,
-      "neutral": 0.389385,
+      "neutral": 0.389386,
       "confidence": 0.434979
+    },
+    {
+      "postid": 233099803766539,
+      "text": "Nasdaq Futures Fall as Global AI Selloff Intensifies - WSJ",
+      "post_text": "Nasdaq Futures Fall as Global AI Selloff Intensifies WSJ",
+      "score": 0,
+      "upvote_ratio": 0,
+      "creation": "2026-10-13",
+      "source": "google_news",
+      "source_name": "Google News",
+      "publisher": "WSJ",
+      "source_url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxNaV9QVFVsbXRmd3pZTmU1SjAtTnJNT2ZoZ1QyUUpJUWc2eG5YS1lDaTA1bEZoc21DWUxTWTBOd1UtWE5wcDgtNklJMzM5VWhhTkdyV3JCVVJrVU9YY1ExaklxLU9sOHFvX1pkT2o0cVJkZ3dTbnBtT1VfdnZ3Qm43VUF0dWR2OXY3X0RiTGNhWC0wV2JqdF9VazU1UDI?oc=5",
+      "tickers": "",
+      "positive": 0.038908,
+      "negative": 0.945135,
+      "neutral": 0.015957,
+      "confidence": 0.945135
     },
     {
       "postid": 232725680126985,
@@ -1425,27 +1680,10 @@
       "publisher": "Yahoo Finance",
       "source_url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxQS0N3bmNZdk5BZEFJY2JJU1FTSEFsXzRkMGlkaF9EMWVNSERqYTJVdm1fazRhS1kwMHN6QVdBMjBFMjJ4TGRIRE1sS0E0VVozMy13MkxKcG0tZDFtNzhUTFNvanM1TUlqUjFGS2JHQ1YxRjU2ZHljQXFkOWltaDRvUG5FS0RhSVo2djliMU1zZGZleVJVWUF5andaanpSWGczak5jd250MTZUNVhzUTJPUGNKN3Z3V2Jrb2hGOTJB?oc=5",
       "tickers": "",
-      "positive": 0.459187,
-      "negative": 0.500249,
+      "positive": 0.459188,
+      "negative": 0.500248,
       "neutral": 0.040564,
-      "confidence": 0.500249
-    },
-    {
-      "postid": 221040575029990,
-      "text": "For Stocks, the Future Ain’t What It Used to Be - WSJ",
-      "post_text": "For Stocks, the Future Ain’t What It Used to Be WSJ",
-      "score": 0,
-      "upvote_ratio": 0,
-      "creation": "2026-10-13",
-      "source": "google_news",
-      "source_name": "Google News",
-      "publisher": "WSJ",
-      "source_url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxPc01IRHV1R1M4WWZKalpGNGt2UklGZG50akFyMUk1cjlXS25CTFIxb204bV9KaEgtdVBXV25fQXlWVzdFQlI3MnVGSnlSOGdPQkZRdTVpMUdzcERHWmxUaDNLZWU5Tnh2eHh3bnJOLUdNLWpidmNMQ0NCbFVxaDZQb00xNDZTYVFTZDdiVGNYZExickJVWkQ4?oc=5",
-      "tickers": "",
-      "positive": 0.007154,
-      "negative": 0.006042,
-      "neutral": 0.986804,
-      "confidence": 0.986804
+      "confidence": 0.500248
     },
     {
       "postid": 205360555008979,
@@ -1482,6 +1720,23 @@
       "confidence": 0.976015
     },
     {
+      "postid": 193743366061412,
+      "text": "U.S. Stocks Tick Down as Bank Earnings Don’t Excite - WSJ",
+      "post_text": "U.S. Stocks Tick Down as Bank Earnings Don’t Excite WSJ",
+      "score": 0,
+      "upvote_ratio": 0,
+      "creation": "2026-10-13",
+      "source": "google_news",
+      "source_name": "Google News",
+      "publisher": "WSJ",
+      "source_url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxQTjc4TmVBTEFXWVpxaDF4SlNaZmdGTE5XMk1oeEhUQkRhQlJJeTZVN1RNWGRuR3NHajNfdkNqc2ZxTk15MEFOMkxCcXRZMGhlYmRURkVrTl8xRUcxSGpuVVN0Sks1a2JYZ3RjNEpPbVFUMk5EampnbFdRMnBaMElxakM0dHNPSnp1VjRieC1FRXZpcVlDT0xFRQ?oc=5",
+      "tickers": "",
+      "positive": 0.337501,
+      "negative": 0.617606,
+      "neutral": 0.044893,
+      "confidence": 0.617606
+    },
+    {
       "postid": 190690019200435,
       "text": "Anthropic are not going to be profitable",
       "post_text": "In 2025, Anthropic made $4b rev, -$46b costs for a net loss of -$42 billion. That's a -1,100% profit margin. It's actually shocking how bad that is They also have publicly committed not to sell ads So they'll somehow have to make up a -1,100% profit margin with very limited options Also, competition is rising exponentially from rivals including Meta's Muse, Google's Gemini, Chinese open-weight/open-source models, decreasing their market share People can get decent AI from much cheaper options So even though OpenAI/Anthropic are already not profitable, they are being forced to lower their price",
@@ -1497,23 +1752,6 @@
       "negative": 0.007569,
       "neutral": 0.986185,
       "confidence": 0.986185
-    },
-    {
-      "postid": 183178743265370,
-      "text": "J&J posts weak medical device sales, shares fall - CNBC",
-      "post_text": "J&J posts weak medical device sales, shares fall CNBC",
-      "score": 0,
-      "upvote_ratio": 0,
-      "creation": "2026-10-13",
-      "source": "google_news",
-      "source_name": "Google News",
-      "publisher": "CNBC",
-      "source_url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTFB6eVFrUE9VUHY4WW5EVl9VWktTZkU2cE1GYldia0ItYzhxOVdDaWdrMkpFQW9uREdOcU5zWUdmU1hTMXlQbkN4c09oVWtXX3hQWUxvSk9zVlRQZUcxLXNaNHdoQ3RRRDgy0gFuQVVfeXFMTVpmUjFfNWNTMVc3ZEs0MUpNcUtRejlDckNleXQ1NHB0Ung5X2l6b05NYXloYW1DWEtwbDdSZElYZFJzUXhBbnhlQTQ0YW9PdmVaNUdTc0hpM2t6ckE1SGd4X2h5MDBZV2ZoRlo1dlE?oc=5",
-      "tickers": "",
-      "positive": 0.016394,
-      "negative": 0.955463,
-      "neutral": 0.028143,
-      "confidence": 0.955463
     },
     {
       "postid": 156815193547436,
@@ -1596,26 +1834,9 @@
       "source_url": "https://www.reddit.com/r/wallstreetbets/comments/1x4qmud/i_used_to_think_girls_were_silly_because_they_pay/",
       "tickers": "",
       "positive": 0.010622,
-      "negative": 0.057328,
+      "negative": 0.057329,
       "neutral": 0.93205,
       "confidence": 0.93205
-    },
-    {
-      "postid": 150133095527474,
-      "text": "Johnson & Johnson stock falls despite strong earnings as investors focus on medtech unit - Yahoo Finance",
-      "post_text": "Johnson & Johnson stock falls despite strong earnings as investors focus on medtech unit Yahoo Finance",
-      "score": 0,
-      "upvote_ratio": 0,
-      "creation": "2026-10-13",
-      "source": "google_news",
-      "source_name": "Google News",
-      "publisher": "Yahoo Finance",
-      "source_url": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxQSkZTQ0gzRndhUVMzeFdnb3Zjby00R0FuX0s2LUhhWERXSzd1dnlCSmt2Q3BYd2NMQVVOWmdacTBTT3N1dmVfVTF4WWhONWhNLVRHWVBhMkgzTmVQMjlFMmJBbk9SYl9lRVU0VVo2WXdPZE5YYjE0RDByM3N5cWdSdWM3dklfNUw2aHc3dngyR3VrNHg3a1g5SGMyMUNxN0t1U1JYTmlUak00N1NRbUl3YV82MWl0bFhYM0hwUFpUblVMTjRuQjI5UGxMbVYwV2dvZFJQTVJ6STRGLWRv?oc=5",
-      "tickers": "JNJ",
-      "positive": 0.072426,
-      "negative": 0.904719,
-      "neutral": 0.022854,
-      "confidence": 0.904719
     },
     {
       "postid": 148468986472253,
@@ -1629,10 +1850,10 @@
       "publisher": "Reuters",
       "source_url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPM1RJWWJHTmtIMnhaYWVyeFFpYV8wZndZMUFOVXM2NkpJdUNfRGlyQzdHeVcwMXkxcXkyWFFZQ3hXS3RpM0NqZUtNcmxNd3NkSGZETmlvTjRRYjJ3X3BXa0FEamh0NDExSTZieGRHam9BdFBiZXdOcTBSUXRPNlFEeTVKOEtkN3JiV25QUEsyekp0OTJRaU5nVA?oc=5",
       "tickers": "",
-      "positive": 0.038861,
-      "negative": 0.2548,
-      "neutral": 0.70634,
-      "confidence": 0.70634
+      "positive": 0.03886,
+      "negative": 0.254799,
+      "neutral": 0.706341,
+      "confidence": 0.706341
     },
     {
       "postid": 145929124014812,
@@ -1681,9 +1902,9 @@
       "source_url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNUEdnZjlUNktHX2ViUVRqZHd4ZmhjaXdkd0NMR3BVLUp6akpVOUFabEljcHk4N0wzRDloZXhuQklwaVUwWjNYSFJnYkhzQ0RQNzZFZXh6VFh2U0hEZ1FybXhxNUQ0WTVLbXZydHM4REVRLXVVbHpsd2Rnc0M1MnVMMlVJTVc?oc=5",
       "tickers": "AVGO",
       "positive": 0.067145,
-      "negative": 0.907001,
+      "negative": 0.907002,
       "neutral": 0.025854,
-      "confidence": 0.907001
+      "confidence": 0.907002
     },
     {
       "postid": 137598705270816,
@@ -1920,8 +2141,8 @@
       "tickers": "",
       "positive": 0.139545,
       "negative": 0.027411,
-      "neutral": 0.833044,
-      "confidence": 0.833044
+      "neutral": 0.833045,
+      "confidence": 0.833045
     },
     {
       "postid": 72006853923568,
@@ -1970,7 +2191,7 @@
       "source_url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxOZTNMNERvMGJITmdiUUw5VGRoSkJjT2w1dHlxd2NPemdFMTlhUFRORXpiWUhJZU5DM0RvRG43cHNGUXpPOC1SNWlfUDI5NVBTdDNKS2M2ZGZQMjR4aVJOMmhNZ0lpejBIeFBOcG96NF9oN3pRYXJnZVNVaUpBTnlOZ2F2MFlWRFFudXhleVdyelVYY1ktOUY0?oc=5",
       "tickers": "AVGO",
       "positive": 0.253146,
-      "negative": 0.37083,
+      "negative": 0.370829,
       "neutral": 0.376025,
       "confidence": 0.376025
     },
@@ -2020,10 +2241,10 @@
       "publisher": "r/wallstreetbets",
       "source_url": "https://www.reddit.com/r/wallstreetbets/comments/1x4w4v2/best_decision_i_made/",
       "tickers": "",
-      "positive": 0.659165,
+      "positive": 0.659166,
       "negative": 0.007955,
-      "neutral": 0.33288,
-      "confidence": 0.659165
+      "neutral": 0.332879,
+      "confidence": 0.659166
     },
     {
       "postid": 265936292962877,
@@ -2158,25 +2379,8 @@
       "tickers": "",
       "positive": 0.767198,
       "negative": 0.112869,
-      "neutral": 0.119933,
+      "neutral": 0.119934,
       "confidence": 0.767198
-    },
-    {
-      "postid": 170641889418942,
-      "text": "Is the stock market open on Columbus Day, Indigenous Peoples Day? - Yahoo Finance",
-      "post_text": "Is the stock market open on Columbus Day, Indigenous Peoples Day? Yahoo Finance",
-      "score": 0,
-      "upvote_ratio": 0,
-      "creation": "2026-10-12",
-      "source": "google_news",
-      "source_name": "Google News",
-      "publisher": "Yahoo Finance",
-      "source_url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxQdUxaQ0dZRTY2Wmo0WElseFdGeC0yOU1GM0NxUEktek8yOVlwalFEeVJiMnB6enBYN3NleVI1LW5FckkyY1FrYzhibTZLTGw2YktDc0FwVTI4THJyVGZwRHQwaTZCOVA1NHJBRU5RalBLaVFZNlN5dEJ6RHBaTXI1TFRWQVNqcXZzMGRidVFueHVoMll6ZUtPWHlxaHk0ZnlhaTRfdU5lQVBnaGJPaGVOMU96UFYwMkpVRG5fMTAySTMwMUljQURFc0hIbmttdWt4ZXRpZ3p3?oc=5",
-      "tickers": "",
-      "positive": 0.008368,
-      "negative": 0.004666,
-      "neutral": 0.986966,
-      "confidence": 0.986966
     },
     {
       "postid": 144900284009472,
@@ -2264,23 +2468,6 @@
       "confidence": 0.942699
     },
     {
-      "postid": 91637819764458,
-      "text": "1. If Phil or Travis Knight does not take NIKE private, this is not a turnaround story. 2. Warren Buffett and Charlie Munger could see it.",
-      "post_text": "Phil's family has still large influence on NIKE - in fact, they get to determine 8 out of 11 board of directors thanks to amount of Class A shares they hold. My view is so far, they havent done anything and I am not sure if they will intervene. If they dont either changing the CEO, the board, or taking the company private - I am not sure I can have faith in NIKE. I stumbled upon 1990s video of Warren Buffett and Charlie Munger. They are being asked why they didnt invest in the company, their response was they didnt understand even if they tried and they couldnt see where the company would be i",
-      "score": 0,
-      "upvote_ratio": 0,
-      "creation": "2026-10-12",
-      "source": "reddit",
-      "source_name": "Reddit",
-      "publisher": "r/stocks",
-      "source_url": "https://www.reddit.com/r/stocks/comments/1x3p4lr/1_if_phil_or_travis_knight_does_not_take_nike/",
-      "tickers": "NKE",
-      "positive": 0.008166,
-      "negative": 0.011597,
-      "neutral": 0.980236,
-      "confidence": 0.980236
-    },
-    {
       "postid": 89590780273782,
       "text": "Broadcom CEO Hock Tan calls AI investors casino gamblers",
       "post_text": "We just got called gamblers by the CEO of Broadcom submitted by /u/AW3NS to r/wallstreetbets [link] [comments]",
@@ -2343,7 +2530,7 @@
       "publisher": "Reuters",
       "source_url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxQajFpQm1yQTNQelVjcWZoYzl2Y3I3T3g1RFZxc3RQazNndjh1cV9qeDJJeUVRQ21JVTVnazMzZnM2YUIwT29LZ2FTYXJSeHVQSmFIOUJKTHJhTmJmOVJmVTA5bkR3MnRIT3BuTjFUMDE2WWphaHBUaU5TTkF2X1Ntc3BveWR6ckxNOUFlUlE2a1JmaXVTTmNkVVItd1VtTzNMM3Y4RHU2YVBXNmttdFo2ZVVER0ZXRllLVjRB?oc=5",
       "tickers": "SPACEX",
-      "positive": 0.120705,
+      "positive": 0.120704,
       "negative": 0.856724,
       "neutral": 0.022571,
       "confidence": 0.856724
@@ -2412,26 +2599,9 @@
       "source_url": "https://www.reddit.com/r/wallstreetbets/comments/1x436rq/im_absolutely_devastated_at_my_sheer_stupidity/",
       "tickers": "",
       "positive": 0.009484,
-      "negative": 0.085348,
+      "negative": 0.085349,
       "neutral": 0.905168,
       "confidence": 0.905168
-    },
-    {
-      "postid": 5568709809480,
-      "text": "A handful of tech stocks are masking an ugly S&P 500 problem - Yahoo Finance",
-      "post_text": "A handful of tech stocks are masking an ugly S&P 500 problem Yahoo Finance",
-      "score": 0,
-      "upvote_ratio": 0,
-      "creation": "2026-10-12",
-      "source": "google_news",
-      "source_name": "Google News",
-      "publisher": "Yahoo Finance",
-      "source_url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxQYURkejdDei1aZDdhZnA3UUkwTnFvVG9jcUJfVndOMTg2eExpWUtaV0ozclc2cUJWdV9Va2ZPaTMzOWxWd0JCSXpzNXI0aEItWnNnTnpzV2JWMGdXRlhGXzRrTkNtLUVINEFyWHVHamw1eVQtUm9IcEhOS0pGMkM1NXVTdUVaS3ZtbV96dC1uS3kzZm9rN3ZIMUJBT0xoZEs3cUxUSHZuWVR2Ty1xZGQ5bldDWDlkVU0?oc=5",
-      "tickers": "",
-      "positive": 0.043487,
-      "negative": 0.313637,
-      "neutral": 0.642876,
-      "confidence": 0.642876
     },
     {
       "postid": 234962302453667,
@@ -2583,7 +2753,7 @@
       "tickers": "",
       "positive": 0.73249,
       "negative": 0.178964,
-      "neutral": 0.088545,
+      "neutral": 0.088546,
       "confidence": 0.73249
     },
     {
@@ -2633,9 +2803,9 @@
       "source_url": "https://www.reddit.com/r/StockMarket/comments/1x258qi/exclusive_there_is_no_profit_even_if_we/",
       "tickers": "",
       "positive": 0.016388,
-      "negative": 0.678011,
-      "neutral": 0.305601,
-      "confidence": 0.678011
+      "negative": 0.678012,
+      "neutral": 0.3056,
+      "confidence": 0.678012
     },
     {
       "postid": 152308286646116,
@@ -2650,9 +2820,9 @@
       "source_url": "https://www.reddit.com/r/StockMarket/comments/1x2je6z/nvidia_reportedly_discontinuing_rtx_5090_gb202/",
       "tickers": "RTX,NVDA",
       "positive": 0.008615,
-      "negative": 0.131311,
-      "neutral": 0.860074,
-      "confidence": 0.860074
+      "negative": 0.131312,
+      "neutral": 0.860073,
+      "confidence": 0.860073
     },
     {
       "postid": 137950119576060,
@@ -2666,10 +2836,10 @@
       "publisher": "r/stocks",
       "source_url": "https://www.reddit.com/r/stocks/comments/1x2a9dn/anthropic_145b_raised_2t_ipo_target_what_profit/",
       "tickers": "",
-      "positive": 0.511462,
+      "positive": 0.511463,
       "negative": 0.011843,
-      "neutral": 0.476696,
-      "confidence": 0.511462
+      "neutral": 0.476694,
+      "confidence": 0.511463
     },
     {
       "postid": 128828869563701,
@@ -2717,10 +2887,10 @@
       "publisher": "Barron's",
       "source_url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE1rcG9INW0zOG5YU3FNOENwekh0NEdyLWVnaTZxWU9hM0M1VjJVR1pxcmVCbTNWLVpVUXRSZkh5dFJlZzBHdjhJbV9kb3VPV191a3FRUGRHRjJxNWcxQ3FaeEQwTFk3NDRMMEtDdWJqQTRpRkNnRHRsMUNQYVY?oc=5",
       "tickers": "",
-      "positive": 0.801908,
+      "positive": 0.801909,
       "negative": 0.154074,
       "neutral": 0.044018,
-      "confidence": 0.801908
+      "confidence": 0.801909
     },
     {
       "postid": 68692681367641,
@@ -2820,9 +2990,26 @@
       "source_url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxOOUk2RnFEbjJ3U1VMdUdwTXNrT3VNT0FpcjBDMFVLVHVzSHVlLVJjZE8tRC15Y1I0aWN5ZzJJQlJZaldBVmJ0cy1FLUVZNGVVc0k2bzg5dDlQTFlabzFrSHgtQ0dMNXg2N21BSzhsZEhyTTRTUjlBa2JhSWh5RVU1UWs4bnlhZ3M5Z3RCMTBLSXVieTBwckZNTWR0MUhkYUk1NUp6STFSaGhZb3FFTE5hVlRodXVOdE9faFlDZklPdGRlaERDR2c?oc=5",
       "tickers": "SPACEX",
       "positive": 0.294734,
-      "negative": 0.603241,
-      "neutral": 0.102025,
-      "confidence": 0.603241
+      "negative": 0.60324,
+      "neutral": 0.102026,
+      "confidence": 0.60324
+    },
+    {
+      "postid": 240577132517287,
+      "text": "The stock market isn’t the economy — except when maybe it is? - Marketplace.org",
+      "post_text": "The stock market isn’t the economy — except when maybe it is? Marketplace.org",
+      "score": 0,
+      "upvote_ratio": 0,
+      "creation": "2026-10-09",
+      "source": "google_news",
+      "source_name": "Google News",
+      "publisher": "Marketplace.org",
+      "source_url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxONHNucXBvRzB3TVZWNzktWWVuVGVWVENzaXl6cVh0Q1U4ZFBSTTZIR21oelExNVFKUklfWVNKY3Z3eVdCZU9YMHFTSDJxRUFOOGFsc25XQUpEUlE4X2NWRHBRQ3ZiSUdYOUhxMG1Sa3BDN0Fwdl9JXzFkak55ZTlicVpBYmk5OGllYUdBVkZXam9jZlpTYXFRYzlsVHhWT2RpVFo5dw?oc=5",
+      "tickers": "",
+      "positive": 0.005179,
+      "negative": 0.009167,
+      "neutral": 0.985654,
+      "confidence": 0.985654
     },
     {
       "postid": 227369208408107,
@@ -2957,7 +3144,7 @@
       "tickers": "",
       "positive": 0.609503,
       "negative": 0.019363,
-      "neutral": 0.371134,
+      "neutral": 0.371135,
       "confidence": 0.609503
     },
     {
@@ -2989,10 +3176,27 @@
       "publisher": "CNBC",
       "source_url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE1mOGN0V1ByT3RNaEptbk56TkZ1ZmMteXdqendoTDR0VFVVMC03WnVsLUFzYm5MS1NBeHBtZmhRQWQ3TEdLbUxwaWhJTTIyb2JGTG50SHVHX1IwX0JVTjZoNlZ3Mjd1ZHVTZ2YwNlJsQTRMbm5X0gF6QVVfeXFMTlFTaV9RTG51WTNiTnA1ejItTG1yUU1KOHlvanFhTlhqTkFuZllsUHI2VzRoQU40Vkg0WXU5VndRLUgwd0Nnbkx0ZWNKSHg2N0JudmtfT0FBQzZGazN4QVFpTHRJZFJMNV94WE0wWklXYVFQc085dHJEblE?oc=5",
       "tickers": "",
-      "positive": 0.541315,
+      "positive": 0.541314,
       "negative": 0.011774,
       "neutral": 0.446911,
-      "confidence": 0.541315
+      "confidence": 0.541314
+    },
+    {
+      "postid": 87938401440310,
+      "text": "Why bank stocks are falling despite surging interest rates - Financial Times",
+      "post_text": "Why bank stocks are falling despite surging interest rates Financial Times",
+      "score": 0,
+      "upvote_ratio": 0,
+      "creation": "2026-10-09",
+      "source": "google_news",
+      "source_name": "Google News",
+      "publisher": "Financial Times",
+      "source_url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPb19YWWg1MW9kZV9GUlByVThCeDdjOG5aY29YNEpOdVJfd0NKTkdkNUhReVZCdHZEX0xYbTJZZUoxa1g3dDF0Q3RVQ3hCNDhxVEVGSHRvLV81NHNnOVN0MTRYVEp3TnhtbThfT096aU12NjU5WmU3SXBHR3hST0ZYb0xwa1A?oc=5",
+      "tickers": "",
+      "positive": 0.022454,
+      "negative": 0.956488,
+      "neutral": 0.021058,
+      "confidence": 0.956488
     },
     {
       "postid": 72831185513691,
@@ -3024,9 +3228,9 @@
       "source_url": "https://www.reddit.com/r/wallstreetbets/comments/1x1ev7a/finally_green/",
       "tickers": "",
       "positive": 0.010138,
-      "negative": 0.481933,
-      "neutral": 0.507929,
-      "confidence": 0.507929
+      "negative": 0.481932,
+      "neutral": 0.50793,
+      "confidence": 0.50793
     },
     {
       "postid": 21389287957461,
@@ -3046,6 +3250,23 @@
       "confidence": 0.98467
     },
     {
+      "postid": 21052264481942,
+      "text": "S&P 500 Likely to Report Earnings Growth Above 35% for Q3 - FactSet Insight",
+      "post_text": "S&P 500 Likely to Report Earnings Growth Above 35% for Q3 FactSet Insight",
+      "score": 0,
+      "upvote_ratio": 0,
+      "creation": "2026-10-09",
+      "source": "google_news",
+      "source_name": "Google News",
+      "publisher": "FactSet Insight",
+      "source_url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxPV1d1TUVGY2NmSEl4a2hzWXJPNEpFMUQ1eE9RcE5tSVAwbzJwQ1g1VDlKdjdFR0tGY3owQUV0aWN2aHdUN0I5WlJlSFhTVXpFdFk2c1N3VVdkNlc0WDFBYTl4aVZrNkR5ampNYVFBMnpNdHFOYmtKcTVFekVBSzhubmU4Zk1RUGVhd2hZ0gGbAUFVX3lxTE43VEN5bzk1R1U4TDJqT2ptRl9fTGRxd1ZSUFJDWkVpX0ZVQlhadzBtVHJKQ0NQRjZUYlIwa1pzV2JXelBlOFFLQlI4cVJ0U0h4MHYyUXBvSDVPaVBiZWhkdjZ0bWI1V0d1Mjhkc3hCd2Vfa2FqUFFxTGdadmRTU2MtNGxuTXBUWndYX2hOVUhFczBBY203bm56OXh3?oc=5",
+      "tickers": "",
+      "positive": 0.951337,
+      "negative": 0.026862,
+      "neutral": 0.021801,
+      "confidence": 0.951337
+    },
+    {
       "postid": 5808201216109,
       "text": "I believe Open AI will be the yahoo of the AI era.",
       "post_text": "As the title said. I’m not worried about the overall AI trade just because Open AI has lower revenue than previously stated expectations. I think Open AI will be the first loser in the AI race. They have no Moat. Muse is a better chatbot/agent and it’s free! Open AI charges $100 a month for basically the same product. Claude beats it when it comes to coding and enterprise inclusion. Even Microsoft is pulling away from Open AI and leaning more towards Claude. Open AI has nothing to integrate with. Meta can interconnect across Facebook and instagram and all of its other apps. Alphabet has Google",
@@ -3063,91 +3284,6 @@
       "confidence": 0.771463
     },
     {
-      "postid": 277047398230841,
-      "text": "20 yr old college student loss porn",
-      "post_text": "It sucks, I always keep saying that I’ll be smarter the next time. Funny thing is, I never really am. I’ll I know is I still have margin and I’m making it back, credit spreads!!! Otherwise I’m going to just regroup and keep this quiet from my family, regain my capital when I get a job and not be retarded. Idk, I like the tard side sometimes submitted by /u/TaxEvasionNoob to r/wallstreetbets [link] [comments]",
-      "score": 0,
-      "upvote_ratio": 0,
-      "creation": "2026-10-08",
-      "source": "reddit",
-      "source_name": "Reddit",
-      "publisher": "r/wallstreetbets",
-      "source_url": "https://www.reddit.com/r/wallstreetbets/comments/1x0xnzd/20_yr_old_college_student_loss_porn/",
-      "tickers": "",
-      "positive": 0.007237,
-      "negative": 0.016317,
-      "neutral": 0.976446,
-      "confidence": 0.976446
-    },
-    {
-      "postid": 262430910745464,
-      "text": "Securitize launches blockchain-based stocks - Reuters",
-      "post_text": "Securitize launches blockchain-based stocks Reuters",
-      "score": 0,
-      "upvote_ratio": 0,
-      "creation": "2026-10-08",
-      "source": "google_news",
-      "source_name": "Google News",
-      "publisher": "Reuters",
-      "source_url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxPSEt2WnZrcG5aZ0p1c1lzY1V1VHFhM05oMWx6cDg2RFlYYUZjWThSWTB1alFCSE1kYzhEOHd2V21kQUVpLWZqTTZmMmVJc1MyZmYzVG85Qk1rRERYX09uZlU3VXpVanFnTjF3OGNzVmFBd2JsWUlVUF95YUhZUWt4Q21weThBRmRmVXhrclV5N3AtRFotMTEtTFZMYlM?oc=5",
-      "tickers": "",
-      "positive": 0.011457,
-      "negative": 0.006961,
-      "neutral": 0.981583,
-      "confidence": 0.981583
-    },
-    {
-      "postid": 212559303071306,
-      "text": "Nvidia, Oracle, CoreWeave and other AI stocks sink on OpenAI revenue report",
-      "post_text": "Shares of Nvidia, Oracle, CoreWeave and other artificial intelligence names sank lower on Thursday after the market learned more details about OpenAI’s revenue. OpenAI told investors that it hit roughly $50 billion in annualized revenue at the end of September, CNBC confirmed, lower than the the $68 billion figure that was widely reported late last month. A person familiar with the matter said the $68 billion figure included gross revenue from OpenAI’s partners, which helps investors make a more direct comparison with its chief rival, Anthropic. The Financial Times was first to report the $50 ",
-      "score": 0,
-      "upvote_ratio": 0,
-      "creation": "2026-10-08",
-      "source": "reddit",
-      "source_name": "Reddit",
-      "publisher": "r/stocks",
-      "source_url": "https://www.reddit.com/r/stocks/comments/1x0z6vg/nvidia_oracle_coreweave_and_other_ai_stocks_sink/",
-      "tickers": "NVDA,ORCL",
-      "positive": 0.037737,
-      "negative": 0.941974,
-      "neutral": 0.020289,
-      "confidence": 0.941974
-    },
-    {
-      "postid": 210480425576232,
-      "text": "SpaceX takes aim at US wireless carriers with spectrum acquisition",
-      "post_text": "$SPCX has agreed to acquire Grain Management’s nationwide portfolio of 800 MHz low-band spectrum licenses, a move the company says will pave the way for Starlink to become a major mobile carrier in the U.S. Elon Musk called it “the last critical piece of the spectrum puzzle needed for SpaceX to provide complete phone coverage in America.” The plan is to combine satellites with a ground-based mobile network. The low-band airwaves would complement Starlink’s 2 GHz spectrum, helping improve indoor coverage and extend service into areas with weak or nonexistent cellular reception. That would put S",
-      "score": 0,
-      "upvote_ratio": 0,
-      "creation": "2026-10-08",
-      "source": "reddit",
-      "source_name": "Reddit",
-      "publisher": "r/stocks",
-      "source_url": "https://www.reddit.com/r/stocks/comments/1x136gz/spacex_takes_aim_at_us_wireless_carriers_with/",
-      "tickers": "SPACEX",
-      "positive": 0.944391,
-      "negative": 0.0084,
-      "neutral": 0.047209,
-      "confidence": 0.944391
-    },
-    {
-      "postid": 202574919670896,
-      "text": "Google might win bigly from AI software-cloning. $GOOGL",
-      "post_text": "EDIT to add this up top: - I do not work at Google or Amazon. My company is a worse performer than both. - I have not even bought this stock yet. - this is not a SaaSpocalypse post. Nobody thinks this will replace enterprise software. That’s not what I’m saying. I think GOOGL might be one of the cleaner winners from this weird AI software-cloning wave. If you aren't following what's happening over the past 2 days, go check X, youtube, whatever. I work in FAANG and have never seen anything like it. Its awesome. REA, “Reverse Engineer Anything,” is blowing up. It gives AI agents reverse engineer",
-      "score": 0,
-      "upvote_ratio": 0,
-      "creation": "2026-10-08",
-      "source": "reddit",
-      "source_name": "Reddit",
-      "publisher": "r/wallstreetbets",
-      "source_url": "https://www.reddit.com/r/wallstreetbets/comments/1x12klg/google_might_win_bigly_from_ai_softwarecloning/",
-      "tickers": "GOOG,AMZN",
-      "positive": 0.085735,
-      "negative": 0.061724,
-      "neutral": 0.85254,
-      "confidence": 0.85254
-    },
-    {
       "postid": 192884823607320,
       "text": "SpaceX announces 800 MHz spectrum telecom purchase on eve of 120 day IPO investors unlock",
       "post_text": "Surprised this isn’t being talked about more. Seems this was a very calculated time to announce this spectrum purchase. IPO investors likely will benefit from the headline as many 120 day locked investors, insiders, and employees will benefit able to sell their SpaceX shares starting tomorrow. submitted by /u/SentenceDowntown591 to r/investing [link] [comments]",
@@ -3159,44 +3295,10 @@
       "publisher": "r/investing",
       "source_url": "https://www.reddit.com/r/investing/comments/1x15r3v/spacex_announces_800_mhz_spectrum_telecom/",
       "tickers": "SPACEX",
-      "positive": 0.372846,
+      "positive": 0.372847,
       "negative": 0.013367,
-      "neutral": 0.613787,
-      "confidence": 0.613787
-    },
-    {
-      "postid": 177590854327420,
-      "text": "Loss porn request.",
-      "post_text": "Thanksgiving is coming soon in Canada, does anybody have a portfolio screenshot I could use when the family asks how their hedge fund manager is doing? The steeper the loss the better. submitted by /u/Specialist-Neat4254 to r/wallstreetbets [link] [comments]",
-      "score": 0,
-      "upvote_ratio": 0,
-      "creation": "2026-10-08",
-      "source": "reddit",
-      "source_name": "Reddit",
-      "publisher": "r/wallstreetbets",
-      "source_url": "https://www.reddit.com/r/wallstreetbets/comments/1x12xla/loss_porn_request/",
-      "tickers": "",
-      "positive": 0.009596,
-      "negative": 0.069278,
-      "neutral": 0.921126,
-      "confidence": 0.921126
-    },
-    {
-      "postid": 158298057970052,
-      "text": "OPENAI'S ANNUALIZED REVENUE NEARS $50B, FAR BELOW EARLIER $70B REPORTS",
-      "post_text": "OpenAI recently told investors its annualized revenue was approaching $50B at the end of September, roughly $20B below the figure widely reported last month. The discrepancy reportedly stems from differences in how OpenAI and Anthropic calculate revenue. Anthropic includes sales through cloud partners such as AWS and Google Cloud, while OpenAI does not. Investors had attempted to adjust OpenAI's figures to make them comparable with Anthropic's, contributing to the previously reported $70B estimate. OpenAI declined to comment. Source: https://www.ft.com/content/b66a9858-f8fb-46cb-b506-44bfe26fc",
-      "score": 0,
-      "upvote_ratio": 0,
-      "creation": "2026-10-08",
-      "source": "reddit",
-      "source_name": "Reddit",
-      "publisher": "r/stocks",
-      "source_url": "https://www.reddit.com/r/stocks/comments/1x0x3qh/openais_annualized_revenue_nears_50b_far_below/",
-      "tickers": "GOOG",
-      "positive": 0.062101,
-      "negative": 0.838931,
-      "neutral": 0.098968,
-      "confidence": 0.838931
+      "neutral": 0.613786,
+      "confidence": 0.613786
     },
     {
       "postid": 140056679425425,
@@ -3216,57 +3318,6 @@
       "confidence": 0.909684
     },
     {
-      "postid": 138249819677378,
-      "text": "Better Investment Right Now: Stocks or Bonds? - A Wealth of Common Sense",
-      "post_text": "Better Investment Right Now: Stocks or Bonds? A Wealth of Common Sense",
-      "score": 0,
-      "upvote_ratio": 0,
-      "creation": "2026-10-08",
-      "source": "google_news",
-      "source_name": "Google News",
-      "publisher": "A Wealth of Common Sense",
-      "source_url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxNZ0poV09BTUJqNHJlMFB0dXdLWWtrNl9ydU5TUUo3ZENPNElTeDI2QXdmRGxjRW1qYW05RWZUdkMyQmY4MmRZdnBPR3B4VXhfWmJzTThHaEZwSTFaRUxyUkw5aXZLemlnZUNpbHpCcXYyMlZZOXYySWlFZlRVWTh2OENGcXRyNnZOeVEwektR?oc=5",
-      "tickers": "",
-      "positive": 0.026465,
-      "negative": 0.004854,
-      "neutral": 0.968681,
-      "confidence": 0.968681
-    },
-    {
-      "postid": 125482387261606,
-      "text": "Q4 2026 Stock Market Outlook: Individual Stock Selection Looks Increasingly Important - Morningstar",
-      "post_text": "Q4 2026 Stock Market Outlook: Individual Stock Selection Looks Increasingly Important Morningstar",
-      "score": 0,
-      "upvote_ratio": 0,
-      "creation": "2026-10-08",
-      "source": "google_news",
-      "source_name": "Google News",
-      "publisher": "Morningstar",
-      "source_url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxNMWlZdDVaR203U3VJdFl4bFI2UEtURlJtdHBSLXhJcHBkVmNDWUM2ODFsUVp3Und1dVdJdGlQdnNpbHdMZUhMSl9odXVZZGpRWEtVb1ZHaGJEbGowczBIZHdxTXpHS0F3bXZiWGYwRW9UVHNvZjVnVDhaZHZRQnU0bFJEQklvb1ZlNWgzdVdnZHkyR0FSVFJvUVVoUk9ENGlqUWNoUlVSZHl5MlUyVEo4MFROM1BQT3JfVzJpMQ?oc=5",
-      "tickers": "",
-      "positive": 0.022114,
-      "negative": 0.011738,
-      "neutral": 0.966148,
-      "confidence": 0.966148
-    },
-    {
-      "postid": 114919712261300,
-      "text": "Tech stocks drop after report that OpenAI’s revenue is lower than expected - CNN",
-      "post_text": "Tech stocks drop after report that OpenAI’s revenue is lower than expected CNN",
-      "score": 0,
-      "upvote_ratio": 0,
-      "creation": "2026-10-08",
-      "source": "google_news",
-      "source_name": "Google News",
-      "publisher": "CNN",
-      "source_url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE5BOTNlajdpNk5VanVGYmx1ZDZBZUpSZGtoWktCQmhzcDVNQ3BtUzBDb3d3MlNndUQyVnFLMThGX3FTZ0RjWDIxM1EyUTJZbU5nM2Z1VFBLRFQxV1o3dFRkdHFzM0tLRHVJT1c1dG9B?oc=5",
-      "tickers": "",
-      "positive": 0.030179,
-      "negative": 0.948123,
-      "neutral": 0.021698,
-      "confidence": 0.948123
-    },
-    {
       "postid": 92981594554146,
       "text": "Earnings, Cashflows and Stock Prices: The AI Spending plays through! - Aswath Damodaran | Substack",
       "post_text": "Earnings, Cashflows and Stock Prices: The AI Spending plays through! Aswath Damodaran | Substack",
@@ -3282,23 +3333,6 @@
       "negative": 0.005276,
       "neutral": 0.982607,
       "confidence": 0.982607
-    },
-    {
-      "postid": 87777475227637,
-      "text": "so the industry that is entirely based on hedging risk(Wall Street)… risks their whole salary lol",
-      "post_text": "Was doing my daily research from Business Insider to do a TSLA DD, and came across this report lmao EDIT: Someone asked and gave it below, but here is the link: Link submitted by /u/Bigass15wheelertruck to r/wallstreetbets [link] [comments]",
-      "score": 0,
-      "upvote_ratio": 0,
-      "creation": "2026-10-08",
-      "source": "reddit",
-      "source_name": "Reddit",
-      "publisher": "r/wallstreetbets",
-      "source_url": "https://www.reddit.com/r/wallstreetbets/comments/1x0xly9/so_the_industry_that_is_entirely_based_on_hedging/",
-      "tickers": "TSLA",
-      "positive": 0.0043,
-      "negative": 0.024085,
-      "neutral": 0.971615,
-      "confidence": 0.971615
     },
     {
       "postid": 86138724229718,
@@ -3318,23 +3352,6 @@
       "confidence": 0.973056
     },
     {
-      "postid": 77262262536760,
-      "text": "Nvidia, Oracle, CoreWeave and other AI stocks sink on OpenAI revenue report - CNBC",
-      "post_text": "Nvidia, Oracle, CoreWeave and other AI stocks sink on OpenAI revenue report CNBC",
-      "score": 0,
-      "upvote_ratio": 0,
-      "creation": "2026-10-08",
-      "source": "google_news",
-      "source_name": "Google News",
-      "publisher": "CNBC",
-      "source_url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxPOG8tazVEa2hVcWdlYU1pZk53QzNMLU1lVWk4c2U0NFRvMk5IMnJYMWdTZERsSHhkYWo1dkRlczFWcGdwRHJfbFJzQ09kUEo1elE4YVRQZWp0Z3lVbU1MUjJIVV9lbFFHbUxPUlJhUER6NzgwdjVFTHM4UVhGZ3pNd3pR0gGHAUFVX3lxTE9nLWxxNlZwaWJicm9JSVBTT3lHeElLRDJ2QklRT2FkelA0eXZSNDlyRWh6dWlhNFloNzZfOUtid3dmcEJsTGNNcTE5VnhEbURXWWo0UGktcmhXNV8tS1lHYndTellPVm00RmFpeFVLTnBqNENtUUtBdHV2NVdPU0Jnb1A1NnpzSQ?oc=5",
-      "tickers": "NVDA,ORCL",
-      "positive": 0.027025,
-      "negative": 0.899211,
-      "neutral": 0.073764,
-      "confidence": 0.899211
-    },
-    {
       "postid": 62033274604128,
       "text": "16x💰",
       "post_text": "previous post After posting last week, I made some trades in the following days and hit 660k today. Started at 40k in Aug, and reached a 16 bagger after 2 months. I did spend some money on a car (bmw ix) and I am at 580k now. Many asked if I have a strategy or gambling: 0dte options are gambling, if anyone else tells you otherwise they’d be lying. I posted my latest trades; I have no current positions as I open/close all positions same day. Only spy 0 dtes. Wishing y’all good luck. Risk it for the biscuit 🫡 submitted by /u/naughtypetz to r/wallstreetbets [link] [comments]",
@@ -3348,8 +3365,8 @@
       "tickers": "",
       "positive": 0.083648,
       "negative": 0.009745,
-      "neutral": 0.906607,
-      "confidence": 0.906607
+      "neutral": 0.906606,
+      "confidence": 0.906606
     }
   ]
 }
