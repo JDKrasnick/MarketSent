@@ -1,24 +1,41 @@
 {
   "schema_version": 2,
-  "generated_at": "2026-10-18T11:10:57.596148Z",
+  "generated_at": "2026-10-18T15:54:19.332611Z",
   "sources": [
     {
       "id": "reddit",
       "name": "Reddit",
       "status": "ok",
       "item_count": 100,
-      "updated_at": "2026-10-18T11:10:57.596148Z"
+      "updated_at": "2026-10-18T15:54:19.332611Z"
     },
     {
       "id": "google_news",
       "name": "Google News",
       "status": "ok",
       "item_count": 100,
-      "updated_at": "2026-10-18T11:10:57.596148Z"
+      "updated_at": "2026-10-18T15:54:19.332611Z"
     }
   ],
   "count": 197,
   "posts": [
+    {
+      "postid": 77376525922471,
+      "text": "Situational Awareness 2.0 Rumors spread of another AI fund being liquidated now",
+      "post_text": "This week Goldman prime brokerage flagged six straight sessions of net selling of AI stocks and a second-fastest pace in a year, only second to July when Situational Awareness was liquidated. That triggered chatter and now begs the question: COULD IT BE HAPPENING AGAIN? Looking at the size of the drops in AI stocks last week I’d say it mirrors July for sure. It just seems like indiscriminate selling day after day without even one single bounce. That certainly indicates that probably some fund is again being liquidated. I think we find out soon enough. Do tech stocks stabilize next week or just",
+      "score": 0,
+      "upvote_ratio": 0,
+      "creation": "2026-10-18",
+      "source": "reddit",
+      "source_name": "Reddit",
+      "publisher": "r/StockMarket",
+      "source_url": "https://www.reddit.com/r/StockMarket/comments/1x8ozog/situational_awareness_20_rumors_spread_of_another/",
+      "tickers": "",
+      "positive": 0.014458,
+      "negative": 0.005454,
+      "neutral": 0.980088,
+      "confidence": 0.980088
+    },
     {
       "postid": 276059826578946,
       "text": "Anthropic Offers Junk-Bond rates to Blackstone in the largest AI chip-financing in history",
@@ -156,23 +173,6 @@
       "confidence": 0.948214
     },
     {
-      "postid": 115740289393384,
-      "text": "AI stocks plunge. Inflation heats up. Where we're still finding opportunities - CNBC",
-      "post_text": "AI stocks plunge. Inflation heats up. Where we're still finding opportunities CNBC",
-      "score": 0,
-      "upvote_ratio": 0,
-      "creation": "2026-10-17",
-      "source": "google_news",
-      "source_name": "Google News",
-      "publisher": "CNBC",
-      "source_url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxQSWIyUlNyQi13dVB2VVh3WTZjbWR1cV9OdlFZblJWVGdNeHhlQ2kzb2lfZHU2dzRjMGZLZWhnU2NFRmw3OWZFT2VSQktMQU9hc0VScWs1SGxfeURwTEtLbzVJMTVfbU9rVzFyY0FqZ3EwU0V2U2VkZjdlQjZ6X1ZDNFdyZjgxWnljY0RSZVVWY0F4a3BwaDFhamYzT0JCazJ4THpLSHN1Xy03SUQ3aVB0U21UYi1tVEdyLWVuX2gtNExRQlk?oc=5",
-      "tickers": "",
-      "positive": 0.528478,
-      "negative": 0.066104,
-      "neutral": 0.405418,
-      "confidence": 0.528478
-    },
-    {
       "postid": 58254289106756,
       "text": "If a Stock Market Crash Is Coming, These 5 Stocks Have a History of Holding Up - Yahoo Finance",
       "post_text": "If a Stock Market Crash Is Coming, These 5 Stocks Have a History of Holding Up Yahoo Finance",
@@ -188,23 +188,6 @@
       "negative": 0.009309,
       "neutral": 0.930901,
       "confidence": 0.930901
-    },
-    {
-      "postid": 22577604109243,
-      "text": "Tokenized Stocks Bring ‘Radical Change’ to Markets, Cuomo Says - WSJ",
-      "post_text": "Tokenized Stocks Bring ‘Radical Change’ to Markets, Cuomo Says WSJ",
-      "score": 0,
-      "upvote_ratio": 0,
-      "creation": "2026-10-17",
-      "source": "google_news",
-      "source_name": "Google News",
-      "publisher": "WSJ",
-      "source_url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPNmtzT2tCeEoxY3FCVGNlellPVGlHVkdQX0lBT2dtTk1FUV9vQjJ2Z3hZNEZRamI1Z2VHRVc1bjdKM0w2YlFLYVdkZzhxV2Vfd2FhOXlNQWUtMUVJR0o0c2VHSktPNVpJcDFpTUMtUWpmOTRXaGlidGdZVFhqdVE0enhOYzlfYjRqYzRYX3J2cDdJXzVPME5CbDJoUjdiZW9IemxYM05hOTFaQQ?oc=5",
-      "tickers": "",
-      "positive": 0.387372,
-      "negative": 0.057246,
-      "neutral": 0.555382,
-      "confidence": 0.555382
     },
     {
       "postid": 279457867729935,
@@ -241,21 +224,21 @@
       "confidence": 0.917214
     },
     {
-      "postid": 269398759598037,
-      "text": "Memory stocks slide into another bear market as chip losses near $2.5 trillion: Chart of the Day - Yahoo Finance",
-      "post_text": "Memory stocks slide into another bear market as chip losses near $2.5 trillion: Chart of the Day Yahoo Finance",
+      "postid": 269536948249780,
+      "text": "Flight to quality hits tech stocks. - CME Group",
+      "post_text": "Flight to quality hits tech stocks. CME Group",
       "score": 0,
       "upvote_ratio": 0,
       "creation": "2026-10-16",
       "source": "google_news",
       "source_name": "Google News",
-      "publisher": "Yahoo Finance",
-      "source_url": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxNRFRnM3RlckJubHBlWE9ITDBoQ1owcVBTUTZPYnlfWUtfSGgtTUlQOEF1OTk2NVlVamYtYUZYa244RVZwb0k0UGhhZ2xvNHZ6emJXdmVtaU1rR0IxVXR4bXp3a3paU1VjVDhFaW1oejg1NjdNNG9mSUoxaHN2S2Zhb2RjaGtxS0MzeE01emZGTWsyTnhBRGJCc0ZWUlM1Y1dUUmJJOFpjYTNaNmVsdWhndE9sQXExbTVJTkZ0WjZkOVotYTdRaExiM2pTSVRYU2ZOTGVueE4yalJXTTJTQ3VhN0lZSjk?oc=5",
+      "publisher": "CME Group",
+      "source_url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxQQldOYWJ2OHowbXJOQXJTVXZRclVCODM0aXBIcU9sQldZekwxZVk1dEx3VF81SFkwT2JEdlBNSjdMa0piYXNkNHhaUVVWVXh1YUdSYkJGTzFZajlZOWZSX1F5bDN2NF9RQTlLeEtaVUZ0cFpLbWRNLXhIMWFUWFNfYUVicjFxSmNXbV91R0ZtaWZiZ0t4S2c?oc=5",
       "tickers": "",
-      "positive": 0.089631,
-      "negative": 0.864479,
-      "neutral": 0.045889,
-      "confidence": 0.864479
+      "positive": 0.904602,
+      "negative": 0.016674,
+      "neutral": 0.078725,
+      "confidence": 0.904602
     },
     {
       "postid": 258899996975514,
@@ -358,23 +341,6 @@
       "negative": 0.767112,
       "neutral": 0.213226,
       "confidence": 0.767112
-    },
-    {
-      "postid": 210385901462817,
-      "text": "Is the AI Bubble Cracking? Chip Stocks Fall for 8 Straight Days - Yahoo Finance",
-      "post_text": "Is the AI Bubble Cracking? Chip Stocks Fall for 8 Straight Days Yahoo Finance",
-      "score": 0,
-      "upvote_ratio": 0,
-      "creation": "2026-10-16",
-      "source": "google_news",
-      "source_name": "Google News",
-      "publisher": "Yahoo Finance",
-      "source_url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxOR1A1V0wwbEZLdnBGTGdHeXRzWGRYQWNHNmVMZjEzY2VZbklMajNmQlVvU1NPWUJ3eTA5NllGVE1Tc2NCSC1acktJelpLOXpDenMxUzYtYnIyYTR5X08xUTYyNEZrUFdOS3E5bkZ2X0lKVUs5R0lWeXBSMVI5UGR2d2lmOTJlUHlGekVjbWNlX2dBek92UFJuRk1nYw?oc=5",
-      "tickers": "",
-      "positive": 0.024859,
-      "negative": 0.530008,
-      "neutral": 0.445133,
-      "confidence": 0.530008
     },
     {
       "postid": 208295611020310,
@@ -496,21 +462,21 @@
       "confidence": 0.678438
     },
     {
-      "postid": 169093512630850,
-      "text": "AI Chip Earnings Soared—Why Micron, TSMC And ASML Shares May Fall - Forbes",
-      "post_text": "AI Chip Earnings Soared—Why Micron, TSMC And ASML Shares May Fall Forbes",
+      "postid": 160310474457523,
+      "text": "History Says a Stock Market Downturn Is Coming, and Investors Should Do This When It Happens - Yahoo Finance",
+      "post_text": "History Says a Stock Market Downturn Is Coming, and Investors Should Do This When It Happens Yahoo Finance",
       "score": 0,
       "upvote_ratio": 0,
       "creation": "2026-10-16",
       "source": "google_news",
       "source_name": "Google News",
-      "publisher": "Forbes",
-      "source_url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPd2FzM29rXzRDWVIwTTRKdUN5Y0o5c1hqbTFpeVBQcjBqWkZsTjBNOFVleVVVZzczTlk5WE15dE84RGY4Nno5TjB0dGszbkMzY1RPSzUwaFhJNlNOV2R6NGNpaTQ0dEhfM0VNWjBRNjl4aU9oX2xaTFpwd05PT1BrTktVcmpiUXNHM1dWTV9YTUphY1NVbFRYYW5YZGJ4Wk43NVhIYjYtQUNRbkJMYmQ4RWZKZlA?oc=5",
-      "tickers": "ASML,MU,TSM",
-      "positive": 0.947605,
-      "negative": 0.040673,
-      "neutral": 0.011722,
-      "confidence": 0.947605
+      "publisher": "Yahoo Finance",
+      "source_url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPZU5uUEkzZU1tdUExbFJDZTVFUHhZQ1ViZVJaRkw0VHRlcm1wRlNGamxYNjVOd2NxU25vRDlkQkhodHRabzNxZFVxOFhndGpqUEdpUF9vZkd2cWNiQ0NmTUgtbkhXLVczS0VQa1RrU0RpMmI0Njhkekg0LUVIVFJuVEhDZ01tMjBldHBlVTR3eWpKV2F0WE5mR1R0LW56MGhF?oc=5",
+      "tickers": "",
+      "positive": 0.007466,
+      "negative": 0.03905,
+      "neutral": 0.953485,
+      "confidence": 0.953485
     },
     {
       "postid": 156568018692755,
@@ -596,23 +562,6 @@
       "negative": 0.00968,
       "neutral": 0.872473,
       "confidence": 0.872473
-    },
-    {
-      "postid": 142647439488013,
-      "text": "SpaceX Earnings Due Amid AI Revenue Surge, Tesla Merger Buzz - Investor's Business Daily",
-      "post_text": "SpaceX Earnings Due Amid AI Revenue Surge, Tesla Merger Buzz Investor's Business Daily",
-      "score": 0,
-      "upvote_ratio": 0,
-      "creation": "2026-10-16",
-      "source": "google_news",
-      "source_name": "Google News",
-      "publisher": "Investor's Business Daily",
-      "source_url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxNR0I2Z29pYmxyeDFLSDZ2XzBZcjk1NGtxM19DVkNJSDllNlVSSVNQakRsUjZnMFRSVEQ4dmxwbTR5Nk11RW5oaUk5ZDJxOTkyNzdreU1QZUEydkk5dG5NakVhbGVuU2lwamo3eHFNUDNYVXE2am1TbnVzZ1ZES0JaYjNzMA?oc=5",
-      "tickers": "SPACEX,TSLA",
-      "positive": 0.089732,
-      "negative": 0.015132,
-      "neutral": 0.895135,
-      "confidence": 0.895135
     },
     {
       "postid": 139737328430354,
@@ -715,23 +664,6 @@
       "negative": 0.011789,
       "neutral": 0.014418,
       "confidence": 0.973792
-    },
-    {
-      "postid": 117016055989807,
-      "text": "European majors set for Q3 earnings growth despite darkening view on consumer cyclicals - Reuters",
-      "post_text": "European majors set for Q3 earnings growth despite darkening view on consumer cyclicals Reuters",
-      "score": 0,
-      "upvote_ratio": 0,
-      "creation": "2026-10-16",
-      "source": "google_news",
-      "source_name": "Google News",
-      "publisher": "Reuters",
-      "source_url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxNWGxWLW1iZXhfWTNWVGhDNXlEd21tVndMS3J4UW9SeHNCTEJab0FNMVh5Q19vYXhQV3N6QmNyVi1ucUJCSjJ1TUJ6ZVpIUjlhZ1hVeGtGS2JnNGVBZEFtSExvWHNCWWF6dWZWNTg2dnVySVJTUVVySEZSOElCRGJXa1d0eVFLWDZ0X3liVENxVUVnVlhXLXNsYXZaRmRQMFA2dFJPbnB0bHR6eDlybkNnWjUwbXNhM096eXBYYUNUUHlqUkFYb1J1dTg4QW9TZw?oc=5",
-      "tickers": "",
-      "positive": 0.489731,
-      "negative": 0.176512,
-      "neutral": 0.333757,
-      "confidence": 0.489731
     },
     {
       "postid": 116878548337915,
@@ -955,6 +887,23 @@
       "confidence": 0.616344
     },
     {
+      "postid": 49272092997142,
+      "text": "India's battered IT stocks head for best week in 18 years on earnings boost - Reuters",
+      "post_text": "India's battered IT stocks head for best week in 18 years on earnings boost Reuters",
+      "score": 0,
+      "upvote_ratio": 0,
+      "creation": "2026-10-16",
+      "source": "google_news",
+      "source_name": "Google News",
+      "publisher": "Reuters",
+      "source_url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPS1FQTURRYWZrT3Z6RTFsekNsSWVOUndiZ1J1TG9xMnZqMGVELTFhdEN3MzA4bHhOYmlqT01VYmQ2OHlOMWpkV2hLZlJRNU5LWm03VWtCRTIzbExVT0VWVjEwcGMzS1F0WXlfMTdjUzgzM09uSHdWaFZRUlZIb0ozeHBZb2gwTGJpWWNleWFHbGdja05GaHR5TmZ6YXptbUFFLUdqRVRWUkhOM1J6U3hQS3FB?oc=5",
+      "tickers": "",
+      "positive": 0.058185,
+      "negative": 0.92431,
+      "neutral": 0.017505,
+      "confidence": 0.92431
+    },
+    {
       "postid": 45723363703625,
       "text": "U.S. Stocks Fall as Credit Fears Haunt Tech Sector - WSJ",
       "post_text": "U.S. Stocks Fall as Credit Fears Haunt Tech Sector WSJ",
@@ -1072,6 +1021,23 @@
       "negative": 0.901524,
       "neutral": 0.080954,
       "confidence": 0.901524
+    },
+    {
+      "postid": 268105253230226,
+      "text": "A Staggering 84% of S&P 500 Stocks Are Now in Correction Territory, and History Says This Foreshadows Disaster for Wall Street - Yahoo Finance",
+      "post_text": "A Staggering 84% of S&P 500 Stocks Are Now in Correction Territory, and History Says This Foreshadows Disaster for Wall Street Yahoo Finance",
+      "score": 0,
+      "upvote_ratio": 0,
+      "creation": "2026-10-15",
+      "source": "google_news",
+      "source_name": "Google News",
+      "publisher": "Yahoo Finance",
+      "source_url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxPRnZJeXJsR3h1MDNCeEpVTFNEZlVRMHRuVnJfeDNIY0NmSHNsZjc0YUhBOExrb3VIdDVhVkJPSkhIVnY3SHZoOG1fVzhGX3Izd1NtenlpMVZxQnQ3Z21CRGpYTjdoZXJ5VzJOcm1YSHZxanpBbUNHTk52Q25YN3FWRy15Q1pEODJUMTZwckk4bmNfbERTcEE?oc=5",
+      "tickers": "",
+      "positive": 0.297793,
+      "negative": 0.494962,
+      "neutral": 0.207245,
+      "confidence": 0.494962
     },
     {
       "postid": 245166632902442,
@@ -1225,6 +1191,23 @@
       "negative": 0.837944,
       "neutral": 0.111304,
       "confidence": 0.837944
+    },
+    {
+      "postid": 163737681426525,
+      "text": "Ahead of GE Aerospace Earnings, Is the Stock a Buy, a Sell, or Fairly Valued? - Morningstar",
+      "post_text": "Ahead of GE Aerospace Earnings, Is the Stock a Buy, a Sell, or Fairly Valued? Morningstar",
+      "score": 0,
+      "upvote_ratio": 0,
+      "creation": "2026-10-15",
+      "source": "google_news",
+      "source_name": "Google News",
+      "publisher": "Morningstar",
+      "source_url": "https://news.google.com/rss/articles/CBMingFBVV95cUxPNU1ZTDFjY24wUTJUZGpRYmoyZkNBc3g0MVExSTJmT1VMNFBLbThCV3ZnWjVuajdaeTBSZE1EdVRFdFdUdVlsODc5TS1MVGROU2tuMUR5eWtfSHBrdnJxWnVNRnYyR1NXcXRBZnk0SDMyenMyUjVsXzhrdUVYa191c0dLWU5mQzF2MHM1SWI0N216c09rRy1UNHA1Nm1mdw?oc=5",
+      "tickers": "GE",
+      "positive": 0.011471,
+      "negative": 0.004716,
+      "neutral": 0.983813,
+      "confidence": 0.983813
     },
     {
       "postid": 157268178884759,
@@ -1514,23 +1497,6 @@
       "negative": 0.908537,
       "neutral": 0.040544,
       "confidence": 0.908537
-    },
-    {
-      "postid": 52391372606690,
-      "text": "Tesla Stock Is Down Nearly 20% This Year. Is it a Buy Ahead of Earnings? - Morningstar",
-      "post_text": "Tesla Stock Is Down Nearly 20% This Year. Is it a Buy Ahead of Earnings? Morningstar",
-      "score": 0,
-      "upvote_ratio": 0,
-      "creation": "2026-10-15",
-      "source": "google_news",
-      "source_name": "Google News",
-      "publisher": "Morningstar",
-      "source_url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPTzBqaTdPUkh3UmhjcFVydDY1d0tzOVUwaVotTV9seE1US0ZmTHJ4XzVCNmNFTzdaTDRTaTJncUJmUVhDc2hCeW9Iek0xZmxjbUI3ZlBHaWdYVnpObHVuZ2lzNjFNUHRXUkxIQUo1UGQyQ0QyalY0Vm51b3JmM1BhVnBYRUR1NVQ4UnlMVUx4RmVHSXJHbE9qTzlWa2hiQ2w3ck4zMTdFcWZROHdi?oc=5",
-      "tickers": "TSLA",
-      "positive": 0.01611,
-      "negative": 0.959573,
-      "neutral": 0.024317,
-      "confidence": 0.959573
     },
     {
       "postid": 43516709374859,
@@ -1941,6 +1907,23 @@
       "confidence": 0.943791
     },
     {
+      "postid": 211862570883185,
+      "text": "How Warren Buffett Handles Market Downturns—And What Investors Can Learn From His Approach - Investopedia",
+      "post_text": "How Warren Buffett Handles Market Downturns—And What Investors Can Learn From His Approach Investopedia",
+      "score": 0,
+      "upvote_ratio": 0,
+      "creation": "2026-10-14",
+      "source": "google_news",
+      "source_name": "Google News",
+      "publisher": "Investopedia",
+      "source_url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxQSHhYTDlmWF9JUDgycXhnRTR4cDJnUWRBM253QVNfUTM5RHZ5aGs4eHFHczBJRWtyS3k5Z0p3SGdwM3B6Z2dQRmJjX1VCdDQyUjVLenhHUkFnZVIxZkFCcEVmTUhzWjhOUUltSjJ6TFFrYWhFUEM0NG5RZU9fRDZ2SkF0QVBLV2hpR0JlT2tCamJjUFBoVm9VN3dRdFhMMWpBUHFBaGpzZlFIVHF2NGtuYndGSWlWRmdPc2V0YnNieXVhYWpGUC1V?oc=5",
+      "tickers": "",
+      "positive": 0.016388,
+      "negative": 0.007286,
+      "neutral": 0.976326,
+      "confidence": 0.976326
+    },
+    {
       "postid": 193112321018709,
       "text": "Might as well buy both",
       "post_text": "submitted by /u/sabersolutions to r/wallstreetbets [link] [comments]",
@@ -2007,6 +1990,23 @@
       "negative": 0.924177,
       "neutral": 0.034359,
       "confidence": 0.924177
+    },
+    {
+      "postid": 181798765148112,
+      "text": "Best \"Buy the Dip\" Stocks This Week?",
+      "post_text": "What stocks are dropping this week that look like solid value? Here's some that dropped a lot this week that stand out for me along with the price as I'm writing this. I’m watching them and will buy if they continue to drop. AMAT - 459 MU - 939 - I have a big position here. I add on dips and sell some on spikes. FN - 414 - Will buy if it hits 400 NVDA - 224 - I added to my position today NBIS - 189 - I bought today LRCX - 295 - Getting very close to my ideal buy price NU - 15 - I have 1000 shares of this. submitted by /u/All_YourBase to r/stocks [link] [comments]",
+      "score": 0,
+      "upvote_ratio": 0,
+      "creation": "2026-10-14",
+      "source": "reddit",
+      "source_name": "Reddit",
+      "publisher": "r/stocks",
+      "source_url": "https://www.reddit.com/r/stocks/comments/1x5t70s/best_buy_the_dip_stocks_this_week/",
+      "tickers": "AMAT,MU,NVDA,LRCX",
+      "positive": 0.01563,
+      "negative": 0.0143,
+      "neutral": 0.97007,
+      "confidence": 0.97007
     },
     {
       "postid": 177334544622588,
@@ -2298,21 +2298,21 @@
       "confidence": 0.877491
     },
     {
-      "postid": 29634401471553,
-      "text": "E-mini S&P 500 futures hold flat as bank earnings season begins. - CME Group",
-      "post_text": "E-mini S&P 500 futures hold flat as bank earnings season begins. CME Group",
+      "postid": 31686726085350,
+      "text": "ASML Earnings Point to Soaring AI Chip Demand. Why the Stock Isn’t Budging. - Barron's",
+      "post_text": "ASML Earnings Point to Soaring AI Chip Demand. Why the Stock Isn’t Budging. Barron's",
       "score": 0,
       "upvote_ratio": 0,
       "creation": "2026-10-14",
       "source": "google_news",
       "source_name": "Google News",
-      "publisher": "CME Group",
-      "source_url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPMVlBQ0d1cVQweWN6bjk1TVJKdVRVQVFnUENseXNBd0tGa2lBaXZKclhkal84c25WSkFMYWFkeFB6dXUzNGFsVHlUck41TkdoOHctTEFyRWVrd0tHcE0tSjBZMWo4djl1dWV3VkIxel9tYi1IWG9IUl9lbDFrOVZzNzdTTTN3N2ZXMVo1R191akQ4TXpBV2ZvNEd5cmw0RGJxanVGN00wek5vemc0SnJhTXZR?oc=5",
-      "tickers": "",
-      "positive": 0.047939,
-      "negative": 0.008085,
-      "neutral": 0.943977,
-      "confidence": 0.943977
+      "publisher": "Barron's",
+      "source_url": "https://news.google.com/rss/articles/CBMidkFVX3lxTFBpbkxpTFBzSFJrQVlNUlVPeFhaTjM1cmMzVFYydUJEMkN1Y0RjbmFSZ0FZRVk5R0h2d1MxNjdLU3hZNXpyTU42LTM2ZWVxcTBUN1AzSjlsRFpEdkd0MHJGRW8tNndSdVVkU3NYc3owWXJtdXFYWEE?oc=5",
+      "tickers": "ASML",
+      "positive": 0.962032,
+      "negative": 0.01881,
+      "neutral": 0.019158,
+      "confidence": 0.962032
     },
     {
       "postid": 28028946289413,
@@ -2415,6 +2415,23 @@
       "negative": 0.943499,
       "neutral": 0.02848,
       "confidence": 0.943499
+    },
+    {
+      "postid": 1669673764331,
+      "text": "Stocks Fall as AI Rout Spurs Flight to Treasuries: Markets Wrap - Bloomberg",
+      "post_text": "Stocks Fall as AI Rout Spurs Flight to Treasuries: Markets Wrap Bloomberg",
+      "score": 0,
+      "upvote_ratio": 0,
+      "creation": "2026-10-14",
+      "source": "google_news",
+      "source_name": "Google News",
+      "publisher": "Bloomberg",
+      "source_url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxQYVhucmhFR3lJaktOV202ZDNObUVrTmJpZzcxVi1zYjVFckhBNUtkeHdzb2p5cHZGRi10cDVCYUpJT1l3QmpkTmRGeWlLV3ExSzBnRllBQThjN1cxenVQWVg5MnN1WHdNbHBpZG1rQmg3bjhwUWI4c3lPV21hUzRWZkRWcXR2QnpkTWZKTFZEemFmVTh5?oc=5",
+      "tickers": "",
+      "positive": 0.031931,
+      "negative": 0.94311,
+      "neutral": 0.024958,
+      "confidence": 0.94311
     },
     {
       "postid": 258386395303481,
@@ -2536,6 +2553,23 @@
       "confidence": 0.974894
     },
     {
+      "postid": 201004263527963,
+      "text": "Asia Stocks Battered as Semiconductor Stocks Dive - WSJ",
+      "post_text": "Asia Stocks Battered as Semiconductor Stocks Dive WSJ",
+      "score": 0,
+      "upvote_ratio": 0,
+      "creation": "2026-10-13",
+      "source": "google_news",
+      "source_name": "Google News",
+      "publisher": "WSJ",
+      "source_url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNVk5uUzN5NzdZNkh6U3AtRFNyMzQ3WU9vcTJNdmJCMW9FUVZJOVltaEFMS1FFUnduSHJOTUctYzlCVnJKdmF0WkY0ZEVyWFlpVzRrZDA4c0N4c0JVTFRJSUFJWVg5RWJialRCMXdOVlNIWWRQcW1WTmtWak5DcE4weGFqNnE1SFlPcVdlenMwM3VXdTUzQTFkczZtdTFZTnBrVnplVDhEVVZkajBw?oc=5",
+      "tickers": "",
+      "positive": 0.029883,
+      "negative": 0.950152,
+      "neutral": 0.019965,
+      "confidence": 0.950152
+    },
+    {
       "postid": 197732899060244,
       "text": "To the person going all in on Alphabet (GOOG)",
       "post_text": "There was a topic here a few days ago that got a lot of traction that I think is worth revisiting https://www.reddit.com/r/investing/comments/1x0n1ka/all_in_on_google_100_of_portfolio/ The OP and many commenters made good points that I have heard from others, that by investing in GOOG you're really investing in dozens of businesses (search, gmail, chrome, android, youtube, gemini, etc) so yes certainly more diversified than investing in a company like INTC. But I think it is worth considering that you could have made this same argument investing in GE back 30 years ago. Aerospace, healthcare, ",
@@ -2619,6 +2653,23 @@
       "negative": 0.254799,
       "neutral": 0.706341,
       "confidence": 0.706341
+    },
+    {
+      "postid": 145929124014812,
+      "text": "UnitedHealth Earnings Beat Wall Street Estimates. The Turnaround Continues. - Barron's",
+      "post_text": "UnitedHealth Earnings Beat Wall Street Estimates. The Turnaround Continues. Barron's",
+      "score": 0,
+      "upvote_ratio": 0,
+      "creation": "2026-10-13",
+      "source": "google_news",
+      "source_name": "Google News",
+      "publisher": "Barron's",
+      "source_url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxNQVdJazIyaUdZemJxSnVZcW5LcWV1TFhZbWZXRDF0ckd1OGU1Q1EwcXM5VjcyYVFNMmtSV3VNbjVFNjQtb0FwN1VEVTZOWFZZejMtTFpwbGkwREhhV0pmWXE5al9kQTBxbl9ZRlpOUnItU3pjTFJ1aFRldzNkcC0yX3BJYmFfZw?oc=5",
+      "tickers": "UNH",
+      "positive": 0.966842,
+      "negative": 0.01749,
+      "neutral": 0.015668,
+      "confidence": 0.966842
     },
     {
       "postid": 141525141429053,
@@ -2910,23 +2961,6 @@
       "confidence": 0.659166
     },
     {
-      "postid": 6923951032695,
-      "text": "A golden age of corporate profits - Axios",
-      "post_text": "A golden age of corporate profits Axios",
-      "score": 0,
-      "upvote_ratio": 0,
-      "creation": "2026-10-13",
-      "source": "google_news",
-      "source_name": "Google News",
-      "publisher": "Axios",
-      "source_url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTFBwNmRUa3o3SURRdWxobHlwN0NPLWNTT2t2eExHX1N2UGliTF9RY281QWpnSXBBUWxFRkFVeW16QjFveGRrQTdka3lLOFFILXNtdnROOXJvS29uMklZeUJpMnN5bUc?oc=5",
-      "tickers": "",
-      "positive": 0.662181,
-      "negative": 0.009673,
-      "neutral": 0.328146,
-      "confidence": 0.662181
-    },
-    {
       "postid": 267388009964152,
       "text": "Stumbling Equity Rally Hinges on Earnings for Year-End Boost - Yahoo Finance",
       "post_text": "Stumbling Equity Rally Hinges on Earnings for Year-End Boost Yahoo Finance",
@@ -3098,20 +3132,20 @@
     },
     {
       "postid": 210636003807207,
-      "text": "Stocks Bounce From Lows on Williams’ Rate Remarks: Markets Wrap - Bloomberg.com",
-      "post_text": "Stocks Bounce From Lows on Williams’ Rate Remarks: Markets Wrap Bloomberg.com",
+      "text": "Stocks Bounce From Lows on Williams’ Rate Remarks: Markets Wrap - Bloomberg",
+      "post_text": "Stocks Bounce From Lows on Williams’ Rate Remarks: Markets Wrap Bloomberg",
       "score": 0,
       "upvote_ratio": 0,
       "creation": "2026-10-12",
       "source": "google_news",
       "source_name": "Google News",
-      "publisher": "Bloomberg.com",
+      "publisher": "Bloomberg",
       "source_url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxPTFBheWMzUVJ3M2R4VFh3WEJWcG9sRHg5TlJtdUZKV1NScHpsZy1BcDA0TXZUSGU1OUItbnJFY3RIMlB3Sjd6ZjJXMEF6b1dleng3WGJka1pxbzdSSXFCMG9fSzE4b0M2THRmZlBHY01RdkJaRGpjQlkzWWwwNXVCSnI4N3BDYWttWjJtaWttb2laU19w?oc=5",
       "tickers": "",
-      "positive": 0.767198,
-      "negative": 0.112869,
-      "neutral": 0.119934,
-      "confidence": 0.767198
+      "positive": 0.707136,
+      "negative": 0.186959,
+      "neutral": 0.105905,
+      "confidence": 0.707136
     },
     {
       "postid": 144900284009472,
@@ -3216,6 +3250,23 @@
       "confidence": 0.856724
     },
     {
+      "postid": 37442799932552,
+      "text": "Trading this earnings season may be 'high-risk, high-reward': Barclays strategist - Yahoo Finance",
+      "post_text": "Trading this earnings season may be 'high-risk, high-reward': Barclays strategist Yahoo Finance",
+      "score": 0,
+      "upvote_ratio": 0,
+      "creation": "2026-10-12",
+      "source": "google_news",
+      "source_name": "Google News",
+      "publisher": "Yahoo Finance",
+      "source_url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxNalg2cHcxeEdYVHBiRW5lQjN5dG04SWZGcjBjS1d6R1BWd19QMnBBZFRzdVRBLUJMU1NUNHp3ejNfdDBDUmlRUVpRU1pMM1pJZkc4YmxwdFlteGlrQVFUajNicTdxZlhLTEgwdFJjMFlKdnZibWNPSmdfMzcxVHU3b1VVTmtTYWNyRi1IeXVCM29xdFhwOG1JckZJUHNxRmRQZHZSMjQyVTQ1NTlTRUJXSXhYU1JkeFZUelJYTWlmczNoeWdtOFZucUc2R25kcnM?oc=5",
+      "tickers": "",
+      "positive": 0.106119,
+      "negative": 0.522727,
+      "neutral": 0.371154,
+      "confidence": 0.522727
+    },
+    {
       "postid": 34612264674158,
       "text": "Goldman upgrades global equities on earnings optimism - Reuters",
       "post_text": "Goldman upgrades global equities on earnings optimism Reuters",
@@ -3284,40 +3335,6 @@
       "confidence": 0.642877
     },
     {
-      "postid": 234962302453667,
-      "text": "Hockey as a bellwether, economy slowing down?",
-      "post_text": "I’ve definitely been a perma bear and have been wrecked over the last night, and most likely for the foreseeable future. I’ve thought the economy has been in a precarious spot, but over the years have continued to see people spend high $xxx, and even $x,xxx for concerts and sporting events. If people are spending this, they are clearly fine. Might be localized to Vegas, but not even ticket-fraud-ster is buying up all of the tickets at Vegas golden knights home games. Since 2017-2018 there have been 352 home games and all but the last two games have sold out. Most notably it was the worst team ",
-      "score": 0,
-      "upvote_ratio": 0,
-      "creation": "2026-10-11",
-      "source": "reddit",
-      "source_name": "Reddit",
-      "publisher": "r/wallstreetbets",
-      "source_url": "https://www.reddit.com/r/wallstreetbets/comments/1x3b91z/hockey_as_a_bellwether_economy_slowing_down/",
-      "tickers": "",
-      "positive": 0.23648,
-      "negative": 0.302463,
-      "neutral": 0.461057,
-      "confidence": 0.461057
-    },
-    {
-      "postid": 158411740217047,
-      "text": "Nvidia Funding Puts IonQ Stock And US Quantum Computing Shares On Watch",
-      "post_text": "submitted by /u/OneTwoThreePooAndPee to r/wallstreetbets [link] [comments]",
-      "score": 0,
-      "upvote_ratio": 0,
-      "creation": "2026-10-11",
-      "source": "reddit",
-      "source_name": "Reddit",
-      "publisher": "r/wallstreetbets",
-      "source_url": "https://www.reddit.com/r/wallstreetbets/comments/1x38g8p/nvidia_funding_puts_ionq_stock_and_us_quantum/",
-      "tickers": "NVDA",
-      "positive": 0.059921,
-      "negative": 0.014892,
-      "neutral": 0.925187,
-      "confidence": 0.925187
-    },
-    {
       "postid": 145319407350253,
       "text": "3 Growth Stocks With Earnings Growth Over 31% - Yahoo Finance",
       "post_text": "3 Growth Stocks With Earnings Growth Over 31% Yahoo Finance",
@@ -3350,23 +3367,6 @@
       "negative": 0.007036,
       "neutral": 0.98687,
       "confidence": 0.98687
-    },
-    {
-      "postid": 32609056838964,
-      "text": "Top Wall Street analysts prefer these 3 dividend stocks for stable income - CNBC",
-      "post_text": "Top Wall Street analysts prefer these 3 dividend stocks for stable income CNBC",
-      "score": 0,
-      "upvote_ratio": 0,
-      "creation": "2026-10-11",
-      "source": "google_news",
-      "source_name": "Google News",
-      "publisher": "CNBC",
-      "source_url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNTjBRd1JMdlhZUVhZbGt3U1pMeERQWVhxamdSak56ejJBT3g4U2Mtb0tieU9BTjdvTFR1WVk1Z1dqajhfYjQ2WjVzMkh4VDd2Z2NaQkdOcUFtLVA0dGxDaWhtY2FWVEhJdVN6SXNxaGp2MFcwV2xwV19qRTgxREY2aDV2dUNjRGxZUklZS1FkZWhheFB2Z2xqX1hXNGR2YWvSAaQBQVVfeXFMTXp4NnEtbm40MzFhX1FOMnpsQkc5XzVDMUM1T1JZOS1mdGF4S3BUZC00bkp3SUxYUFkzN3dnU25zdUtIVFkzMUFwb1prdFNERnVJME9KV1lFX084VE81RjF2c1JWVlh0dHpocWYxQk13Yi1QaFNWdURXT0haTTRJVzZlMURTdGM1T2FkQ2VRWDhsa1FhaFRxOEgzYVg2a25MeWZNY1c?oc=5",
-      "tickers": "",
-      "positive": 0.144017,
-      "negative": 0.016513,
-      "neutral": 0.83947,
-      "confidence": 0.83947
     }
   ]
 }
