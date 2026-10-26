@@ -1,23 +1,24 @@
 {
   "schema_version": 2,
-  "generated_at": "2026-10-26T13:08:41.499265Z",
+  "generated_at": "2026-10-26T22:42:05.609803Z",
   "sources": [
     {
       "id": "reddit",
       "name": "Reddit",
       "status": "ok",
       "item_count": 100,
-      "updated_at": "2026-10-26T13:08:41.499265Z"
+      "updated_at": "2026-10-26T22:42:05.609803Z"
     },
     {
       "id": "google_news",
       "name": "Google News",
-      "status": "ok",
+      "status": "stale",
       "item_count": 100,
-      "updated_at": "2026-10-26T13:08:41.499265Z"
+      "updated_at": "2026-10-26T13:08:41.499265Z",
+      "message": "HTTP Error 503: Service Unavailable"
     }
   ],
-  "count": 199,
+  "count": 198,
   "posts": [
     {
       "postid": 280954919829539,
@@ -35,6 +36,23 @@
       "negative": 0.106686,
       "neutral": 0.19413,
       "confidence": 0.699183
+    },
+    {
+      "postid": 264543941888072,
+      "text": "Anthropic's Latest Earnings Statement",
+      "post_text": "Doesn't look as bad as you'd think. Excluding the accounting charges, they had an operating loss of $693 million for the first six months of the year. On a cash flow basis, I would imagine they're in the green or at least pretty close. One thing that i still want to look into is where their marketing budget. I recently got \"credits\" on my Claude account for $100 in api compute. I'm curious if that's subtractive from revenue or if they count that $100 as revenue and offset it by placing $100 in expenses in the SG&A line item. This would be one thing to look out for in regards to inflating reven",
+      "score": 0,
+      "upvote_ratio": 0,
+      "creation": "2026-10-26",
+      "source": "reddit",
+      "source_name": "Reddit",
+      "publisher": "r/StockMarket",
+      "source_url": "https://www.reddit.com/r/StockMarket/comments/1xg00ux/anthropics_latest_earnings_statement/",
+      "tickers": "",
+      "positive": 0.022262,
+      "negative": 0.00828,
+      "neutral": 0.969458,
+      "confidence": 0.969458
     },
     {
       "postid": 262619773987623,
@@ -88,21 +106,21 @@
       "confidence": 0.837621
     },
     {
-      "postid": 207855087641409,
-      "text": "Robert Reich Says Elon Musk’s SpaceX and Starlink Should Become Publicly Owned, Musk Fires Back: \"Stealing Companies Is a Serious Crime\"",
-      "post_text": "\"Defund Musk. I mean this,\" Reich told co-host Heather Lofthouse, urging a future Democratic administration to begin \"laying the groundwork for nationalizing Starlink and SpaceX. Nationalize it.\" \"It should be a public corporation. We should not ever have that kind of power in one person’s hands, one private person’s hands,\" he added. Reich also accused Musk of attempting to influence a Texas Senate race, asking, \"Why should we allow this, seriously?\" He previously called SpaceX’s initial public offering a potential Ponzi scheme, questioning its valuation and governance. Reich described Musk a",
+      "postid": 209963283936456,
+      "text": "Microsoft offers voluntary buyouts to 60,000 employees as AI leads to efficiency push",
+      "post_text": "Microsoft said Monday that it’s offering buyouts to a wide swath of employees as it strives to balance a costly AI infrastructure buildout with capital efficiency. The software maker announced a new voluntary exit offer for certain workers in the U.S., Canada, India and the United Kingdom at its experience level of 70 or below. Around 60,000 people are eligible, according to a person familiar with the matter, who asked not to be named while discussing an internal matter. The effort affects about 27% of Microsoft’s total workforce of 223,000 people. https://www.cnbc.com/2026/10/26/microsoft-msf",
       "score": 0,
       "upvote_ratio": 0,
       "creation": "2026-10-26",
       "source": "reddit",
       "source_name": "Reddit",
       "publisher": "r/stocks",
-      "source_url": "https://www.reddit.com/r/stocks/comments/1xfrlff/robert_reich_says_elon_musks_spacex_and_starlink/",
-      "tickers": "SPACEX",
-      "positive": 0.009521,
-      "negative": 0.042774,
-      "neutral": 0.947706,
-      "confidence": 0.947706
+      "source_url": "https://www.reddit.com/r/stocks/comments/1xg2gtp/microsoft_offers_voluntary_buyouts_to_60000/",
+      "tickers": "MSFT",
+      "positive": 0.146961,
+      "negative": 0.009762,
+      "neutral": 0.843277,
+      "confidence": 0.843277
     },
     {
       "postid": 176460745401841,
@@ -122,6 +140,40 @@
       "confidence": 0.828729
     },
     {
+      "postid": 171576415270336,
+      "text": "Meta launches $35 billion stock offering to fund AI expansion",
+      "post_text": "Oct 26 (Reuters) - Meta Platforms (META.O) , on Monday launched public offerings of about $35 billion in common ‌stock and convertible preferred stock, as the Facebook parent seeks to finance its costly AI expansion. The social media company also said it plans to launch ⁠a separate at-the-market share sale program of up to $60 billion after its new non-voting Class C shares begin trading, which is expected in the first quarter of 2027. submitted by /u/rebel-capitalist to r/wallstreetbets [link] [comments]",
+      "score": 0,
+      "upvote_ratio": 0,
+      "creation": "2026-10-26",
+      "source": "reddit",
+      "source_name": "Reddit",
+      "publisher": "r/wallstreetbets",
+      "source_url": "https://www.reddit.com/r/wallstreetbets/comments/1xfu6n1/meta_launches_35_billion_stock_offering_to_fund/",
+      "tickers": "META",
+      "positive": 0.009076,
+      "negative": 0.00495,
+      "neutral": 0.985974,
+      "confidence": 0.985974
+    },
+    {
+      "postid": 163105972786493,
+      "text": "Anthropic just filed to go public. $16.3 BILLION in revenue in six months… and an $80.7 BILLION reported loss.",
+      "post_text": "Anthropic, the company behind Claude, has reportedly filed to go public. And the numbers being thrown around are pretty ridiculous. $16.3 billion in revenue in just six months, up from $1.1 billion in the same period last year. Nearly 15x growth. But then there's the $80.7 billion reported loss, although around $72 billion of that is apparently down to accounting adjustments rather than actual cash spent. And now there's talk of a $1.5 trillion valuation. It's pretty crazy how quickly these AI companies have grown and just how much money is involved. Would you actually buy Anthropic shares at ",
+      "score": 0,
+      "upvote_ratio": 0,
+      "creation": "2026-10-26",
+      "source": "reddit",
+      "source_name": "Reddit",
+      "publisher": "r/stocks",
+      "source_url": "https://www.reddit.com/r/stocks/comments/1xfwuks/anthropic_just_filed_to_go_public_163_billion_in/",
+      "tickers": "",
+      "positive": 0.008508,
+      "negative": 0.012256,
+      "neutral": 0.979236,
+      "confidence": 0.979236
+    },
+    {
       "postid": 144076582213016,
       "text": "Musk says SpaceX raised $40 billion in debt deal, predicts neocloud shakeout",
       "post_text": "submitted by /u/ViralTrendsToday to r/wallstreetbets [link] [comments]",
@@ -137,6 +189,23 @@
       "negative": 0.02593,
       "neutral": 0.030614,
       "confidence": 0.943456
+    },
+    {
+      "postid": 143833312648725,
+      "text": "Anthropic has filed an S-1 registration statement with the SEC related to its proposed IPO.",
+      "post_text": "Here's what you need to know: 🤑💸 submitted by /u/Anoncry66 to r/wallstreetbets [link] [comments]",
+      "score": 0,
+      "upvote_ratio": 0,
+      "creation": "2026-10-26",
+      "source": "reddit",
+      "source_name": "Reddit",
+      "publisher": "r/wallstreetbets",
+      "source_url": "https://www.reddit.com/r/wallstreetbets/comments/1xg5i32/anthropic_has_filed_an_s1_registration_statement/",
+      "tickers": "",
+      "positive": 0.006857,
+      "negative": 0.006173,
+      "neutral": 0.98697,
+      "confidence": 0.98697
     },
     {
       "postid": 128117636900142,
@@ -156,6 +225,57 @@
       "confidence": 0.433408
     },
     {
+      "postid": 114804147962882,
+      "text": "Microsoft offers voluntary buyouts to 60,000 employees",
+      "post_text": "submitted by /u/Criticall16 to r/wallstreetbets [link] [comments]",
+      "score": 0,
+      "upvote_ratio": 0,
+      "creation": "2026-10-26",
+      "source": "reddit",
+      "source_name": "Reddit",
+      "publisher": "r/wallstreetbets",
+      "source_url": "https://www.reddit.com/r/wallstreetbets/comments/1xg11cu/microsoft_offers_voluntary_buyouts_to_60000/",
+      "tickers": "MSFT",
+      "positive": 0.007739,
+      "negative": 0.009631,
+      "neutral": 0.982629,
+      "confidence": 0.982629
+    },
+    {
+      "postid": 110118091607451,
+      "text": "Anthropic S-1 form submitted to SEC",
+      "post_text": "submitted by /u/StraightSky7809 to r/wallstreetbets [link] [comments]",
+      "score": 0,
+      "upvote_ratio": 0,
+      "creation": "2026-10-26",
+      "source": "reddit",
+      "source_name": "Reddit",
+      "publisher": "r/wallstreetbets",
+      "source_url": "https://www.reddit.com/r/wallstreetbets/comments/1xfwgu6/anthropic_s1_form_submitted_to_sec/",
+      "tickers": "",
+      "positive": 0.008375,
+      "negative": 0.00653,
+      "neutral": 0.985095,
+      "confidence": 0.985095
+    },
+    {
+      "postid": 102444963871201,
+      "text": "Skydance Is Offering Employees Voluntary Buyouts Ahead of Layoffs, Adopts 5-Days-per-Week In-Office Policy",
+      "post_text": "submitted by /u/CatoholicCatDad to r/wallstreetbets [link] [comments]",
+      "score": 0,
+      "upvote_ratio": 0,
+      "creation": "2026-10-26",
+      "source": "reddit",
+      "source_name": "Reddit",
+      "publisher": "r/wallstreetbets",
+      "source_url": "https://www.reddit.com/r/wallstreetbets/comments/1xg5nwl/skydance_is_offering_employees_voluntary_buyouts/",
+      "tickers": "",
+      "positive": 0.013007,
+      "negative": 0.010861,
+      "neutral": 0.976132,
+      "confidence": 0.976132
+    },
+    {
       "postid": 95377401805705,
       "text": "Stocks, bonds edge up ahead of 'formidable' week for risk - Reuters",
       "post_text": "Stocks, bonds edge up ahead of 'formidable' week for risk Reuters",
@@ -173,6 +293,23 @@
       "confidence": 0.954916
     },
     {
+      "postid": 89779438658862,
+      "text": "Unemployed and losing big on stock market",
+      "post_text": "Hi there, Im 30 YO male, got laid off last year because of AI. I also moved to live alone with my dog in a single room apartment. I thought I could win big with high beta stocks, didnt sell in May. hope new year rally will ease the loses. anyway, keeping up with positive vibes cause stocks always go up right? edit: typo \"laid\" submitted by /u/king_of_all_retards to r/wallstreetbets [link] [comments]",
+      "score": 0,
+      "upvote_ratio": 0,
+      "creation": "2026-10-26",
+      "source": "reddit",
+      "source_name": "Reddit",
+      "publisher": "r/wallstreetbets",
+      "source_url": "https://www.reddit.com/r/wallstreetbets/comments/1xfsrnq/unemployed_and_losing_big_on_stock_market/",
+      "tickers": "",
+      "positive": 0.007947,
+      "negative": 0.368088,
+      "neutral": 0.623964,
+      "confidence": 0.623964
+    },
+    {
       "postid": 83930305468885,
       "text": "Two AI Chipmakers Make Up 34% of America’s Earnings Boom - WSJ",
       "post_text": "Two AI Chipmakers Make Up 34% of America’s Earnings Boom WSJ",
@@ -188,6 +325,57 @@
       "negative": 0.015543,
       "neutral": 0.22777,
       "confidence": 0.756687
+    },
+    {
+      "postid": 83748169084787,
+      "text": "Babe wake up a new religion dropped",
+      "post_text": "The only religion id follow submitted by /u/FlounderMammoth9848 to r/wallstreetbets [link] [comments]",
+      "score": 0,
+      "upvote_ratio": 0,
+      "creation": "2026-10-26",
+      "source": "reddit",
+      "source_name": "Reddit",
+      "publisher": "r/wallstreetbets",
+      "source_url": "https://www.reddit.com/r/wallstreetbets/comments/1xg90r5/babe_wake_up_a_new_religion_dropped/",
+      "tickers": "",
+      "positive": 0.007422,
+      "negative": 0.057395,
+      "neutral": 0.935182,
+      "confidence": 0.935182
+    },
+    {
+      "postid": 83042716156454,
+      "text": "Brazilian regards, are you OK?",
+      "post_text": "submitted by /u/AeneasKurtz to r/wallstreetbets [link] [comments]",
+      "score": 0,
+      "upvote_ratio": 0,
+      "creation": "2026-10-26",
+      "source": "reddit",
+      "source_name": "Reddit",
+      "publisher": "r/wallstreetbets",
+      "source_url": "https://www.reddit.com/r/wallstreetbets/comments/1xfpzai/brazilian_regards_are_you_ok/",
+      "tickers": "",
+      "positive": 0.007384,
+      "negative": 0.005357,
+      "neutral": 0.987258,
+      "confidence": 0.987258
+    },
+    {
+      "postid": 80353737913116,
+      "text": "Anthropic Reveals It Will Pay SpaceX Up to $120.5B for AI Compute",
+      "post_text": "submitted by /u/Unusual-State1827 to r/wallstreetbets [link] [comments]",
+      "score": 0,
+      "upvote_ratio": 0,
+      "creation": "2026-10-26",
+      "source": "reddit",
+      "source_name": "Reddit",
+      "publisher": "r/wallstreetbets",
+      "source_url": "https://www.reddit.com/r/wallstreetbets/comments/1xg2m4l/anthropic_reveals_it_will_pay_spacex_up_to_1205b/",
+      "tickers": "SPACEX",
+      "positive": 0.774417,
+      "negative": 0.025077,
+      "neutral": 0.200506,
+      "confidence": 0.774417
     },
     {
       "postid": 75903520852010,
@@ -239,6 +427,40 @@
       "negative": 0.005297,
       "neutral": 0.976571,
       "confidence": 0.976571
+    },
+    {
+      "postid": 33228112246871,
+      "text": "CONFIRMED: Anthropic management are regarded",
+      "post_text": "I open up the S-1 and lo and behold, what do I see? For the first six months of 2026, Anthropic had a modest operating loss of $693 million paired with an absolutely massive book loss of more than $72 billion. So I ask myself, how can this be? Why, as always, the simplest explanation is the best. They're one of us. I mean, how the hell do you lose $72b like this in 6 months if you're not on WSB. They probably shorted oil or loaded up on gourd futures, or some stupid shit like that. And you know where they got the idea to do it. Mods, if you're seeing this, I have a plan to make Anthropic inves",
+      "score": 0,
+      "upvote_ratio": 0,
+      "creation": "2026-10-26",
+      "source": "reddit",
+      "source_name": "Reddit",
+      "publisher": "r/wallstreetbets",
+      "source_url": "https://www.reddit.com/r/wallstreetbets/comments/1xg3jjj/confirmed_anthropic_management_are_regarded/",
+      "tickers": "",
+      "positive": 0.008024,
+      "negative": 0.006286,
+      "neutral": 0.985689,
+      "confidence": 0.985689
+    },
+    {
+      "postid": 20862554413805,
+      "text": "BREAKING: Anthropic publicly files IPO prospectus",
+      "post_text": "https://finance.yahoo.com/technology/article/anthropic-publicly-files-ipo-prospectus-noting-strong-revenue-growth-and-massive-spending-131807138.html submitted by /u/btcnized to r/investing [link] [comments]",
+      "score": 0,
+      "upvote_ratio": 0,
+      "creation": "2026-10-26",
+      "source": "reddit",
+      "source_name": "Reddit",
+      "publisher": "r/investing",
+      "source_url": "https://www.reddit.com/r/investing/comments/1xfwwbo/breaking_anthropic_publicly_files_ipo_prospectus/",
+      "tickers": "",
+      "positive": 0.018819,
+      "negative": 0.102878,
+      "neutral": 0.878303,
+      "confidence": 0.878303
     },
     {
       "postid": 251959780659633,
@@ -1008,7 +1230,7 @@
     {
       "postid": 164519518120483,
       "text": "SPCX x TSLA Merger - 1100 TSLA JAN 15 990 CALLS",
-      "post_text": "Betting the stock swap ratio is announced in the next few weeks. Why? Midterms. If Dems take the House, Elon and team become piñatas - best get it done fast. Selling all contracts at the premium bid on the day of any announcement. For example, at a $500 implied stock swap price (3.4 SPCX shares for 1 TSLA share at today’s price), with elevated 90% IV, and announced on or before November 4, the premium will move to ~$5 (Black-Scholes valuation) $12 per contract —> $500 per contract submitted by /u/AdOnly627 to r/wallstreetbets [link] [comments]",
+      "post_text": "Betting the stock swap ratio is announced in the next few weeks. Why? Midterms. If Dems take the House, Elon and team become piñatas - best get it done fast. Selling all contracts at the premium bid on the day of any announcement. For example, at a $500 implied stock swap price (3.4 SPCX shares for 1 TSLA share at today’s price), with elevated 90% IV, and announced on or before November 4, the premium moves to ~$5 (Black-Scholes valuation) submitted by /u/AdOnly627 to r/wallstreetbets [link] [comments]",
       "score": 0,
       "upvote_ratio": 0,
       "creation": "2026-10-23",
@@ -1017,10 +1239,10 @@
       "publisher": "r/wallstreetbets",
       "source_url": "https://www.reddit.com/r/wallstreetbets/comments/1xdlw0k/spcx_x_tsla_merger_1100_tsla_jan_15_990_calls/",
       "tickers": "TSLA",
-      "positive": 0.010935,
-      "negative": 0.005406,
-      "neutral": 0.983659,
-      "confidence": 0.983659
+      "positive": 0.009205,
+      "negative": 0.005679,
+      "neutral": 0.985116,
+      "confidence": 0.985116
     },
     {
       "postid": 162900843709108,
@@ -1380,23 +1602,6 @@
       "confidence": 0.900859
     },
     {
-      "postid": 241534227149879,
-      "text": "Proof of life and that I rotated SPY PUT YOLOZ",
-      "post_text": "Got some 770 puts before close then 767 and now 765. Thank you houtis for attacking market hours to tell me to escape submitted by /u/Jolly-Professional57 to r/wallstreetbets [link] [comments]",
-      "score": 0,
-      "upvote_ratio": 0,
-      "creation": "2026-10-22",
-      "source": "reddit",
-      "source_name": "Reddit",
-      "publisher": "r/wallstreetbets",
-      "source_url": "https://www.reddit.com/r/wallstreetbets/comments/1xckngc/proof_of_life_and_that_i_rotated_spy_put_yoloz/",
-      "tickers": "",
-      "positive": 0.02561,
-      "negative": 0.036257,
-      "neutral": 0.938133,
-      "confidence": 0.938133
-    },
-    {
       "postid": 230433317003289,
       "text": "Western Digital shares drop as cost pressures, higher capex overshadow earnings - Yahoo Finance",
       "post_text": "Western Digital shares drop as cost pressures, higher capex overshadow earnings Yahoo Finance",
@@ -1703,23 +1908,6 @@
       "confidence": 0.984937
     },
     {
-      "postid": 121749621072534,
-      "text": "How’s everyone coping? $30K down today 😭",
-      "post_text": "What do you think? Nasdaq fell 2.6% to 26,008.86 and S&P 500 lost 1.21% to 7,663.43 Chips took the brunt: AMD fell more than 8%, Micron about 6%, Nvidia about 4%, and Meta about 7% despite beating on revenue and guiding higher, on fears about how the AI buildout gets financed. Oil near $112 on Saudi attacks and reports of renewed US/Israel strikes on Iran added an inflation scare on top, but the damage was concentrated in AI/tech rather than the whole market submitted by /u/Late_Chemical_5806 to r/StockMarket [link] [comments]",
-      "score": 0,
-      "upvote_ratio": 0,
-      "creation": "2026-10-22",
-      "source": "reddit",
-      "source_name": "Reddit",
-      "publisher": "r/StockMarket",
-      "source_url": "https://www.reddit.com/r/StockMarket/comments/1xcupc2/hows_everyone_coping_30k_down_today/",
-      "tickers": "AMD,NVDA,MU,META",
-      "positive": 0.037753,
-      "negative": 0.846529,
-      "neutral": 0.115718,
-      "confidence": 0.846529
-    },
-    {
       "postid": 109376481921909,
       "text": "Chip stocks fall as equipment maker Lam Research cites 'supply chain constraints' - Yahoo Finance",
       "post_text": "Chip stocks fall as equipment maker Lam Research cites 'supply chain constraints' Yahoo Finance",
@@ -1839,23 +2027,6 @@
       "confidence": 0.891529
     },
     {
-      "postid": 69245467178725,
-      "text": "Told myself to not touch semiconductor stocks but I still fail…",
-      "post_text": "Told myself not to touch semiconductor stocks even though they have crazy profits in the past year. I instead decided to invest in computing power stocks like Iren, NBIS and CoreWeave and some Quantum stocks last week… They got me fk!! submitted by /u/FriendlyGold1717 to r/wallstreetbets [link] [comments]",
-      "score": 0,
-      "upvote_ratio": 0,
-      "creation": "2026-10-22",
-      "source": "reddit",
-      "source_name": "Reddit",
-      "publisher": "r/wallstreetbets",
-      "source_url": "https://www.reddit.com/r/wallstreetbets/comments/1xcyc5y/told_myself_to_not_touch_semiconductor_stocks_but/",
-      "tickers": "",
-      "positive": 0.007139,
-      "negative": 0.007081,
-      "neutral": 0.98578,
-      "confidence": 0.98578
-    },
-    {
       "postid": 58723359994341,
       "text": "Hot Healthcare Stocks Could Outperform for Years - WSJ",
       "post_text": "Hot Healthcare Stocks Could Outperform for Years WSJ",
@@ -1905,23 +2076,6 @@
       "negative": 0.015847,
       "neutral": 0.010164,
       "confidence": 0.97399
-    },
-    {
-      "postid": 52060112329436,
-      "text": "OpenAI IPO Blue Balled",
-      "post_text": "The recent AI agent swarm attacks have completely imploded OpenAI's IPO timeline, forcing CEO Sam Altman to announce an indefinite hiatus on going public until at least 2027 . For public market investors looking for a trillion-dollar exit, this derailment marks a catastrophic shift from an asset-growth story to a massive narrative of unquantifiable legal liability and product safety risk . submitted by /u/RollingMeteors to r/StockMarket [link] [comments]",
-      "score": 0,
-      "upvote_ratio": 0,
-      "creation": "2026-10-22",
-      "source": "reddit",
-      "source_name": "Reddit",
-      "publisher": "r/StockMarket",
-      "source_url": "https://www.reddit.com/r/StockMarket/comments/1xcmdhq/openai_ipo_blue_balled/",
-      "tickers": "",
-      "positive": 0.013237,
-      "negative": 0.495249,
-      "neutral": 0.491514,
-      "confidence": 0.495249
     },
     {
       "postid": 50849853435371,
@@ -2485,23 +2639,6 @@
       "confidence": 0.569718
     },
     {
-      "postid": 140126124963275,
-      "text": "Samsung Electronics Forecasts $420 Billion Operating Profit in 2027 Despite Stock Slump. HBM Prices to Rise 100–150%",
-      "post_text": "According to an analysis by KB Securities, Samsung Electronics has secured long term supply contracts for approximately 80 percent of its scheduled 2027 memory semiconductor production, positioning the company for potential earnings growth despite recent stock price declines. KB Securities research head Kim Dong won detailed that Samsung finalized five year agreements covering 70 percent of its general purpose DRAM and NAND flash memory production with major global tech firms, while securing long term contracts for its entire annual high bandwidth memory production volume. The company expects ",
-      "score": 0,
-      "upvote_ratio": 0,
-      "creation": "2026-10-21",
-      "source": "reddit",
-      "source_name": "Reddit",
-      "publisher": "r/stocks",
-      "source_url": "https://www.reddit.com/r/stocks/comments/1xbn6bm/samsung_electronics_forecasts_420_billion/",
-      "tickers": "",
-      "positive": 0.973048,
-      "negative": 0.014893,
-      "neutral": 0.012059,
-      "confidence": 0.973048
-    },
-    {
       "postid": 129375991441914,
       "text": "Here’s How Much Tesla Stock Is Expected to Move After Earnings - Investopedia",
       "post_text": "Here’s How Much Tesla Stock Is Expected to Move After Earnings Investopedia",
@@ -2774,23 +2911,6 @@
       "confidence": 0.938825
     },
     {
-      "postid": 173145659157830,
-      "text": "It’s happening: Tesla and SpaceX have formed committees to discuss merger 🚨",
-      "post_text": "Musk said the boards at Tesla and SpaceX have formed special committees to discuss a potential merger “at the request of shareholders,” noting that these groups “consist of independent directors.” Because Musk is a “conflicted party,” he said he can’t be in the discussions. “I do think there’s a lot of merit to combining the companies as we are pretty much in the superintelligence singularity, and there’s a lot to be gained from cooperating,” Musk said, referring to the development of software, chips and more. “Do I think it would be a good idea? Yes,” Musk said. “But at the end of the day, th",
-      "score": 0,
-      "upvote_ratio": 0,
-      "creation": "2026-10-20",
-      "source": "reddit",
-      "source_name": "Reddit",
-      "publisher": "r/StockMarket",
-      "source_url": "https://www.reddit.com/r/StockMarket/comments/1xb57jh/its_happening_tesla_and_spacex_have_formed/",
-      "tickers": "SPACEX,TSLA",
-      "positive": 0.006039,
-      "negative": 0.00881,
-      "neutral": 0.985151,
-      "confidence": 0.985151
-    },
-    {
       "postid": 145142807832522,
       "text": "How to Play the Retreat in Defense Stocks - WSJ",
       "post_text": "How to Play the Retreat in Defense Stocks WSJ",
@@ -3029,23 +3149,6 @@
       "confidence": 0.575675
     },
     {
-      "postid": 42003036924688,
-      "text": "I found a trend? Idk 🤷🏻‍♂️ I’m highly regarded most days. Semis down. Staples up. Vice versa? And we’re near a reversal?",
-      "post_text": "submitted by /u/nameaboveallnames to r/wallstreetbets [link] [comments]",
-      "score": 0,
-      "upvote_ratio": 0,
-      "creation": "2026-10-20",
-      "source": "reddit",
-      "source_name": "Reddit",
-      "publisher": "r/wallstreetbets",
-      "source_url": "https://www.reddit.com/r/wallstreetbets/comments/1xag4n6/i_found_a_trend_idk_im_highly_regarded_most_days/",
-      "tickers": "",
-      "positive": 0.018891,
-      "negative": 0.204233,
-      "neutral": 0.776876,
-      "confidence": 0.776876
-    },
-    {
       "postid": 24571028353984,
       "text": "Why did Ask Jeeves shut down during peak LLM mania?",
       "post_text": "That mfr was ahead of his time. submitted by /u/APerson2021 to r/wallstreetbets [link] [comments]",
@@ -3095,40 +3198,6 @@
       "negative": 0.932756,
       "neutral": 0.03714,
       "confidence": 0.932756
-    },
-    {
-      "postid": 278465852121935,
-      "text": "Bears Rekt",
-      "post_text": "submitted by /u/Minute_Scale_1834 to r/wallstreetbets [link] [comments]",
-      "score": 0,
-      "upvote_ratio": 0,
-      "creation": "2026-10-19",
-      "source": "reddit",
-      "source_name": "Reddit",
-      "publisher": "r/wallstreetbets",
-      "source_url": "https://www.reddit.com/r/wallstreetbets/comments/1x9x0b9/bears_rekt/",
-      "tickers": "",
-      "positive": 0.007292,
-      "negative": 0.0071,
-      "neutral": 0.985608,
-      "confidence": 0.985608
-    },
-    {
-      "postid": 261594388042482,
-      "text": "Soft commodities are waking up and El Niño isn't even at its peak yet",
-      "post_text": "check out the charts for sugar, wheat, cocoa, and beans forecasts say 2027 is going to be brutal weather-wise, logistics through the panama canal are constrained, and supply deficits are starting to pile up. chasing chocolate stocks right now is a trap, way too late. how are you guys playing the supply side squeeze? looking at fertilizer, equipment makers, or ignoring agricultural markets entirely? what's on your watchlist? submitted by /u/Anoncry66 to r/StockMarket [link] [comments]",
-      "score": 0,
-      "upvote_ratio": 0,
-      "creation": "2026-10-19",
-      "source": "reddit",
-      "source_name": "Reddit",
-      "publisher": "r/StockMarket",
-      "source_url": "https://www.reddit.com/r/StockMarket/comments/1xa5qng/soft_commodities_are_waking_up_and_el_niño_isnt/",
-      "tickers": "",
-      "positive": 0.006502,
-      "negative": 0.060547,
-      "neutral": 0.93295,
-      "confidence": 0.93295
     },
     {
       "postid": 213213339801875,
@@ -3250,23 +3319,6 @@
       "confidence": 0.720191
     },
     {
-      "postid": 134329218514373,
-      "text": "It’s official. Everything’s gone",
-      "post_text": "Do I add another 1,000 next week and keep going???? submitted by /u/TayRam2021 to r/wallstreetbets [link] [comments]",
-      "score": 0,
-      "upvote_ratio": 0,
-      "creation": "2026-10-19",
-      "source": "reddit",
-      "source_name": "Reddit",
-      "publisher": "r/wallstreetbets",
-      "source_url": "https://www.reddit.com/r/wallstreetbets/comments/1xa0bbn/its_official_everythings_gone/",
-      "tickers": "",
-      "positive": 0.005706,
-      "negative": 0.006905,
-      "neutral": 0.987389,
-      "confidence": 0.987389
-    },
-    {
       "postid": 129641166476224,
       "text": "10 New 4-Star Stocks This Week - Morningstar",
       "post_text": "10 New 4-Star Stocks This Week Morningstar",
@@ -3282,57 +3334,6 @@
       "negative": 0.014221,
       "neutral": 0.71786,
       "confidence": 0.71786
-    },
-    {
-      "postid": 115416728924765,
-      "text": "The attention economy is a relic of the 2010s and $META is a $1 trillion boomer casino with a GPU addiction",
-      "post_text": "Zuck is about to spend the GDP of a developing nation trying to solve a problem his company is financially incentivized to never solve. The entire premise of AI is that you can accomplish shit faster. Research something in 10 seconds. Find what you need. Automate tedious tasks. Close the app and go touch grass. Meta's entire business model is making sure you do absolutely none of those things. Exhibit A: Instagram. Want to listen to a video with your screen off? Nice try buddy. Get those eyeballs back on the screen, daddy Zuck has ad impressions to serve. Exhibit B: Facebook Marketplace. This ",
-      "score": 0,
-      "upvote_ratio": 0,
-      "creation": "2026-10-19",
-      "source": "reddit",
-      "source_name": "Reddit",
-      "publisher": "r/stocks",
-      "source_url": "https://www.reddit.com/r/stocks/comments/1xa3hye/the_attention_economy_is_a_relic_of_the_2010s_and/",
-      "tickers": "META",
-      "positive": 0.00749,
-      "negative": 0.006994,
-      "neutral": 0.985515,
-      "confidence": 0.985515
-    },
-    {
-      "postid": 98272450632094,
-      "text": "Houthis Warn Saudi Aramco Shareholders to Sell 'Before It's Too Late' as Attacks on Oil Facilities Escalate",
-      "post_text": "submitted by /u/terenscendent to r/wallstreetbets [link] [comments]",
-      "score": 0,
-      "upvote_ratio": 0,
-      "creation": "2026-10-19",
-      "source": "reddit",
-      "source_name": "Reddit",
-      "publisher": "r/wallstreetbets",
-      "source_url": "https://www.reddit.com/r/wallstreetbets/comments/1x9z0oh/houthis_warn_saudi_aramco_shareholders_to_sell/",
-      "tickers": "",
-      "positive": 0.052781,
-      "negative": 0.426536,
-      "neutral": 0.520682,
-      "confidence": 0.520682
-    },
-    {
-      "postid": 94012500921720,
-      "text": "French unrest compounds debt crisis fears. Paris-listed stocks, bonds and the euro fall",
-      "post_text": "submitted by /u/Illustrious_Lie_954 to r/StockMarket [link] [comments]",
-      "score": 0,
-      "upvote_ratio": 0,
-      "creation": "2026-10-19",
-      "source": "reddit",
-      "source_name": "Reddit",
-      "publisher": "r/StockMarket",
-      "source_url": "https://www.reddit.com/r/StockMarket/comments/1x9wpel/french_unrest_compounds_debt_crisis_fears/",
-      "tickers": "",
-      "positive": 0.016237,
-      "negative": 0.87143,
-      "neutral": 0.112333,
-      "confidence": 0.87143
     },
     {
       "postid": 87911021099576,
@@ -3384,23 +3385,6 @@
       "negative": 0.013175,
       "neutral": 0.956985,
       "confidence": 0.956985
-    },
-    {
-      "postid": 48858224768041,
-      "text": "My portfolio since 2021",
-      "post_text": "submitted by /u/ShapeNew7443 to r/wallstreetbets [link] [comments]",
-      "score": 0,
-      "upvote_ratio": 0,
-      "creation": "2026-10-19",
-      "source": "reddit",
-      "source_name": "Reddit",
-      "publisher": "r/wallstreetbets",
-      "source_url": "https://www.reddit.com/r/wallstreetbets/comments/1xa6qjb/my_portfolio_since_2021/",
-      "tickers": "",
-      "positive": 0.007753,
-      "negative": 0.00575,
-      "neutral": 0.986498,
-      "confidence": 0.986498
     }
   ]
 }
