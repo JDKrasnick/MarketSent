@@ -1,24 +1,109 @@
 {
   "schema_version": 2,
-  "generated_at": "2026-11-14T22:28:13.617098Z",
+  "generated_at": "2026-11-15T06:38:45.330780Z",
   "sources": [
     {
       "id": "reddit",
       "name": "Reddit",
       "status": "ok",
       "item_count": 100,
-      "updated_at": "2026-11-14T22:28:13.617098Z"
+      "updated_at": "2026-11-15T06:38:45.330780Z"
     },
     {
       "id": "google_news",
       "name": "Google News",
       "status": "ok",
       "item_count": 100,
-      "updated_at": "2026-11-14T22:28:13.617098Z"
+      "updated_at": "2026-11-15T06:38:45.330780Z"
     }
   ],
   "count": 198,
   "posts": [
+    {
+      "postid": 264390262392517,
+      "text": "Nvidia earnings — along with the baggage — top next week's markets - Yahoo Finance",
+      "post_text": "Nvidia earnings — along with the baggage — top next week's markets Yahoo Finance",
+      "score": 0,
+      "upvote_ratio": 0,
+      "creation": "2026-11-15",
+      "source": "google_news",
+      "source_name": "Google News",
+      "publisher": "Yahoo Finance",
+      "source_url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNNF90WjZ0QlBHdHhaWVZrX0h6WUo1OWpZSlN2UW5Eam5RbXo1amx1ejVxeC1SdXpiQTFLR3VLeGtJLXFWRFNRRmw2VHJ6ei1HYzBZeDNVZUhCR2x0c2oySGEtLUFuQXBwb0xmbnUteU1UWEZXd2czTUF3UF9nTDJHX3h1OVZ2SW4wX1FJSjZheUpBU2Eybk5uQzYzb0dQQ2s?oc=5",
+      "tickers": "NVDA",
+      "positive": 0.035942,
+      "negative": 0.005338,
+      "neutral": 0.95872,
+      "confidence": 0.95872
+    },
+    {
+      "postid": 193619490675136,
+      "text": "3 British Quality Stocks With ROE Over 27% - Yahoo Finance",
+      "post_text": "3 British Quality Stocks With ROE Over 27% Yahoo Finance",
+      "score": 0,
+      "upvote_ratio": 0,
+      "creation": "2026-11-15",
+      "source": "google_news",
+      "source_name": "Google News",
+      "publisher": "Yahoo Finance",
+      "source_url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxOYXJtTjdVZ1RlTnAwSTRweWhUajhDbjQ3X3k4VUhtMWJTYUhRNGcwamREaXRZelRGMk50T1BqWGJIY2RUYmZ4R1BOc0FJVUJISGEweFA0aEF3X2U0SnN2d1FyRFk2SF9VcWV2UmxvdjlCMFVWTE9CMGk4dUpxREhrUm91cEFNZDRvWFFaV2tOZzRQNmRUa3NtMw?oc=5",
+      "tickers": "",
+      "positive": 0.128705,
+      "negative": 0.021336,
+      "neutral": 0.849959,
+      "confidence": 0.849959
+    },
+    {
+      "postid": 163009095595359,
+      "text": "According to WP, China hawks in DC were behind the toppling of Huang",
+      "post_text": "source: Washington Post: Behind Jensen Huang’s spy scandal, a shadow war for Trump’s ear on China . (no paywall: https://archive.ph/cd6yZ ) TLDR: Huang lobbied for loosening export control because of corporate interest and allegedly national interest (making China depend on US chips). China hawks wanted to tighten export control. Huang offended China hawks by calling them \"a badge of shame\". The US intel suspects Alice of being a spy just because she is Chinese and wants to purchase chips, without other evidence. Apparently US intel is not sure if she is a spy ( source: CNN: US intel isn’t sur",
+      "score": 0,
+      "upvote_ratio": 0,
+      "creation": "2026-11-15",
+      "source": "reddit",
+      "source_name": "Reddit",
+      "publisher": "r/wallstreetbets",
+      "source_url": "https://www.reddit.com/r/wallstreetbets/comments/1xwjtnf/according_to_wp_china_hawks_in_dc_were_behind_the/",
+      "tickers": "INTC",
+      "positive": 0.020366,
+      "negative": 0.125961,
+      "neutral": 0.853673,
+      "confidence": 0.853673
+    },
+    {
+      "postid": 116872361875255,
+      "text": "Top 3 AI Stocks To Watch In November 2026 - Yahoo Finance",
+      "post_text": "Top 3 AI Stocks To Watch In November 2026 Yahoo Finance",
+      "score": 0,
+      "upvote_ratio": 0,
+      "creation": "2026-11-15",
+      "source": "google_news",
+      "source_name": "Google News",
+      "publisher": "Yahoo Finance",
+      "source_url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxNbEdQS0lfOXl0NFJXYnJDaEJYT3IzaHBHSkpiajA4NzJ0Tkh3QzQ2V0xpb2RGSXpNdFJ2cHdLV19CWFo1ZzAtSU1yV25fVlBVa2FaODF4ZmplUG9KT3pScVlQeFpQZ0NKcy1qM2h0eXBkLXYyZ0ZycWVkWm9kb1lXZjVyTzFEX0ExTHc4ZnZ3?oc=5",
+      "tickers": "",
+      "positive": 0.155848,
+      "negative": 0.023587,
+      "neutral": 0.820565,
+      "confidence": 0.820565
+    },
+    {
+      "postid": 70207798851098,
+      "text": "Nov. 25 Will Be a Critical Day for the Stock Market - Yahoo Finance",
+      "post_text": "Nov. 25 Will Be a Critical Day for the Stock Market Yahoo Finance",
+      "score": 0,
+      "upvote_ratio": 0,
+      "creation": "2026-11-15",
+      "source": "google_news",
+      "source_name": "Google News",
+      "publisher": "Yahoo Finance",
+      "source_url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxOQmZBRDFGMC1LS1dtTVZOU0ZsRUhpWHliUURJZmlqZkFPWENrdUJJbXpBeUM1Q0RISFZtMGRsQ0hjXy1IZEc3cndaVHNGdnc3dUhzSGxtbGFwN0lqUVFXa0Z5U3hCdkgwa2Jrd3h4VFFZbEppQk1yQjRwQ25pNXFYNnlrc0FSdFM2SFJKdjlXSDExaFRa?oc=5",
+      "tickers": "",
+      "positive": 0.372112,
+      "negative": 0.070014,
+      "neutral": 0.557874,
+      "confidence": 0.557874
+    },
     {
       "postid": 279879034195692,
       "text": "The bond market just turned on the AI trade — and chip stocks lost more than $650 billion in two days: Chart of the Day - Yahoo Finance",
@@ -37,21 +122,21 @@
       "confidence": 0.893725
     },
     {
-      "postid": 271268974397185,
-      "text": "3 Space Stocks To Own In November 2026 - Yahoo Finance",
-      "post_text": "3 Space Stocks To Own In November 2026 Yahoo Finance",
+      "postid": 271814282852905,
+      "text": "GMR Solutions (GMRS) Stock May Be Undervalued On Its Earnings Outlook - Yahoo Finance",
+      "post_text": "GMR Solutions (GMRS) Stock May Be Undervalued On Its Earnings Outlook Yahoo Finance",
       "score": 0,
       "upvote_ratio": 0,
       "creation": "2026-11-14",
       "source": "google_news",
       "source_name": "Google News",
       "publisher": "Yahoo Finance",
-      "source_url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxObkJ0RnlCMktvUE4xWGN5akppYk9LbXBpNU9VV3lNSXVORTNBYkRKcS1Td2xRNjBNSTJ1VVQtNDVrYmY5NjlNYnI5LXBBWndYZUhjNFpGTmU3THoyTjczRndZenRzTXUyMFJjQXFYdUtGXzhGcmVuX1ZCTkhudmFpVGVVLV9DanRFV2ZxVzFrNXdSRDlDZ3dV?oc=5",
+      "source_url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPNGlWRWZUVTlPbW9QdTJiTkItMEptU01TX3JTWmQwZ0VpRXJRZERBaUNhUkVjd0UzSy1xQ0hEbTEwTHp2dk9LUllYdWx0UEN0VGYxOTdicVlwRTRIS29ZNG5BdHBJWHRwbmt2dzJOUkJVUjhydFpMMlc0LUkzVHpMeU9tV25xMTg1dGY3ZjJpY0FiU3dRdEVIcw?oc=5",
       "tickers": "",
-      "positive": 0.013765,
-      "negative": 0.010104,
-      "neutral": 0.976131,
-      "confidence": 0.976131
+      "positive": 0.891147,
+      "negative": 0.04623,
+      "neutral": 0.062623,
+      "confidence": 0.891147
     },
     {
       "postid": 271139631045208,
@@ -69,23 +154,6 @@
       "negative": 0.560395,
       "neutral": 0.168859,
       "confidence": 0.560395
-    },
-    {
-      "postid": 269925860510689,
-      "text": "Treasuries Now Yield 5.1%. These High-Yield Dividend Stocks Could Be in Trouble - Yahoo Finance",
-      "post_text": "Treasuries Now Yield 5.1%. These High-Yield Dividend Stocks Could Be in Trouble Yahoo Finance",
-      "score": 0,
-      "upvote_ratio": 0,
-      "creation": "2026-11-14",
-      "source": "google_news",
-      "source_name": "Google News",
-      "publisher": "Yahoo Finance",
-      "source_url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxPY01lNHI2OGM0clZaeVozaDRBVHRPWkdvU1RHV1BINTNUQk1nRlkta2k0YldDcTFBNGpMc2c5dTB0WkI5U1NKbklaYk9tLVJfS2pibWY5V2pwbVV0ZTZmV3gtMXBFemVtZ3Z5M2w5UUN6Tl9pM0RuaDZaVnVMNDcxTUh6bWlsZkszNXVUWnV3MmZiX00?oc=5",
-      "tickers": "",
-      "positive": 0.024781,
-      "negative": 0.928902,
-      "neutral": 0.046317,
-      "confidence": 0.928902
     },
     {
       "postid": 268102564005212,
@@ -120,6 +188,23 @@
       "negative": 0.038691,
       "neutral": 0.94334,
       "confidence": 0.94334
+    },
+    {
+      "postid": 259695175495460,
+      "text": "Here’s Why Tesla (TSLA) Is One of the Top High P/E Stocks Under the 200-Day SMA - Yahoo Finance",
+      "post_text": "Here’s Why Tesla (TSLA) Is One of the Top High P/E Stocks Under the 200-Day SMA Yahoo Finance",
+      "score": 0,
+      "upvote_ratio": 0,
+      "creation": "2026-11-14",
+      "source": "google_news",
+      "source_name": "Google News",
+      "publisher": "Yahoo Finance",
+      "source_url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxPcGI0RWxDUDA3M1oxWGRIdllfdXNKV0lqTnA2OFBqcm9mRGw3V29CYzRNUVE4ZjhhZktDUE5SWHBoSzlYUDB6c25FR0ZkMkhLRjBpb0pndEhEOGJIWVVKNkxhVDRCbFdwMlJiSG5SQUlfbUdrbUNkeHRhNTlUSmxmcnRnekY5VjVUaF9acGp4WHA?oc=5",
+      "tickers": "TSLA",
+      "positive": 0.217009,
+      "negative": 0.006561,
+      "neutral": 0.77643,
+      "confidence": 0.77643
     },
     {
       "postid": 255902405410810,
@@ -241,21 +326,21 @@
       "confidence": 0.903367
     },
     {
-      "postid": 200389303249655,
-      "text": "3 Defensive Dividend Stocks Retail Investors Are Watching For Reliable Income - Yahoo Finance",
-      "post_text": "3 Defensive Dividend Stocks Retail Investors Are Watching For Reliable Income Yahoo Finance",
+      "postid": 206435740141901,
+      "text": "How Canadian stocks could be big winners of U.S. midterms - CNBC",
+      "post_text": "How Canadian stocks could be big winners of U.S. midterms CNBC",
       "score": 0,
       "upvote_ratio": 0,
       "creation": "2026-11-14",
       "source": "google_news",
       "source_name": "Google News",
-      "publisher": "Yahoo Finance",
-      "source_url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxQczFOcHZWWVRPbV84dVF0eU16bDdOODFvbTFUT2Qzb21wTHFqbDhUU3g3NXRKaERHTXdMMmQ5Qjk1LTA0Ukx1bVJfZGlicWZZNkRKWlpMc0dHM1c1VFRfS2JET2MtaGZ4QlU1WHN2dV9GVEwzaVZucTBqcUVrZkNtWGsxQVZ2R1BRZ21GMWg4eTdnZ3I2TV9KWlZ6Snpxb2s2?oc=5",
+      "publisher": "CNBC",
+      "source_url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE1PNW5TV3hXaF9mVF9CeTktVGZDOU04OGx3c1U4TFAwVW5Nd1dmbHBJRFJaWEpWQTJjOE9vZWJhSGd1djEyWFdxNWpPcGVKTG1ocXdFSW44TGo5QWk0OXQ2UXY3a0hYSXd5NTk0dHZ5UEhlOWhlZmtiNGpR?oc=5",
       "tickers": "",
-      "positive": 0.021646,
-      "negative": 0.012752,
-      "neutral": 0.965602,
-      "confidence": 0.965602
+      "positive": 0.135664,
+      "negative": 0.012554,
+      "neutral": 0.851782,
+      "confidence": 0.851782
     },
     {
       "postid": 197743329008735,
@@ -309,6 +394,23 @@
       "confidence": 0.962204
     },
     {
+      "postid": 189897875296098,
+      "text": "3 Penny Stocks With Revenue Growth Up To 72% - Yahoo Finance",
+      "post_text": "3 Penny Stocks With Revenue Growth Up To 72% Yahoo Finance",
+      "score": 0,
+      "upvote_ratio": 0,
+      "creation": "2026-11-14",
+      "source": "google_news",
+      "source_name": "Google News",
+      "publisher": "Yahoo Finance",
+      "source_url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxNdzdhdzhKazlYX1NsMEpMV3d0WExrXzlRRllxWVBnUVc1UTBVTFN0aXF3WGdwazY0X3ZaQVZXaGpyVEs0RFFHeU1EX2ZtOXA4SGhJcTVnd0pNNVlabWNxaTB2R1JaOC1jbkJWbVNoQlRxZ0kwTUZHRllvV0pTLU5YYnE1NEFKVUdrdmFnUjRPbHd2aFdSTmM0X0tB?oc=5",
+      "tickers": "",
+      "positive": 0.886826,
+      "negative": 0.013553,
+      "neutral": 0.099622,
+      "confidence": 0.886826
+    },
+    {
       "postid": 182077783683574,
       "text": "How Investors May Respond To Diamondback Energy (FANG) Earnings Beat - Yahoo Finance",
       "post_text": "How Investors May Respond To Diamondback Energy (FANG) Earnings Beat Yahoo Finance",
@@ -326,6 +428,23 @@
       "confidence": 0.793683
     },
     {
+      "postid": 179554320787250,
+      "text": "3 AI Chip Stocks Retail Investors May Be Missing Beyond Nvidia - Yahoo Finance",
+      "post_text": "3 AI Chip Stocks Retail Investors May Be Missing Beyond Nvidia Yahoo Finance",
+      "score": 0,
+      "upvote_ratio": 0,
+      "creation": "2026-11-14",
+      "source": "google_news",
+      "source_name": "Google News",
+      "publisher": "Yahoo Finance",
+      "source_url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxOYTU4MTUtSndpZFFoWUR1VEhjZE9yak8wdWViV3VzT2hzeEhSaDZYVlVSNHRxVE1sWXhMM3RxblNELS03ZTBNVm5YLVJwc0NsUmlUTFIwM2hfc2R2dkNheGlxeFhiRXZXUWNiY1VGRmZ5VnpZZHF3ZzdYODVUUllKX3R5TF9DT2xwWXBNMTBKeXE?oc=5",
+      "tickers": "NVDA",
+      "positive": 0.02687,
+      "negative": 0.940073,
+      "neutral": 0.033057,
+      "confidence": 0.940073
+    },
+    {
       "postid": 169332203043402,
       "text": "5 Dividend Stocks With High Yields That Are Safer Than You Might Think - Yahoo Finance",
       "post_text": "5 Dividend Stocks With High Yields That Are Safer Than You Might Think Yahoo Finance",
@@ -341,6 +460,23 @@
       "negative": 0.020823,
       "neutral": 0.646943,
       "confidence": 0.646943
+    },
+    {
+      "postid": 160274307563237,
+      "text": "Bavarian Nordic (CPSE:BAVA) Could Be 14% Undervalued As Earnings Land - Yahoo Finance",
+      "post_text": "Bavarian Nordic (CPSE:BAVA) Could Be 14% Undervalued As Earnings Land Yahoo Finance",
+      "score": 0,
+      "upvote_ratio": 0,
+      "creation": "2026-11-14",
+      "source": "google_news",
+      "source_name": "Google News",
+      "publisher": "Yahoo Finance",
+      "source_url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxNOU0xS0ZYcnc4UE9Bc3RzRlo0Mlh2ZV9vUzJDdmw0dGQxeWJpVDVUSkpVcWlCYXhaN20zaGJJNTBfVlhPRVF1NHlpeHZObDdGa0pmRkk5dkh2alNuRVROSGJFd1lwRUlhTFBXRHo1TGlYWEF2Wk1CbkhjWGwzX002NGFsZ1QzV0FzeWI4bWpZYURRLWxmOFZBanlZdlk?oc=5",
+      "tickers": "",
+      "positive": 0.109773,
+      "negative": 0.047022,
+      "neutral": 0.843205,
+      "confidence": 0.843205
     },
     {
       "postid": 159391030858766,
@@ -377,23 +513,6 @@
       "confidence": 0.853475
     },
     {
-      "postid": 157073465751322,
-      "text": "Will Earnings Reset Change Comstock Resources' (CRK) Narrative - Yahoo Finance",
-      "post_text": "Will Earnings Reset Change Comstock Resources' (CRK) Narrative Yahoo Finance",
-      "score": 0,
-      "upvote_ratio": 0,
-      "creation": "2026-11-14",
-      "source": "google_news",
-      "source_name": "Google News",
-      "publisher": "Yahoo Finance",
-      "source_url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQZFhDYUtZM1Jid09iaElMWXZ3c2Z2UUVQdmpJWWdIMXNJM3J4STFCX1Y0NmJhTmN5cGc5dXBJMzctRHItRkR3V0xUcHNnQzdjaVJoZ0Fmcks2OVhyc3pvWTNhRVI5ZzU2cWVzOWZtaGRMVktsdzNrLUhOUVVFTVJfMkZfdFFYdGM0T2N0aVlXa2xSTEhNODRXRm5KZ2xNUXVzSXl3NndmWXhJc2FNT2pJQktDRzVIQQ?oc=5",
-      "tickers": "",
-      "positive": 0.032327,
-      "negative": 0.008073,
-      "neutral": 0.959599,
-      "confidence": 0.959599
-    },
-    {
       "postid": 141943069476082,
       "text": "Turns out the \"shortage\" was NVDA funding the startups buying NVDA chips. I'm the regard who called it organic demand",
       "post_text": "so let me get this straight. NVDA commits to buying an avalanche of TSMC silicon. Instead of doing the normal thing and cutting prices when supply catches up, Jensen apparently financed the AI startups and cloud bros so they could afford to buy the chips he'd already ordered. The seller funded the buyer to absorb the supply. Which means the \"shortage\" that let him charge whatever he wanted... was partly his own money walking in circles. and I'm the regard who spent two years telling everyone \"AI demand is organic, bro, the supply is real.\" I didn't get outplayed by the market. I got outplayed ",
@@ -411,21 +530,21 @@
       "confidence": 0.949127
     },
     {
-      "postid": 139441387739626,
-      "text": "3 U.S. Steel Stocks With Tariff Exposure Retail Investors Are Watching - Yahoo Finance",
-      "post_text": "3 U.S. Steel Stocks With Tariff Exposure Retail Investors Are Watching Yahoo Finance",
+      "postid": 139365770013046,
+      "text": "How I'm playing the Anthropic IPO for a possible 200x Gain with Call Options",
+      "post_text": "I gave you guys the SpaceX IPO 400 bagger (check previous posts) and this is my DD for the Anthropic IPO. The biggest market event of the year is happening on Thursday when Anthropic goes public. Many people expect the IPO to fail, but Anthropic was smart and kept the float super small. Only 6.3% of total shares will be tradable on IPO day. That means all it takes is a bunch of media attention and dumb retail buyers hitting market orders to make it easily go up 50% in a day. SpaceX did the same exact strategy with the low float, and we saw it go up 70% in the first few trading days. I’m not sa",
       "score": 0,
       "upvote_ratio": 0,
       "creation": "2026-11-14",
-      "source": "google_news",
-      "source_name": "Google News",
-      "publisher": "Yahoo Finance",
-      "source_url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxQeTZsaXYzUU01M0NsMzdDYm1RQ29MYVVXVV9PYVJvbU42QUJEeEZLSzJVS1UtLTlKaE5vWUFMbWNGVzJna3AyaDJjbGdzNjdhMGVRRjkwV1ZFYlVQRGlhdzl1UGJxN0VzcVoxdThhZFlEU1c4MGFBd2w0TEJkRzRhRUtWaElLdFY1WkE0ME5fSU5Fdw?oc=5",
-      "tickers": "",
-      "positive": 0.012841,
-      "negative": 0.010663,
-      "neutral": 0.976495,
-      "confidence": 0.976495
+      "source": "reddit",
+      "source_name": "Reddit",
+      "publisher": "r/wallstreetbets",
+      "source_url": "https://www.reddit.com/r/wallstreetbets/comments/1xwft7z/how_im_playing_the_anthropic_ipo_for_a_possible/",
+      "tickers": "SPACEX",
+      "positive": 0.042838,
+      "negative": 0.006401,
+      "neutral": 0.95076,
+      "confidence": 0.95076
     },
     {
       "postid": 134661902819556,
@@ -479,6 +598,23 @@
       "confidence": 0.624263
     },
     {
+      "postid": 128103225971806,
+      "text": "Top 3 Canadian Undervalued Stocks To Watch In November 2026 - Yahoo Finance",
+      "post_text": "Top 3 Canadian Undervalued Stocks To Watch In November 2026 Yahoo Finance",
+      "score": 0,
+      "upvote_ratio": 0,
+      "creation": "2026-11-14",
+      "source": "google_news",
+      "source_name": "Google News",
+      "publisher": "Yahoo Finance",
+      "source_url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxOSUo3bUNOR0ZqcnRVQld4eUM4WHN6TE1yWGRiQ2ttS0dNdU96Zk45Y0M2UXU2NC1uUXY0S3VFeW5RcGlicFBmeW1RUjVaU0hXbE1OdkRfWkdNNUIxMUkxR0pjcWQ3empyNHN3RTlocnd5bExIWnFLcmE5SnE2dU5jUm5uR1RZZ1R1LUNJMXhzQXA5TnlwbTlpRHhLV3o5bVE?oc=5",
+      "tickers": "",
+      "positive": 0.109753,
+      "negative": 0.026074,
+      "neutral": 0.864172,
+      "confidence": 0.864172
+    },
+    {
       "postid": 117399855781242,
       "text": "Is Ciena (CIEN) Undervalued Going Into Its December 10 Earnings? - Yahoo Finance",
       "post_text": "Is Ciena (CIEN) Undervalued Going Into Its December 10 Earnings? Yahoo Finance",
@@ -494,23 +630,6 @@
       "negative": 0.007395,
       "neutral": 0.985846,
       "confidence": 0.985846
-    },
-    {
-      "postid": 113109979056461,
-      "text": "3 High Quality Dividend Stocks For Investors Watching Interest Rates - Yahoo Finance",
-      "post_text": "3 High Quality Dividend Stocks For Investors Watching Interest Rates Yahoo Finance",
-      "score": 0,
-      "upvote_ratio": 0,
-      "creation": "2026-11-14",
-      "source": "google_news",
-      "source_name": "Google News",
-      "publisher": "Yahoo Finance",
-      "source_url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxQaG8tbnBwbG9RR3o0OVVoU0ZIRmZUUmdibmVEd3hya3ZRaVdteXRFZWJDbTU3TndNdHRJd0hXSkNxa2V0QW12TGlyM2ZWLXpKRzd1aHJoVzFFMVduZEhRSFY2VFB2VjhiQ0h4Mk5UeXZJQmxpMmo0cmlYYVlVMGI1ZlJ0TG5XQnZQVDJLbGJLVkw3R0s4UlBrTlY5QQ?oc=5",
-      "tickers": "",
-      "positive": 0.044119,
-      "negative": 0.012616,
-      "neutral": 0.943265,
-      "confidence": 0.943265
     },
     {
       "postid": 111198128182902,
@@ -547,21 +666,21 @@
       "confidence": 0.557804
     },
     {
-      "postid": 93576655910589,
-      "text": "3 Biotech Stocks With Revenue Up To 11% - Yahoo Finance",
-      "post_text": "3 Biotech Stocks With Revenue Up To 11% Yahoo Finance",
+      "postid": 98495900178976,
+      "text": "Top 3 Founder Led Stocks To Watch In November 2026 - Yahoo Finance",
+      "post_text": "Top 3 Founder Led Stocks To Watch In November 2026 Yahoo Finance",
       "score": 0,
       "upvote_ratio": 0,
       "creation": "2026-11-14",
       "source": "google_news",
       "source_name": "Google News",
       "publisher": "Yahoo Finance",
-      "source_url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxOOURHUDdKV2Q4TE9aYXNaVFpGazJ5UUhHYWNGMGNUUUo4ejJRR0pYM0xkb25sZUo1U180OUdtdEhlMy13elpoak01S012RHFxYTA1RTBGeklWbjJHYkJEb1RObEQ2TEtmekJxdHlscE93MUhLVDFzekZ4amRFeC12QW1Rd1V6Xzd0Wlh0cmJ1eWZIdw?oc=5",
+      "source_url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxPM3Z4c1dJT1lpZUg2enNMd011dG9DZS1hWTAxVUNWa0lFVzh2Y1RoSzRkaHc4Rk9uMHczSGlXVnJuaVlsWWRXS0ItVjFsVFBsTlRhTUM3OWYzelhPdVJWTFVodDlSZ0Y0SEJWaTg1UUM2NERtU20zaTNNWnlQR0VCaVRsMi1fcjZyRGo3aFBIenB4MWs?oc=5",
       "tickers": "",
-      "positive": 0.567293,
-      "negative": 0.015585,
-      "neutral": 0.417122,
-      "confidence": 0.567293
+      "positive": 0.135364,
+      "negative": 0.009874,
+      "neutral": 0.854761,
+      "confidence": 0.854761
     },
     {
       "postid": 81272264911370,
@@ -581,21 +700,21 @@
       "confidence": 0.945625
     },
     {
-      "postid": 81082847583672,
-      "text": "3 British Growth Stocks With Earnings Growth Over 21% - Yahoo Finance",
-      "post_text": "3 British Growth Stocks With Earnings Growth Over 21% Yahoo Finance",
+      "postid": 77610899763073,
+      "text": "Nvidia director sold nearly $1B in stock weeks before the Jensen Huang scandal broke",
+      "post_text": "Nvidia director sold nearly $1B in stock weeks before the Jensen Huang scandal broke — and no trading plan was flagged https://finance.yahoo.com/markets/stocks/articles/nvidia-director-sold-nearly-1b-160000846.html?guccounter=1 submitted by /u/Stockguygme to r/wallstreetbets [link] [comments]",
       "score": 0,
       "upvote_ratio": 0,
       "creation": "2026-11-14",
-      "source": "google_news",
-      "source_name": "Google News",
-      "publisher": "Yahoo Finance",
-      "source_url": "https://news.google.com/rss/articles/CBMingFBVV95cUxOMkF0LUtSbWVGc2dLWHZpNU1OYU0wU09ZMDR4WjRPTnlRLXJibTRla2d5RUJ3MFFHcXBqSTJWMW9ReE14WlV0dzFzdDBhX0lEOVFjaHFFOW9GMC13Z2g3SVpzUmpfclgwd05zSnJjWTlxc0Vta09RLVpaZkNtRXZKLThQeFZ5RjFzSlNOV1NOY0l0SFVXbXpiRFYzbXQ0dw?oc=5",
-      "tickers": "",
-      "positive": 0.298865,
-      "negative": 0.019362,
-      "neutral": 0.681773,
-      "confidence": 0.681773
+      "source": "reddit",
+      "source_name": "Reddit",
+      "publisher": "r/wallstreetbets",
+      "source_url": "https://www.reddit.com/r/wallstreetbets/comments/1xwdol4/nvidia_director_sold_nearly_1b_in_stock_weeks/",
+      "tickers": "NVDA",
+      "positive": 0.009325,
+      "negative": 0.087748,
+      "neutral": 0.902927,
+      "confidence": 0.902927
     },
     {
       "postid": 68038711029045,
@@ -649,6 +768,40 @@
       "confidence": 0.975067
     },
     {
+      "postid": 52615363328776,
+      "text": "Sumitomo (TSE:8053) Lifts Profit And Dividend Plans Following Earnings While Valuation Questions Linger - Yahoo Finance",
+      "post_text": "Sumitomo (TSE:8053) Lifts Profit And Dividend Plans Following Earnings While Valuation Questions Linger Yahoo Finance",
+      "score": 0,
+      "upvote_ratio": 0,
+      "creation": "2026-11-14",
+      "source": "google_news",
+      "source_name": "Google News",
+      "publisher": "Yahoo Finance",
+      "source_url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxQZFBUU2hQdThqYmg0X0l4WV9sS0tPR0c0eEwxeFB5cWNyQUE0cTFOLUszNEVRN1A2UjhSV2gtQ1hzVnBRdDBFMlI4X0VHRzR0UTVrdXF4OW5tUTEzVW94SU8yLXdiVjZYZzc2ZG1XODhjcUQtclFodTN4ZjJMdUdVLTNLNm5XQm9tOHBCNTJZRVpVamRCVnJWczUtZw?oc=5",
+      "tickers": "",
+      "positive": 0.857991,
+      "negative": 0.01142,
+      "neutral": 0.13059,
+      "confidence": 0.857991
+    },
+    {
+      "postid": 41550598254927,
+      "text": "Will Third Quarter Earnings Change Red Violet (RDVT) Narrative - Yahoo Finance",
+      "post_text": "Will Third Quarter Earnings Change Red Violet (RDVT) Narrative Yahoo Finance",
+      "score": 0,
+      "upvote_ratio": 0,
+      "creation": "2026-11-14",
+      "source": "google_news",
+      "source_name": "Google News",
+      "publisher": "Yahoo Finance",
+      "source_url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNb0dxMzNvWllDeHQ1dXozWHhDNjA0aGJVWUhtbTdSRjlCcFVkc0NMMENMdlRPT0lDbkVhUTRyRTZENjRZQWNJbjhTX0JNanN6d3ZsNVBPU0JVVGpWU3puY3N6VWprTThnR0VzZkF6U0R4YUU4Z1g4MHhZWmxwMEZVRmlxX2hvNVgtWk9Bc3JQSWlpcEpsXzVTcXNXb1VYWk0?oc=5",
+      "tickers": "",
+      "positive": 0.239279,
+      "negative": 0.01958,
+      "neutral": 0.741141,
+      "confidence": 0.741141
+    },
+    {
       "postid": 25034485733390,
       "text": "4 Dividend Stocks Yielding 4% or More to Buy Before the End of November - Yahoo Finance",
       "post_text": "4 Dividend Stocks Yielding 4% or More to Buy Before the End of November Yahoo Finance",
@@ -664,23 +817,6 @@
       "negative": 0.016139,
       "neutral": 0.965326,
       "confidence": 0.965326
-    },
-    {
-      "postid": 24864206689908,
-      "text": "Top 3 Canadian Lithium Stocks With Earnings Growth Over 32% - Yahoo Finance",
-      "post_text": "Top 3 Canadian Lithium Stocks With Earnings Growth Over 32% Yahoo Finance",
-      "score": 0,
-      "upvote_ratio": 0,
-      "creation": "2026-11-14",
-      "source": "google_news",
-      "source_name": "Google News",
-      "publisher": "Yahoo Finance",
-      "source_url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxQdVlRUlpJTDZoSFlyZncyd19EMEdLREV3MFgtWHFDbUEwXzhjR0VfU0I3V2xaTmxWWmY5OVV2UGM1Mk81SGpMSUZKWWFzTjhnbWFwakF2NDlvUUllM3ZjazNiQXd3WjRmeF92WTJacnlISGdfaHZZd29SdTBUMmJjRkhnMjdGQXJzUHByTFFqNXVXWEl5YVpNcnV3?oc=5",
-      "tickers": "",
-      "positive": 0.827359,
-      "negative": 0.015063,
-      "neutral": 0.157578,
-      "confidence": 0.827359
     },
     {
       "postid": 18798837585612,
@@ -700,23 +836,6 @@
       "confidence": 0.491932
     },
     {
-      "postid": 10270102698706,
-      "text": "How Investors May Respond To Baidu Stock Earnings Estimate Cuts - Yahoo Finance",
-      "post_text": "How Investors May Respond To Baidu Stock Earnings Estimate Cuts Yahoo Finance",
-      "score": 0,
-      "upvote_ratio": 0,
-      "creation": "2026-11-14",
-      "source": "google_news",
-      "source_name": "Google News",
-      "publisher": "Yahoo Finance",
-      "source_url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNQV8tZXRaNEt4cXB0X2VwcVY1YVVHV2d0UHR2T0hSRk5QWHFiamthTGh0VERkV3U2Vkl4LVpsYU9oRmhYbnl6S1Foa2NzQnBGMk0xZnNTajVxd2dPUzBpUUNJR1VCSTRpRUJnTUZiTnlVWDdGbVpTa1lSeFB2Q2c3azFnLUd2ZElMalFQVUUzanJ5c25SU2syc0J5akk3OGM?oc=5",
-      "tickers": "",
-      "positive": 0.072647,
-      "negative": 0.604304,
-      "neutral": 0.323048,
-      "confidence": 0.604304
-    },
-    {
       "postid": 8633979069213,
       "text": "How Jensen's been moving lately",
       "post_text": "submitted by /u/BasedBalkaner to r/wallstreetbets [link] [comments]",
@@ -734,23 +853,6 @@
       "confidence": 0.974663
     },
     {
-      "postid": 8542461861883,
-      "text": "Retail Estates (ENXTBR:RET) Stock Looks About Right On Current Earnings - Yahoo Finance",
-      "post_text": "Retail Estates (ENXTBR:RET) Stock Looks About Right On Current Earnings Yahoo Finance",
-      "score": 0,
-      "upvote_ratio": 0,
-      "creation": "2026-11-14",
-      "source": "google_news",
-      "source_name": "Google News",
-      "publisher": "Yahoo Finance",
-      "source_url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxPazExWUxUckRUdGMzVUc4eG94bWZIRzR2RzEwS0NoLWJ6M1hLRzZFRnZpcFZpWHk3dUxXbThid0l0bkkydjI1NUR5dW5MT3lMY016TmJ0RmNsWDYwQ3N4UDRBeU8xbi1UcnA2SjBpQlRfY1l2c09BdkFGcFM1S1ZkVXBDVGY1a0hraWRKZmtKcGhzYXlUWWhRQVFJdk8?oc=5",
-      "tickers": "",
-      "positive": 0.75987,
-      "negative": 0.018133,
-      "neutral": 0.221997,
-      "confidence": 0.75987
-    },
-    {
       "postid": 6988631484618,
       "text": "Micron Technology (MU): Does a Low Earnings Multiple Understate Its AI Opportunity? - Yahoo Finance",
       "post_text": "Micron Technology (MU): Does a Low Earnings Multiple Understate Its AI Opportunity? Yahoo Finance",
@@ -766,23 +868,6 @@
       "negative": 0.041767,
       "neutral": 0.950113,
       "confidence": 0.950113
-    },
-    {
-      "postid": 271076923195494,
-      "text": "Cisco Stock Falls After Earnings Beat Fails to Ease Long-Term Concerns - Barron's",
-      "post_text": "Cisco Stock Falls After Earnings Beat Fails to Ease Long-Term Concerns Barron's",
-      "score": 0,
-      "upvote_ratio": 0,
-      "creation": "2026-11-13",
-      "source": "google_news",
-      "source_name": "Google News",
-      "publisher": "Barron's",
-      "source_url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxPZUhmWGFldFYxS1lXZUZhbjJQa2lkWk5OejFaODlTNjZBMG9UUHEtOUNzcnJlUGR6MFRSenR6YTBPWGktVm5ZMnJ5LUJ5SDhDdFZ1RDl3RUVXVU1YNk92ZGVvVHRMWnVadHQ0bHRrcGhKbUozeXVpQWtDdEFydUJ2SzJZcWtUbkE?oc=5",
-      "tickers": "CSCO",
-      "positive": 0.040337,
-      "negative": 0.940033,
-      "neutral": 0.01963,
-      "confidence": 0.940033
     },
     {
       "postid": 269235847586960,
@@ -817,23 +902,6 @@
       "negative": 0.046334,
       "neutral": 0.92837,
       "confidence": 0.92837
-    },
-    {
-      "postid": 263126108236688,
-      "text": "Top 3 Nuclear Stocks To Watch In November 2026 - Yahoo Finance",
-      "post_text": "Top 3 Nuclear Stocks To Watch In November 2026 Yahoo Finance",
-      "score": 0,
-      "upvote_ratio": 0,
-      "creation": "2026-11-13",
-      "source": "google_news",
-      "source_name": "Google News",
-      "publisher": "Yahoo Finance",
-      "source_url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxOTWRiT0pnR1QteVBmUFFMUTJlaWd3RllFdFNwMU00XzJWUVYwbDdYUGdHVjhOa3BUNjR6eHN1RVhya2JER2YtTDFabXRZSDgxTU43NnJfeHh0Ul85cXNpQm5YWEhrZHNoUUQ2V0FMell4cmRpcEEtVzBETWdXclR2dWtqcEFKT1BEbVFB?oc=5",
-      "tickers": "",
-      "positive": 0.135975,
-      "negative": 0.020488,
-      "neutral": 0.843537,
-      "confidence": 0.843537
     },
     {
       "postid": 245894149940487,
@@ -989,23 +1057,6 @@
       "confidence": 0.592667
     },
     {
-      "postid": 223047804119934,
-      "text": "Stocks mostly ease with tech, Nvidia concerns; airline shares fall late in session - Yahoo Finance",
-      "post_text": "Stocks mostly ease with tech, Nvidia concerns; airline shares fall late in session Yahoo Finance",
-      "score": 0,
-      "upvote_ratio": 0,
-      "creation": "2026-11-13",
-      "source": "google_news",
-      "source_name": "Google News",
-      "publisher": "Yahoo Finance",
-      "source_url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxOZ1dyUFlEbEc1YXdFX1U2Mmd4WUFQWHd3QlFlOVBWUGFNYXVQYlhTOUhuMjJ0cXBGdUtLNXVQTzBZc3ZHWFN0a2JheE5DOXYzTnkydjQ3RGhqenpha3l0TExmT2ZEZTI4VHZvYktqOTlLVFlwYXdJSG5KdU9ZOXcyRW1SQjRvSkttaENoMlpiaDNMT3FkdFhPeEhadUxWakRTY1BRWg?oc=5",
-      "tickers": "NVDA",
-      "positive": 0.186866,
-      "negative": 0.738836,
-      "neutral": 0.074299,
-      "confidence": 0.738836
-    },
-    {
       "postid": 218766974567751,
       "text": "Who needs GTA when we have this",
       "post_text": "Calls submitted by /u/Imadeapromisemrfrodo to r/wallstreetbets [link] [comments]",
@@ -1038,23 +1089,6 @@
       "negative": 0.010637,
       "neutral": 0.032702,
       "confidence": 0.956661
-    },
-    {
-      "postid": 208087483783606,
-      "text": "Stock Market Turbulence: 5 Stocks Down 40% or More That I'd Buy Right Now - The Motley Fool",
-      "post_text": "Stock Market Turbulence: 5 Stocks Down 40% or More That I'd Buy Right Now The Motley Fool",
-      "score": 0,
-      "upvote_ratio": 0,
-      "creation": "2026-11-13",
-      "source": "google_news",
-      "source_name": "Google News",
-      "publisher": "The Motley Fool",
-      "source_url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPWVNvd3J3VmEzNjhUcy1FUzN0NU1fQTJGRUVOUThfbmNVVU5DY05GVnZqMVhQNGJ6Y2FWeE4xeHh0NGNydDBXcXdZQXNCQVNuNlpSZzNzd2J4aGIzZUNSWUpNdVotYTFlYkdHT1pOeWE0SV82LUk2Q2NDR2EtWlB2bk9oWDAwampFYjByRTVaaEtFZkUwRkdnRXhMUWY4ekowTm1JOUJPaF9PRXZody1ZWVVDVWM?oc=5",
-      "tickers": "",
-      "positive": 0.02782,
-      "negative": 0.947093,
-      "neutral": 0.025087,
-      "confidence": 0.947093
     },
     {
       "postid": 199263733714325,
@@ -1091,23 +1125,6 @@
       "confidence": 0.878887
     },
     {
-      "postid": 186512154292208,
-      "text": "HSBC Says Buy the Dip in These 11 Stocks -- Alphabet and Oracle Top the List - Yahoo Finance",
-      "post_text": "HSBC Says Buy the Dip in These 11 Stocks -- Alphabet and Oracle Top the List Yahoo Finance",
-      "score": 0,
-      "upvote_ratio": 0,
-      "creation": "2026-11-13",
-      "source": "google_news",
-      "source_name": "Google News",
-      "publisher": "Yahoo Finance",
-      "source_url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxObTNGYXRjbFMwM1llRUN6YmVpTnhQT05XaHVzbGpGNnU3MXpMVDVZVDhxb3d4U2tRcGY2Q2JORy1oYU5BM1doSGV4U09tY0RXRVdPSEhNSGlWOXNwWFVHYXd5V2VCOTFqUXU2dVk5Y2Z2bU8tN0wzSGdLdnY4eVllTmN3ZHgwNVNZZWhaZ0JB?oc=5",
-      "tickers": "GOOG,ORCL",
-      "positive": 0.227093,
-      "negative": 0.006917,
-      "neutral": 0.76599,
-      "confidence": 0.76599
-    },
-    {
       "postid": 183919980584272,
       "text": "6 Energy Dividend Stocks Yielding Up to 7.97% That Income Investors Should Know - Yahoo Finance",
       "post_text": "6 Energy Dividend Stocks Yielding Up to 7.97% That Income Investors Should Know Yahoo Finance",
@@ -1125,6 +1142,23 @@
       "confidence": 0.973882
     },
     {
+      "postid": 178115200947042,
+      "text": "5 Stocks With Insane Upside According to Reddit - Yahoo Finance",
+      "post_text": "5 Stocks With Insane Upside According to Reddit Yahoo Finance",
+      "score": 0,
+      "upvote_ratio": 0,
+      "creation": "2026-11-13",
+      "source": "google_news",
+      "source_name": "Google News",
+      "publisher": "Yahoo Finance",
+      "source_url": "https://news.google.com/rss/articles/CBMingFBVV95cUxNa0Rid2VzRjA3MGJUbHpiU0tQQkotajR5cko1VEl5SVlJSGV0b3NUZnpJang5WjJzRGU3VTN3Wkp6M2l2YUpDZWlMZkNnMHpkVE80YUpfOC1SOEZmaVJYZUk3WXo3THEzRUxUR1J5WFdlVi15bDhtYUIyQ2pnLVQ0TnM4QlcyMlVTNDFuNDgyM2R2UUpIQ0ZZaXNJR0YyUQ?oc=5",
+      "tickers": "",
+      "positive": 0.057484,
+      "negative": 0.879403,
+      "neutral": 0.063113,
+      "confidence": 0.879403
+    },
+    {
       "postid": 167843398365290,
       "text": "Wall Street stocks mostly lower as Nvidia extends slump - Yahoo Finance",
       "post_text": "Wall Street stocks mostly lower as Nvidia extends slump Yahoo Finance",
@@ -1140,6 +1174,23 @@
       "negative": 0.945429,
       "neutral": 0.030585,
       "confidence": 0.945429
+    },
+    {
+      "postid": 165470562857452,
+      "text": "Why Is Cisco Stock Falling Today Despite Higher Quarterly Revenue and Earnings? - Yahoo Finance",
+      "post_text": "Why Is Cisco Stock Falling Today Despite Higher Quarterly Revenue and Earnings? Yahoo Finance",
+      "score": 0,
+      "upvote_ratio": 0,
+      "creation": "2026-11-13",
+      "source": "google_news",
+      "source_name": "Google News",
+      "publisher": "Yahoo Finance",
+      "source_url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxQZEtLNlRVZjNjdGxidVlFbThGLTdKVWpsWlJHSTVIY0F2LVAzMFJPbExEUzdVN3FnLUcxUGRkLWNscDNpRXFBaDVzNUc3VTV1MmtsZVJSTkx0UE4xbUEwMWhRTnhwTUZMOWhtSDNmTE1mem5rTXNrMTZvUW1UMVQ0S0dZSnFXU1ZDdDl0T0pfU2FDcXM1b0g1M0Jn?oc=5",
+      "tickers": "CSCO",
+      "positive": 0.025018,
+      "negative": 0.955893,
+      "neutral": 0.019089,
+      "confidence": 0.955893
     },
     {
       "postid": 155208966136704,
@@ -1244,6 +1295,23 @@
       "confidence": 0.941796
     },
     {
+      "postid": 142888836025081,
+      "text": "3 Warren Buffett Stocks Just Closed at Record Highs. Here's the One I'd Still Buy Now. - Yahoo Finance",
+      "post_text": "3 Warren Buffett Stocks Just Closed at Record Highs. Here's the One I'd Still Buy Now. Yahoo Finance",
+      "score": 0,
+      "upvote_ratio": 0,
+      "creation": "2026-11-13",
+      "source": "google_news",
+      "source_name": "Google News",
+      "publisher": "Yahoo Finance",
+      "source_url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPdmtGQTU2dVpmUDM2bzFvYy0teGpFdXB0M2dITmlkTHhNUnNVaFdfZGhoVkRjUnluSXpWMk9sMFFvanl3T3dwS3lVUThreEFsaXJSRVp2TWUyd1Z6SFZ2b19heE1hRUx3cW5Uenlpc3NyVmI1ZkowMDhwNHlwbU1HbDhqMHJBRXVMVDFVNzFnSk5WUExmNjJjZw?oc=5",
+      "tickers": "",
+      "positive": 0.920169,
+      "negative": 0.038459,
+      "neutral": 0.041372,
+      "confidence": 0.920169
+    },
+    {
       "postid": 130656257993067,
       "text": "“NVIDIA Is NVIDIA Because Of Jensen,” Employees Flood Internal Forums, Demanding Transparency And Calling For Former CEO’s Return",
       "post_text": "submitted by /u/Guitar-String to r/wallstreetbets [link] [comments]",
@@ -1346,40 +1414,6 @@
       "confidence": 0.981519
     },
     {
-      "postid": 112511230898130,
-      "text": "Ed Yardeni Spots a Buying Opportunity in AI Stocks - Yahoo Finance",
-      "post_text": "Ed Yardeni Spots a Buying Opportunity in AI Stocks Yahoo Finance",
-      "score": 0,
-      "upvote_ratio": 0,
-      "creation": "2026-11-13",
-      "source": "google_news",
-      "source_name": "Google News",
-      "publisher": "Yahoo Finance",
-      "source_url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNRWo5X3lHSzQ5cVRJYjF0OFhpMmVBRkJIZE5MMnhPNHpXa0tmc3JJZk8xdWFzS0d1dUp1QjVTV1QxRkNwXzlIbTE2ZEFKNUlXMWQxc0hYbGdiWUROSDFMcklvRy1WZXVOUUd4SXFjaDlqOGlrVGhURXkzVWgybnE0TGI5a2ZLZ2R5S3Voc1I2STBWRVcwVHNlaWJNTm44V29CeGc?oc=5",
-      "tickers": "",
-      "positive": 0.939095,
-      "negative": 0.018126,
-      "neutral": 0.042778,
-      "confidence": 0.939095
-    },
-    {
-      "postid": 111070726714633,
-      "text": "3 AI Stocks To Watch With Up To 33% Revenue Growth - Yahoo Finance",
-      "post_text": "3 AI Stocks To Watch With Up To 33% Revenue Growth Yahoo Finance",
-      "score": 0,
-      "upvote_ratio": 0,
-      "creation": "2026-11-13",
-      "source": "google_news",
-      "source_name": "Google News",
-      "publisher": "Yahoo Finance",
-      "source_url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxQb1ZFSFJTRzlMTy1iZXFxSllpUGs5OUdCdUMtbnRTeGpvYnJMdGsweVpZTW5sSm5oNmxCSm9aVWVIVE1oelVVRUl2MzUzMUVsa29kNVp0QWtEcVVSemtGNGt0R3pXMFR5OG4xaXN4Q1hwekppZlNyRFJRcVBVT0ZkcmNBcVZjMUdjX3hQaTNB?oc=5",
-      "tickers": "",
-      "positive": 0.873466,
-      "negative": 0.013689,
-      "neutral": 0.112845,
-      "confidence": 0.873466
-    },
-    {
       "postid": 98037052793202,
       "text": "What the Nvidia scandal means for the company's earnings next week - Yahoo Finance",
       "post_text": "What the Nvidia scandal means for the company's earnings next week Yahoo Finance",
@@ -1448,40 +1482,6 @@
       "confidence": 0.938342
     },
     {
-      "postid": 66415099889472,
-      "text": "Sold NVDA at $160, just bought back in at $169",
-      "post_text": "I panicked now I’m getting FOMO submitted by /u/Helptohere50 to r/wallstreetbets [link] [comments]",
-      "score": 0,
-      "upvote_ratio": 0,
-      "creation": "2026-11-13",
-      "source": "reddit",
-      "source_name": "Reddit",
-      "publisher": "r/wallstreetbets",
-      "source_url": "https://www.reddit.com/r/wallstreetbets/comments/1xv8f2j/sold_nvda_at_160_just_bought_back_in_at_169/",
-      "tickers": "NVDA",
-      "positive": 0.04777,
-      "negative": 0.716046,
-      "neutral": 0.236183,
-      "confidence": 0.716046
-    },
-    {
-      "postid": 65993195870047,
-      "text": "KinderCare Learning Companies, Inc. Q3 2026 Earnings Call Summary - Yahoo Finance",
-      "post_text": "KinderCare Learning Companies, Inc. Q3 2026 Earnings Call Summary Yahoo Finance",
-      "score": 0,
-      "upvote_ratio": 0,
-      "creation": "2026-11-13",
-      "source": "google_news",
-      "source_name": "Google News",
-      "publisher": "Yahoo Finance",
-      "source_url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQMVBuRllUOWdBak9MRnR3aWhqS0EtRzdqZ3hZS1B5LXItMDV3aFRiQzIwRGRjOXhHaWE0Z0pYSGdWRjI4YjFqdkF4VmtqTkVxc0F5aGthUmtEVl9XMmoyVTNWYjFsU1I1QU5sMlBEa0hUYnQ1QVZSUDI4V0cyRzJmYW52WFVJZnVPcERSZE0zbVc3dUN0MjlLa1o1ckhZTnhyMlEw?oc=5",
-      "tickers": "",
-      "positive": 0.00865,
-      "negative": 0.00809,
-      "neutral": 0.98326,
-      "confidence": 0.98326
-    },
-    {
       "postid": 65956990090245,
       "text": "5 Best Stocks to Buy for a Rising Interest Rate Environment - Yahoo Finance",
       "post_text": "5 Best Stocks to Buy for a Rising Interest Rate Environment Yahoo Finance",
@@ -1499,21 +1499,21 @@
       "confidence": 0.903743
     },
     {
-      "postid": 64226727372622,
-      "text": "U.S. Stocks Mixed on Nvidia Fallout Fears - WSJ",
-      "post_text": "U.S. Stocks Mixed on Nvidia Fallout Fears WSJ",
+      "postid": 63979038257922,
+      "text": "NVIDIA Stocks Fall 2.27% as Interim CEO Kress Faces Tuesday Earnings Test - Yahoo Finance",
+      "post_text": "NVIDIA Stocks Fall 2.27% as Interim CEO Kress Faces Tuesday Earnings Test Yahoo Finance",
       "score": 0,
       "upvote_ratio": 0,
       "creation": "2026-11-13",
       "source": "google_news",
       "source_name": "Google News",
-      "publisher": "WSJ",
-      "source_url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxQbXo0WGszbS1hZnpTdTRYYjJ0MnNDYVo3c1paejV2WkowZl93UVNiamRIQ0xEWU9HZWp3Ui14aEhFUEZkbWNQTXhfUVNSVE5tQkhELWJEcmZxYVpEM2c0aGRwdWpQZWM5MmdETXFXMDd5TTR5cHNvZUdaWmp4MlBLMG5KTm9JTFVrRmpfVA?oc=5",
+      "publisher": "Yahoo Finance",
+      "source_url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxOODhmYmJPalZvbHFwcUtBX3FidG9mSmF3VlRqWWs1WmdsbGZ4dWtGOHRKNWFkT013N3pYUy0zdHhEOXJiVG9hUXpIRjBuNlAzYVB4U0JFbUV2eTVSVURQdGNOMnlGeUdrYnlQem1hU3VKVHhjelN6OG9odEQ5VmpmVXZRcnk3QUFOMnl0bDBlQTdWQQ?oc=5",
       "tickers": "NVDA",
-      "positive": 0.3853,
-      "negative": 0.451289,
-      "neutral": 0.163411,
-      "confidence": 0.451289
+      "positive": 0.023315,
+      "negative": 0.95512,
+      "neutral": 0.021565,
+      "confidence": 0.95512
     },
     {
       "postid": 60416008891337,
@@ -1822,6 +1822,23 @@
       "confidence": 0.674365
     },
     {
+      "postid": 210066859605668,
+      "text": "Micron, Other Memory Chip Stocks Fall on Nvidia Shakeup. Why They’re at Risk. - Barron's",
+      "post_text": "Micron, Other Memory Chip Stocks Fall on Nvidia Shakeup. Why They’re at Risk. Barron's",
+      "score": 0,
+      "upvote_ratio": 0,
+      "creation": "2026-11-12",
+      "source": "google_news",
+      "source_name": "Google News",
+      "publisher": "Barron's",
+      "source_url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxPaElVXy1jS0ZlWS1YeW1tUTliOTZjRlQzcEthZnJxbGktVHV0bWVGWS1FRWFONTNLam5aaHprRFU3NHpmSkh4SDFIUXJuNkIxR2lZcEtZVWhFRFZBZmpNQTRKS05qc1pIdkhXOWhrRE1GT1pWQ1R6Sy0xQ2RHT25CeWRsRVJReXRHY2c?oc=5",
+      "tickers": "NVDA,MU",
+      "positive": 0.022955,
+      "negative": 0.957576,
+      "neutral": 0.019469,
+      "confidence": 0.957576
+    },
+    {
       "postid": 206920207568120,
       "text": "Jensen Huang resigns as Nvidia CEO, effective immediately. CFO Colette Kress named interim CEO",
       "post_text": "Nvidia announced Huang is out as CEO and is leaving the board too. Longtime director Harvey Jones becomes the company's first-ever board chair. This follows reports of two affairs. One was reportedly with a Nvidia executive who reported to him. The other was reportedly with a woman US authorities suspect of spying for China. Stock down about 10% premarket, after roughly $600B in value lost this week Valuation at about 12x forward earnings, lowest since 2012 (LSEG) Shareholder class action filed; Congress wants a national security investigation The guy who built Nvidia into the center of the AI",
@@ -2128,23 +2145,6 @@
       "confidence": 0.982196
     },
     {
-      "postid": 89730081257847,
-      "text": "Cisco Reports First Quarter Earnings - Cisco Newsroom",
-      "post_text": "Cisco Reports First Quarter Earnings Cisco Newsroom",
-      "score": 0,
-      "upvote_ratio": 0,
-      "creation": "2026-11-12",
-      "source": "google_news",
-      "source_name": "Google News",
-      "publisher": "Cisco Newsroom",
-      "source_url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPRmNKTkMxYlRJT0c0eUtObVRzYnhtWmdESUtIdF9nRmxyVldJM2k1b0N6Nmo2LWVndlNKckI3YnAtVWpJSHI1WnlyMVhsVDYwU2FYZ3JQM19DRmtXWGRubjNKdGhNYmc3ZDd6QVlOQ0EwRWh0MmJ4MXl1SVgtaWZGX1RCbXp6QzlOdEJHVUZJQXBPNWpWWUtfWHFGT3B3MXNt?oc=5",
-      "tickers": "CSCO",
-      "positive": 0.075958,
-      "negative": 0.026433,
-      "neutral": 0.897609,
-      "confidence": 0.897609
-    },
-    {
       "postid": 77400956183902,
       "text": "So where in Jenson going next?",
       "post_text": "Completely stupid of the board to oust Jenson. First off, who cares who he bangs. Secondly, every company is selling shit to China and there’s zero change the USG didn’t know about it. However, it’s happened. He’s been fired. The question now is, where’s he going to land? If you know anything about people who actually build things, not just business chads, there’s little chance Jenson is done. He’s either joining an existing chip maker, AI company or otherwise, or maybe starting something new, I feel that’s less likely though. Whoever gets him, gets a run up in stock price. Comment your rumors",
@@ -2349,6 +2349,23 @@
       "confidence": 0.986383
     },
     {
+      "postid": 10352382101860,
+      "text": "US economy and stock market analysis: Chart of the week - Fidelity Investments",
+      "post_text": "US economy and stock market analysis: Chart of the week Fidelity Investments",
+      "score": 0,
+      "upvote_ratio": 0,
+      "creation": "2026-11-12",
+      "source": "google_news",
+      "source_name": "Google News",
+      "publisher": "Fidelity Investments",
+      "source_url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE93amtkUl93MEx6UFNjNDhpZnUxcjNacy1EWXEzUEREalNsbG9JWFZBQUMyOWRmX01JazFBMTQ2d1ZEN2ZNVkhzVzJycDgzYUdrQ25PSFVVYmhPR0tiaFdVMXZYdnhfQWdVSHdOSjFQRmFWdnJVYnRxaA?oc=5",
+      "tickers": "",
+      "positive": 0.006921,
+      "negative": 0.007613,
+      "neutral": 0.985466,
+      "confidence": 0.985466
+    },
+    {
       "postid": 6477675051350,
       "text": "Nvidia CEO Jensen Huang is stepping down as CEO",
       "post_text": "Nvidia CEO Jensen Huang is stepping down as CEO of the chipmaker he co-founded 33 years ago and built into a $4 trillion company that powered the artificial intelligence boom. After a meteoric rise to fame due to Nvidia’s central role in AI, Huang’s dramatic fall has been even more rapid, following a series of stinging revelations about his romantic ties to a woman believed by the U.S. intelligence community to be a Chinese spy. submitted by /u/TorukMaktoM to r/stocks [link] [comments]",
@@ -2364,23 +2381,6 @@
       "negative": 0.266659,
       "neutral": 0.722046,
       "confidence": 0.722046
-    },
-    {
-      "postid": 664420318012,
-      "text": "Alex Karp on AI regulatory capture: \"Its every mark. They don't realize they're the mark... If they don't nationalize every client will sue",
-      "post_text": "Could anyone explain the current situation of Anthropic and if the litigation against them is a major threat? Surely if they no longer have data to train their models because of IP, then how can they seriously grow if they don't receive regulatory capture with the point Alex makes? submitted by /u/Foo_The_Selcouth to r/wallstreetbets [link] [comments]",
-      "score": 0,
-      "upvote_ratio": 0,
-      "creation": "2026-11-12",
-      "source": "reddit",
-      "source_name": "Reddit",
-      "publisher": "r/wallstreetbets",
-      "source_url": "https://www.reddit.com/r/wallstreetbets/comments/1xu2hsj/alex_karp_on_ai_regulatory_capture_its_every_mark/",
-      "tickers": "",
-      "positive": 0.005454,
-      "negative": 0.01238,
-      "neutral": 0.982166,
-      "confidence": 0.982166
     },
     {
       "postid": 260498772482058,
@@ -2553,6 +2553,23 @@
       "confidence": 0.978584
     },
     {
+      "postid": 104348454703917,
+      "text": "Nvidia stock rebounds, chip stocks surge as CoreWeave earnings boost AI trade - Yahoo Finance",
+      "post_text": "Nvidia stock rebounds, chip stocks surge as CoreWeave earnings boost AI trade Yahoo Finance",
+      "score": 0,
+      "upvote_ratio": 0,
+      "creation": "2026-11-11",
+      "source": "google_news",
+      "source_name": "Google News",
+      "publisher": "Yahoo Finance",
+      "source_url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxOV3ZDNTlBT1d6a3V4VnJIYzdBaXZOWHBjTGlHUEl2QUw2RmlrUy1lLVZsS2lWYzVIbC1waF84VDNVellXQWpSby1CU0pscmg4YS1nTHI3QmJySGFscHJmdTB4UlhoemRScHA0UGhyUmdiV2tvMEM4M1JnMnVRSzJ0MXhCdHkyZXJJWjhpWUxtRFZOaVd2X2dZemhOSnVzSFNCbndLWTlGWmV3RkFCajJYQUJETXpJZzJabGZLYXY5MGtWNkpvbHFlN29BMmdiZw?oc=5",
+      "tickers": "NVDA",
+      "positive": 0.970197,
+      "negative": 0.011001,
+      "neutral": 0.018802,
+      "confidence": 0.970197
+    },
+    {
       "postid": 103342944077037,
       "text": "Jensen Huang Said to Have Had Relationship With Nvidia Executive Who Reports to Him",
       "post_text": "submitted by /u/sevyger89 to r/wallstreetbets [link] [comments]",
@@ -2568,23 +2585,6 @@
       "negative": 0.007495,
       "neutral": 0.984399,
       "confidence": 0.984399
-    },
-    {
-      "postid": 94091287554276,
-      "text": "Bloom Energy surges, helping to erase much of this week’s AI jitters - Yahoo Finance",
-      "post_text": "Bloom Energy surges, helping to erase much of this week’s AI jitters Yahoo Finance",
-      "score": 0,
-      "upvote_ratio": 0,
-      "creation": "2026-11-11",
-      "source": "google_news",
-      "source_name": "Google News",
-      "publisher": "Yahoo Finance",
-      "source_url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxNYV9JSHBxRWFLR01KRTlFTnIxeDJReXctS25HRHBpS0Nid1RXWGotMWh0MkxncHlhWGwtb1JxV0Z6YnZwU0JiaThaMjJscGRTN2lGLTNxQUFsNGd2RUllaVUwaWVsNWRsVjNPeHN6Z1IyZzJHSWJGcWEwS2JXVWpKVFJBTFluUUFPWkVDUFlTZmtCVkM3UGhPSnJDenhIUXZvRExfc0NySW5yRmtIS3dBLTZ4aXVZbXV1RGItcXA2QlFMczhFV01DWEtxZDFSbThUdTBuZQ?oc=5",
-      "tickers": "",
-      "positive": 0.930656,
-      "negative": 0.019414,
-      "neutral": 0.04993,
-      "confidence": 0.930656
     },
     {
       "postid": 88391420142050,
@@ -2621,23 +2621,6 @@
       "confidence": 0.886435
     },
     {
-      "postid": 65781774836597,
-      "text": "Tech Gains Boost Stocks as Bonds Slide on Fed Bets: Markets Wrap - Bloomberg.com",
-      "post_text": "Tech Gains Boost Stocks as Bonds Slide on Fed Bets: Markets Wrap Bloomberg.com",
-      "score": 0,
-      "upvote_ratio": 0,
-      "creation": "2026-11-11",
-      "source": "google_news",
-      "source_name": "Google News",
-      "publisher": "Bloomberg.com",
-      "source_url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxQNFpBLVFiSmhuZGxNdjZ4WUE1eEZZVzlpcElqQ3FpX2hfRVVkaVdncm5Ic3J4TFdMVTVPODFqV1dYWTJORmx5c3lTMHg1ZUtiZml2ZUVOZm1WQnlCa2lKcUt3M0tjQUsyVVNxQlVySk5TbHRqZHczYVFDTnU0OGZjMjBBWUFqZ2JpNFNhb05nX01EU3dX?oc=5",
-      "tickers": "",
-      "positive": 0.696598,
-      "negative": 0.022543,
-      "neutral": 0.280859,
-      "confidence": 0.696598
-    },
-    {
       "postid": 57021157105250,
       "text": "NVDA 2,000 shares YOLO.... cause Warren Buffet told me to do it",
       "post_text": "https://preview.redd.it/outqwhfwjv0i1.png?width=784&format=png&auto=webp&s=5b1a18e52d097d9beb3a40a635df1e9e47d16a71 https://preview.redd.it/5k7jd8nyjv0i1.png?width=2218&format=png&auto=webp&s=c3eae50b5dfcaafa370829b30122bb2cd38a3ad6 The market gave us a classic 24-hour headline panic today and I decided to take it personally. While the bears were crying over Jensen's latest news cycle, I went double-dip on margin into the flush: Lot 1 (Morning Dip): 1,000 shares @ $171.79 Lot 2 (Power Hour Fill): 1,000 shares @ $168.48 Total Position: 2,000 shares @ $170.13 blended basis ($340.27k total outlay",
@@ -2670,6 +2653,23 @@
       "negative": 0.230812,
       "neutral": 0.672077,
       "confidence": 0.672077
+    },
+    {
+      "postid": 44428934795087,
+      "text": "The Best Bank Stocks to Buy - Morningstar",
+      "post_text": "The Best Bank Stocks to Buy Morningstar",
+      "score": 0,
+      "upvote_ratio": 0,
+      "creation": "2026-11-11",
+      "source": "google_news",
+      "source_name": "Google News",
+      "publisher": "Morningstar",
+      "source_url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTFBwaHZaRUlPaXYxSVpmVWV6Z3lnc3paNWhGNmFkcUFmREt5SVlITW8tVGVieHNqV0lqY2huN2lyYmxRdlB0SUZpZ2p6Q0NCNnRxc2Q3ejlPM282N2x0UUh4ZnU3UldJdw?oc=5",
+      "tickers": "",
+      "positive": 0.280326,
+      "negative": 0.011119,
+      "neutral": 0.708555,
+      "confidence": 0.708555
     },
     {
       "postid": 31134173543282,
@@ -2723,21 +2723,21 @@
       "confidence": 0.987293
     },
     {
-      "postid": 240368417601229,
-      "text": "1 Reliable ETF I'm Buying Forever, Even if the Stock Market Crashes - Yahoo Finance",
-      "post_text": "1 Reliable ETF I'm Buying Forever, Even if the Stock Market Crashes Yahoo Finance",
+      "postid": 218889249790776,
+      "text": "Ondas Retreats 9% Despite Attack Drone Purchase Order Ahead of Earnings; Red Cat Declines 9%, AeroVironment Falls 4% - Yahoo Finance",
+      "post_text": "Ondas Retreats 9% Despite Attack Drone Purchase Order Ahead of Earnings; Red Cat Declines 9%, AeroVironment Falls 4% Yahoo Finance",
       "score": 0,
       "upvote_ratio": 0,
       "creation": "2026-11-10",
       "source": "google_news",
       "source_name": "Google News",
       "publisher": "Yahoo Finance",
-      "source_url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxORktPSHQwaEgweWI1OVExZmhCRk5yUTlfWlJoUG9fTXJGczlPb3NjLTZxeHBRX0ZoeWx6UURzNVk3Q1ZWY0xoVUFwUl96VnNjQUFqZ3Z3VEdDbGpZSm0wQkZJQ2VNN3VMeFFHT245VjdVeVgxdFVQUHVUaTFEQ3JQb2wxdXQwUnN6UmZuNWJzMVZkanc?oc=5",
+      "source_url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxPQW1oVXh4a3hkV2dLNHR0TFQweUtiWDgyUktrR2xHR2FLNE9VaWVCd0xYOTVqVjR4b2FqVnFsTTBJck9QZXMwaHdQUGxuOEtZQnlDenpETXNTQVEzNFQzR01rYWRjRnYtTVVXT0t6MkpmSF8wcDMyRkx1TkJTZFNKQ3pLbHVIbllVTXpUMmZ0NFVkRGJPZ09FUlVEdEM?oc=5",
       "tickers": "",
-      "positive": 0.524267,
-      "negative": 0.02396,
-      "neutral": 0.451773,
-      "confidence": 0.524267
+      "positive": 0.04753,
+      "negative": 0.887868,
+      "neutral": 0.064602,
+      "confidence": 0.887868
     },
     {
       "postid": 164188601178720,
@@ -2808,23 +2808,6 @@
       "confidence": 0.985203
     },
     {
-      "postid": 125919500183308,
-      "text": "If a Stock Market Crash Is Coming, This Is What Warren Buffett Says Investors Should Do - Yahoo Finance",
-      "post_text": "If a Stock Market Crash Is Coming, This Is What Warren Buffett Says Investors Should Do Yahoo Finance",
-      "score": 0,
-      "upvote_ratio": 0,
-      "creation": "2026-11-10",
-      "source": "google_news",
-      "source_name": "Google News",
-      "publisher": "Yahoo Finance",
-      "source_url": "https://news.google.com/rss/articles/CBMingFBVV95cUxPTGpMTlMwVDdnd0dIdXhyRFFFVXBIOUx6RmJaTnNPdFgtd0NSTzNfT1UtaGN1Z1cySUpkcHhoY3dMTmFQNHc5bEFmYkhaU3hWN1JpRkxVd0h4enlrVndxYUdETkJfQWJjeDY0OW5pZjBfQlE3Q3R3TXh6N2V6aF82eWduRlF5d0ZldXZPSFdHaloyYlI1TXFFeTlCOHNkZw?oc=5",
-      "tickers": "",
-      "positive": 0.008876,
-      "negative": 0.008031,
-      "neutral": 0.983093,
-      "confidence": 0.983093
-    },
-    {
       "postid": 92885458631454,
       "text": "Anthropic seeks $1.4 trillion valuation in highly anticipated IPO, reportedly aiming for Nov. 19 or Nov. 20 debut",
       "post_text": "submitted by /u/King-of-Limbs-07 to r/wallstreetbets [link] [comments]",
@@ -2840,6 +2823,23 @@
       "negative": 0.007774,
       "neutral": 0.9655,
       "confidence": 0.9655
+    },
+    {
+      "postid": 65781774836597,
+      "text": "Tech Gains Boost Stocks as Bonds Slide on Fed Bets: Markets Wrap - Bloomberg.com",
+      "post_text": "Tech Gains Boost Stocks as Bonds Slide on Fed Bets: Markets Wrap Bloomberg.com",
+      "score": 0,
+      "upvote_ratio": 0,
+      "creation": "2026-11-10",
+      "source": "google_news",
+      "source_name": "Google News",
+      "publisher": "Bloomberg.com",
+      "source_url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxQNFpBLVFiSmhuZGxNdjZ4WUE1eEZZVzlpcElqQ3FpX2hfRVVkaVdncm5Ic3J4TFdMVTVPODFqV1dYWTJORmx5c3lTMHg1ZUtiZml2ZUVOZm1WQnlCa2lKcUt3M0tjQUsyVVNxQlVySk5TbHRqZHczYVFDTnU0OGZjMjBBWUFqZ2JpNFNhb05nX01EU3dX?oc=5",
+      "tickers": "",
+      "positive": 0.696598,
+      "negative": 0.022543,
+      "neutral": 0.280859,
+      "confidence": 0.696598
     },
     {
       "postid": 60467509663481,
@@ -3097,23 +3097,6 @@
       "confidence": 0.927434
     },
     {
-      "postid": 115427636203161,
-      "text": "This exchange was in the POTUS 60 minutes interview transcript (according to an FT journo)!",
-      "post_text": "submitted by /u/ohell to r/StockMarket [link] [comments]",
-      "score": 0,
-      "upvote_ratio": 0,
-      "creation": "2026-11-09",
-      "source": "reddit",
-      "source_name": "Reddit",
-      "publisher": "r/StockMarket",
-      "source_url": "https://www.reddit.com/r/StockMarket/comments/1xrpcwj/this_exchange_was_in_the_potus_60_minutes/",
-      "tickers": "",
-      "positive": 0.004996,
-      "negative": 0.0086,
-      "neutral": 0.986404,
-      "confidence": 0.986404
-    },
-    {
       "postid": 102914855574948,
       "text": "$700 to 122k in 2 days",
       "post_text": "Started with 700$ Thursday to 100k, withdrew 90k, did one trade Friday but was too tired to continue so I don’t really count that. Started with 10k today and turned it to 30k. Reading a lot of comments for advice. Will say a few things in first comment. submitted by /u/Mikiyami to r/wallstreetbets [link] [comments]",
@@ -3146,6 +3129,23 @@
       "negative": 0.009309,
       "neutral": 0.954196,
       "confidence": 0.954196
+    },
+    {
+      "postid": 76607938951385,
+      "text": "Nvidia Lost Its Top Spot to Apple. What Does History Tell Us About No. 1 Stocks? - Morningstar",
+      "post_text": "Nvidia Lost Its Top Spot to Apple. What Does History Tell Us About No. 1 Stocks? Morningstar",
+      "score": 0,
+      "upvote_ratio": 0,
+      "creation": "2026-11-09",
+      "source": "google_news",
+      "source_name": "Google News",
+      "publisher": "Morningstar",
+      "source_url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxOa0RhSko5emVETURINnZjQW90Z01aVGl6bURJSEFmaGQ5OWtZbkpnbkUzMG1sWW5aSWZWME1WVmNIMU9NalFVVzR1TGhhcnBtZ3Vlc1BUNlFMOWd4dTNuMW9WU3ZRb2lKbUU3bWJEX2o3M01aalNwdjdrNTY3TW9RUFBqMy1kX2JCenRvZ2hnOWJQRWVxbVRtWUVLdUFVaE1STF9kaXQ5VURlUnJlZThGRDJNSEVUQXpQblE?oc=5",
+      "tickers": "NVDA,AAPL",
+      "positive": 0.011767,
+      "negative": 0.891691,
+      "neutral": 0.096542,
+      "confidence": 0.891691
     },
     {
       "postid": 73630101823818,
