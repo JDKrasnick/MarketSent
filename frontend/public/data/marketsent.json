@@ -1,20 +1,21 @@
 {
   "schema_version": 2,
-  "generated_at": "2026-11-16T22:08:30.592415Z",
+  "generated_at": "2026-11-17T07:58:19.054520Z",
   "sources": [
     {
       "id": "reddit",
       "name": "Reddit",
       "status": "ok",
       "item_count": 100,
-      "updated_at": "2026-11-16T22:08:30.592415Z"
+      "updated_at": "2026-11-17T07:58:19.054520Z"
     },
     {
       "id": "google_news",
       "name": "Google News",
-      "status": "ok",
-      "item_count": 100,
-      "updated_at": "2026-11-16T22:08:30.592415Z"
+      "status": "stale",
+      "item_count": 99,
+      "updated_at": "2026-11-16T22:08:30.592415Z",
+      "message": "HTTP Error 429: Too Many Requests"
     }
   ],
   "count": 196,
@@ -188,6 +189,23 @@
       "negative": 0.006197,
       "neutral": 0.916433,
       "confidence": 0.916433
+    },
+    {
+      "postid": 231015189020943,
+      "text": "AI bubble will likely burst and cause a recession by 2028 election, Wall Street’s former top cop says",
+      "post_text": "submitted by /u/hrdblkman2 to r/wallstreetbets [link] [comments]",
+      "score": 0,
+      "upvote_ratio": 0,
+      "creation": "2026-11-16",
+      "source": "reddit",
+      "source_name": "Reddit",
+      "publisher": "r/wallstreetbets",
+      "source_url": "https://www.reddit.com/r/wallstreetbets/comments/1xy0xjc/ai_bubble_will_likely_burst_and_cause_a_recession/",
+      "tickers": "",
+      "positive": 0.042884,
+      "negative": 0.816647,
+      "neutral": 0.140469,
+      "confidence": 0.816647
     },
     {
       "postid": 229236297422823,
@@ -411,6 +429,23 @@
       "confidence": 0.880756
     },
     {
+      "postid": 176865046566624,
+      "text": "Another Dip",
+      "post_text": "submitted by /u/Postwatchers to r/StockMarket [link] [comments]",
+      "score": 0,
+      "upvote_ratio": 0,
+      "creation": "2026-11-16",
+      "source": "reddit",
+      "source_name": "Reddit",
+      "publisher": "r/StockMarket",
+      "source_url": "https://www.reddit.com/r/StockMarket/comments/1xy0snq/another_dip/",
+      "tickers": "",
+      "positive": 0.168086,
+      "negative": 0.622598,
+      "neutral": 0.209315,
+      "confidence": 0.622598
+    },
+    {
       "postid": 174704374641914,
       "text": "ZIM Gears Up for Q3 Earnings: What's in Store for the Stock? - Yahoo Finance",
       "post_text": "ZIM Gears Up for Q3 Earnings: What's in Store for the Stock? Yahoo Finance",
@@ -530,6 +565,23 @@
       "confidence": 0.931521
     },
     {
+      "postid": 155172218547909,
+      "text": "BREAKING: TRUMP SIGNALS SUPPORT FOR JENSEN HUANG’S RETURN TO NVIDIA",
+      "post_text": "President Trump made two significant statements today suggesting that he is warming to the idea of Jensen Huang returning as Nvidia’s CEO. First, the Financial Times reported that Trump said he “would certainly not mind” seeing Huang reinstated, adding that Huang had “learned a big lesson.” That was a noticeable change in tone from last Thursday, when Trump suggested that former Apple CEO Tim Cook should replace Huang. Then, speaking to reporters outside the White House, Trump went further. According to The Independent, he said, “There’s a big group of people that would like him to return,” ad",
+      "score": 0,
+      "upvote_ratio": 0,
+      "creation": "2026-11-16",
+      "source": "reddit",
+      "source_name": "Reddit",
+      "publisher": "r/stocks",
+      "source_url": "https://www.reddit.com/r/stocks/comments/1xxrrkb/breaking_trump_signals_support_for_jensen_huangs/",
+      "tickers": "NVDA,AAPL",
+      "positive": 0.713694,
+      "negative": 0.023305,
+      "neutral": 0.263001,
+      "confidence": 0.713694
+    },
+    {
       "postid": 154264035827920,
       "text": "Stocks Fall Before Nvidia Earnings, Anthropic IPO: Markets Wrap - Bloomberg.com",
       "post_text": "Stocks Fall Before Nvidia Earnings, Anthropic IPO: Markets Wrap Bloomberg.com",
@@ -562,6 +614,23 @@
       "negative": 0.015921,
       "neutral": 0.041144,
       "confidence": 0.942935
+    },
+    {
+      "postid": 149507710685068,
+      "text": "United Airlines says it has a widespread system outage just days after nationwide ground stop",
+      "post_text": "Lol the outages will continue until portfolios tank submitted by /u/Craneteam to r/wallstreetbets [link] [comments]",
+      "score": 0,
+      "upvote_ratio": 0,
+      "creation": "2026-11-16",
+      "source": "reddit",
+      "source_name": "Reddit",
+      "publisher": "r/wallstreetbets",
+      "source_url": "https://www.reddit.com/r/wallstreetbets/comments/1xy3kap/united_airlines_says_it_has_a_widespread_system/",
+      "tickers": "",
+      "positive": 0.025917,
+      "negative": 0.14796,
+      "neutral": 0.826122,
+      "confidence": 0.826122
     },
     {
       "postid": 145847621509485,
@@ -1499,23 +1568,6 @@
       "confidence": 0.96381
     },
     {
-      "postid": 5355134969287,
-      "text": "Nvidia board is not considering bringing Jensen Huang back as CEO, source tells CNBC",
-      "post_text": "https://www.cnbc.com/2026/11/16/nvidia-ceo-jensen-huang.html submitted by /u/aerothony to r/wallstreetbets [link] [comments]",
-      "score": 0,
-      "upvote_ratio": 0,
-      "creation": "2026-11-16",
-      "source": "reddit",
-      "source_name": "Reddit",
-      "publisher": "r/wallstreetbets",
-      "source_url": "https://www.reddit.com/r/wallstreetbets/comments/1xxvreb/nvidia_board_is_not_considering_bringing_jensen/",
-      "tickers": "NVDA",
-      "positive": 0.009349,
-      "negative": 0.007554,
-      "neutral": 0.983097,
-      "confidence": 0.983097
-    },
-    {
       "postid": 2770767861410,
       "text": "Undervalued European Defense Stocks to Watch As Military Spending Surges - Morningstar",
       "post_text": "Undervalued European Defense Stocks to Watch As Military Spending Surges Morningstar",
@@ -2400,23 +2452,6 @@
       "confidence": 0.964278
     },
     {
-      "postid": 271983814679925,
-      "text": "Jensen Huang was having a third affair with another Nvidia employee",
-      "post_text": "Nvidia founder Jensen Huang was having a separate affair with an employee that has not been previously reported, Reuters reported on Thursday. Huang stepped down as CEO and board member for the company earlier today, in the wake of news of extramarital affairs with accused spy Alice Huang and Nvidia VP of Health Care Kimberly Powell. CFO Colette Kress has stepped in as interim CEO, but no permanent successor has been named. Reuters is withholding the name of the new employee linked to Huang, but says she is an employee of Nvidia. Huang has been called before Congress to testify about the natio",
-      "score": 0,
-      "upvote_ratio": 0,
-      "creation": "2026-11-12",
-      "source": "reddit",
-      "source_name": "Reddit",
-      "publisher": "r/stocks",
-      "source_url": "https://www.reddit.com/r/stocks/comments/1xupbak/jensen_huang_was_having_a_third_affair_with/",
-      "tickers": "NVDA",
-      "positive": 0.009748,
-      "negative": 0.31328,
-      "neutral": 0.676972,
-      "confidence": 0.676972
-    },
-    {
       "postid": 255201972574285,
       "text": "How much of NVIDIA’s valuation is actually tied to Jensen Huang and what do think will happen to the stock if he gets fired?",
       "post_text": "Jensen Huang might be to NVIDIA what Steve Jobs was to Apple. But how much of NVIDIA’s current valuation is actually tied to him personally rather than the company’s technology and market position? If he were removed as CEO, would we see a sharp but temporary sell-off? I’m curious how much of a difference you think it would make in the short and long term. submitted by /u/SunsetToGo to r/wallstreetbets [link] [comments]",
@@ -3182,6 +3217,23 @@
       "confidence": 0.973544
     },
     {
+      "postid": 164188601178720,
+      "text": "Reddit is turning user conversations into AI-powered product reviews - Reddit AI incoming",
+      "post_text": "submitted by /u/D4vester to r/wallstreetbets [link] [comments]",
+      "score": 0,
+      "upvote_ratio": 0,
+      "creation": "2026-11-10",
+      "source": "reddit",
+      "source_name": "Reddit",
+      "publisher": "r/wallstreetbets",
+      "source_url": "https://www.reddit.com/r/wallstreetbets/comments/1xspa8e/reddit_is_turning_user_conversations_into/",
+      "tickers": "",
+      "positive": 0.013001,
+      "negative": 0.00766,
+      "neutral": 0.979339,
+      "confidence": 0.979339
+    },
+    {
       "postid": 156250015574957,
       "text": "SoftBank books $7 billion quarterly loss on US data centre hit, financing costs",
       "post_text": "submitted by /u/Federal-Trip4067 to r/wallstreetbets [link] [comments]",
@@ -3231,23 +3283,6 @@
       "negative": 0.007774,
       "neutral": 0.9655,
       "confidence": 0.9655
-    },
-    {
-      "postid": 60467509663481,
-      "text": "Law firm files class-action lawsuit against Nvidia after affair, multiple other law firms investigate securities fraud following stock drop.",
-      "post_text": "submitted by /u/swagonflyyyy to r/wallstreetbets [link] [comments]",
-      "score": 0,
-      "upvote_ratio": 0,
-      "creation": "2026-11-10",
-      "source": "reddit",
-      "source_name": "Reddit",
-      "publisher": "r/wallstreetbets",
-      "source_url": "https://www.reddit.com/r/wallstreetbets/comments/1xs8h2h/law_firm_files_classaction_lawsuit_against_nvidia/",
-      "tickers": "NVDA",
-      "positive": 0.010567,
-      "negative": 0.186278,
-      "neutral": 0.803155,
-      "confidence": 0.803155
     },
     {
       "postid": 36798199638694,
@@ -3316,40 +3351,6 @@
       "negative": 0.02963,
       "neutral": 0.922273,
       "confidence": 0.922273
-    },
-    {
-      "postid": 1213292035758,
-      "text": "Why would I deceive you?",
-      "post_text": "submitted by /u/Majorpain2006 to r/wallstreetbets [link] [comments]",
-      "score": 0,
-      "upvote_ratio": 0,
-      "creation": "2026-11-10",
-      "source": "reddit",
-      "source_name": "Reddit",
-      "publisher": "r/wallstreetbets",
-      "source_url": "https://www.reddit.com/r/wallstreetbets/comments/1xsaggn/why_would_i_deceive_you/",
-      "tickers": "",
-      "positive": 0.005624,
-      "negative": 0.008374,
-      "neutral": 0.986002,
-      "confidence": 0.986002
-    },
-    {
-      "postid": 195495950032107,
-      "text": "Breaking",
-      "post_text": "submitted by /u/wsbbeast to r/wallstreetbets [link] [comments]",
-      "score": 0,
-      "upvote_ratio": 0,
-      "creation": "2026-11-09",
-      "source": "reddit",
-      "source_name": "Reddit",
-      "publisher": "r/wallstreetbets",
-      "source_url": "https://www.reddit.com/r/wallstreetbets/comments/1xs7m8y/breaking/",
-      "tickers": "",
-      "positive": 0.111376,
-      "negative": 0.51214,
-      "neutral": 0.376485,
-      "confidence": 0.51214
     }
   ]
 }
