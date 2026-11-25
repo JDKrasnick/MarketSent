@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "generated_at": "2026-11-25T08:40:33.669398Z",
+  "generated_at": "2026-11-25T21:44:21.820988Z",
   "sources": [
     {
       "id": "reddit",
@@ -15,15 +15,117 @@
       "name": "Google News",
       "status": "ok",
       "item_count": 100,
-      "updated_at": "2026-11-25T08:40:33.669398Z"
+      "updated_at": "2026-11-25T21:44:21.820988Z"
     }
   ],
   "count": 197,
   "posts": [
     {
+      "postid": 239204399557874,
+      "text": "Stocks mixed as Wall Street erases sharp decline: Nvidia down 6% - ABC News - Breaking News, Latest News and Videos",
+      "post_text": "Stocks mixed as Wall Street erases sharp decline: Nvidia down 6% ABC News - Breaking News, Latest News and Videos",
+      "score": 0,
+      "upvote_ratio": 0,
+      "creation": "2026-11-25",
+      "source": "google_news",
+      "source_name": "Google News",
+      "publisher": "ABC News - Breaking News, Latest News and Videos",
+      "source_url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQdVNvSWRJR0pwZklwRnJkWkV5Zm02Ni1jck83YWhlUzFFZjBPX2RSeElWSjlUczNNRnJoZHVSZDhlbDlmRGNXY1lwc2VoUkJUejM2RXBvMS1vMTVoSnZHQTQ3YWhOUDlWOVZEbkZndHRiQzZOWFl2b0E5N3VUc2thcE96OXlvTTRyc3N6RWU5cnY2eVN2QXN3UDcyMzTSAaIBQVVfeXFMUE4xVGszYjZpVlhOUzU0V2F5N2NOUVUxMEY1aVlEMTlzMVlQOU10UmtBeVNfQm5xMmJ6LWx4dDRXaUtYR2ppV3R5a2NrTVVQV0JsTG9DQ2VJd0wxNS1NbUNfUVN2MW9iZE1jU2p4ekxWZUFjM2hCdVBkWU5jWm12V1VpeXJubFlJTkRnX09WWV9nWXJ3Qml2bV9kb3VFM3NfMWt3?oc=5",
+      "tickers": "NVDA",
+      "positive": 0.043396,
+      "negative": 0.925797,
+      "neutral": 0.030807,
+      "confidence": 0.925797
+    },
+    {
+      "postid": 238217032367137,
+      "text": "AI stock rout deepens, with Anthropic hitting $74 - Reuters",
+      "post_text": "AI stock rout deepens, with Anthropic hitting $74 Reuters",
+      "score": 0,
+      "upvote_ratio": 0,
+      "creation": "2026-11-25",
+      "source": "google_news",
+      "source_name": "Google News",
+      "publisher": "Reuters",
+      "source_url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxNMmNMM0doWElDVk9BdjNGZnJHakNCUFg1blQzSlk0eW9zeVduV3ZKcEtJd0hpUkxDMVhnRE9rY1lLUzF1eENZaFh0SUNKbmRjanN3YWtZakZud2RYUnlSRkk5b1RZT2VfbFJPXzhZVEVyYnFnRHBwYVlGdFQzaEt2Z2VjaGVXWUE0Qmd5bjZYandmR2M2QXBSY2tKem80OGNlSzh3?oc=5",
+      "tickers": "",
+      "positive": 0.874422,
+      "negative": 0.074701,
+      "neutral": 0.050877,
+      "confidence": 0.874422
+    },
+    {
+      "postid": 222773570734374,
+      "text": "Dell Delivered Strong Earnings but at the Wrong Time for the Stock - Barron's",
+      "post_text": "Dell Delivered Strong Earnings but at the Wrong Time for the Stock Barron's",
+      "score": 0,
+      "upvote_ratio": 0,
+      "creation": "2026-11-25",
+      "source": "google_news",
+      "source_name": "Google News",
+      "publisher": "Barron's",
+      "source_url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE55MEZwd3dvejJKRkJhZjk0SkJuUDBNTTJudWNnMHdmVWE5Qk1MUUVpZ3pmQi10WG80M3NqRWZEN1kzWWlTUWVZNU95MWRjVVRacHNQcWp1SFFNLWl6MEp2YkFqMFpza1hpM1NiUU5hS2hWWXZNZmc?oc=5",
+      "tickers": "",
+      "positive": 0.618715,
+      "negative": 0.261196,
+      "neutral": 0.120089,
+      "confidence": 0.618715
+    },
+    {
+      "postid": 217370020671196,
+      "text": "Stocks Pare Losses as Anthropic Shares Swing Higher - WSJ",
+      "post_text": "Stocks Pare Losses as Anthropic Shares Swing Higher WSJ",
+      "score": 0,
+      "upvote_ratio": 0,
+      "creation": "2026-11-25",
+      "source": "google_news",
+      "source_name": "Google News",
+      "publisher": "WSJ",
+      "source_url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNNVZEZVVpM2pKb2t2dDktNWRNZ2xTXzc5aUN3SjNzM1dRbGRHUkZoYjFJY2hRaGZCd1dsNGNXckIxOWg1el9oZnhVVjRNSlpwcjJFLTQxSzZqSFZ1bVZGczJWR2RTT1BUU3BLenB0amhsQWFqRlJWNlNTdkR0dGRlcmNzWDg0R19lMDVwQ2lUdVF5YTQ0SnZKWElqbGwwa3VIemV3WDhVWEpiQQ?oc=5",
+      "tickers": "",
+      "positive": 0.432611,
+      "negative": 0.470289,
+      "neutral": 0.097099,
+      "confidence": 0.470289
+    },
+    {
+      "postid": 208809112889713,
+      "text": "Tech stocks are volatile as AI fears overshadow Huang’s Nvidia return - CNN",
+      "post_text": "Tech stocks are volatile as AI fears overshadow Huang’s Nvidia return CNN",
+      "score": 0,
+      "upvote_ratio": 0,
+      "creation": "2026-11-25",
+      "source": "google_news",
+      "source_name": "Google News",
+      "publisher": "CNN",
+      "source_url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxQQ1FuS01WaVlhenhqc2I2M2hUckJlTm9fUjZ3N2ZjSmtTM3pCSkktYzlUM094TkV2NFROMjBseXlla2R3US1xRjh1QktLalI3dmVHZ2dpWGY4UEVXa2lKemFvX2doTXZ3d0FOTkV3NW5aYlZBWk9HZzhUa19aZW1GbWVmWFlvQQ?oc=5",
+      "tickers": "NVDA",
+      "positive": 0.049093,
+      "negative": 0.875229,
+      "neutral": 0.075679,
+      "confidence": 0.875229
+    },
+    {
+      "postid": 204064546840495,
+      "text": "Stocks Slump Again as Investors Fret About A.I., Tariffs and Inflation - The New York Times",
+      "post_text": "Stocks Slump Again as Investors Fret About A.I., Tariffs and Inflation The New York Times",
+      "score": 0,
+      "upvote_ratio": 0,
+      "creation": "2026-11-25",
+      "source": "google_news",
+      "source_name": "Google News",
+      "publisher": "The New York Times",
+      "source_url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE02aG9MTzVQV1FPaHZkWUlkbUctTTNOWWxwTHplcDc2akxGWU4xRy1MQndiMUxhU0tEN2Y5WkdRTlIxRU80aUxmbGNJOWVVdE12VjZ1YnM2NU8xN0VoX0ZmNVNrbDlGOEdLV0kzV19fcEJrNDVjUk1KZnhVMA?oc=5",
+      "tickers": "",
+      "positive": 0.029744,
+      "negative": 0.954011,
+      "neutral": 0.016244,
+      "confidence": 0.954011
+    },
+    {
       "postid": 192671535993898,
-      "text": "Stocks retreat as AI rebound stumbles, tariff threats loom - Reuters",
-      "post_text": "Stocks retreat as AI rebound stumbles, tariff threats loom Reuters",
+      "text": "World stocks tumble as Trump tariffs rattle markets, AI rally fades - Reuters",
+      "post_text": "World stocks tumble as Trump tariffs rattle markets, AI rally fades Reuters",
       "score": 0,
       "upvote_ratio": 0,
       "creation": "2026-11-25",
@@ -32,10 +134,27 @@
       "publisher": "Reuters",
       "source_url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxNRFVsTjFROGtER0loSkZOcnF2NDRLUWFmcjBHZ01ybE51N19idjFFMXI1dnFqZ21JYS1HVVpicTJ1V1RfVU4zd3pkVEZMWHdqMUJWRENOQWJ2VjFqT1Y3WS0xYTV3bzd2RnRraFhtOVpzVE9yYThzdV9tdWxJbUpjNzFraw?oc=5",
       "tickers": "",
-      "positive": 0.046851,
-      "negative": 0.915709,
-      "neutral": 0.037439,
-      "confidence": 0.915709
+      "positive": 0.058516,
+      "negative": 0.912362,
+      "neutral": 0.029121,
+      "confidence": 0.912362
+    },
+    {
+      "postid": 157158139350423,
+      "text": "Tech rout deepens globally; Softbank falls 15%, Nvidia down 4.5% premarket - CNBC",
+      "post_text": "Tech rout deepens globally; Softbank falls 15%, Nvidia down 4.5% premarket CNBC",
+      "score": 0,
+      "upvote_ratio": 0,
+      "creation": "2026-11-25",
+      "source": "google_news",
+      "source_name": "Google News",
+      "publisher": "CNBC",
+      "source_url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxPX3MzSVpVUmVHWUZvX0hLbENVM1oyN3VDUzhqcFRrRTg0TlZEQTNjeEtKektuOTJQM0RxT1EybW03MXJZRHhtZEg1bUtZTXN3Z0g1RUp2cHJTRmxjQW9GSjhIQnE1dVpBUzgtUkhaTFNOY0ppbDJPSXBFRmtxZVhyajlDZnE4UVViaFZKQXFCVXZCZXhz0gGaAUFVX3lxTE1OZTBPc2FtSElJNmVpYTZOTTJfRWUxVExZN1NSajNvbk1ORnRNSHg5RWxXQTVpVXJSVGhjZW8xdkRWQ25XSmwtdXhsV0Q0MGtyaTFzbXhfOC1WVHQ2M0lwdURjUm9QcDk4U1VvTV9oMHRBQ0JiMlJ1TFdJZWluWFdIbHRxeW05aVRYYWZlWGM5bW41Z0hmTThTV1E?oc=5",
+      "tickers": "NVDA",
+      "positive": 0.036529,
+      "negative": 0.946009,
+      "neutral": 0.017462,
+      "confidence": 0.946009
     },
     {
       "postid": 137397206273046,
@@ -51,42 +170,93 @@
       "tickers": "",
       "positive": 0.033437,
       "negative": 0.080328,
-      "neutral": 0.886236,
-      "confidence": 0.886236
+      "neutral": 0.886235,
+      "confidence": 0.886235
     },
     {
-      "postid": 55943083378476,
-      "text": "Jim Cramer sizes up six retail stocks after earnings — and names his two favorites - CNBC",
-      "post_text": "Jim Cramer sizes up six retail stocks after earnings — and names his two favorites CNBC",
+      "postid": 136773119073932,
+      "text": "Dell stock tanks after blowout earnings. Wall Street just isn't impressed. - Yahoo Finance",
+      "post_text": "Dell stock tanks after blowout earnings. Wall Street just isn't impressed. Yahoo Finance",
       "score": 0,
       "upvote_ratio": 0,
       "creation": "2026-11-25",
       "source": "google_news",
       "source_name": "Google News",
-      "publisher": "CNBC",
-      "source_url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE0wTV9uQTFVLU9HUUx4YV9IS2FaNGtfaUprTU9ST25ianVCNEtCdTRqYk9sdnBrSnZpSXZQUGNyenkxaW45MmJnWm1JUEtISUZQLUxJNWRkN25CNmdzUC1kUXByTTRDOVJaOHoyWC1XR0haSlQ1dEtLLTVB0gF_QVVfeXFMUFk4ZWRMbnhJLVhSNUszUWdsUm9OUG1sQmNoSm0zRkpWQThtbE4tRk1nYTF5ME52UmVFb2JxLWtNZ2VZdG90QTdXZGhFRW4wZUt2RnBZcnVlTFRONXNyOXpYdzF2ZnBEc0dHdXh5LTBHSjNub0hQUW9xSzZzV05qUQ?oc=5",
+      "publisher": "Yahoo Finance",
+      "source_url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxQT29kMGwwZHNqZTdpeW5sMG5WMVZCMGhNX0lrcUV6cjJybG9lald0U0FQUnNRb051U1pwcElxczR1MGJfcFNHU1UzdnNRSmJaVktadFlMVTZLOGw2UURJQ2xhNmxPUExRNzh1TlZydXlGXzlDb2NpdkprVnFpTW5aRkwtUTF0ck9rcEpfNl9XRU03RTE1emhtTW1FLVF4X0ZsSzZFdHEzbHBRRmhJS2lLZHp2aWZwbUFWMHNUQzU5R2lkT2dmTzdLdGJ1aVFSV1FD?oc=5",
       "tickers": "",
-      "positive": 0.830511,
-      "negative": 0.008576,
-      "neutral": 0.160913,
-      "confidence": 0.830511
+      "positive": 0.048892,
+      "negative": 0.931713,
+      "neutral": 0.019395,
+      "confidence": 0.931713
     },
     {
-      "postid": 49230415981155,
-      "text": "U.S. Stocks Mostly Lower After Nvidia Earnings Fail to Soothe Nerves - WSJ",
-      "post_text": "U.S. Stocks Mostly Lower After Nvidia Earnings Fail to Soothe Nerves WSJ",
+      "postid": 135413348189685,
+      "text": "AI Stocks Resume Their Slide - WSJ",
+      "post_text": "AI Stocks Resume Their Slide WSJ",
       "score": 0,
       "upvote_ratio": 0,
       "creation": "2026-11-25",
       "source": "google_news",
       "source_name": "Google News",
       "publisher": "WSJ",
-      "source_url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQeVFyOU5ZTWtBVzZob0FxRUQxME5TdllYbHgxNDVsTTZYaDBQMkNnU0x6czdEaUtlemhyQXJWVHk3cURHeWJ5NXRncmtubDZtZnNvTG5ac1E0Vm1YS0o3OWRrRm5GNi1wOEFwallTZmhyaHBqX0Z2MG80S3gzb3ViQnhZTWgxSmlkRHFTa09NNXA5MHhGVzYtQ28yVVRIdzVyZ2RJYTJ4cldqZms3dFg1ekplQUp1QQ?oc=5",
-      "tickers": "NVDA",
-      "positive": 0.029233,
-      "negative": 0.949648,
-      "neutral": 0.021119,
-      "confidence": 0.949648
+      "source_url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE1jMVRGNmM2LXVUalRrSEREd3VLUDl4alRBLTZDaEhhWjdCbXZJQlNxZnBhQWdvS2lrLVRESjg3LUZLRkpEQ0wtUFZVLWcwNllRX190Vm5PcHlEcndfODBubE9HZDVHVkMyYWFiMlo0YkpkVWpCdXhLaGhHZG8?oc=5",
+      "tickers": "",
+      "positive": 0.172455,
+      "negative": 0.044561,
+      "neutral": 0.782984,
+      "confidence": 0.782984
+    },
+    {
+      "postid": 117062796639038,
+      "text": "How Hedge Funds Are Navigating Stock Market Volatility - Goldman Sachs",
+      "post_text": "How Hedge Funds Are Navigating Stock Market Volatility Goldman Sachs",
+      "score": 0,
+      "upvote_ratio": 0,
+      "creation": "2026-11-25",
+      "source": "google_news",
+      "source_name": "Google News",
+      "publisher": "Goldman Sachs",
+      "source_url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNZ0lYelJOWGtLVldWQ3VoUXQwVDRGaW5uWHhRSkp5VlhtYUNmMVF1eHRqVmZSWndkSFBfcUlxeHBuRzg4R0dQTkdFS1U0aEl0UkRPUUpnSHB5c0JfR09RQnMzWXNzeUVzd2E1aEItU2gyOFpXcHpPaWZGSlpOZHZzQm9YQk1zMFRyN3JETl9STUlOUVJtQlF6cHNPemtrOTloR2F2Nmw2NA?oc=5",
+      "tickers": "GS",
+      "positive": 0.026023,
+      "negative": 0.017288,
+      "neutral": 0.956689,
+      "confidence": 0.956689
+    },
+    {
+      "postid": 98142103510335,
+      "text": "FY26 Fourth Quarter Earnings Release - John Deere",
+      "post_text": "FY26 Fourth Quarter Earnings Release John Deere",
+      "score": 0,
+      "upvote_ratio": 0,
+      "creation": "2026-11-25",
+      "source": "google_news",
+      "source_name": "Google News",
+      "publisher": "John Deere",
+      "source_url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE1OUWcxNll6ZF9mcGlBSE54ejUwcXR3OFB2V3BpdGRvaVk3NUh3SFJ0Z2NkSE5BRUhDUjBpeFlfMDFLR0o0SDFpdW9rODFHSDFMaEY0ekpHVWg0QlRiZWNDN29FbE0zenVmU19sOFNjZ25HaUF4ZDRVc0VjU1M?oc=5",
+      "tickers": "DE",
+      "positive": 0.179976,
+      "negative": 0.036769,
+      "neutral": 0.783255,
+      "confidence": 0.783255
+    },
+    {
+      "postid": 18195564612727,
+      "text": "Stocks plummet as Jensen Huang rebound rally fades - CBS News",
+      "post_text": "Stocks plummet as Jensen Huang rebound rally fades CBS News",
+      "score": 0,
+      "upvote_ratio": 0,
+      "creation": "2026-11-25",
+      "source": "google_news",
+      "source_name": "Google News",
+      "publisher": "CBS News",
+      "source_url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE9KdVpmWDNfUE9oTVhhcktaQm1GQll1Q241TVAxVkNwTHlmMWY4djZLLVh3SmUtNDI0SFVHbmlGdVNlVG9RWU1UeVgySHFUdkhIb016QkhNSFBrREN3ZXVhR2VxanNGMm1fVGt3eVBZTno5TEh5Q1E?oc=5",
+      "tickers": "",
+      "positive": 0.053061,
+      "negative": 0.920043,
+      "neutral": 0.026896,
+      "confidence": 0.920043
     },
     {
       "postid": 274604835950382,
@@ -123,6 +293,23 @@
       "confidence": 0.956557
     },
     {
+      "postid": 259586604863600,
+      "text": "Bill Ackman Thinks Investors Are Wrong on Alcon and Intercontinental Exchange Stocks - Barron's",
+      "post_text": "Bill Ackman Thinks Investors Are Wrong on Alcon and Intercontinental Exchange Stocks Barron's",
+      "score": 0,
+      "upvote_ratio": 0,
+      "creation": "2026-11-24",
+      "source": "google_news",
+      "source_name": "Google News",
+      "publisher": "Barron's",
+      "source_url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQTjU0cF8yZDFLcklhbExqS0tGeDRFN1UtYkZ3WkNMQUczR0Y5a3ZnTXRMVjBOcWFWdk5GNDFBM3BKM1drNm81YTNQUTRDT1hDSzdNcGZJLXhNMzdjU1k0UTZ1dGNVYW5ndHhxNy0tenIybnNUcXB3T1hHV19IQ1hSd3NnUE9weFV0Mk1EWHZsbS1WekdHVHhRUTFoNmVUd3NaQkR3?oc=5",
+      "tickers": "",
+      "positive": 0.021191,
+      "negative": 0.830568,
+      "neutral": 0.148241,
+      "confidence": 0.830568
+    },
+    {
       "postid": 251688839902874,
       "text": "Dell Just Reported Earnings and Raised Its Forecast by $10 Billion. Is the Stock a Buy After Tuesday's Selloff? - Yahoo Finance",
       "post_text": "Dell Just Reported Earnings and Raised Its Forecast by $10 Billion. Is the Stock a Buy After Tuesday's Selloff? Yahoo Finance",
@@ -157,40 +344,6 @@
       "confidence": 0.924604
     },
     {
-      "postid": 230883021795074,
-      "text": "U.S. Stocks Mixed as Huang Relief Rally Fades - WSJ",
-      "post_text": "U.S. Stocks Mixed as Huang Relief Rally Fades WSJ",
-      "score": 0,
-      "upvote_ratio": 0,
-      "creation": "2026-11-24",
-      "source": "google_news",
-      "source_name": "Google News",
-      "publisher": "WSJ",
-      "source_url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxOczFSSUlCQTZ4cWcwa0VkZnN3eU14VXFmRzhFeGVZd192cFd6NjZQR2FWVVlvU01OTUpiRUQ5Y1poSjFYaTFBNzRtME8zWktrXzgyY3NmSGJfcG83aEVQdDMtcXo1T2VUM2xWSHowajRMeDJLMnZnczVwOUZLR3hEYTk5OUZsZU1feW54T1dsS01GUQ?oc=5",
-      "tickers": "",
-      "positive": 0.323821,
-      "negative": 0.548287,
-      "neutral": 0.127893,
-      "confidence": 0.548287
-    },
-    {
-      "postid": 222773570734374,
-      "text": "Dell’s Earnings Were Strong. Investors Remain Unsure About Tech. - Barron's",
-      "post_text": "Dell’s Earnings Were Strong. Investors Remain Unsure About Tech. Barron's",
-      "score": 0,
-      "upvote_ratio": 0,
-      "creation": "2026-11-24",
-      "source": "google_news",
-      "source_name": "Google News",
-      "publisher": "Barron's",
-      "source_url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE55MEZwd3dvejJKRkJhZjk0SkJuUDBNTTJudWNnMHdmVWE5Qk1MUUVpZ3pmQi10WG80M3NqRWZEN1kzWWlTUWVZNU95MWRjVVRacHNQcWp1SFFNLWl6MEp2YkFqMFpza1hpM1NiUU5hS2hWWXZNZmc?oc=5",
-      "tickers": "",
-      "positive": 0.674299,
-      "negative": 0.152977,
-      "neutral": 0.172725,
-      "confidence": 0.674299
-    },
-    {
       "postid": 155423722033775,
       "text": "US stocks slide as Nvidia rally fizzles out, dollar falls - Reuters",
       "post_text": "US stocks slide as Nvidia rally fizzles out, dollar falls Reuters",
@@ -206,23 +359,6 @@
       "negative": 0.72425,
       "neutral": 0.096484,
       "confidence": 0.72425
-    },
-    {
-      "postid": 149644195087497,
-      "text": "These Technical Measures Warned of Stock Market Whiplash - WSJ",
-      "post_text": "These Technical Measures Warned of Stock Market Whiplash WSJ",
-      "score": 0,
-      "upvote_ratio": 0,
-      "creation": "2026-11-24",
-      "source": "google_news",
-      "source_name": "Google News",
-      "publisher": "WSJ",
-      "source_url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxOVnM2YjNnajctZnkydzdDaGZtUkpDVXBpdkZDYkhnMkpkNnpsR09jU2xiaUhNTDhRSWx3cnZXYWE5V0tGUldYMkZQUjYtUElJSnJpbWN2dGtzR016TTA3cjJqLWdUV1kxUGRuQWVGMHpqdW1HVFpfdzBQZ2FtTllBUDIxRDRxTTdYa0JKb1FFaDFqb2R4V19KSHJtTHlpMEYza3c?oc=5",
-      "tickers": "",
-      "positive": 0.120853,
-      "negative": 0.052644,
-      "neutral": 0.826503,
-      "confidence": 0.826503
     },
     {
       "postid": 148100739793270,
@@ -276,23 +412,6 @@
       "confidence": 0.868789
     },
     {
-      "postid": 117636886620413,
-      "text": "3 Absurdly Cheap Stocks You Can Buy for Less Than $100 Right Now - Yahoo Finance",
-      "post_text": "3 Absurdly Cheap Stocks You Can Buy for Less Than $100 Right Now Yahoo Finance",
-      "score": 0,
-      "upvote_ratio": 0,
-      "creation": "2026-11-24",
-      "source": "google_news",
-      "source_name": "Google News",
-      "publisher": "Yahoo Finance",
-      "source_url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxPeGdEVmlZRXBmZGhmNTRZTmZPUHFmUHU1VlJ0aDNFaGJ4OFJ3dF9wY2x6MG9YMWc0dEtxdHhldXc2SDhfOGhtRUdELUVLUHpuU1dWeGFPSjNiM1hySV9RTk9WRzU0ZWZvM1NSNGltZ2RtclRVNnpoV2x6eDRDVGxkZndVcHR3X1JERHFERU1UdHFscXNpVTFJ?oc=5",
-      "tickers": "",
-      "positive": 0.031269,
-      "negative": 0.061795,
-      "neutral": 0.906936,
-      "confidence": 0.906936
-    },
-    {
       "postid": 68014301334799,
       "text": "Europe's earnings boom challenges Wall Street, but may prove fleeting - Reuters",
       "post_text": "Europe's earnings boom challenges Wall Street, but may prove fleeting Reuters",
@@ -305,9 +424,9 @@
       "source_url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxNelplRGFFX0pZWWEyR0VCN29QUHQtd1A5Q1N2R3lHa3plVDFYeDV1eXBCc0dCaktPMW50cDFJcjlvb0FId0YxOUVXS0pEQ1VxR0d1ckVFYXpPWldmU0trNjhFcldleExhcktDbVZ3YWdFY1I1Zjd4VlF1T3dHQVRNM2FNT0xITHFNSnBCTDUxdDNpQTNHeTNYeDJXQlZjZm04S0habjhuNnJEQXNOQkE2dEdoVkI4Nlk?oc=5",
       "tickers": "",
       "positive": 0.074248,
-      "negative": 0.499919,
+      "negative": 0.49992,
       "neutral": 0.425832,
-      "confidence": 0.499919
+      "confidence": 0.49992
     },
     {
       "postid": 64306785533985,
@@ -344,21 +463,21 @@
       "confidence": 0.806066
     },
     {
-      "postid": 36124739927023,
-      "text": "The AI trade is hard to escape — even for investors who are deliberately trying to avoid it - DW.com",
-      "post_text": "The AI trade is hard to escape — even for investors who are deliberately trying to avoid it DW.com",
+      "postid": 45246921777500,
+      "text": "5 Dirt-Cheap Stocks Positioned to Soar in 2027 - Yahoo Finance",
+      "post_text": "5 Dirt-Cheap Stocks Positioned to Soar in 2027 Yahoo Finance",
       "score": 0,
       "upvote_ratio": 0,
       "creation": "2026-11-24",
       "source": "google_news",
       "source_name": "Google News",
-      "publisher": "DW.com",
-      "source_url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxOZzVOZmtnSTdyb0RWUnNBQVRLbXZzampza2RoX3RpdVFKNFRHZG9lWDF3R2d6MGhXbTVDZGNORE53U1JUZTY3YTZtbW9YZzV3Qjl5azYzbEEzUHQxd1RfQWgzV3k4TkVhOFJhUkl1aWk5dkdTeV9uTTdkSTlwRWhyT19yVThidTc3c1JzM281R1VUaFBVLUJIdtIBmAFBVV95cUxOaU5qbElrOGVQWU9lSF8yVEJTR1NNbFl1UmM5Z1RTVUtScFZnUjdsZ3RwWVFaQURqVDN5eVI5cFBCRlBidnZXQmUwTWdhSFBHMmhyYUVFNmNvbHJEdW9wcWE0aU5aMkU1ZVo4Nnh0NFZoaUhKRzg2bkgtWWJ6YjR4T1pnYWZ3MnI2QU85eDVyNDN1VVY4UE4zaQ?oc=5",
+      "publisher": "Yahoo Finance",
+      "source_url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxQckxxMnEzTG9Tb1AwQTFaZ0pDaDRkaENVMXExRUJMSllCYm5JNHNNbFNyOGplaFRrLXBmelczcDJLd29ncVFLM1Fiek96cGpQVm01OEFZVXpaMEpNRU5iUWZWQWEtYXlVbVBVV29XZUpwZmxwWXh3cmlIMVlqUDRRZi1zbTQ1bHdKaUhnUVZKMmRDck9IendNSk9Bbw?oc=5",
       "tickers": "",
-      "positive": 0.023318,
-      "negative": 0.176698,
-      "neutral": 0.799984,
-      "confidence": 0.799984
+      "positive": 0.019797,
+      "negative": 0.014686,
+      "neutral": 0.965517,
+      "confidence": 0.965517
     },
     {
       "postid": 264589789069056,
@@ -412,6 +531,40 @@
       "confidence": 0.94888
     },
     {
+      "postid": 239279691869492,
+      "text": "Wall Street soars on Huang's return to Nvidia, Treasury yields rise - Reuters",
+      "post_text": "Wall Street soars on Huang's return to Nvidia, Treasury yields rise Reuters",
+      "score": 0,
+      "upvote_ratio": 0,
+      "creation": "2026-11-23",
+      "source": "google_news",
+      "source_name": "Google News",
+      "publisher": "Reuters",
+      "source_url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxNR2c4ZVNmcHBzVFctOTBkRUd2d0VHTklseUhCcEtZT2VHbU1WbWprMUk2aDZSQ2tkZHNYVE9EWUgyaEkxeWtyN0M2V2NzR2ZCTHFmMEhvbHFDeExTNUdTeDF3WkxJZ2RSdmZ2cHBxWlFjTXdoa1hXdlZQRWtyTFFKVlJjMA?oc=5",
+      "tickers": "NVDA",
+      "positive": 0.917834,
+      "negative": 0.010104,
+      "neutral": 0.072063,
+      "confidence": 0.917834
+    },
+    {
+      "postid": 215343679815266,
+      "text": "Is the stock market open on Thanksgiving and Black Friday? - Yahoo Finance",
+      "post_text": "Is the stock market open on Thanksgiving and Black Friday? Yahoo Finance",
+      "score": 0,
+      "upvote_ratio": 0,
+      "creation": "2026-11-23",
+      "source": "google_news",
+      "source_name": "Google News",
+      "publisher": "Yahoo Finance",
+      "source_url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxQUGxNaFVNcUlTOUdBMC05cnlFNk0xclZhd1JTZV9rRENvTFpkZDF4WnVLb1FWdmNmMDhOT0dpSDYzc3ljNFNYUTZSdm4ybnMxNlRzZkpCbkxrWG5NeHU3bGhRaUJlQkR3Uktjd2U3MDBDUWd2RGthRVhpVExtQmxCM2NocEdVZWpZM3liSzZXeFNHaWFHckRQajZRM1o3a29NbERKMHJESGRIbk41SWxfSGV1cjlKSGZyLVB1RzhHOUtUS0RTc2RjSTRQNVFkUQ?oc=5",
+      "tickers": "",
+      "positive": 0.007193,
+      "negative": 0.005281,
+      "neutral": 0.987526,
+      "confidence": 0.987526
+    },
+    {
       "postid": 203786208511864,
       "text": "5 Best High-Growth Stocks to Diversify Away From Big Tech - Yahoo Finance",
       "post_text": "5 Best High-Growth Stocks to Diversify Away From Big Tech Yahoo Finance",
@@ -424,7 +577,7 @@
       "source_url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxNWVh2ci1ERTFxcHRoS2haM0EzZTEwUmJkcUtSZDhEMlFHZVZ6eEpYTzhxVkd4VHZCRFUyUkFEQl9iMmtibUtDTnVWTk1wZjVvZ2ZudzVnc0x2MWdSNFJsMzlXMjlJb1ZiNVNlY0FqV0xtZ21JZXlRalkxQ1VwN0hoRkd0QnV1cnBmNVI4eHViZ3NmQ2Vn?oc=5",
       "tickers": "",
       "positive": 0.784276,
-      "negative": 0.072262,
+      "negative": 0.072263,
       "neutral": 0.143461,
       "confidence": 0.784276
     },
@@ -441,26 +594,26 @@
       "source_url": "https://news.google.com/rss/articles/CBMickFVX3lxTFBEZ2IzdVdRZFN3QXJ4djZjWVZBcEtKWURLaGhwaG4xNzUyV3dXMXJtdktYUlNMaHo2eWtEdHNIeUhXLVpZaEV1dVRvd1pPaGpNelY4aERWQ1NZblk5cVdzOHpZbVFhRk9IcUlMamI5MnNLZw?oc=5",
       "tickers": "NVDA",
       "positive": 0.662578,
-      "negative": 0.16067,
+      "negative": 0.160671,
       "neutral": 0.176751,
       "confidence": 0.662578
     },
     {
       "postid": 184498380225587,
-      "text": "Stocks Turn Lower as Nvidia Euphoria Wears Off: Markets Wrap - Bloomberg.com",
-      "post_text": "Stocks Turn Lower as Nvidia Euphoria Wears Off: Markets Wrap Bloomberg.com",
+      "text": "Stocks Turn Lower as Nvidia Euphoria Wears Off: Markets Wrap - Bloomberg",
+      "post_text": "Stocks Turn Lower as Nvidia Euphoria Wears Off: Markets Wrap Bloomberg",
       "score": 0,
       "upvote_ratio": 0,
       "creation": "2026-11-23",
       "source": "google_news",
       "source_name": "Google News",
-      "publisher": "Bloomberg.com",
+      "publisher": "Bloomberg",
       "source_url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxQVVBVLTBQYkhINGhEXzM0b3k1ZjV2b25YWmVNMzFuVl9EbkhNWlV1OUtGVVk4YTRLV01lMFZXRGpDLURZVkVJZy15MkZQNUZxYnRhQV9pLXFRQl9EaHlzemVJTmFUQ1VhTUxNUXd0bGxwZm4yLUJMVXdPeHJ2OWdDSkFOTml2a3NRM3VWcThHWGpJVDNi?oc=5",
       "tickers": "NVDA",
-      "positive": 0.030022,
-      "negative": 0.94078,
-      "neutral": 0.029198,
-      "confidence": 0.94078
+      "positive": 0.034985,
+      "negative": 0.91892,
+      "neutral": 0.046095,
+      "confidence": 0.91892
     },
     {
       "postid": 171347431598207,
@@ -480,21 +633,21 @@
       "confidence": 0.97406
     },
     {
-      "postid": 163480482565533,
-      "text": "Nvidia soars 31% as board reinstates Jensen Huang as CEO, chip stocks jump - Yahoo Finance",
-      "post_text": "Nvidia soars 31% as board reinstates Jensen Huang as CEO, chip stocks jump Yahoo Finance",
+      "postid": 168588475773182,
+      "text": "Why stocks are having their wildest Monday morning since 2008 - Yahoo Finance",
+      "post_text": "Why stocks are having their wildest Monday morning since 2008 Yahoo Finance",
       "score": 0,
       "upvote_ratio": 0,
       "creation": "2026-11-23",
       "source": "google_news",
       "source_name": "Google News",
       "publisher": "Yahoo Finance",
-      "source_url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxPQXQxeWtYZkw0VGdES0pzRTNhc1h5aW9VNWNkRU0zeVE0QzBBYk12VmM1cjFkWEJSUmwzQndzZHVJaGF3bGdvSGI1UEtwWXBzZ1NuZExiejR2bkFsVl9ZWl9hS1FEekV3TS1ZV1hnZnNSVU9ybGRJTkF5b193dXVPLUs1ZDRJMWY3X25UYV8wNEU0RTliTXk4NFNDUElmWjZhSFJXVy1MSmlsbXZEajY5MEJoVmpBWEt1a3g0SFRFalpZSmdXWjVZYw?oc=5",
-      "tickers": "NVDA",
-      "positive": 0.238302,
-      "negative": 0.011026,
-      "neutral": 0.750672,
-      "confidence": 0.750672
+      "source_url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxPcFNJdGdWTmtqd2t0Mkh1Qk1MWVR1MHpQZ1l6YklOSGlyOFJHb3BEVjhkbjlaOHMtOTkyaEhIeGNWT0NySzZPUXFmb185bkZYMWkyeld3WGpWcDdpWnZ5M21VRW9UeE53OGhxcFFGVWlLZ2xqWElaSkg5ZHdjdzVwc2dkOURjelp2dmR3YnlVQWxkajJ5YWtLY3BDaUJvNVlOOURuRzZDVUV4blk5UkJnTGhLSnJkNEV3N0E?oc=5",
+      "tickers": "",
+      "positive": 0.025942,
+      "negative": 0.015897,
+      "neutral": 0.958161,
+      "confidence": 0.958161
     },
     {
       "postid": 162064479817179,
@@ -509,7 +662,7 @@
       "source_url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxOcU03UEttMkt2VHk0czNiZGxHNnB0MTR6Z2lvN01WUEF4VXZaejRWdV9IZ1d1b2YxUTc5bG9NUXVscVV4RjZ1TmdEdGtzWDdlb0JsQzhIWUozSHhGVFNSYW55aWpaalN4V1NlU21GWUpjYURFVU9YajkwZ3ltNXhvM2kwRW51T2RtYzVtajM4M3RvRmYwLUNQU1RHN0hjYmlsR3JGdTQ2WVNoMThMNTNwZmI0VlB5NXhaYzZoLWxralZSSGM?oc=5",
       "tickers": "",
       "positive": 0.01491,
-      "negative": 0.478997,
+      "negative": 0.478998,
       "neutral": 0.506093,
       "confidence": 0.506093
     },
@@ -542,27 +695,27 @@
       "publisher": "AP News",
       "source_url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNNF9ZLU84V2VPZHBHcGx0V3p5TVVoV21zbUYyQWFOWU96ZjBmcExvQ1lpVmtFRzl5RVpXdFg3TGhUM3ZHM282MkdnMVgxZ2lwUTRkcm9KaWlHMEcyZ3R6amZIM25vMFRRM0l1OXNxMFFSQVVnR3hzY3BNb1NyUWwxa2hLMndRMkpVZ2l2X0N2Z3JFcmRVMzRMZldCbzlEZkpGZjNmTVJZdw?oc=5",
       "tickers": "NVDA",
-      "positive": 0.69319,
-      "negative": 0.264328,
+      "positive": 0.693191,
+      "negative": 0.264327,
       "neutral": 0.042482,
-      "confidence": 0.69319
+      "confidence": 0.693191
     },
     {
-      "postid": 92821757550129,
-      "text": "Morgan Stanley’s Wilson calls market capitulation a rare opportunity to buy stocks - Yahoo Finance",
-      "post_text": "Morgan Stanley’s Wilson calls market capitulation a rare opportunity to buy stocks Yahoo Finance",
+      "postid": 100053035790346,
+      "text": "Nvidia Earnings and Forecasts Beat Expectations - The New York Times",
+      "post_text": "Nvidia Earnings and Forecasts Beat Expectations The New York Times",
       "score": 0,
       "upvote_ratio": 0,
       "creation": "2026-11-23",
       "source": "google_news",
       "source_name": "Google News",
-      "publisher": "Yahoo Finance",
-      "source_url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPeTdobmczN3A0MG9kYmxzYjZ6ZzIyUGVueUpfazZ0RER1ZGZnckUySkFCWkZxMFRlVG9OY0hWNHdHejRZZlFQNTJyRzZYSk1qV3hfa3lWa1AwNkxYUFFEM250RkRzQkhtcU9ZSzJ2Z2lVRUs0YkQxeUpqdC1yczNfR1piM0dLdHlUSEw3b01JX0txS09NR2x3MVNsWHc2ZEQ0?oc=5",
-      "tickers": "MS",
-      "positive": 0.754899,
-      "negative": 0.084068,
-      "neutral": 0.161033,
-      "confidence": 0.754899
+      "publisher": "The New York Times",
+      "source_url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNdFFIYV9qR0U3Q3Q5bFNVM2VscDYtYU01YkxpSDFVRUkxNkYyX0l1NlNDYmRDU25NaHhJR0JvV0tnMDQxRHBvYkx5Y21WaDVwVDA5MjdaNndERWNmZlp2dzVIdm8ySG40RzJRWGVfY1RCdTNkd2NmVlN2Q3JURVpfNWptNDk?oc=5",
+      "tickers": "NVDA",
+      "positive": 0.966554,
+      "negative": 0.017975,
+      "neutral": 0.015471,
+      "confidence": 0.966554
     },
     {
       "postid": 88228579003758,
@@ -582,21 +735,21 @@
       "confidence": 0.982779
     },
     {
-      "postid": 71926004207605,
-      "text": "Tokenized stocks face pushback as NYSE, Nasdaq pivot for a new market - CNBC",
-      "post_text": "Tokenized stocks face pushback as NYSE, Nasdaq pivot for a new market CNBC",
+      "postid": 69475477199769,
+      "text": "The stock market faces a worrying scenario: a sell-off with no flight to safety - Fortune",
+      "post_text": "The stock market faces a worrying scenario: a sell-off with no flight to safety Fortune",
       "score": 0,
       "upvote_ratio": 0,
       "creation": "2026-11-23",
       "source": "google_news",
       "source_name": "Google News",
-      "publisher": "CNBC",
-      "source_url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQb3BEMkk1RHdaS3VyUXdXY3RmQ2lpM0NRWXVoa2lHSzZTdnEyUWFHcHBjRWFBS1ZRVUY5d1NVZmRJQlkwUXhFV3lPLW9ZZGVlazdoQmdHR3BPV3lMZ1NwblZrcncyOGpPQWFsa3ktcnhVbENXSzVWSlplWnF0T2RfOGI1aDFDaWxsdXNIZC1QOHg0aW9vYmZ6U3pLSWhHUkxWc2JrZFppLV9Jd9IBrwFBVV95cUxPVHlBbUJLMVFRaUxPRnhvU0lIUlN1LVNxbThhUmt2SEprVkYtb3Y0aUlSaFZ4aEp6SWtnY2JuVDlvcEx1OVZwNnVFTy1BUUlmVVpKNm1CRTdId1ExbDIwVWx1aFBlVVBVaHNnaWw1ZUN2RlZFTmJ2UjFRWGl6aWdnY0pfcTZ3UXNxMFU4cnRsVFFobXNSVndPTmNnWklLdm1vUnRRWjhjX1NXeTk4Rjkw?oc=5",
+      "publisher": "Fortune",
+      "source_url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE53azFCeHE5OFVHQnQwZFdzSXlGZ19LM3E2QlhKYlRYbDJhanJ0ZjczU0sycUpvNGRMYnZKQ0J3TFNYS3V3bE5IcWZibDdxZlpxMkJtVFJiRmUtZlR3RkFzQWQwMG1jeDlKWEZhOFN1MGkzckxBXzV1NndB?oc=5",
       "tickers": "",
-      "positive": 0.709107,
-      "negative": 0.018405,
-      "neutral": 0.272487,
-      "confidence": 0.709107
+      "positive": 0.015828,
+      "negative": 0.641886,
+      "neutral": 0.342287,
+      "confidence": 0.641886
     },
     {
       "postid": 63042552040745,
@@ -678,10 +831,10 @@
       "publisher": "CNBC",
       "source_url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxQOEloal8zR3MyUU1YX3VxeWRPTHNUR3B2dmVhZmFRcDAxMXA2YjBDRlcwQkI4djY1MzB4NnBvbUpNRjhiNm83MC02MTlwOFFQRVJYUzNmR0JBQU1CQVlFbXo5VmFxcXNxRmROQzVvbnA2YzgyYWVzZkkyeG81Z1kzS2xvTW84ZUlQU0M0MDNFX0t1MC1jSVpIT0ZuU1ltbFI20gGmAUFVX3lxTFBaNV92d1hjUGxtd0pQNGdJQUhaemFybTV6dXp2cEpGQ3g0bnJfTmRGZUtoU1BYWmNuNXp2OFlkRFpnVi1OSXg1YjRCMndoN2c0TmcxdjNwN3cyRno1S25YSm9aSkRZT1NLTEw1dE9GUmlDUDdhTThiQVVYMHVnZzBubXhyLVQtTEpZZ3VQaXVHVUVrWUhhdVhkZTJ4RVlsT2J0UF8tWHc?oc=5",
       "tickers": "",
-      "positive": 0.899112,
+      "positive": 0.899111,
       "negative": 0.012188,
       "neutral": 0.0887,
-      "confidence": 0.899112
+      "confidence": 0.899111
     },
     {
       "postid": 255823942725554,
@@ -701,38 +854,38 @@
       "confidence": 0.743397
     },
     {
-      "postid": 239279691869492,
-      "text": "Wall Street soars on Huang's return to Nvidia, Treasury yields rise - Reuters",
-      "post_text": "Wall Street soars on Huang's return to Nvidia, Treasury yields rise Reuters",
-      "score": 0,
-      "upvote_ratio": 0,
-      "creation": "2026-11-22",
-      "source": "google_news",
-      "source_name": "Google News",
-      "publisher": "Reuters",
-      "source_url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxNR2c4ZVNmcHBzVFctOTBkRUd2d0VHTklseUhCcEtZT2VHbU1WbWprMUk2aDZSQ2tkZHNYVE9EWUgyaEkxeWtyN0M2V2NzR2ZCTHFmMEhvbHFDeExTNUdTeDF3WkxJZ2RSdmZ2cHBxWlFjTXdoa1hXdlZQRWtyTFFKVlJjMA?oc=5",
-      "tickers": "NVDA",
-      "positive": 0.917834,
-      "negative": 0.010104,
-      "neutral": 0.072063,
-      "confidence": 0.917834
-    },
-    {
       "postid": 175313310132158,
-      "text": "Goldman Traders See Entry Point in US Stocks But Warn of Risks - Bloomberg.com",
-      "post_text": "Goldman Traders See Entry Point in US Stocks But Warn of Risks Bloomberg.com",
+      "text": "Goldman Traders See Entry Point in US Stocks But Warn of Risks - Bloomberg",
+      "post_text": "Goldman Traders See Entry Point in US Stocks But Warn of Risks Bloomberg",
       "score": 0,
       "upvote_ratio": 0,
       "creation": "2026-11-22",
       "source": "google_news",
       "source_name": "Google News",
-      "publisher": "Bloomberg.com",
+      "publisher": "Bloomberg",
       "source_url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNZldNMFlSOWFqTTdmTDNmdFowSHd4aF9EN0g3eWtBYTk3MEp1RXZTN09TQThzaFlNTTVQc0pENUlhNng2VXpFd1M5cnpZdF80WmJvblRrVUQ1bW9QbkkwWm1TMzZZbk9YWXdMT0VKNUZ6YWRHNks4QWRjS3RHYm9sZk81OVpvMmsxWGFJQU4tWnUta0JMclRKOElZMS14cEpEQ2FMYkJkTlF6OTIta09RR3BFQQ?oc=5",
       "tickers": "",
-      "positive": 0.394351,
-      "negative": 0.134568,
-      "neutral": 0.47108,
-      "confidence": 0.47108
+      "positive": 0.440284,
+      "negative": 0.175392,
+      "neutral": 0.384324,
+      "confidence": 0.440284
+    },
+    {
+      "postid": 169104322637381,
+      "text": "Stocks are 'on fire sale' as Anthropic IPO fails to calm AI trade jitters - Yahoo Finance",
+      "post_text": "Stocks are 'on fire sale' as Anthropic IPO fails to calm AI trade jitters Yahoo Finance",
+      "score": 0,
+      "upvote_ratio": 0,
+      "creation": "2026-11-22",
+      "source": "google_news",
+      "source_name": "Google News",
+      "publisher": "Yahoo Finance",
+      "source_url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxOZjc4cHQ0TnRGd25uNTM5MUw5Zk5WUUdIV09nY3ltNDNBR2pvemJNRl9TOTZnR2lNay1CdTl1RHhPZEhtVmdTWE1qdS1SZVVmWURldUhJTTgxTktCX0xsMTdPNGpKS0JkYV9fUXpaY0NqLWlBa0tlVElTSmpnV1NzVGZ3Z0RSWW9XTFkwVm9YdW5WOWNRQU92MzUyekxmNjZWUnkyZ1VNdl9FMy13eTN5SFhIVG14TG5DZHZyYVR2VUxwOHkzeWRz?oc=5",
+      "tickers": "",
+      "positive": 0.043667,
+      "negative": 0.873312,
+      "neutral": 0.083021,
+      "confidence": 0.873312
     },
     {
       "postid": 150837716653688,
@@ -780,10 +933,10 @@
       "publisher": "AP News",
       "source_url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQekJLM2U0dXhaeEo3d2hmNFltdUpLQzF4a2VtY3RNR3otMW44Zld5R0Q3TGpTNWJ5bnA1RG00YXU4NkNpYTBtMVpnUmV4cFZPSF9HWnRjdlRPZ1Bsc0dwOENCQWM4QXc2MjdPRWhPcXZjeXNRbXhUdV9fSDVwcW5kUlJGZTVUbW1Lc0h5YzJCYWtpNDd5dzRJ?oc=5",
       "tickers": "",
-      "positive": 0.53117,
-      "negative": 0.228646,
-      "neutral": 0.240183,
-      "confidence": 0.53117
+      "positive": 0.531168,
+      "negative": 0.228648,
+      "neutral": 0.240184,
+      "confidence": 0.531168
     },
     {
       "postid": 76020102036980,
@@ -956,23 +1109,6 @@
       "confidence": 0.874654
     },
     {
-      "postid": 197655747096508,
-      "text": "AI stocks are selling off after Anthropic’s record IPO, and Wall Street is split on whether this is the top - Fortune",
-      "post_text": "AI stocks are selling off after Anthropic’s record IPO, and Wall Street is split on whether this is the top Fortune",
-      "score": 0,
-      "upvote_ratio": 0,
-      "creation": "2026-11-20",
-      "source": "google_news",
-      "source_name": "Google News",
-      "publisher": "Fortune",
-      "source_url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQQXYtcjN1bXdZQmdkQVUwLTZ3WThBSUVCV1BOR0R4RV9PTlNCeEQzWDRGZ01qbWVGZU5sb011NUc3cWs0dkZnQU9ZZ1BabkktY05zdnhhZHBCaEVldk5qX1V6SFh3SEJnZGRLMVpxYzBBWkZNUm9DY2FQZjRLS1A3bjBTVEEzRU96THZqVnZlcnJzQXFJRUdV?oc=5",
-      "tickers": "",
-      "positive": 0.016828,
-      "negative": 0.443298,
-      "neutral": 0.539874,
-      "confidence": 0.539874
-    },
-    {
       "postid": 181605468902567,
       "text": "Prediction markets outlook for stocks in 2026 dims amid AI sell-off - CNBC",
       "post_text": "Prediction markets outlook for stocks in 2026 dims amid AI sell-off CNBC",
@@ -1039,23 +1175,6 @@
       "negative": 0.076936,
       "neutral": 0.057763,
       "confidence": 0.865301
-    },
-    {
-      "postid": 169568826574000,
-      "text": "S&P 500 sinks 3.7%, Nasdaq composite goes negative for the year as tech sell-off worsens - NBC Bay Area",
-      "post_text": "S&P 500 sinks 3.7%, Nasdaq composite goes negative for the year as tech sell-off worsens NBC Bay Area",
-      "score": 0,
-      "upvote_ratio": 0,
-      "creation": "2026-11-20",
-      "source": "google_news",
-      "source_name": "Google News",
-      "publisher": "NBC Bay Area",
-      "source_url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxNUmtNTkwza2kycTNkM3VURGJ3aklYT1hrZHFMeng3T3lzUjhlQTVIUjU4aWhrcm5DazJSNWZta1NYNGZld3ZqVC1VV2picW1lZ3F0S1Z3NTRFNF93TTIwWWpiZUVXUEhLT0h5ZFZLNjgxZFFleW9feGFzd3c0aHVESzdqY25TN0o5ZkU1c254dEgzdVZwY295SXJPWTPSAaQBQVVfeXFMT0VCWHVtbDExX3JmbVh0ckpBSGQxSWxiS3pnQWpsWVphX3NmTzd5Uzlkbm04a1hvTFBVYnVOMTJRYXJpcXVZVHFUa3RVMVJ4c1M4SlJ2TGxQaElPQjBuVG9BNWh1ZHJLRTZkZEdoY1ljd0xoeVFHRFJ2X2Z3UEZMcHhtRk5RRjFzNU9YWFprZnd6NGpTcHZWZGJFSU5mVGVDclg3c2Y?oc=5",
-      "tickers": "",
-      "positive": 0.03039,
-      "negative": 0.9564,
-      "neutral": 0.01321,
-      "confidence": 0.9564
     },
     {
       "postid": 163392788280555,
@@ -1228,6 +1347,23 @@
       "confidence": 0.913631
     },
     {
+      "postid": 22238783175664,
+      "text": "Nasdaq wipes out gains for the year as Anthropic IPO fails to quell AI nerves - CNN",
+      "post_text": "Nasdaq wipes out gains for the year as Anthropic IPO fails to quell AI nerves CNN",
+      "score": 0,
+      "upvote_ratio": 0,
+      "creation": "2026-11-20",
+      "source": "google_news",
+      "source_name": "Google News",
+      "publisher": "CNN",
+      "source_url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE9mdllsNUVFYnVqeDVsNWpGX1U5ckw2RURWWUc0ZDdaWksyYzF0c3JJUjAxaHRCbFR2a3F6R1RsLVhSRjBoTngtZWNSRHVybWd4cUN0STB2VWhQSDVtZTBIVG9jMFp0WHBrSGpydlhNTWI?oc=5",
+      "tickers": "",
+      "positive": 0.137412,
+      "negative": 0.831356,
+      "neutral": 0.031232,
+      "confidence": 0.831356
+    },
+    {
       "postid": 15771340655379,
       "text": "7 reasons why tech stocks are getting hammered again - Yahoo Finance",
       "post_text": "7 reasons why tech stocks are getting hammered again Yahoo Finance",
@@ -1256,10 +1392,10 @@
       "publisher": "The New York Times",
       "source_url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE5XYVdGdzl2am5CT1o3QlFFV2duR2dJZzNpbjlrYWg2cU4tVHJwZ0I4WWhaVmd3ZHQ0cTVyRklGcHprTlk0UFEzenE2T2ZNZ1pvNXdKbDBySkFDXzA5cktobkRxaTcxdkZzWGtfXzVzLXZqeEhnSDk5VEROWGRsNzQ?oc=5",
       "tickers": "",
-      "positive": 0.456685,
+      "positive": 0.456684,
       "negative": 0.453455,
       "neutral": 0.08986,
-      "confidence": 0.456685
+      "confidence": 0.456684
     },
     {
       "postid": 7620880473397,
@@ -1290,10 +1426,44 @@
       "publisher": "The Hill",
       "source_url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE52U2tnRzdwTmw5eW1NWVdDZy01UDlxQ2FaNUphZGhBNHdIakk1cUVMcEFPakZ4dDFVLURsTDZ6Qk9KU3lHc3RFN1pmRnNVR3pZZ29CeTNRNG5GdHhXMVJ3RU5pOVpldVpPR3VkNjJSb0FyMzdhRHVJd3I2NnhSUdIBgwFBVV95cUxNck9VckJQZmxROFdpRmtCZ1pSb1JJYUhtUFNEOXo2OEY2dUVPSWxCQkcweHBEMXhxRHdFSXFvdTFXN0trSkt4UXZYLU5zQ0FQU0puUzMweW8wZjRnaGpsZUFFNk9iSXJ6dUkwQW12VG14RDRVWlVnLVlPTEdfOThUWUdpaw?oc=5",
       "tickers": "",
-      "positive": 0.341231,
+      "positive": 0.34123,
       "negative": 0.15569,
-      "neutral": 0.503079,
-      "confidence": 0.503079
+      "neutral": 0.50308,
+      "confidence": 0.50308
+    },
+    {
+      "postid": 280574017294834,
+      "text": "Anthropic was supposed to save the AI trade. What went wrong? - CNBC",
+      "post_text": "Anthropic was supposed to save the AI trade. What went wrong? CNBC",
+      "score": 0,
+      "upvote_ratio": 0,
+      "creation": "2026-11-19",
+      "source": "google_news",
+      "source_name": "Google News",
+      "publisher": "CNBC",
+      "source_url": "https://news.google.com/rss/articles/CBMid0FVX3lxTFBPVDhkb3hEeGNTUkQzaHdoTGlpWWd3V3VleW9WaEdHVGVER1ktZk9ISWRFS2ljQVJyU19abVh0UnJIaFU5YnRUUmwwOHo1NG9HaE9qUHFJXy1vcUt2N1czSXA4aWcwQTBrVXByNHBLTkU2NTIwbW5Z0gF8QVVfeXFMT2hOajR1ZlJzb1NvX0lmQUl2UUw1RENLeXRubnU5czEzMVVYNnU4TFY1dEpVM09oVWJvcnJNWWk0MWM2OWNvXzNYajhac2R2TkM1ZjdneHRQTlptR2V4WFFWOVhwVjZvNDNONGo2VG5NSVJaMkZnNGlqRm8xUg?oc=5",
+      "tickers": "",
+      "positive": 0.011539,
+      "negative": 0.024389,
+      "neutral": 0.964073,
+      "confidence": 0.964073
+    },
+    {
+      "postid": 260853663444032,
+      "text": "Family offices move more money into stocks, hedge AI risk, according to CNBC Family Office Portfolio Tracker - CNBC",
+      "post_text": "Family offices move more money into stocks, hedge AI risk, according to CNBC Family Office Portfolio Tracker CNBC",
+      "score": 0,
+      "upvote_ratio": 0,
+      "creation": "2026-11-19",
+      "source": "google_news",
+      "source_name": "Google News",
+      "publisher": "CNBC",
+      "source_url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxOQXFVTW9LM21GRjUxb0ppMGtrOFg1UzBsMHp6NDNmemFyZlVUZG92V1ZwZUJXZ1UyNVVBczVUM3JEbG01b0VDR3VvczBwRHMyVkJrZEVrZkxfRU56WWdsV3JCZjZxb3NFZUNrdjdnenRxd2QyWHQyc3VzS1JGS0xOeEpMWGpHU1N3aHNFbnVfM052cUZNMm54YUdTSW5VUjlJ0gGmAUFVX3lxTFBob1g2cUlZVVJsMFJDWm9JSWFYeWZSR3l2ak1TQzFvdU5kclAzUnFQYnlxMkhHeldMM1ZuZFVHUEQzQmVDRTZqdHR4WTZQSkxTSW1vV3Z5TDlLZEQ5WGJQVXVLWldtQy1CY2RBZkExbHBXZzRGVWZuQ1JyUTBqT0tIWEhpMnU3eTBSZmEwZ2p0NFBlY0Y5TElYR3JVRU9LSzU4THk1Snc?oc=5",
+      "tickers": "",
+      "positive": 0.281495,
+      "negative": 0.021006,
+      "neutral": 0.6975,
+      "confidence": 0.6975
     },
     {
       "postid": 240145116011232,
@@ -1427,7 +1597,7 @@
       "source_url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE1LV0lxTE41NmNVYW15ZTE3dndjYy1YUFdVYm5uNkFiWWE5NU53ZVEwc3RuR0cxdFNqWXdVX3lTYUVOYXFlaGVGUnJvU3Y5QTFpdU8yWWdxTnVGMVh1TVFfMlM0WndyTmpjcW5HTGlaZWc4dVHSAXhBVV95cUxQMjhJaXpYODlkQ2xkSHB3Z1FCc1pDdkpCWU1NbnZleFV2Q2VoMG9RekZ6U2RfS2ItcVU1X3VuZUZTSlhCUGZGLUN3M1pIdDlXT0tEdXBJZkJSU050VUFBV0NVVGlOcGtLVXRyZjJJQVpnM0I2bFJzY1A?oc=5",
       "tickers": "WMT",
       "positive": 0.927541,
-      "negative": 0.038188,
+      "negative": 0.038189,
       "neutral": 0.034271,
       "confidence": 0.927541
     },
@@ -1466,23 +1636,6 @@
       "confidence": 0.982706
     },
     {
-      "postid": 35478503801401,
-      "text": "Anthropic was supposed to save the AI trade. What went wrong? - CNBC",
-      "post_text": "Anthropic was supposed to save the AI trade. What went wrong? CNBC",
-      "score": 0,
-      "upvote_ratio": 0,
-      "creation": "2026-11-19",
-      "source": "google_news",
-      "source_name": "Google News",
-      "publisher": "CNBC",
-      "source_url": "https://news.google.com/rss/articles/CBMid0FVX3lxTFBPVDhkb3hEeGNTUkQzaHdoTGlpWWd3V3VleW9WaEdHVGVER1ktZk9ISWRFS2ljQVJyU19abVh0UnJIaFU5YnRUUmwwOHo1NG9HaE9qUHFJXy1vcUt2N1czSXA4aWcwQTBrVXByNHBLTkU2NTIwbW5Z?oc=5",
-      "tickers": "",
-      "positive": 0.011539,
-      "negative": 0.024389,
-      "neutral": 0.964073,
-      "confidence": 0.964073
-    },
-    {
       "postid": 26838856977991,
       "text": "Walmart beats Q3 earnings expectations, raises full-year outlook again - Yahoo Finance",
       "post_text": "Walmart beats Q3 earnings expectations, raises full-year outlook again Yahoo Finance",
@@ -1511,10 +1664,10 @@
       "publisher": "WSJ",
       "source_url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxOS0gyWjhIVGZYS3A2TDJtbVdaZVJHdlo5Smt3RkhsMHJ2bUh6ZVlOLWE5cDhkV3hXcmFVZFRVTmgxdlJXQ3dLRWREYVljemhSVjkycmlFYzctSW44YlhybXNtOFNyYVVvMEw2bGFNSmFnMEJrd2xWMklDbHJ4RGNRNFVnX1VTNUR0QXA5V1BaRlo3Tmo2eUE3U2lCQko5c21rQVMxOGlB?oc=5",
       "tickers": "",
-      "positive": 0.455553,
+      "positive": 0.455552,
       "negative": 0.437468,
-      "neutral": 0.106979,
-      "confidence": 0.455553
+      "neutral": 0.10698,
+      "confidence": 0.455552
     },
     {
       "postid": 20668101073666,
@@ -1545,64 +1698,13 @@
       "publisher": "WSJ",
       "source_url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxOZXo2WlZpcTltVUpERGFLMVFlbzk3NkhYcVJsSGFCRk1ZeEV3eTBTa2ZhbEx5dHVpZTAxTFFXc1o1Mzc2WHJ1cHFFZWFGVS1GUGxyaGJfOU9KdHF3ZWxaQmZHTWh6bDB0N0JUOVNpbzdpTDZRWGZnY2p0d3lEcXVJcERPZEVwM01QdUdLRWkwN0M2YnNzMk1QbjdlckU?oc=5",
       "tickers": "NVDA",
-      "positive": 0.081112,
+      "positive": 0.081111,
       "negative": 0.900654,
       "neutral": 0.018234,
       "confidence": 0.900654
     },
     {
-      "postid": 254194745102869,
-      "text": "Lowe's Reports Third Quarter 2026 Sales And Earnings Results - Lowe’s Corporate",
-      "post_text": "Lowe's Reports Third Quarter 2026 Sales And Earnings Results Lowe’s Corporate",
-      "score": 0,
-      "upvote_ratio": 0,
-      "creation": "2026-11-18",
-      "source": "google_news",
-      "source_name": "Google News",
-      "publisher": "Lowe’s Corporate",
-      "source_url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQdFM0NlcyQVIxOGJjRDg2bGpNOGxib3VMcnRtV0l4U3VFVXlMcWhEaFZ1VlR3Q3M4M0k1enotOFU2cFZLTjN6Y0xidU1XT3pJWlpudzZSdnNVbVVackpNN0drUko2eDVTQUptd2NHSlJBUXpERlR5bWpDblU2WjJ6OERoWldYN1l2QWI2bl9fY1cxLXJGVUR1UXI2a0lXbDhBTWdjWlNtM3VEZ0FOVzVJWA?oc=5",
-      "tickers": "LOW",
-      "positive": 0.016383,
-      "negative": 0.007665,
-      "neutral": 0.975952,
-      "confidence": 0.975952
-    },
-    {
-      "postid": 247030932008898,
-      "text": "Wall Street expects corporate earnings growth to halve next year - Financial Times",
-      "post_text": "Wall Street expects corporate earnings growth to halve next year Financial Times",
-      "score": 0,
-      "upvote_ratio": 0,
-      "creation": "2026-11-18",
-      "source": "google_news",
-      "source_name": "Google News",
-      "publisher": "Financial Times",
-      "source_url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxOVWtSNUJDdFJoVEZSVHRYNmJ2SVZ2SmNYU2wyQkdfUzNSVXVuaURxWjdPWG1Eb0Jib1Q0a1hubUp6WHluOW5yTE12a1FZZVBLLUUtUGtDWktmaWlQajFUQ2NNdlZlRDA2WEVaY2NjN3ZyZTR2Uk5ETWI1OVp5T1FJQ0F1eUU?oc=5",
-      "tickers": "",
-      "positive": 0.873998,
-      "negative": 0.0273,
-      "neutral": 0.098702,
-      "confidence": 0.873998
-    },
-    {
-      "postid": 240348788796730,
-      "text": "Four takeaways from Nvidia’s first earnings report after Jensen Huang scandal - CNN",
-      "post_text": "Four takeaways from Nvidia’s first earnings report after Jensen Huang scandal CNN",
-      "score": 0,
-      "upvote_ratio": 0,
-      "creation": "2026-11-18",
-      "source": "google_news",
-      "source_name": "Google News",
-      "publisher": "CNN",
-      "source_url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxQX05adF9NVmRmbVFrTEE1NmZfMXhnYkNPbzl6WEd2Q0tfMkY3eEdZNmZDcUJtdlhqYURpRDZXTkQ4eWJBcXpDaFdGRGl0cjhUN010akJOdm1IdDZla2ZmUjZmbkdEOF9BeXY5WXlCbk15VGFud0o5Q0J3WjlOVlRveUpKZlg0VEk0dVlDa0JpTmhXRS1y?oc=5",
-      "tickers": "NVDA",
-      "positive": 0.055065,
-      "negative": 0.261888,
-      "neutral": 0.683047,
-      "confidence": 0.683047
-    },
-    {
-      "postid": 175800197911437,
+      "postid": 83160234051885,
       "text": "Palo Alto inks $4.5 billion deal for AI startup Applied Compute, shares pop 7% on earnings - CNBC",
       "post_text": "Palo Alto inks $4.5 billion deal for AI startup Applied Compute, shares pop 7% on earnings CNBC",
       "score": 0,
@@ -1611,114 +1713,12 @@
       "source": "google_news",
       "source_name": "Google News",
       "publisher": "CNBC",
-      "source_url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPb29LX2twdWJnUUNJU1RDcGtFektCNmV2NkdIbWVfak5KMDNnTDNCWHQtNWgzWHpVbWRfeHBmd09XWTJJcmdHaGl2V05lZVBlamlPTjRBU2VudXM4Q3Q0bThCVnJXWTFoVDFzYkVacjN5VXFQQjFaQ1pDU3RyWDFKeGF2MF8?oc=5",
+      "source_url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPb29LX2twdWJnUUNJU1RDcGtFektCNmV2NkdIbWVfak5KMDNnTDNCWHQtNWgzWHpVbWRfeHBmd09XWTJJcmdHaGl2V05lZVBlamlPTjRBU2VudXM4Q3Q0bThCVnJXWTFoVDFzYkVacjN5VXFQQjFaQ1pDU3RyWDFKeGF2MF_SAYoBQVVfeXFMTUJWbFM5R3ZJYXFiZWc2Wm9GdER6aldoWFRmdXZOZzRkMHVOSFNKOUtSUjlWaVE2dHhSZ1pqQ05WQTB4ZER4YTFVeGVLQWhvREhmOHRhQ0lqSk45UTBsdDFvV01NNDdRNUJnWXBDNDg3dlkwaUZXNTBOdWZDbXRfdUNySjdBZTZnNThB?oc=5",
       "tickers": "",
       "positive": 0.15135,
       "negative": 0.013761,
       "neutral": 0.834889,
       "confidence": 0.834889
-    },
-    {
-      "postid": 164913149932622,
-      "text": "AMD, Broadcom, CoreWeave stocks mixed on Nvidia Q3 earnings beat - Yahoo Finance",
-      "post_text": "AMD, Broadcom, CoreWeave stocks mixed on Nvidia Q3 earnings beat Yahoo Finance",
-      "score": 0,
-      "upvote_ratio": 0,
-      "creation": "2026-11-18",
-      "source": "google_news",
-      "source_name": "Google News",
-      "publisher": "Yahoo Finance",
-      "source_url": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxPajBIQVJwYUNFRGNGRE43Zm9HQlVqZUp2X0l4OThSWGk1R0JfbHdWLW9MQWNib0otSzBya3YybmJPOXlwSjRrRi14QmkxWklOV1JsZEhpc1BDNkphOUdPTmVZT0ZiZUhfXzNNNmZWM21oY04weVJNY2VfOU1TRHJERElfYllUWVNJMHdkS291b2ZuQTlhSGpqZXVaeks4cF82bjZfVlJyWUJRWS13X3RCNkxlMVRob2JnNUNPMWdUT05xX1prUjF6NURIZ3JoNjhaM1EwT3BMRXVwb09zTGNZTA?oc=5",
-      "tickers": "AMD,AVGO,NVDA",
-      "positive": 0.886318,
-      "negative": 0.043614,
-      "neutral": 0.070068,
-      "confidence": 0.886318
-    },
-    {
-      "postid": 111129397471973,
-      "text": "UBS sees S&P 500 at 8,200 by end-2027 on earnings strength, resilient economy - Reuters",
-      "post_text": "UBS sees S&P 500 at 8,200 by end-2027 on earnings strength, resilient economy Reuters",
-      "score": 0,
-      "upvote_ratio": 0,
-      "creation": "2026-11-18",
-      "source": "google_news",
-      "source_name": "Google News",
-      "publisher": "Reuters",
-      "source_url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxOV0lINnoxcGVVcHJmRzZnclQtZ2VMaXE0d1ltZjVGUDRtMnhfMUNzRWdVNDNoallwTjM1Sm1qUHVCblJFV2dpQkNPRFV0QnlNYnN1S2N6ckQ0SnNxNmY1bmU2N015SWF3ekpPUkU1dmx0cGhhd1kwQ2VYTEprYUxTbkVSZFNSMnJ6bjEwTE1BZXM5TWJablh5Rk5ua3ZTdGQ1amZUV3dyRDJIOGozYVA2STcyWQ?oc=5",
-      "tickers": "",
-      "positive": 0.969472,
-      "negative": 0.013173,
-      "neutral": 0.017355,
-      "confidence": 0.969472
-    },
-    {
-      "postid": 102561690763913,
-      "text": "Nvidia stock erases earnings pop as investors face life after Jensen Huang - Yahoo Finance",
-      "post_text": "Nvidia stock erases earnings pop as investors face life after Jensen Huang Yahoo Finance",
-      "score": 0,
-      "upvote_ratio": 0,
-      "creation": "2026-11-18",
-      "source": "google_news",
-      "source_name": "Google News",
-      "publisher": "Yahoo Finance",
-      "source_url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxQUzhvYkxzRld1VG11TlpOSE5wWjE5WE94RkMwVkJJWnRReDFRTUZ1X1FQWU55Rnh5b1hqU0VvTzBCay10WE5iVzJYWHdtVWJ0dlU5aFhhX2Yxa09Ub0otUkVUQ0hCTC1OUHBhRTU5UDBlRVZfNEx4cUtoVXRRanEwazFaQTBwYmpBREc2MVlsaVlDNWptenNNZkpDNzd2blFtS3pJX0oxWDl2RlcyMFNucDRILTRlRF9iUWFPRTA3VFo5NGRVZUJTaDkyTmpYcF9xcGJtMw?oc=5",
-      "tickers": "NVDA",
-      "positive": 0.123213,
-      "negative": 0.706585,
-      "neutral": 0.170202,
-      "confidence": 0.706585
-    },
-    {
-      "postid": 29168761290505,
-      "text": "Nvidia sinks after earnings, dragging down neoclouds CoreWeave, Iren - CNBC",
-      "post_text": "Nvidia sinks after earnings, dragging down neoclouds CoreWeave, Iren CNBC",
-      "score": 0,
-      "upvote_ratio": 0,
-      "creation": "2026-11-18",
-      "source": "google_news",
-      "source_name": "Google News",
-      "publisher": "CNBC",
-      "source_url": "https://news.google.com/rss/articles/CBMiakFVX3lxTFBPdktTWGx4MTJkY1pwR1JFTm1JN21Oa2xNXzBhbWo1OUtONGUxbW5zLXlMZ0pCM3AzTFNjQkR6cjVDYjVXbmVpenBOZHFTR1luNklyeDMyUXF0TmZEdzRUa3VUTWFEQ3JEZVHSAW9BVV95cUxQMndnOEhXQVJYTzBwMWxEd0ZRUk5YSFNGeElOZzhPVTd2bnNZRkExZWpOY0V5MTZmRFFDcWtpT0ZQSF9LeFF3ZUw4X3BKdGRaU0V5V1hGbjIzZXFqSDdZX3FScDNxa2JCOGJOaDVtSlE?oc=5",
-      "tickers": "NVDA",
-      "positive": 0.024218,
-      "negative": 0.949186,
-      "neutral": 0.026596,
-      "confidence": 0.949186
-    },
-    {
-      "postid": 20803063685364,
-      "text": "Nvidia holds first earnings call since former CEO's departure - NPR",
-      "post_text": "Nvidia holds first earnings call since former CEO's departure NPR",
-      "score": 0,
-      "upvote_ratio": 0,
-      "creation": "2026-11-18",
-      "source": "google_news",
-      "source_name": "Google News",
-      "publisher": "NPR",
-      "source_url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxPN09ob1ZXWkpERTQ5alRMeEk2QXMzaUs2VzJTSElIZDlJQmlHcXhHZjdhcjUwbERUV2dJM3dsa2VFUDU0S1BteE91TjB3d1VUT2x5eUNpb180azhFbjN3Qk9IQmZjS2c2X2czYjlZVmJfM1B6WkVfLVQyQTYtVnNyd0g1MmVkUDRSa1BKaFpxa0pqR0Y2WjB0UVlIRnM2VmRlakVrLUV5bw?oc=5",
-      "tickers": "NVDA",
-      "positive": 0.030426,
-      "negative": 0.006274,
-      "neutral": 0.9633,
-      "confidence": 0.9633
-    },
-    {
-      "postid": 9282520581559,
-      "text": "Lowe's posts strong online sales, raises outlook despite slow housing market - CNBC",
-      "post_text": "Lowe's posts strong online sales, raises outlook despite slow housing market CNBC",
-      "score": 0,
-      "upvote_ratio": 0,
-      "creation": "2026-11-18",
-      "source": "google_news",
-      "source_name": "Google News",
-      "publisher": "CNBC",
-      "source_url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE1KYlBFLXdURXdRMGpDUmtpVzlvSEJyeW9kekU4dTFUV1A0T0xaSVBqTi0wcHNqTF9LNHl0UUNsOXlFM3huVG5qUXRlT3pBMjR5TVpoa3c2R3o2Zk5kNzZUdUc5NzY4TjdVZm92dnp6M2zSAXZBVV95cUxNVmMzUlpHUzNyb1JqRTNxY2VNSHQ3dE92WWNleVRUdnBFRmZwVVRaRE9obFQ4LV9iNDVSam1TSjBIMTU4M1o5QnlMdXFaR3FpRlFnM3ZmRDV6UHAwN2NYcFFaRHdUVkE3cEhkWUlnUzJ5YkJJZDJR?oc=5",
-      "tickers": "LOW",
-      "positive": 0.973775,
-      "negative": 0.012639,
-      "neutral": 0.013586,
-      "confidence": 0.973775
     },
     {
       "postid": 246152955162323,
@@ -1733,7 +1733,7 @@
       "source_url": "https://www.reddit.com/r/StockMarket/comments/1xxqkww/nvidia_deliberately_kept_gpu_prices_high_through/",
       "tickers": "NVDA",
       "positive": 0.098867,
-      "negative": 0.112569,
+      "negative": 0.112568,
       "neutral": 0.788565,
       "confidence": 0.788565
     },
@@ -1784,9 +1784,9 @@
       "source_url": "https://www.reddit.com/r/StockMarket/comments/1xy0snq/another_dip/",
       "tickers": "",
       "positive": 0.168086,
-      "negative": 0.622598,
+      "negative": 0.622599,
       "neutral": 0.209315,
-      "confidence": 0.622598
+      "confidence": 0.622599
     },
     {
       "postid": 155172218547909,
@@ -1800,10 +1800,10 @@
       "publisher": "r/stocks",
       "source_url": "https://www.reddit.com/r/stocks/comments/1xxrrkb/breaking_trump_signals_support_for_jensen_huangs/",
       "tickers": "NVDA,AAPL",
-      "positive": 0.713694,
+      "positive": 0.713696,
       "negative": 0.023305,
-      "neutral": 0.263001,
-      "confidence": 0.713694
+      "neutral": 0.262999,
+      "confidence": 0.713696
     },
     {
       "postid": 149507710685068,
@@ -1886,7 +1886,7 @@
       "source_url": "https://www.reddit.com/r/wallstreetbets/comments/1xxceyf/if_you_went_allin_on_a_random_sp_500_company_on/",
       "tickers": "AAPL",
       "positive": 0.020737,
-      "negative": 0.158186,
+      "negative": 0.158187,
       "neutral": 0.821076,
       "confidence": 0.821076
     },
@@ -2005,9 +2005,9 @@
       "source_url": "https://www.reddit.com/r/stocks/comments/1xw124v/instead_of_lowering_gpu_prices_former_nvidia_ceo/",
       "tickers": "NVDA,TSM",
       "positive": 0.270747,
-      "negative": 0.560395,
+      "negative": 0.560394,
       "neutral": 0.168859,
-      "confidence": 0.560395
+      "confidence": 0.560394
     },
     {
       "postid": 268102564005212,
@@ -2090,9 +2090,9 @@
       "source_url": "https://www.reddit.com/r/wallstreetbets/comments/1xvs7mp/ceo_affairs_are_bullish/",
       "tickers": "",
       "positive": 0.04982,
-      "negative": 0.26081,
-      "neutral": 0.68937,
-      "confidence": 0.68937
+      "negative": 0.260811,
+      "neutral": 0.689369,
+      "confidence": 0.689369
     },
     {
       "postid": 77610899763073,
@@ -2108,8 +2108,8 @@
       "tickers": "NVDA",
       "positive": 0.009325,
       "negative": 0.087748,
-      "neutral": 0.902927,
-      "confidence": 0.902927
+      "neutral": 0.902926,
+      "confidence": 0.902926
     },
     {
       "postid": 68038711029045,
@@ -2244,8 +2244,8 @@
       "tickers": "",
       "positive": 0.015388,
       "negative": 0.013712,
-      "neutral": 0.970899,
-      "confidence": 0.970899
+      "neutral": 0.9709,
+      "confidence": 0.9709
     },
     {
       "postid": 225819913913231,
@@ -2482,7 +2482,7 @@
       "tickers": "NVDA",
       "positive": 0.04777,
       "negative": 0.716046,
-      "neutral": 0.236183,
+      "neutral": 0.236184,
       "confidence": 0.716046
     },
     {
@@ -2516,8 +2516,8 @@
       "tickers": "NVDA,INTC",
       "positive": 0.009436,
       "negative": 0.041619,
-      "neutral": 0.948944,
-      "confidence": 0.948944
+      "neutral": 0.948945,
+      "confidence": 0.948945
     },
     {
       "postid": 157927164844,
@@ -2651,9 +2651,9 @@
       "source_url": "https://www.reddit.com/r/wallstreetbets/comments/1xuf5x9/shooters_shoot/",
       "tickers": "",
       "positive": 0.031163,
-      "negative": 0.076396,
-      "neutral": 0.892441,
-      "confidence": 0.892441
+      "negative": 0.076395,
+      "neutral": 0.892442,
+      "confidence": 0.892442
     },
     {
       "postid": 147926893836549,
@@ -2838,7 +2838,7 @@
       "source_url": "https://www.reddit.com/r/wallstreetbets/comments/1xtzw2g/it_wasnt_me_ft_jensen/",
       "tickers": "",
       "positive": 0.008652,
-      "negative": 0.199934,
+      "negative": 0.199933,
       "neutral": 0.791414,
       "confidence": 0.791414
     },
@@ -2856,7 +2856,7 @@
       "tickers": "",
       "positive": 0.60951,
       "negative": 0.007962,
-      "neutral": 0.382528,
+      "neutral": 0.382527,
       "confidence": 0.60951
     },
     {
@@ -2873,8 +2873,8 @@
       "tickers": "",
       "positive": 0.076918,
       "negative": 0.006193,
-      "neutral": 0.916889,
-      "confidence": 0.916889
+      "neutral": 0.916888,
+      "confidence": 0.916888
     },
     {
       "postid": 37765416964804,
@@ -2974,9 +2974,9 @@
       "source_url": "https://www.reddit.com/r/stocks/comments/1xuddr7/nvidia_ceo_jensen_huang_is_stepping_down_as_ceo/",
       "tickers": "NVDA",
       "positive": 0.011295,
-      "negative": 0.266659,
-      "neutral": 0.722046,
-      "confidence": 0.722046
+      "negative": 0.26666,
+      "neutral": 0.722045,
+      "confidence": 0.722045
     },
     {
       "postid": 664420318012,
@@ -3009,8 +3009,8 @@
       "tickers": "",
       "positive": 0.159319,
       "negative": 0.00643,
-      "neutral": 0.83425,
-      "confidence": 0.83425
+      "neutral": 0.834251,
+      "confidence": 0.834251
     },
     {
       "postid": 257324630697409,
@@ -3075,10 +3075,10 @@
       "publisher": "r/wallstreetbets",
       "source_url": "https://www.reddit.com/r/wallstreetbets/comments/1xts8tm/its_been_a_good_year/",
       "tickers": "MA,MSFT,NVDA,V",
-      "positive": 0.810584,
+      "positive": 0.810583,
       "negative": 0.014621,
-      "neutral": 0.174795,
-      "confidence": 0.810584
+      "neutral": 0.174796,
+      "confidence": 0.810583
     },
     {
       "postid": 186597013022203,
@@ -3094,7 +3094,7 @@
       "tickers": "NVDA",
       "positive": 0.011511,
       "negative": 0.926476,
-      "neutral": 0.062013,
+      "neutral": 0.062012,
       "confidence": 0.926476
     },
     {
@@ -3110,7 +3110,7 @@
       "source_url": "https://www.reddit.com/r/wallstreetbets/comments/1xtxjmd/anyone_else_find_the_timing_of_these_jensen/",
       "tickers": "",
       "positive": 0.007551,
-      "negative": 0.015394,
+      "negative": 0.015393,
       "neutral": 0.977056,
       "confidence": 0.977056
     },
@@ -3144,9 +3144,9 @@
       "source_url": "https://www.reddit.com/r/stocks/comments/1xtvvn1/nvidia_stock_slides_after_nyt_report_alleges/",
       "tickers": "NVDA",
       "positive": 0.077176,
-      "negative": 0.871251,
+      "negative": 0.87125,
       "neutral": 0.051573,
-      "confidence": 0.871251
+      "confidence": 0.87125
     },
     {
       "postid": 103342944077037,
@@ -3213,8 +3213,8 @@
       "tickers": "",
       "positive": 0.09711,
       "negative": 0.230812,
-      "neutral": 0.672077,
-      "confidence": 0.672077
+      "neutral": 0.672078,
+      "confidence": 0.672078
     },
     {
       "postid": 31134173543282,
